@@ -916,6 +916,8 @@ def write_report(output: Path, selection: dict[str, Any], inventory: dict[str, A
         "api_pass": sum(call["result"] == "PASS" for call in NETWORK_CALLS),
         "api_fail": sum(call["result"] in ("FAIL", "ERROR", "TIMEOUT") for call in NETWORK_CALLS),
         "duration_ms": round((finished - started).total_seconds() * 1000, 2),
+        "duration_seconds": round((finished - started).total_seconds(), 2),
+        "duration_minutes": round((finished - started).total_seconds() / 60, 2),
         "real_devices": inventory["counts"],
     }
     summary["verification_scope"] = {
