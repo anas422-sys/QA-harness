@@ -1,0 +1,121 @@
+{
+  "environment": "staging",
+  "started_at": "2026-10-08T11:03:15+05:00",
+  "finished_at": "2026-10-08T11:03:24+05:00",
+  "selection": {
+    "frontend_pages": [],
+    "backend_features": [
+      "authentication",
+      "websocket_connection",
+      "version_contract",
+      "load"
+    ],
+    "timeout_seconds": 5,
+    "users": 2,
+    "device_limit": 20,
+    "payload_file": "",
+    "require_devices": false
+  },
+  "device_inventory": {
+    "devices": [],
+    "counts": {
+      "total": 0,
+      "android": 0,
+      "ios": 0,
+      "selected": 0,
+      "capacity": 20
+    },
+    "tools": {
+      "adb": "",
+      "idevice_id": "",
+      "ideviceinfo": ""
+    },
+    "blockers": [
+      "Android tooling unavailable: configure device_tools.adb or install Android platform-tools",
+      "iOS tooling unavailable: configure device_tools.idevice_id or install libimobiledevice"
+    ]
+  },
+  "summary": {
+    "tests": 5,
+    "pass": 3,
+    "fail": 2,
+    "blocked": 0,
+    "messages_sent": 2,
+    "messages_received": 1,
+    "duration_ms": 9306.43,
+    "real_devices": {
+      "total": 0,
+      "android": 0,
+      "ios": 0,
+      "selected": 0,
+      "capacity": 20
+    }
+  },
+  "results": [
+    {
+      "module": "Backend",
+      "group": "Authentication",
+      "test": "Login API",
+      "status": "PASS",
+      "duration_ms": 1278.44,
+      "device": "",
+      "messages_sent": 0,
+      "messages_received": 0,
+      "details": "HTTP 200; token present: True",
+      "blocker": "",
+      "evidence": ""
+    },
+    {
+      "module": "Backend",
+      "group": "Concurrent load",
+      "test": "Session 002",
+      "status": "ERROR",
+      "duration_ms": 988.6,
+      "device": "",
+      "messages_sent": 0,
+      "messages_received": 0,
+      "details": "",
+      "blocker": "WebSocketConnectionClosedException: Connection to remote host was lost.",
+      "evidence": ""
+    },
+    {
+      "module": "Backend",
+      "group": "Concurrent load",
+      "test": "Session 001",
+      "status": "TIMEOUT",
+      "duration_ms": 6026.43,
+      "device": "",
+      "messages_sent": 1,
+      "messages_received": 0,
+      "details": "Background messages: 0",
+      "blocker": "No correlated reply within 5.0s",
+      "evidence": ""
+    },
+    {
+      "module": "Backend",
+      "group": "WebSocket",
+      "test": "Authenticated connection",
+      "status": "PASS",
+      "duration_ms": 976.97,
+      "device": "",
+      "messages_sent": 0,
+      "messages_received": 0,
+      "details": "Connection opened",
+      "blocker": "",
+      "evidence": ""
+    },
+    {
+      "module": "Backend",
+      "group": "Version",
+      "test": "Message type 119 correlation",
+      "status": "PASS",
+      "duration_ms": 314.73,
+      "device": "",
+      "messages_sent": 1,
+      "messages_received": 1,
+      "details": "Status: success; ref: 512084626675252; background messages: 0",
+      "blocker": "",
+      "evidence": ""
+    }
+  ]
+}

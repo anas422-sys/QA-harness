@@ -1,0 +1,3 @@
+﻿timestamp,source_timestamp,direction,user,session,device_type,device_name,udid,message_type,ref,duration_ms,json
+2026-10-08T11:56:34.393+05:00,2026-09-25T14:47:56.165+05:00,SENT,user-01,SESSION,iOS,SESSION,,134,1811247094543076,0.47,"{""messagetype"": 134, ""client_data"": {""ref"": 1811247094543076}, ""tester_name"": """", ""external_batch_id"": """", ""customer_name"": """", ""invoice_number"": """"}"
+2026-10-08T11:56:34.687+05:00,2026-09-25T14:47:56.414+05:00,SENT,user-01,SESSION,iOS,SESSION,,119,519750504340068,0.45,"{""messagetype"": 119, ""client_data"": {""ref"": 519750504340068}, ""app_version"": ""1.7.6"", ""operating_system"": ""windows"", ""architecture"": ""x64""}"

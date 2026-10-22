@@ -1,0 +1,8 @@
+{
+  "serial_number": "QABC35E42B17729D3",
+  "design_capacity": 2030,
+  "current_capacity": 3720,
+  "battery_health": 80,
+  "cycle_count": 260,
+  "is_analytics": true
+}

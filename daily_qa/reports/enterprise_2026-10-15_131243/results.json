@@ -1,0 +1,241 @@
+{
+  "environment": "staging",
+  "started_at": "2026-10-15T13:12:43+05:00",
+  "finished_at": "2026-10-15T13:12:49+05:00",
+  "selection": {
+    "frontend_pages": [
+      "dashboard",
+      "device_connection",
+      "device_details",
+      "diagnostic_results",
+      "manual_tests",
+      "issues",
+      "reports"
+    ],
+    "backend_features": [
+      "authentication",
+      "websocket_connection",
+      "version_contract"
+    ],
+    "timeout_seconds": 40,
+    "users": 1,
+    "device_limit": 20,
+    "payload_file": "",
+    "require_devices": false
+  },
+  "mode": "combined",
+  "device_inventory": {
+    "devices": [],
+    "counts": {
+      "total": 0,
+      "android": 0,
+      "ios": 0,
+      "selected": 0,
+      "capacity": 20
+    },
+    "tools": {
+      "adb": "C:\\Program Files\\reCheck360\\app\\native-dev\\windows\\adb.exe",
+      "idevice_id": "C:\\Program Files\\reCheck360\\app\\native-dev\\windows\\idevice_id.exe",
+      "ideviceinfo": "C:\\Program Files\\reCheck360\\app\\native-dev\\windows\\ideviceinfo.exe"
+    },
+    "blockers": []
+  },
+  "summary": {
+    "tests": 13,
+    "pass": 4,
+    "fail": 0,
+    "blocked": 9,
+    "acknowledged": 0,
+    "connected": 0,
+    "messages_sent": 1,
+    "messages_received": 1,
+    "api_calls": 0,
+    "api_pass": 0,
+    "api_fail": 0,
+    "duration_ms": 6366.67,
+    "real_devices": {
+      "total": 0,
+      "android": 0,
+      "ios": 0,
+      "selected": 0,
+      "capacity": 20
+    },
+    "verification_scope": "Combined suite"
+  },
+  "results": [
+    {
+      "module": "Frontend",
+      "group": "dashboard",
+      "test": "Packaged JavaFX view contract",
+      "status": "PASS",
+      "duration_ms": 0.09,
+      "device": "",
+      "messages_sent": 0,
+      "messages_received": 0,
+      "details": "views/dashboard.fxml parsed; 76 controls; 2 declared actions",
+      "blocker": "",
+      "evidence": "C:\\Users\\usama\\Downloads\\locust\\daily_qa\\application_contract.json"
+    },
+    {
+      "module": "Frontend",
+      "group": "Physical devices",
+      "test": "Discover selected USB devices",
+      "status": "BLOCKED",
+      "duration_ms": 0.0,
+      "device": "",
+      "messages_sent": 0,
+      "messages_received": 0,
+      "details": "",
+      "blocker": "No Android/iOS devices were returned by configured USB tools",
+      "evidence": ""
+    },
+    {
+      "module": "Frontend",
+      "group": "Application",
+      "test": "Attach to reCheck360 desktop window",
+      "status": "BLOCKED",
+      "duration_ms": 2982.88,
+      "device": "",
+      "messages_sent": 0,
+      "messages_received": 0,
+      "details": "",
+      "blocker": "reCheck360 process is not running",
+      "evidence": ""
+    },
+    {
+      "module": "Frontend",
+      "group": "dashboard",
+      "test": "Automated page workflow",
+      "status": "BLOCKED",
+      "duration_ms": 0.0,
+      "device": "",
+      "messages_sent": 0,
+      "messages_received": 0,
+      "details": "",
+      "blocker": "reCheck360 process is not running",
+      "evidence": ""
+    },
+    {
+      "module": "Frontend",
+      "group": "device_connection",
+      "test": "Automated page workflow",
+      "status": "BLOCKED",
+      "duration_ms": 0.0,
+      "device": "",
+      "messages_sent": 0,
+      "messages_received": 0,
+      "details": "",
+      "blocker": "reCheck360 process is not running",
+      "evidence": ""
+    },
+    {
+      "module": "Frontend",
+      "group": "device_details",
+      "test": "Automated page workflow",
+      "status": "BLOCKED",
+      "duration_ms": 0.0,
+      "device": "",
+      "messages_sent": 0,
+      "messages_received": 0,
+      "details": "",
+      "blocker": "reCheck360 process is not running",
+      "evidence": ""
+    },
+    {
+      "module": "Frontend",
+      "group": "diagnostic_results",
+      "test": "Automated page workflow",
+      "status": "BLOCKED",
+      "duration_ms": 0.0,
+      "device": "",
+      "messages_sent": 0,
+      "messages_received": 0,
+      "details": "",
+      "blocker": "reCheck360 process is not running",
+      "evidence": ""
+    },
+    {
+      "module": "Frontend",
+      "group": "manual_tests",
+      "test": "Automated page workflow",
+      "status": "BLOCKED",
+      "duration_ms": 0.0,
+      "device": "",
+      "messages_sent": 0,
+      "messages_received": 0,
+      "details": "",
+      "blocker": "reCheck360 process is not running",
+      "evidence": ""
+    },
+    {
+      "module": "Frontend",
+      "group": "issues",
+      "test": "Automated page workflow",
+      "status": "BLOCKED",
+      "duration_ms": 0.0,
+      "device": "",
+      "messages_sent": 0,
+      "messages_received": 0,
+      "details": "",
+      "blocker": "reCheck360 process is not running",
+      "evidence": ""
+    },
+    {
+      "module": "Frontend",
+      "group": "reports",
+      "test": "Automated page workflow",
+      "status": "BLOCKED",
+      "duration_ms": 0.0,
+      "device": "",
+      "messages_sent": 0,
+      "messages_received": 0,
+      "details": "",
+      "blocker": "reCheck360 process is not running",
+      "evidence": ""
+    },
+    {
+      "module": "Backend",
+      "group": "Authentication",
+      "test": "Login API",
+      "status": "PASS",
+      "duration_ms": 1383.46,
+      "device": "",
+      "messages_sent": 0,
+      "messages_received": 0,
+      "details": "HTTP 200; token present: True",
+      "blocker": "",
+      "evidence": ""
+    },
+    {
+      "module": "Backend",
+      "group": "WebSocket",
+      "test": "Authenticated connection",
+      "status": "PASS",
+      "duration_ms": 1163.5,
+      "device": "",
+      "messages_sent": 0,
+      "messages_received": 0,
+      "details": "Connection opened",
+      "blocker": "",
+      "evidence": ""
+    },
+    {
+      "module": "Backend",
+      "group": "Version",
+      "test": "Message type 119 correlation",
+      "status": "PASS",
+      "duration_ms": 305.34,
+      "device": "",
+      "messages_sent": 1,
+      "messages_received": 1,
+      "details": "Status: success; ref: 405116587324340; background messages: 0",
+      "blocker": "",
+      "evidence": ""
+    }
+  ],
+  "sent_messages": [],
+  "received_messages": [],
+  "api_calls": [],
+  "batch_summary": [],
+  "device_summary": []
+}

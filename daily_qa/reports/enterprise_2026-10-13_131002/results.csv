@@ -1,0 +1,2 @@
+﻿module,group,test,status,duration_ms,device,messages_sent,messages_received,details,blocker,evidence
+Messages,Connection,Staging message session,ERROR,0.01,,0,0,,"ProxyError: HTTPSConnectionPool(host='staging.phone-diagnostics.com', port=443): Max retries exceeded with url: /v1/login (Caused by ProxyError('Unable to connect to proxy', NewConnectionError(""HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"")))",

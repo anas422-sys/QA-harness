@@ -1,0 +1,3 @@
+﻿module,group,test,status,duration_ms,device,messages_sent,messages_received,details,blocker,evidence
+Messages,session,Message 1 · type 134,PASS,312.39,,1,1,status=success; type_match=true; ref_match=true; udid_match=true,,
+Messages,session,Message 2 · type 119,PASS,315.7,,1,1,status=success; type_match=true; ref_match=true; udid_match=true,,

@@ -1,0 +1,139 @@
+﻿module,group,test,status,duration_ms,device,messages_sent,messages_received,details,blocker,evidence
+Frontend,login,Packaged JavaFX view contract,PASS,0.11,,0,0,views/login.fxml parsed; 20 controls; 1 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,dashboard,Packaged JavaFX view contract,PASS,0.06,,0,0,views/dashboard.fxml parsed; 76 controls; 2 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,settings,Packaged JavaFX view contract,PASS,0.04,,0,0,views/settings.fxml parsed; 203 controls; 14 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,about-dialog,Packaged JavaFX view contract,PASS,0.03,,0,0,views/about-dialog.fxml parsed; 7 controls; 0 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,about,Packaged JavaFX view contract,PASS,0.03,,0,0,views/about.fxml parsed; 11 controls; 1 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,add-update-workflow,Packaged JavaFX view contract,PASS,0.03,,0,0,views/add-update-workflow.fxml parsed; 31 controls; 0 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,automated-workflow,Packaged JavaFX view contract,PASS,0.03,,0,0,views/automated-workflow.fxml parsed; 28 controls; 0 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,batch-detail,Packaged JavaFX view contract,PASS,0.03,,0,0,views/batch-detail.fxml parsed; 6 controls; 2 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,batch-list,Packaged JavaFX view contract,PASS,0.03,,0,0,views/batch-list.fxml parsed; 27 controls; 3 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,businessprofile-add,Packaged JavaFX view contract,PASS,0.03,,0,0,views/businessprofile-add.fxml parsed; 41 controls; 0 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,businessprofile,Packaged JavaFX view contract,PASS,0.03,,0,0,views/businessprofile.fxml parsed; 35 controls; 1 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,component-inventory,Packaged JavaFX view contract,PASS,0.03,,0,0,views/component-inventory.fxml parsed; 43 controls; 2 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,component-names,Packaged JavaFX view contract,PASS,0.03,,0,0,views/component-names.fxml parsed; 14 controls; 3 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,controlcenter,Packaged JavaFX view contract,PASS,0.03,,0,0,views/controlcenter.fxml parsed; 22 controls; 0 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,controlcenter__allocation-popup,Packaged JavaFX view contract,PASS,0.03,,0,0,views/controlcenter/allocation-popup.fxml parsed; 18 controls; 2 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,controlcenter__business,Packaged JavaFX view contract,PASS,0.02,,0,0,views/controlcenter/business.fxml parsed; 25 controls; 1 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,controlcenter__customer-form,Packaged JavaFX view contract,PASS,0.02,,0,0,views/controlcenter/customer-form.fxml parsed; 23 controls; 2 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,controlcenter__customers-list,Packaged JavaFX view contract,PASS,0.02,,0,0,views/controlcenter/customers-list.fxml parsed; 22 controls; 4 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,controlcenter__facility-form,Packaged JavaFX view contract,PASS,0.02,,0,0,views/controlcenter/facility-form.fxml parsed; 25 controls; 2 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,controlcenter__facility-list,Packaged JavaFX view contract,PASS,0.06,,0,0,views/controlcenter/facility-list.fxml parsed; 25 controls; 5 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,controlcenter__manager-form,Packaged JavaFX view contract,PASS,0.04,,0,0,views/controlcenter/manager-form.fxml parsed; 19 controls; 2 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,controlcenter__manager-list,Packaged JavaFX view contract,PASS,0.02,,0,0,views/controlcenter/manager-list.fxml parsed; 20 controls; 4 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,controlcenter__operator-form,Packaged JavaFX view contract,PASS,0.02,,0,0,views/controlcenter/operator-form.fxml parsed; 19 controls; 2 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,controlcenter__operator-list,Packaged JavaFX view contract,PASS,0.03,,0,0,views/controlcenter/operator-list.fxml parsed; 20 controls; 4 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,controlcenter__role-list,Packaged JavaFX view contract,PASS,0.03,,0,0,views/controlcenter/role-list.fxml parsed; 18 controls; 4 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,controlcenter__sections-list,Packaged JavaFX view contract,PASS,0.04,,0,0,views/controlcenter/sections-list.fxml parsed; 3 controls; 1 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,controlcenter__tasks-list,Packaged JavaFX view contract,PASS,0.04,,0,0,views/controlcenter/tasks-list.fxml parsed; 3 controls; 1 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,controlcenter__team-form,Packaged JavaFX view contract,PASS,0.03,,0,0,views/controlcenter/team-form.fxml parsed; 19 controls; 3 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,controlcenter__team-list,Packaged JavaFX view contract,PASS,0.02,,0,0,views/controlcenter/team-list.fxml parsed; 18 controls; 4 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,controlcenter__transfer-popup,Packaged JavaFX view contract,PASS,0.02,,0,0,views/controlcenter/transfer-popup.fxml parsed; 10 controls; 2 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,controlcenter__vendor-form,Packaged JavaFX view contract,PASS,0.03,,0,0,views/controlcenter/vendor-form.fxml parsed; 23 controls; 2 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,controlcenter__vendors-list,Packaged JavaFX view contract,PASS,0.02,,0,0,views/controlcenter/vendors-list.fxml parsed; 23 controls; 5 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,custom-grading-box,Packaged JavaFX view contract,PASS,0.02,,0,0,views/custom-grading-box.fxml parsed; 0 controls; 0 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,custom-grading-comments,Packaged JavaFX view contract,PASS,0.02,,0,0,views/custom-grading-comments.fxml parsed; 60 controls; 0 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,export-inventory,Packaged JavaFX view contract,PASS,0.02,,0,0,views/export-inventory.fxml parsed; 57 controls; 5 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,firmware,Packaged JavaFX view contract,PASS,0.02,,0,0,views/firmware.fxml parsed; 27 controls; 2 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,help-center,Packaged JavaFX view contract,PASS,0.02,,0,0,views/help-center.fxml parsed; 12 controls; 5 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,home-box,Packaged JavaFX view contract,PASS,0.02,,0,0,views/home-box.fxml parsed; 134 controls; 8 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,home2,Packaged JavaFX view contract,PASS,0.02,,0,0,views/home2.fxml parsed; 140 controls; 14 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,import-inventory,Packaged JavaFX view contract,PASS,0.02,,0,0,views/import-inventory.fxml parsed; 24 controls; 2 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,intermittent-issue,Packaged JavaFX view contract,PASS,0.02,,0,0,views/intermittent-issue.fxml parsed; 14 controls; 3 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,inventory,Packaged JavaFX view contract,PASS,0.02,,0,0,views/inventory.fxml parsed; 35 controls; 4 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,invoice-list,Packaged JavaFX view contract,PASS,0.02,,0,0,views/invoice-list.fxml parsed; 22 controls; 3 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,labelprinting,Packaged JavaFX view contract,PASS,0.02,,0,0,views/labelprinting.fxml parsed; 101 controls; 6 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,layout,Packaged JavaFX view contract,PASS,0.02,,0,0,views/layout.fxml parsed; 5 controls; 0 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,license,Packaged JavaFX view contract,PASS,0.02,,0,0,views/license.fxml parsed; 20 controls; 3 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,main,Packaged JavaFX view contract,PASS,0.02,,0,0,views/main.fxml parsed; 3 controls; 1 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,manual-entry,Packaged JavaFX view contract,PASS,0.02,,0,0,views/manual-entry.fxml parsed; 6 controls; 0 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,parts-functionality-customization,Packaged JavaFX view contract,PASS,0.03,,0,0,views/parts-functionality-customization.fxml parsed; 12 controls; 2 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,pc-performance,Packaged JavaFX view contract,PASS,0.02,,0,0,views/pc-performance.fxml parsed; 90 controls; 0 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,popups__battery-criteria-popup,Packaged JavaFX view contract,PASS,0.02,,0,0,views/popups/battery-criteria-popup.fxml parsed; 11 controls; 0 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,popups__generate-batch-popup,Packaged JavaFX view contract,PASS,0.02,,0,0,views/popups/generate-batch-popup.fxml parsed; 31 controls; 4 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,popups__usb-debug-popup,Packaged JavaFX view contract,PASS,0.02,,0,0,views/popups/usb-debug-popup.fxml parsed; 3 controls; 1 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,port-mapping,Packaged JavaFX view contract,PASS,0.04,,0,0,views/port-mapping.fxml parsed; 7 controls; 0 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,purchase-order,Packaged JavaFX view contract,PASS,0.02,,0,0,views/purchase-order.fxml parsed; 105 controls; 13 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,return-invoice-list,Packaged JavaFX view contract,PASS,0.02,,0,0,views/return-invoice-list.fxml parsed; 60 controls; 4 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,sku-generator,Packaged JavaFX view contract,PASS,0.03,,0,0,views/sku-generator.fxml parsed; 30 controls; 0 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,test-code-edit,Packaged JavaFX view contract,PASS,0.02,,0,0,views/test-code-edit.fxml parsed; 25 controls; 2 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,test-customization,Packaged JavaFX view contract,PASS,0.02,,0,0,views/test-customization.fxml parsed; 14 controls; 3 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,test-plan-temp-lists,Packaged JavaFX view contract,PASS,0.02,,0,0,views/test-plan-temp-lists.fxml parsed; 36 controls; 2 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,test-plan-temp-page,Packaged JavaFX view contract,PASS,0.02,,0,0,views/test-plan-temp-page.fxml parsed; 25 controls; 3 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,tickets,Packaged JavaFX view contract,PASS,0.02,,0,0,views/tickets.fxml parsed; 81 controls; 11 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,transactions-history,Packaged JavaFX view contract,PASS,0.02,,0,0,views/transactions-history.fxml parsed; 33 controls; 5 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,volume-frequency-adjustment-box,Packaged JavaFX view contract,PASS,0.02,,0,0,views/volume-frequency-adjustment-box.fxml parsed; 5 controls; 0 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,volume-frequency-adjustment,Packaged JavaFX view contract,PASS,0.02,,0,0,views/volume-frequency-adjustment.fxml parsed; 2 controls; 1 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,Physical devices,Discover selected USB devices,BLOCKED,0.0,,0,0,,No Android/iOS devices were returned by configured USB tools,
+Frontend,Application,Attach to reCheck360 desktop window,BLOCKED,4633.65,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,login,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,dashboard,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,device_connection,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,device_details,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,diagnostic_results,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,manual_tests,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,issues,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,reports,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,settings,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,about-dialog,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,about,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,add-update-workflow,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,automated-workflow,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,batch-detail,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,batch-list,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,businessprofile-add,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,businessprofile,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,component-inventory,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,component-names,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,controlcenter,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,controlcenter__allocation-popup,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,controlcenter__business,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,controlcenter__customer-form,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,controlcenter__customers-list,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,controlcenter__facility-form,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,controlcenter__facility-list,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,controlcenter__manager-form,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,controlcenter__manager-list,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,controlcenter__operator-form,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,controlcenter__operator-list,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,controlcenter__role-list,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,controlcenter__sections-list,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,controlcenter__tasks-list,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,controlcenter__team-form,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,controlcenter__team-list,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,controlcenter__transfer-popup,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,controlcenter__vendor-form,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,controlcenter__vendors-list,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,custom-grading-box,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,custom-grading-comments,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,export-inventory,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,firmware,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,help-center,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,home-box,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,home2,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,import-inventory,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,intermittent-issue,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,inventory,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,invoice-list,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,labelprinting,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,layout,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,license,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,main,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,manual-entry,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,parts-functionality-customization,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,pc-performance,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,popups__battery-criteria-popup,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,popups__generate-batch-popup,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,popups__usb-debug-popup,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,port-mapping,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,purchase-order,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,return-invoice-list,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,sku-generator,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,test-code-edit,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,test-customization,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,test-plan-temp-lists,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,test-plan-temp-page,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,tickets,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,transactions-history,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,volume-frequency-adjustment-box,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,volume-frequency-adjustment,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,

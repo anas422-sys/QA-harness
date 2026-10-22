@@ -1,0 +1,2 @@
+﻿run_mode,session,platform,device_id,embedded_udid_matches,login_ok,connection_ok,requests,acknowledged,failed_operations,request_p50_ms,request_p95_ms,request_max_ms,diagnostics_verified,difficulties
+staging,session-01,ios,00008101-001D2C103C09001E,True,True,True,10,10,0,536.25,583.09,583.09,0,

@@ -1,0 +1,4 @@
+{
+  "mode": "fixed_batch",
+  "timeout_seconds": 40
+}

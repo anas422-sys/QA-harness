@@ -1,0 +1,63 @@
+{
+  "environment": "staging",
+  "started_at": "2026-10-08T11:31:22+05:00",
+  "finished_at": "2026-10-08T11:31:22+05:00",
+  "selection": {
+    "payload_file": "",
+    "real_device_count": 20,
+    "mode": "real",
+    "timeout_seconds": 40
+  },
+  "mode": "real",
+  "device_inventory": {
+    "devices": [],
+    "counts": {
+      "total": 0,
+      "android": 0,
+      "ios": 0,
+      "selected": 0,
+      "capacity": 20
+    },
+    "tools": {
+      "adb": "C:\\Program Files\\reCheck360\\app\\native-dev\\windows\\adb.exe",
+      "idevice_id": "C:\\Program Files\\reCheck360\\app\\native-dev\\windows\\idevice_id.exe",
+      "ideviceinfo": "C:\\Program Files\\reCheck360\\app\\native-dev\\windows\\ideviceinfo.exe"
+    },
+    "blockers": []
+  },
+  "summary": {
+    "tests": 1,
+    "pass": 0,
+    "fail": 0,
+    "blocked": 1,
+    "acknowledged": 0,
+    "connected": 0,
+    "messages_sent": 0,
+    "messages_received": 0,
+    "duration_ms": 183.81,
+    "real_devices": {
+      "total": 0,
+      "android": 0,
+      "ios": 0,
+      "selected": 0,
+      "capacity": 20
+    }
+  },
+  "results": [
+    {
+      "module": "Real devices",
+      "group": "USB inventory",
+      "test": "Required physical devices: 20",
+      "status": "BLOCKED",
+      "duration_ms": 0.01,
+      "device": "",
+      "messages_sent": 0,
+      "messages_received": 0,
+      "details": "Detected 0",
+      "blocker": "Connect 20 more physical device(s)",
+      "evidence": ""
+    }
+  ],
+  "sent_messages": [],
+  "received_messages": []
+}

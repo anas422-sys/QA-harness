@@ -1,0 +1,2 @@
+﻿module,group,test,status,duration_ms,device,messages_sent,messages_received,details,blocker,evidence
+Real devices,USB inventory,Required physical devices: 20,BLOCKED,0.01,,0,0,Detected 0,Connect 20 more physical device(s),

@@ -1,0 +1,2 @@
+﻿timestamp,transport,method,endpoint,operation,device,message_type,ref,result,status_code,response_status,duration_ms,request_json,response_json,error
+2026-10-22T12:54:40.066+05:00,HTTP,GET,https://staging.phone-diagnostics.com/v1/ServerStatus,Server status,,,,PASS,200,Staging Server is Running,3140.39,,"{""status"": ""Staging Server is Running""}",

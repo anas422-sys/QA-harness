@@ -1,0 +1,123 @@
+{
+  "environment": "staging",
+  "started_at": "2026-10-08T11:32:34+05:00",
+  "finished_at": "2026-10-08T11:32:37+05:00",
+  "selection": {
+    "payload_file": "C:\\Users\\usama\\.codex\\attachments\\89504ab3-40e1-4c5d-a432-5974a038771b\\pasted-text.txt",
+    "timeout_seconds": 10,
+    "max_messages": 2,
+    "mode": "messages"
+  },
+  "mode": "messages",
+  "device_inventory": {
+    "devices": [],
+    "counts": {
+      "total": 0,
+      "android": 0,
+      "ios": 0,
+      "selected": 0,
+      "capacity": 20
+    },
+    "tools": {
+      "adb": "C:\\Program Files\\reCheck360\\app\\native-dev\\windows\\adb.exe",
+      "idevice_id": "C:\\Program Files\\reCheck360\\app\\native-dev\\windows\\idevice_id.exe",
+      "ideviceinfo": "C:\\Program Files\\reCheck360\\app\\native-dev\\windows\\ideviceinfo.exe"
+    },
+    "blockers": []
+  },
+  "summary": {
+    "tests": 2,
+    "pass": 2,
+    "fail": 0,
+    "blocked": 0,
+    "acknowledged": 0,
+    "connected": 0,
+    "messages_sent": 2,
+    "messages_received": 2,
+    "duration_ms": 2771.52,
+    "real_devices": {
+      "total": 0,
+      "android": 0,
+      "ios": 0,
+      "selected": 0,
+      "capacity": 20
+    },
+    "verification_scope": "Exact type + reference + status + UDID correlation"
+  },
+  "results": [
+    {
+      "module": "Messages",
+      "group": "session",
+      "test": "Message 1 \u00b7 type 134",
+      "status": "PASS",
+      "duration_ms": 312.39,
+      "device": "",
+      "messages_sent": 1,
+      "messages_received": 1,
+      "details": "status=success; type_match=true; ref_match=true; udid_match=true",
+      "blocker": "",
+      "evidence": ""
+    },
+    {
+      "module": "Messages",
+      "group": "session",
+      "test": "Message 2 \u00b7 type 119",
+      "status": "PASS",
+      "duration_ms": 315.7,
+      "device": "",
+      "messages_sent": 1,
+      "messages_received": 1,
+      "details": "status=success; type_match=true; ref_match=true; udid_match=true",
+      "blocker": "",
+      "evidence": ""
+    }
+  ],
+  "sent_messages": [
+    {
+      "timestamp": "2026-10-08T11:32:36.698+05:00",
+      "direction": "SENT",
+      "device_type": "session",
+      "device_name": "",
+      "udid": "",
+      "message_type": 134,
+      "ref": 1599234712297060,
+      "duration_ms": 0.35,
+      "json": "{\"messagetype\": 134, \"client_data\": {\"ref\": 1599234712297060}, \"tester_name\": \"\", \"external_batch_id\": \"\", \"customer_name\": \"\", \"invoice_number\": \"\"}"
+    },
+    {
+      "timestamp": "2026-10-08T11:32:37.011+05:00",
+      "direction": "SENT",
+      "device_type": "session",
+      "device_name": "",
+      "udid": "",
+      "message_type": 119,
+      "ref": 3584723129416932,
+      "duration_ms": 0.35,
+      "json": "{\"messagetype\": 119, \"client_data\": {\"ref\": 3584723129416932}, \"app_version\": \"1.7.6\", \"operating_system\": \"windows\", \"architecture\": \"x64\"}"
+    }
+  ],
+  "received_messages": [
+    {
+      "timestamp": "2026-10-08T11:32:37.010+05:00",
+      "direction": "RECEIVED",
+      "device_type": "session",
+      "device_name": "",
+      "udid": "",
+      "message_type": 134,
+      "ref": 1599234712297060,
+      "duration_ms": 312.3,
+      "json": "{\"username\": \"anas-qa\", \"messagetype\": 134, \"status\": \"success\", \"client_data\": {\"ref\": 1599234712297060}, \"reply\": {\"hub_token\": \"[REDACTED]\"}}"
+    },
+    {
+      "timestamp": "2026-10-08T11:32:37.326+05:00",
+      "direction": "RECEIVED",
+      "device_type": "session",
+      "device_name": "",
+      "udid": "",
+      "message_type": 119,
+      "ref": 3584723129416932,
+      "duration_ms": 315.59,
+      "json": "{\"username\": \"anas-qa\", \"messagetype\": 119, \"status\": \"success\", \"client_data\": {\"ref\": 3584723129416932}, \"reply\": {\"version\": \"1.7.9\", \"url\": \"https://github.com/sangharkhanmagsi/ReleaseTesting/releases/download/v1.7.9/app-1.7.9.jar.zip\", \"message\": \"\", \"resource_url\": \"https://s3.us-east-1.amazonaws.com/desktop.updates/native-dev-1.7.7.zip\"}}"
+    }
+  ]
+}

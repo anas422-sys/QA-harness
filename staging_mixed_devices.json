@@ -1,0 +1,209 @@
+{
+  "login_url": "https://staging.phone-diagnostics.com/v1/login",
+  "ws_url": "wss://staging.phone-diagnostics.com/v1/ws",
+  "username": "anas-qa",
+  "password_env": "RECHECK_PASSWORD",
+  "devices": [
+    {
+      "client_data": {
+        "ref": 138160098961146
+      },
+      "messagetype": 1,
+      "udid": "7DA7E79E-E6FA5DD39753862E",
+      "device_operating_system": "ios",
+      "operating_system": "windows",
+      "device_info": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPCFET0NUWVBFIHBsaXN0IFBVQkxJQyAiLS8vQXBwbGUvL0RURCBQTElTVCAxLjAvL0VOIiAiaHR0cDovL3d3dy5hcHBsZS5jb20vRFREcy9Qcm9wZXJ0eUxpc3QtMS4wLmR0ZCI+CjxwbGlzdCB2ZXJzaW9uPSIxLjAiPgo8ZGljdD4KCTxrZXk+QWN0aXZhdGlvblN0YXRlPC9rZXk+Cgk8c3RyaW5nPkFjdGl2YXRlZDwvc3RyaW5nPgoJPGtleT5EZXZpY2VDbGFzczwva2V5PgoJPHN0cmluZz5pUGhvbmU8L3N0cmluZz4KCTxrZXk+RGV2aWNlTmFtZTwva2V5PgoJPHN0cmluZz5RQSBzaW11bGF0ZWQgaU9TIDE8L3N0cmluZz4KCTxrZXk+SGFyZHdhcmVNb2RlbDwva2V5PgoJPHN0cmluZz5ENTJnQVA8L3N0cmluZz4KCTxrZXk+TW9kZWxOdW1iZXI8L2tleT4KCTxzdHJpbmc+UUFfVEVTVDwvc3RyaW5nPgoJPGtleT5Qcm9kdWN0VHlwZTwva2V5PgoJPHN0cmluZz5pUGhvbmUxMywxPC9zdHJpbmc+Cgk8a2V5PlByb2R1Y3RWZXJzaW9uPC9rZXk+Cgk8c3RyaW5nPjE4LjA8L3N0cmluZz4KCTxrZXk+U2VyaWFsTnVtYmVyPC9rZXk+Cgk8c3RyaW5nPlFBN0RBN0U3OUVFNjwvc3RyaW5nPgoJPGtleT5VbmlxdWVEZXZpY2VJRDwva2V5PgoJPHN0cmluZz43REE3RTc5RS1FNkZBNUREMzk3NTM4NjJFPC9zdHJpbmc+CjwvZGljdD4KPC9wbGlzdD4K"
+    },
+    {
+      "client_data": {
+        "ref": 209883707138005
+      },
+      "messagetype": 1,
+      "udid": "QAANDROIDBEE35BCEDFD5",
+      "device_operating_system": "android",
+      "operating_system": "windows",
+      "device_info": "eyJzZXJpYWwiOiAiUUFBTkRST0lEQkVFMzVCQ0VERkQ1IiwgIm1hbnVmYWN0dXJlciI6ICJRQSIsICJtb2RlbCI6ICJTaW11bGF0ZWQgQW5kcm9pZCIsICJhbmRyb2lkX3ZlcnNpb24iOiAiMTQiLCAiZGV2aWNlX25hbWUiOiAiUUEgc2ltdWxhdGVkIEFuZHJvaWQgMSJ9"
+    },
+    {
+      "client_data": {
+        "ref": 165948783363297
+      },
+      "messagetype": 1,
+      "udid": "96EDF648-84E1538D85BBB8CB",
+      "device_operating_system": "ios",
+      "operating_system": "windows",
+      "device_info": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPCFET0NUWVBFIHBsaXN0IFBVQkxJQyAiLS8vQXBwbGUvL0RURCBQTElTVCAxLjAvL0VOIiAiaHR0cDovL3d3dy5hcHBsZS5jb20vRFREcy9Qcm9wZXJ0eUxpc3QtMS4wLmR0ZCI+CjxwbGlzdCB2ZXJzaW9uPSIxLjAiPgo8ZGljdD4KCTxrZXk+QWN0aXZhdGlvblN0YXRlPC9rZXk+Cgk8c3RyaW5nPkFjdGl2YXRlZDwvc3RyaW5nPgoJPGtleT5EZXZpY2VDbGFzczwva2V5PgoJPHN0cmluZz5pUGhvbmU8L3N0cmluZz4KCTxrZXk+RGV2aWNlTmFtZTwva2V5PgoJPHN0cmluZz5RQSBzaW11bGF0ZWQgaU9TIDI8L3N0cmluZz4KCTxrZXk+SGFyZHdhcmVNb2RlbDwva2V5PgoJPHN0cmluZz5ENTJnQVA8L3N0cmluZz4KCTxrZXk+TW9kZWxOdW1iZXI8L2tleT4KCTxzdHJpbmc+UUFfVEVTVDwvc3RyaW5nPgoJPGtleT5Qcm9kdWN0VHlwZTwva2V5PgoJPHN0cmluZz5pUGhvbmUxMywxPC9zdHJpbmc+Cgk8a2V5PlByb2R1Y3RWZXJzaW9uPC9rZXk+Cgk8c3RyaW5nPjE4LjA8L3N0cmluZz4KCTxrZXk+U2VyaWFsTnVtYmVyPC9rZXk+Cgk8c3RyaW5nPlFBOTZFREY2NDg4NDwvc3RyaW5nPgoJPGtleT5VbmlxdWVEZXZpY2VJRDwva2V5PgoJPHN0cmluZz45NkVERjY0OC04NEUxNTM4RDg1QkJCOENCPC9zdHJpbmc+CjwvZGljdD4KPC9wbGlzdD4K"
+    },
+    {
+      "client_data": {
+        "ref": 126379089126458
+      },
+      "messagetype": 1,
+      "udid": "QAANDROID72F0ECB6E43A",
+      "device_operating_system": "android",
+      "operating_system": "windows",
+      "device_info": "eyJzZXJpYWwiOiAiUUFBTkRST0lENzJGMEVDQjZFNDNBIiwgIm1hbnVmYWN0dXJlciI6ICJRQSIsICJtb2RlbCI6ICJTaW11bGF0ZWQgQW5kcm9pZCIsICJhbmRyb2lkX3ZlcnNpb24iOiAiMTQiLCAiZGV2aWNlX25hbWUiOiAiUUEgc2ltdWxhdGVkIEFuZHJvaWQgMiJ9"
+    },
+    {
+      "client_data": {
+        "ref": 210743045187789
+      },
+      "messagetype": 1,
+      "udid": "BFAB7058-E8CD58AAB5187D50",
+      "device_operating_system": "ios",
+      "operating_system": "windows",
+      "device_info": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPCFET0NUWVBFIHBsaXN0IFBVQkxJQyAiLS8vQXBwbGUvL0RURCBQTElTVCAxLjAvL0VOIiAiaHR0cDovL3d3dy5hcHBsZS5jb20vRFREcy9Qcm9wZXJ0eUxpc3QtMS4wLmR0ZCI+CjxwbGlzdCB2ZXJzaW9uPSIxLjAiPgo8ZGljdD4KCTxrZXk+QWN0aXZhdGlvblN0YXRlPC9rZXk+Cgk8c3RyaW5nPkFjdGl2YXRlZDwvc3RyaW5nPgoJPGtleT5EZXZpY2VDbGFzczwva2V5PgoJPHN0cmluZz5pUGhvbmU8L3N0cmluZz4KCTxrZXk+RGV2aWNlTmFtZTwva2V5PgoJPHN0cmluZz5RQSBzaW11bGF0ZWQgaU9TIDM8L3N0cmluZz4KCTxrZXk+SGFyZHdhcmVNb2RlbDwva2V5PgoJPHN0cmluZz5ENTJnQVA8L3N0cmluZz4KCTxrZXk+TW9kZWxOdW1iZXI8L2tleT4KCTxzdHJpbmc+UUFfVEVTVDwvc3RyaW5nPgoJPGtleT5Qcm9kdWN0VHlwZTwva2V5PgoJPHN0cmluZz5pUGhvbmUxMywxPC9zdHJpbmc+Cgk8a2V5PlByb2R1Y3RWZXJzaW9uPC9rZXk+Cgk8c3RyaW5nPjE4LjA8L3N0cmluZz4KCTxrZXk+U2VyaWFsTnVtYmVyPC9rZXk+Cgk8c3RyaW5nPlFBQkZBQjcwNThFODwvc3RyaW5nPgoJPGtleT5VbmlxdWVEZXZpY2VJRDwva2V5PgoJPHN0cmluZz5CRkFCNzA1OC1FOENENThBQUI1MTg3RDUwPC9zdHJpbmc+CjwvZGljdD4KPC9wbGlzdD4K"
+    },
+    {
+      "client_data": {
+        "ref": 94024071213884
+      },
+      "messagetype": 1,
+      "udid": "QAANDROID5583AF5D733C",
+      "device_operating_system": "android",
+      "operating_system": "windows",
+      "device_info": "eyJzZXJpYWwiOiAiUUFBTkRST0lENTU4M0FGNUQ3MzNDIiwgIm1hbnVmYWN0dXJlciI6ICJRQSIsICJtb2RlbCI6ICJTaW11bGF0ZWQgQW5kcm9pZCIsICJhbmRyb2lkX3ZlcnNpb24iOiAiMTQiLCAiZGV2aWNlX25hbWUiOiAiUUEgc2ltdWxhdGVkIEFuZHJvaWQgMyJ9"
+    },
+    {
+      "client_data": {
+        "ref": 89066802754324
+      },
+      "messagetype": 1,
+      "udid": "51017B23-B31451E3B5986FC8",
+      "device_operating_system": "ios",
+      "operating_system": "windows",
+      "device_info": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPCFET0NUWVBFIHBsaXN0IFBVQkxJQyAiLS8vQXBwbGUvL0RURCBQTElTVCAxLjAvL0VOIiAiaHR0cDovL3d3dy5hcHBsZS5jb20vRFREcy9Qcm9wZXJ0eUxpc3QtMS4wLmR0ZCI+CjxwbGlzdCB2ZXJzaW9uPSIxLjAiPgo8ZGljdD4KCTxrZXk+QWN0aXZhdGlvblN0YXRlPC9rZXk+Cgk8c3RyaW5nPkFjdGl2YXRlZDwvc3RyaW5nPgoJPGtleT5EZXZpY2VDbGFzczwva2V5PgoJPHN0cmluZz5pUGhvbmU8L3N0cmluZz4KCTxrZXk+RGV2aWNlTmFtZTwva2V5PgoJPHN0cmluZz5RQSBzaW11bGF0ZWQgaU9TIDQ8L3N0cmluZz4KCTxrZXk+SGFyZHdhcmVNb2RlbDwva2V5PgoJPHN0cmluZz5ENTJnQVA8L3N0cmluZz4KCTxrZXk+TW9kZWxOdW1iZXI8L2tleT4KCTxzdHJpbmc+UUFfVEVTVDwvc3RyaW5nPgoJPGtleT5Qcm9kdWN0VHlwZTwva2V5PgoJPHN0cmluZz5pUGhvbmUxMywxPC9zdHJpbmc+Cgk8a2V5PlByb2R1Y3RWZXJzaW9uPC9rZXk+Cgk8c3RyaW5nPjE4LjA8L3N0cmluZz4KCTxrZXk+U2VyaWFsTnVtYmVyPC9rZXk+Cgk8c3RyaW5nPlFBNTEwMTdCMjNCMzwvc3RyaW5nPgoJPGtleT5VbmlxdWVEZXZpY2VJRDwva2V5PgoJPHN0cmluZz41MTAxN0IyMy1CMzE0NTFFM0I1OTg2RkM4PC9zdHJpbmc+CjwvZGljdD4KPC9wbGlzdD4K"
+    },
+    {
+      "client_data": {
+        "ref": 199331825360438
+      },
+      "messagetype": 1,
+      "udid": "QAANDROIDB54A8EA49E36",
+      "device_operating_system": "android",
+      "operating_system": "windows",
+      "device_info": "eyJzZXJpYWwiOiAiUUFBTkRST0lEQjU0QThFQTQ5RTM2IiwgIm1hbnVmYWN0dXJlciI6ICJRQSIsICJtb2RlbCI6ICJTaW11bGF0ZWQgQW5kcm9pZCIsICJhbmRyb2lkX3ZlcnNpb24iOiAiMTQiLCAiZGV2aWNlX25hbWUiOiAiUUEgc2ltdWxhdGVkIEFuZHJvaWQgNCJ9"
+    },
+    {
+      "client_data": {
+        "ref": 223657202018244
+      },
+      "messagetype": 1,
+      "udid": "CB6A4013-E7C45F819DFDC19A",
+      "device_operating_system": "ios",
+      "operating_system": "windows",
+      "device_info": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPCFET0NUWVBFIHBsaXN0IFBVQkxJQyAiLS8vQXBwbGUvL0RURCBQTElTVCAxLjAvL0VOIiAiaHR0cDovL3d3dy5hcHBsZS5jb20vRFREcy9Qcm9wZXJ0eUxpc3QtMS4wLmR0ZCI+CjxwbGlzdCB2ZXJzaW9uPSIxLjAiPgo8ZGljdD4KCTxrZXk+QWN0aXZhdGlvblN0YXRlPC9rZXk+Cgk8c3RyaW5nPkFjdGl2YXRlZDwvc3RyaW5nPgoJPGtleT5EZXZpY2VDbGFzczwva2V5PgoJPHN0cmluZz5pUGhvbmU8L3N0cmluZz4KCTxrZXk+RGV2aWNlTmFtZTwva2V5PgoJPHN0cmluZz5RQSBzaW11bGF0ZWQgaU9TIDU8L3N0cmluZz4KCTxrZXk+SGFyZHdhcmVNb2RlbDwva2V5PgoJPHN0cmluZz5ENTJnQVA8L3N0cmluZz4KCTxrZXk+TW9kZWxOdW1iZXI8L2tleT4KCTxzdHJpbmc+UUFfVEVTVDwvc3RyaW5nPgoJPGtleT5Qcm9kdWN0VHlwZTwva2V5PgoJPHN0cmluZz5pUGhvbmUxMywxPC9zdHJpbmc+Cgk8a2V5PlByb2R1Y3RWZXJzaW9uPC9rZXk+Cgk8c3RyaW5nPjE4LjA8L3N0cmluZz4KCTxrZXk+U2VyaWFsTnVtYmVyPC9rZXk+Cgk8c3RyaW5nPlFBQ0I2QTQwMTNFNzwvc3RyaW5nPgoJPGtleT5VbmlxdWVEZXZpY2VJRDwva2V5PgoJPHN0cmluZz5DQjZBNDAxMy1FN0M0NUY4MTlERkRDMTlBPC9zdHJpbmc+CjwvZGljdD4KPC9wbGlzdD4K"
+    },
+    {
+      "client_data": {
+        "ref": 278399138151739
+      },
+      "messagetype": 1,
+      "udid": "QAANDROIDFD33D9BC3D3B",
+      "device_operating_system": "android",
+      "operating_system": "windows",
+      "device_info": "eyJzZXJpYWwiOiAiUUFBTkRST0lERkQzM0Q5QkMzRDNCIiwgIm1hbnVmYWN0dXJlciI6ICJRQSIsICJtb2RlbCI6ICJTaW11bGF0ZWQgQW5kcm9pZCIsICJhbmRyb2lkX3ZlcnNpb24iOiAiMTQiLCAiZGV2aWNlX25hbWUiOiAiUUEgc2ltdWxhdGVkIEFuZHJvaWQgNSJ9"
+    },
+    {
+      "client_data": {
+        "ref": 35638974914679
+      },
+      "messagetype": 1,
+      "udid": "2069D870-A07751B0A341E7C5",
+      "device_operating_system": "ios",
+      "operating_system": "windows",
+      "device_info": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPCFET0NUWVBFIHBsaXN0IFBVQkxJQyAiLS8vQXBwbGUvL0RURCBQTElTVCAxLjAvL0VOIiAiaHR0cDovL3d3dy5hcHBsZS5jb20vRFREcy9Qcm9wZXJ0eUxpc3QtMS4wLmR0ZCI+CjxwbGlzdCB2ZXJzaW9uPSIxLjAiPgo8ZGljdD4KCTxrZXk+QWN0aXZhdGlvblN0YXRlPC9rZXk+Cgk8c3RyaW5nPkFjdGl2YXRlZDwvc3RyaW5nPgoJPGtleT5EZXZpY2VDbGFzczwva2V5PgoJPHN0cmluZz5pUGhvbmU8L3N0cmluZz4KCTxrZXk+RGV2aWNlTmFtZTwva2V5PgoJPHN0cmluZz5RQSBzaW11bGF0ZWQgaU9TIDY8L3N0cmluZz4KCTxrZXk+SGFyZHdhcmVNb2RlbDwva2V5PgoJPHN0cmluZz5ENTJnQVA8L3N0cmluZz4KCTxrZXk+TW9kZWxOdW1iZXI8L2tleT4KCTxzdHJpbmc+UUFfVEVTVDwvc3RyaW5nPgoJPGtleT5Qcm9kdWN0VHlwZTwva2V5PgoJPHN0cmluZz5pUGhvbmUxMywxPC9zdHJpbmc+Cgk8a2V5PlByb2R1Y3RWZXJzaW9uPC9rZXk+Cgk8c3RyaW5nPjE4LjA8L3N0cmluZz4KCTxrZXk+U2VyaWFsTnVtYmVyPC9rZXk+Cgk8c3RyaW5nPlFBMjA2OUQ4NzBBMDwvc3RyaW5nPgoJPGtleT5VbmlxdWVEZXZpY2VJRDwva2V5PgoJPHN0cmluZz4yMDY5RDg3MC1BMDc3NTFCMEEzNDFFN0M1PC9zdHJpbmc+CjwvZGljdD4KPC9wbGlzdD4K"
+    },
+    {
+      "client_data": {
+        "ref": 120114131229897
+      },
+      "messagetype": 1,
+      "udid": "QAANDROID6D3E401FDCC9",
+      "device_operating_system": "android",
+      "operating_system": "windows",
+      "device_info": "eyJzZXJpYWwiOiAiUUFBTkRST0lENkQzRTQwMUZEQ0M5IiwgIm1hbnVmYWN0dXJlciI6ICJRQSIsICJtb2RlbCI6ICJTaW11bGF0ZWQgQW5kcm9pZCIsICJhbmRyb2lkX3ZlcnNpb24iOiAiMTQiLCAiZGV2aWNlX25hbWUiOiAiUUEgc2ltdWxhdGVkIEFuZHJvaWQgNiJ9"
+    },
+    {
+      "client_data": {
+        "ref": 14864257578000
+      },
+      "messagetype": 1,
+      "udid": "0D84DACA-F4105DC2A1E7A7B8",
+      "device_operating_system": "ios",
+      "operating_system": "windows",
+      "device_info": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPCFET0NUWVBFIHBsaXN0IFBVQkxJQyAiLS8vQXBwbGUvL0RURCBQTElTVCAxLjAvL0VOIiAiaHR0cDovL3d3dy5hcHBsZS5jb20vRFREcy9Qcm9wZXJ0eUxpc3QtMS4wLmR0ZCI+CjxwbGlzdCB2ZXJzaW9uPSIxLjAiPgo8ZGljdD4KCTxrZXk+QWN0aXZhdGlvblN0YXRlPC9rZXk+Cgk8c3RyaW5nPkFjdGl2YXRlZDwvc3RyaW5nPgoJPGtleT5EZXZpY2VDbGFzczwva2V5PgoJPHN0cmluZz5pUGhvbmU8L3N0cmluZz4KCTxrZXk+RGV2aWNlTmFtZTwva2V5PgoJPHN0cmluZz5RQSBzaW11bGF0ZWQgaU9TIDc8L3N0cmluZz4KCTxrZXk+SGFyZHdhcmVNb2RlbDwva2V5PgoJPHN0cmluZz5ENTJnQVA8L3N0cmluZz4KCTxrZXk+TW9kZWxOdW1iZXI8L2tleT4KCTxzdHJpbmc+UUFfVEVTVDwvc3RyaW5nPgoJPGtleT5Qcm9kdWN0VHlwZTwva2V5PgoJPHN0cmluZz5pUGhvbmUxMywxPC9zdHJpbmc+Cgk8a2V5PlByb2R1Y3RWZXJzaW9uPC9rZXk+Cgk8c3RyaW5nPjE4LjA8L3N0cmluZz4KCTxrZXk+U2VyaWFsTnVtYmVyPC9rZXk+Cgk8c3RyaW5nPlFBMEQ4NERBQ0FGNDwvc3RyaW5nPgoJPGtleT5VbmlxdWVEZXZpY2VJRDwva2V5PgoJPHN0cmluZz4wRDg0REFDQS1GNDEwNURDMkExRTdBN0I4PC9zdHJpbmc+CjwvZGljdD4KPC9wbGlzdD4K"
+    },
+    {
+      "client_data": {
+        "ref": 135627539545433
+      },
+      "messagetype": 1,
+      "udid": "QAANDROID7B5A3F50FD59",
+      "device_operating_system": "android",
+      "operating_system": "windows",
+      "device_info": "eyJzZXJpYWwiOiAiUUFBTkRST0lEN0I1QTNGNTBGRDU5IiwgIm1hbnVmYWN0dXJlciI6ICJRQSIsICJtb2RlbCI6ICJTaW11bGF0ZWQgQW5kcm9pZCIsICJhbmRyb2lkX3ZlcnNpb24iOiAiMTQiLCAiZGV2aWNlX25hbWUiOiAiUUEgc2ltdWxhdGVkIEFuZHJvaWQgNyJ9"
+    },
+    {
+      "client_data": {
+        "ref": 185131650322841
+      },
+      "messagetype": 1,
+      "udid": "A8605241-1199542EA3BCFC3C",
+      "device_operating_system": "ios",
+      "operating_system": "windows",
+      "device_info": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPCFET0NUWVBFIHBsaXN0IFBVQkxJQyAiLS8vQXBwbGUvL0RURCBQTElTVCAxLjAvL0VOIiAiaHR0cDovL3d3dy5hcHBsZS5jb20vRFREcy9Qcm9wZXJ0eUxpc3QtMS4wLmR0ZCI+CjxwbGlzdCB2ZXJzaW9uPSIxLjAiPgo8ZGljdD4KCTxrZXk+QWN0aXZhdGlvblN0YXRlPC9rZXk+Cgk8c3RyaW5nPkFjdGl2YXRlZDwvc3RyaW5nPgoJPGtleT5EZXZpY2VDbGFzczwva2V5PgoJPHN0cmluZz5pUGhvbmU8L3N0cmluZz4KCTxrZXk+RGV2aWNlTmFtZTwva2V5PgoJPHN0cmluZz5RQSBzaW11bGF0ZWQgaU9TIDg8L3N0cmluZz4KCTxrZXk+SGFyZHdhcmVNb2RlbDwva2V5PgoJPHN0cmluZz5ENTJnQVA8L3N0cmluZz4KCTxrZXk+TW9kZWxOdW1iZXI8L2tleT4KCTxzdHJpbmc+UUFfVEVTVDwvc3RyaW5nPgoJPGtleT5Qcm9kdWN0VHlwZTwva2V5PgoJPHN0cmluZz5pUGhvbmUxMywxPC9zdHJpbmc+Cgk8a2V5PlByb2R1Y3RWZXJzaW9uPC9rZXk+Cgk8c3RyaW5nPjE4LjA8L3N0cmluZz4KCTxrZXk+U2VyaWFsTnVtYmVyPC9rZXk+Cgk8c3RyaW5nPlFBQTg2MDUyNDExMTwvc3RyaW5nPgoJPGtleT5VbmlxdWVEZXZpY2VJRDwva2V5PgoJPHN0cmluZz5BODYwNTI0MS0xMTk5NTQyRUEzQkNGQzNDPC9zdHJpbmc+CjwvZGljdD4KPC9wbGlzdD4K"
+    },
+    {
+      "client_data": {
+        "ref": 210270522482672
+      },
+      "messagetype": 1,
+      "udid": "QAANDROIDBF3D6BCC9FF0",
+      "device_operating_system": "android",
+      "operating_system": "windows",
+      "device_info": "eyJzZXJpYWwiOiAiUUFBTkRST0lEQkYzRDZCQ0M5RkYwIiwgIm1hbnVmYWN0dXJlciI6ICJRQSIsICJtb2RlbCI6ICJTaW11bGF0ZWQgQW5kcm9pZCIsICJhbmRyb2lkX3ZlcnNpb24iOiAiMTQiLCAiZGV2aWNlX25hbWUiOiAiUUEgc2ltdWxhdGVkIEFuZHJvaWQgOCJ9"
+    },
+    {
+      "client_data": {
+        "ref": 254930484949119
+      },
+      "messagetype": 1,
+      "udid": "E7DBA0FF-707F548A92921326",
+      "device_operating_system": "ios",
+      "operating_system": "windows",
+      "device_info": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPCFET0NUWVBFIHBsaXN0IFBVQkxJQyAiLS8vQXBwbGUvL0RURCBQTElTVCAxLjAvL0VOIiAiaHR0cDovL3d3dy5hcHBsZS5jb20vRFREcy9Qcm9wZXJ0eUxpc3QtMS4wLmR0ZCI+CjxwbGlzdCB2ZXJzaW9uPSIxLjAiPgo8ZGljdD4KCTxrZXk+QWN0aXZhdGlvblN0YXRlPC9rZXk+Cgk8c3RyaW5nPkFjdGl2YXRlZDwvc3RyaW5nPgoJPGtleT5EZXZpY2VDbGFzczwva2V5PgoJPHN0cmluZz5pUGhvbmU8L3N0cmluZz4KCTxrZXk+RGV2aWNlTmFtZTwva2V5PgoJPHN0cmluZz5RQSBzaW11bGF0ZWQgaU9TIDk8L3N0cmluZz4KCTxrZXk+SGFyZHdhcmVNb2RlbDwva2V5PgoJPHN0cmluZz5ENTJnQVA8L3N0cmluZz4KCTxrZXk+TW9kZWxOdW1iZXI8L2tleT4KCTxzdHJpbmc+UUFfVEVTVDwvc3RyaW5nPgoJPGtleT5Qcm9kdWN0VHlwZTwva2V5PgoJPHN0cmluZz5pUGhvbmUxMywxPC9zdHJpbmc+Cgk8a2V5PlByb2R1Y3RWZXJzaW9uPC9rZXk+Cgk8c3RyaW5nPjE4LjA8L3N0cmluZz4KCTxrZXk+U2VyaWFsTnVtYmVyPC9rZXk+Cgk8c3RyaW5nPlFBRTdEQkEwRkY3MDwvc3RyaW5nPgoJPGtleT5VbmlxdWVEZXZpY2VJRDwva2V5PgoJPHN0cmluZz5FN0RCQTBGRi03MDdGNTQ4QTkyOTIxMzI2PC9zdHJpbmc+CjwvZGljdD4KPC9wbGlzdD4K"
+    },
+    {
+      "client_data": {
+        "ref": 233721289001687
+      },
+      "messagetype": 1,
+      "udid": "QAANDROIDD4917A684AD7",
+      "device_operating_system": "android",
+      "operating_system": "windows",
+      "device_info": "eyJzZXJpYWwiOiAiUUFBTkRST0lERDQ5MTdBNjg0QUQ3IiwgIm1hbnVmYWN0dXJlciI6ICJRQSIsICJtb2RlbCI6ICJTaW11bGF0ZWQgQW5kcm9pZCIsICJhbmRyb2lkX3ZlcnNpb24iOiAiMTQiLCAiZGV2aWNlX25hbWUiOiAiUUEgc2ltdWxhdGVkIEFuZHJvaWQgOSJ9"
+    },
+    {
+      "client_data": {
+        "ref": 158009440925426
+      },
+      "messagetype": 1,
+      "udid": "8FB57098-F6F25054ABC85DC5",
+      "device_operating_system": "ios",
+      "operating_system": "windows",
+      "device_info": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPCFET0NUWVBFIHBsaXN0IFBVQkxJQyAiLS8vQXBwbGUvL0RURCBQTElTVCAxLjAvL0VOIiAiaHR0cDovL3d3dy5hcHBsZS5jb20vRFREcy9Qcm9wZXJ0eUxpc3QtMS4wLmR0ZCI+CjxwbGlzdCB2ZXJzaW9uPSIxLjAiPgo8ZGljdD4KCTxrZXk+QWN0aXZhdGlvblN0YXRlPC9rZXk+Cgk8c3RyaW5nPkFjdGl2YXRlZDwvc3RyaW5nPgoJPGtleT5EZXZpY2VDbGFzczwva2V5PgoJPHN0cmluZz5pUGhvbmU8L3N0cmluZz4KCTxrZXk+RGV2aWNlTmFtZTwva2V5PgoJPHN0cmluZz5RQSBzaW11bGF0ZWQgaU9TIDEwPC9zdHJpbmc+Cgk8a2V5PkhhcmR3YXJlTW9kZWw8L2tleT4KCTxzdHJpbmc+RDUyZ0FQPC9zdHJpbmc+Cgk8a2V5Pk1vZGVsTnVtYmVyPC9rZXk+Cgk8c3RyaW5nPlFBX1RFU1Q8L3N0cmluZz4KCTxrZXk+UHJvZHVjdFR5cGU8L2tleT4KCTxzdHJpbmc+aVBob25lMTMsMTwvc3RyaW5nPgoJPGtleT5Qcm9kdWN0VmVyc2lvbjwva2V5PgoJPHN0cmluZz4xOC4wPC9zdHJpbmc+Cgk8a2V5PlNlcmlhbE51bWJlcjwva2V5PgoJPHN0cmluZz5RQThGQjU3MDk4RjY8L3N0cmluZz4KCTxrZXk+VW5pcXVlRGV2aWNlSUQ8L2tleT4KCTxzdHJpbmc+OEZCNTcwOTgtRjZGMjUwNTRBQkM4NURDNTwvc3RyaW5nPgo8L2RpY3Q+CjwvcGxpc3Q+Cg=="
+    },
+    {
+      "client_data": {
+        "ref": 44836473150239
+      },
+      "messagetype": 1,
+      "udid": "QAANDROID28C74E0E1B1F",
+      "device_operating_system": "android",
+      "operating_system": "windows",
+      "device_info": "eyJzZXJpYWwiOiAiUUFBTkRST0lEMjhDNzRFMEUxQjFGIiwgIm1hbnVmYWN0dXJlciI6ICJRQSIsICJtb2RlbCI6ICJTaW11bGF0ZWQgQW5kcm9pZCIsICJhbmRyb2lkX3ZlcnNpb24iOiAiMTQiLCAiZGV2aWNlX25hbWUiOiAiUUEgc2ltdWxhdGVkIEFuZHJvaWQgMTAifQ=="
+    }
+  ],
+  "fixture_scope": "20 synthetic device identities; Android schema exploratory; no physical USB or completed diagnostic simulation."
+}

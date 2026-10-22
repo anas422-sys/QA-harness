@@ -1,0 +1,115 @@
+﻿timestamp_utc,user,phase,device_name,platform,udid,message_type,ref,outcome,response_ms,details
+2026-09-23T10:20:35.219306+00:00,user-01,login,SESSION,,,,,PASS,1667.49,
+2026-09-23T10:20:35.296423+00:00,user-02,login,SESSION,,,,,PASS,1243.39,
+2026-09-23T10:20:36.328486+00:00,user-01,connect,SESSION,,,,,PASS,1108.94,
+2026-09-23T10:20:36.414313+00:00,user-02,connect,SESSION,,,,,PASS,1117.9,
+2026-09-23T10:20:36.688435+00:00,user-01,startup,SESSION,,,59,2982207236272932,VALUE_CHANGED,359.64,
+2026-09-23T10:20:36.766340+00:00,user-02,startup,SESSION,,,59,358457621816516,VALUE_CHANGED,351.91,
+2026-09-23T10:20:37.040728+00:00,user-01,startup,SESSION,,,62,4120271792945156,VALUE_CHANGED,352.13,
+2026-09-23T10:20:37.121278+00:00,user-02,startup,SESSION,,,62,1119052231694212,VALUE_CHANGED,354.8,
+2026-09-23T10:20:37.472561+00:00,user-02,startup,SESSION,,,127,2321978149868708,MATCH,351.14,
+2026-09-23T10:20:37.824691+00:00,user-02,startup,SESSION,,,60,2257813315515588,MATCH,351.98,
+2026-09-23T10:20:38.175528+00:00,user-02,startup,SESSION,,,67,806964317012468,MATCH,350.76,
+2026-09-23T10:20:38.530109+00:00,user-02,startup,SESSION,,,135,2474713764970212,SCHEMA_MISMATCH,354.54,"reply: expected array, received NoneType"
+2026-09-23T10:20:38.580728+00:00,user-01,startup,SESSION,,,127,4227632677984916,MATCH,1539.84,
+2026-09-23T10:20:38.884307+00:00,user-02,startup,SESSION,,,58,3506060250256036,MATCH,354.02,
+2026-09-23T10:20:38.944256+00:00,user-01,startup,SESSION,,,60,633583026218724,MATCH,363.38,
+2026-09-23T10:20:39.240985+00:00,user-02,startup,SESSION,,,33,3324033943582612,VALUE_CHANGED,356.55,
+2026-09-23T10:20:39.301101+00:00,user-01,startup,SESSION,,,67,62985726021060,MATCH,356.78,
+2026-09-23T10:20:39.600841+00:00,user-02,startup,SESSION,,,49,1585964143139604,SCHEMA_MISMATCH,359.68,"reply.overall_grades: expected array, received NoneType"
+2026-09-23T10:20:39.667863+00:00,user-01,startup,SESSION,,,135,3003379092898212,SCHEMA_MISMATCH,366.54,"reply: expected array, received NoneType"
+2026-09-23T10:20:39.956340+00:00,user-02,startup,SESSION,,,119,2381580988129028,VALUE_CHANGED,354.96,
+2026-09-23T10:20:40.029519+00:00,user-01,startup,SESSION,,,58,477388010933348,MATCH,361.57,
+2026-09-23T10:20:40.322036+00:00,user-02,startup,SESSION,,,34,4319853359301876,MATCH,365.63,
+2026-09-23T10:20:40.383017+00:00,user-01,startup,SESSION,,,33,4159124856636004,VALUE_CHANGED,353.19,
+2026-09-23T10:20:40.676163+00:00,user-02,startup,SESSION,,,39,100853589390196,MATCH,353.95,
+2026-09-23T10:20:40.740930+00:00,user-01,startup,SESSION,,,49,4186542549435220,SCHEMA_MISMATCH,357.89,"reply.overall_grades: expected array, received NoneType"
+2026-09-23T10:20:41.038106+00:00,user-02,startup,SESSION,,,56,1461845938006340,VALUE_CHANGED,361.84,
+2026-09-23T10:20:41.094447+00:00,user-01,startup,SESSION,,,119,1049699333321700,VALUE_CHANGED,353.16,
+2026-09-23T10:20:41.407154+00:00,user-02,startup,SESSION,,,53,3289734663430356,SCHEMA_MISMATCH,368.88,"reply.android_manual_tests: expected array, received NoneType"
+2026-09-23T10:20:41.456962+00:00,user-01,startup,SESSION,,,34,3552109172706308,MATCH,362.37,
+2026-09-23T10:20:41.760873+00:00,user-02,startup,SESSION,,,70,783735089071892,MATCH,353.59,
+2026-09-23T10:20:41.809514+00:00,user-01,startup,SESSION,,,39,3428781001201140,MATCH,352.42,
+2026-09-23T10:20:42.118098+00:00,user-02,startup,SESSION,,,30,1701173973245236,MATCH,357.14,
+2026-09-23T10:20:42.168275+00:00,user-01,startup,SESSION,,,56,2759226171107796,VALUE_CHANGED,358.67,
+2026-09-23T10:20:42.487140+00:00,user-02,startup,SESSION,,,34,1716438738268276,MATCH,368.88,
+2026-09-23T10:20:42.538437+00:00,user-01,startup,SESSION,,,53,620750321976500,SCHEMA_MISMATCH,370.0,"reply.android_manual_tests: expected array, received NoneType"
+2026-09-23T10:20:42.839391+00:00,user-02,startup,SESSION,,,54,3476396108371492,SCHEMA_MISMATCH,352.09,"reply: expected NoneType, received array"
+2026-09-23T10:20:42.888812+00:00,user-01,startup,SESSION,,,70,506278385648564,MATCH,350.22,
+2026-09-23T10:20:43.193730+00:00,user-02,startup,SESSION,,,64,190432193956004,VALUE_CHANGED,354.36,
+2026-09-23T10:20:43.239325+00:00,user-01,startup,SESSION,,,30,595278234123588,MATCH,350.46,
+2026-09-23T10:20:43.550817+00:00,user-02,startup,SESSION,,,32,3344148998807604,APPLICATION_FAILURE,356.68,status was not success; server: Test not found
+2026-09-23T10:20:43.598392+00:00,user-01,startup,SESSION,,,34,1689045862245828,MATCH,359.02,
+2026-09-23T10:20:43.909493+00:00,user-02,startup,SESSION,,,45,1773786427001300,SCHEMA_MISMATCH,358.49,"reply: expected array, received NoneType"
+2026-09-23T10:20:43.949349+00:00,user-01,startup,SESSION,,,54,3648696108415588,SCHEMA_MISMATCH,350.78,"reply: expected NoneType, received array"
+2026-09-23T10:20:44.301344+00:00,user-01,startup,SESSION,,,64,1730115010636116,VALUE_CHANGED,351.91,
+2026-09-23T10:20:44.628919+00:00,user-02,startup,SESSION,,,29,2357133921526084,MATCH,719.21,
+2026-09-23T10:20:44.670440+00:00,user-01,startup,SESSION,,,32,782430161150148,APPLICATION_FAILURE,368.99,status was not success; server: Test not found
+2026-09-23T10:20:44.983555+00:00,user-02,startup,SESSION,,,32,3349747355646596,APPLICATION_FAILURE,354.28,status was not success; server: Test not found
+2026-09-23T10:20:45.021761+00:00,user-01,startup,SESSION,,,45,2518064295996564,SCHEMA_MISMATCH,351.27,"reply: expected array, received NoneType"
+2026-09-23T10:20:45.337591+00:00,user-02,startup,SESSION,,,32,1484897544558196,APPLICATION_FAILURE,353.93,status was not success; server: Test not found
+2026-09-23T10:20:45.677617+00:00,user-01,startup,SESSION,,,29,1928951790292452,MATCH,655.77,
+2026-09-23T10:20:45.689778+00:00,user-02,startup,SESSION,,,101,1035882257667796,MATCH,352.1,
+2026-09-23T10:20:46.045322+00:00,user-01,startup,SESSION,,,32,2851628253214452,APPLICATION_FAILURE,367.58,status was not success; server: Test not found
+2026-09-23T10:20:46.402666+00:00,user-01,startup,SESSION,,,32,3207691711578996,APPLICATION_FAILURE,357.26,status was not success; server: Test not found
+2026-09-23T10:20:46.776516+00:00,user-01,startup,SESSION,,,101,2147799954621860,MATCH,373.57,
+2026-09-23T10:20:47.261624+00:00,user-02,stage-1-10-devices-per-user,user-02-Android-01,android,QAANDROIDD0D956DE1E96,1,3770739036741652,ACK_ONLY,482.15,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:20:47.356523+00:00,user-01,stage-1-10-devices-per-user,user-01-iOS-01,ios,E341D6FB-1B125CCE8573CA2E,1,27456831291156,ACK_ONLY,579.49,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:20:47.368934+00:00,user-02,stage-1-10-devices-per-user,user-02-iOS-04,ios,1A91BED9-025857F189CA6B49,1,2964505933595796,ACK_ONLY,568.99,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:20:47.397850+00:00,user-02,stage-1-10-devices-per-user,user-02-iOS-02,ios,A892D59F-75225C87955A8762,1,3767107962350404,ACK_ONLY,612.38,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:20:47.414567+00:00,user-02,stage-1-10-devices-per-user,user-02-Android-03,android,QAANDROIDC79D7402C55A,1,3994756409323396,ACK_ONLY,617.29,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:20:47.428083+00:00,user-02,stage-1-10-devices-per-user,user-02-iOS-01,ios,BF0B1187-282D5B5C9FF285CC,1,3834104021515892,ACK_ONLY,651.33,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:20:47.431478+00:00,user-02,stage-1-10-devices-per-user,user-02-Android-04,android,QAANDROID955D2358F3D4,1,4257770805073908,ACK_ONLY,628.57,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:20:47.445104+00:00,user-01,stage-1-10-devices-per-user,user-01-Android-02,android,QAANDROID1CBEDCC8F8F8,1,1590740573480676,ACK_ONLY,658.01,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:20:47.468343+00:00,user-01,stage-1-10-devices-per-user,user-01-Android-03,android,QAANDROIDD7B55691807E,1,2503313293833284,ACK_ONLY,673.14,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:20:47.479148+00:00,user-01,stage-1-10-devices-per-user,user-01-Android-05,android,QAANDROIDF188B2283871,1,859539972740516,ACK_ONLY,670.12,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:20:47.494381+00:00,user-01,stage-1-10-devices-per-user,user-01-Android-04,android,QAANDROID7ECDE7434006,1,1222541300404804,ACK_ONLY,692.75,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:20:47.531185+00:00,user-01,stage-1-10-devices-per-user,user-01-Android-01,android,QAANDROID8B6A650D2676,1,4145157697423204,ACK_ONLY,750.12,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:20:47.548482+00:00,user-02,stage-1-10-devices-per-user,user-02-Android-05,android,QAANDROID9509BD21498D,1,590333411230004,ACK_ONLY,737.13,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:20:47.563762+00:00,user-02,stage-1-10-devices-per-user,user-02-Android-02,android,QAANDROID215003EE8F9A,1,2361690859651972,ACK_ONLY,775.11,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:20:47.577367+00:00,user-02,stage-1-10-devices-per-user,user-02-iOS-03,ios,5FB8D14B-B1B85E9CB9A7A2B8,1,1576228385088164,ACK_ONLY,783.81,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:20:47.578699+00:00,user-01,stage-1-10-devices-per-user,user-01-iOS-03,ios,7A75C606-C71457CB92FC3632,1,4059997571187044,ACK_ONLY,787.1,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:20:47.582382+00:00,user-01,stage-1-10-devices-per-user,user-01-iOS-05,ios,34034A42-C48A5749A6DCEC76,1,865074203518180,ACK_ONLY,777.95,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:20:47.586244+00:00,user-01,stage-1-10-devices-per-user,user-01-iOS-02,ios,923162D8-93E85615B5E72611,1,1602789125155348,ACK_ONLY,801.99,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:20:47.594080+00:00,user-02,stage-1-10-devices-per-user,user-02-iOS-05,ios,C25B9730-F589512E8195ECDA,1,4344335633477636,ACK_ONLY,788.38,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:20:47.595378+00:00,user-01,stage-1-10-devices-per-user,user-01-iOS-04,ios,84BA1D71-79FE55A38E0210B6,1,1278430916945684,ACK_ONLY,796.69,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:20:57.960113+00:00,user-01,stage-2-10-devices-per-user,user-01-Android-01,android,QAANDROID8B6A650D2676,1,3380088544977844,ACK_ONLY,361.27,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:20:57.971034+00:00,user-02,stage-2-10-devices-per-user,user-02-Android-01,android,QAANDROIDD0D956DE1E96,1,2562592027777844,ACK_ONLY,370.5,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:20:57.973231+00:00,user-02,stage-2-10-devices-per-user,user-02-iOS-01,ios,BF0B1187-282D5B5C9FF285CC,1,394399785119076,ACK_ONLY,376.65,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:20:57.974955+00:00,user-02,stage-2-10-devices-per-user,user-02-Android-02,android,QAANDROID215003EE8F9A,1,3664763126402788,ACK_ONLY,370.04,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:20:57.983534+00:00,user-01,stage-2-10-devices-per-user,user-01-Android-02,android,QAANDROID1CBEDCC8F8F8,1,2893629989059060,ACK_ONLY,377.03,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:20:57.986136+00:00,user-01,stage-2-10-devices-per-user,user-01-iOS-01,ios,E341D6FB-1B125CCE8573CA2E,1,3858648040873876,ACK_ONLY,389.22,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:20:57.987350+00:00,user-02,stage-2-10-devices-per-user,user-02-Android-03,android,QAANDROIDC79D7402C55A,1,3776949703767732,ACK_ONLY,376.02,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:20:57.990489+00:00,user-02,stage-2-10-devices-per-user,user-02-Android-04,android,QAANDROID955D2358F3D4,1,680632536988964,ACK_ONLY,370.79,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:20:57.994933+00:00,user-01,stage-2-10-devices-per-user,user-01-Android-05,android,QAANDROIDF188B2283871,1,1387260999822388,ACK_ONLY,367.45,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:20:57.997457+00:00,user-02,stage-2-10-devices-per-user,user-02-Android-05,android,QAANDROID9509BD21498D,1,4238920776913620,ACK_ONLY,371.37,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:20:58.002030+00:00,user-02,stage-2-10-devices-per-user,user-02-iOS-02,ios,A892D59F-75225C87955A8762,1,2423706811388292,ACK_ONLY,398.73,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:20:58.003375+00:00,user-01,stage-2-10-devices-per-user,user-01-iOS-02,ios,923162D8-93E85615B5E72611,1,4076279340508308,ACK_ONLY,401.53,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:20:58.005614+00:00,user-01,stage-2-10-devices-per-user,user-01-iOS-04,ios,84BA1D71-79FE55A38E0210B6,1,496137185731684,ACK_ONLY,387.55,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:20:58.016372+00:00,user-01,stage-2-10-devices-per-user,user-01-iOS-03,ios,7A75C606-C71457CB92FC3632,1,1245964594968772,ACK_ONLY,406.65,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:20:58.019281+00:00,user-02,stage-2-10-devices-per-user,user-02-iOS-05,ios,C25B9730-F589512E8195ECDA,1,1678288791428788,ACK_ONLY,396.15,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:20:58.021851+00:00,user-01,stage-2-10-devices-per-user,user-01-iOS-05,ios,34034A42-C48A5749A6DCEC76,1,940911423917668,ACK_ONLY,397.28,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:20:58.023252+00:00,user-02,stage-2-10-devices-per-user,user-02-iOS-04,ios,1A91BED9-025857F189CA6B49,1,4327971180198868,ACK_ONLY,406.65,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:20:58.027078+00:00,user-02,stage-2-10-devices-per-user,user-02-iOS-03,ios,5FB8D14B-B1B85E9CB9A7A2B8,1,2977188525076292,ACK_ONLY,418.96,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:21:12.628225+00:00,user-01,stage-2-10-devices-per-user,user-01-Android-03,android,QAANDROIDD7B55691807E,1,3199062466068644,TIMEOUT,15013.35,No correlated response within deadline
+2026-09-23T10:21:12.628269+00:00,user-01,stage-2-10-devices-per-user,user-01-Android-04,android,QAANDROID7ECDE7434006,1,3167338450890116,TIMEOUT,15006.86,No correlated response within deadline
+2026-09-23T10:21:22.995983+00:00,user-02,stage-3-10-devices-per-user,user-02-iOS-01,ios,BF0B1187-282D5B5C9FF285CC,1,3346894230120692,ACK_ONLY,366.81,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:21:22.999943+00:00,user-02,stage-3-10-devices-per-user,user-02-Android-01,android,QAANDROIDD0D956DE1E96,1,340718134502148,ACK_ONLY,362.99,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:21:23.012277+00:00,user-02,stage-3-10-devices-per-user,user-02-iOS-02,ios,A892D59F-75225C87955A8762,1,1433673079383860,ACK_ONLY,369.19,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:21:23.014146+00:00,user-01,stage-3-10-devices-per-user,user-01-Android-01,android,QAANDROID8B6A650D2676,1,610093289267444,ACK_ONLY,381.84,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:21:23.018938+00:00,user-02,stage-3-10-devices-per-user,user-02-Android-02,android,QAANDROID215003EE8F9A,1,526569161118676,ACK_ONLY,370.7,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:21:23.021848+00:00,user-01,stage-3-10-devices-per-user,user-01-iOS-01,ios,E341D6FB-1B125CCE8573CA2E,1,244112817749204,ACK_ONLY,392.91,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:21:23.026304+00:00,user-01,stage-3-10-devices-per-user,user-01-Android-02,android,QAANDROID1CBEDCC8F8F8,1,3458862900248820,ACK_ONLY,380.6,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:21:23.028834+00:00,user-02,stage-3-10-devices-per-user,user-02-Android-03,android,QAANDROIDC79D7402C55A,1,1457416033416724,ACK_ONLY,369.1,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:21:23.039287+00:00,user-02,stage-3-10-devices-per-user,user-02-Android-04,android,QAANDROID955D2358F3D4,1,2958406964597748,ACK_ONLY,373.73,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:21:23.041925+00:00,user-01,stage-3-10-devices-per-user,user-01-Android-03,android,QAANDROIDD7B55691807E,1,1620049320421124,ACK_ONLY,383.57,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:21:23.044188+00:00,user-02,stage-3-10-devices-per-user,user-02-iOS-03,ios,5FB8D14B-B1B85E9CB9A7A2B8,1,1158830198096404,ACK_ONLY,387.43,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:21:23.045499+00:00,user-01,stage-3-10-devices-per-user,user-01-Android-04,android,QAANDROID7ECDE7434006,1,223305393739764,ACK_ONLY,381.41,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:21:23.046770+00:00,user-02,stage-3-10-devices-per-user,user-02-Android-05,android,QAANDROID9509BD21498D,1,194143893325044,ACK_ONLY,372.63,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:21:23.047731+00:00,user-01,stage-3-10-devices-per-user,user-01-Android-05,android,QAANDROIDF188B2283871,1,794676777090356,ACK_ONLY,374.99,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:21:23.050277+00:00,user-01,stage-3-10-devices-per-user,user-01-iOS-02,ios,923162D8-93E85615B5E72611,1,256612943388116,ACK_ONLY,409.68,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:21:23.054055+00:00,user-02,stage-3-10-devices-per-user,user-02-iOS-04,ios,1A91BED9-025857F189CA6B49,1,4487279408632340,ACK_ONLY,391.55,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:21:23.055373+00:00,user-01,stage-3-10-devices-per-user,user-01-iOS-05,ios,34034A42-C48A5749A6DCEC76,1,3115186664389044,ACK_ONLY,388.41,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:21:23.235849+00:00,user-02,stage-3-10-devices-per-user,user-02-iOS-05,ios,C25B9730-F589512E8195ECDA,1,297113362961716,ACK_ONLY,564.56,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:21:23.256267+00:00,user-01,stage-3-10-devices-per-user,user-01-iOS-03,ios,7A75C606-C71457CB92FC3632,1,1336964122968740,ACK_ONLY,605.46,Device acknowledged; hardware diagnostics not verified
+2026-09-23T10:21:23.258534+00:00,user-01,stage-3-10-devices-per-user,user-01-iOS-04,ios,84BA1D71-79FE55A38E0210B6,1,2408793281772324,ACK_ONLY,597.41,Device acknowledged; hardware diagnostics not verified

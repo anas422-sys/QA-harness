@@ -1,0 +1,39 @@
+{
+  "command": "all",
+  "component_outcomes": [
+    {
+      "component": "transport",
+      "exit_code": 0,
+      "status": "completed",
+      "error": null
+    },
+    {
+      "component": "dummy",
+      "exit_code": 0,
+      "status": "completed",
+      "error": null
+    },
+    {
+      "component": "diagnostic_results",
+      "exit_code": 0,
+      "status": "completed",
+      "error": null
+    },
+    {
+      "component": "observations",
+      "exit_code": 0,
+      "status": "completed",
+      "error": null
+    },
+    {
+      "component": "live_protocol",
+      "status": "completed",
+      "exit_code": 0,
+      "recorded_messages": 0,
+      "note": "Zero messages means no observed desktop protocol activity, not a successful diagnostic."
+    }
+  ],
+  "execution_status": "completed",
+  "scope": "Component completion does not mean hardware diagnostics passed.",
+  "shared_account": true
+}

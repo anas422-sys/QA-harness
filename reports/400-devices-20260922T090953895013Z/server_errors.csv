@@ -1,0 +1,6 @@
+﻿message_type,server_message,count
+32,Test not found,60
+1,Unable to Create Transaction Record for device <dummy-id>. Please Try Connecting again,15
+1,Unable to Fetch Transaction Record for device <dummy-id>. Please Try Connecting again,15
+1,License expired or Licenses Count is 0,19
+1,Unable to update device_type.,13

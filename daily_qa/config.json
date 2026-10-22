@@ -1,0 +1,30 @@
+{
+  "environment": "staging",
+  "desktop_process_keywords": ["recheck360", "recheck"],
+  "login_url": "https://staging.phone-diagnostics.com/v1/login",
+  "server_status_url": "https://staging.phone-diagnostics.com/v1/ServerStatus",
+  "ws_url": "wss://staging.phone-diagnostics.com/v1/ws",
+  "response_timeout_seconds": 20,
+  "slow_threshold_ms": 2000,
+  "desktop_map": "desktop_map.json",
+  "device_tools": {
+    "adb": "C:\\Program Files\\reCheck360\\app\\native-dev\\windows\\adb.exe",
+    "idevice_id": "C:\\Program Files\\reCheck360\\app\\native-dev\\windows\\idevice_id.exe",
+    "ideviceinfo": "C:\\Program Files\\reCheck360\\app\\native-dev\\windows\\ideviceinfo.exe"
+  },
+  "maximum_real_devices": 20,
+  "frontend_manual_checks": [
+    "Open the dashboard and confirm the layout loads without clipping or overlap",
+    "Connect one available device and confirm its name platform and identifiers are correct",
+    "Check navigation tabs buttons forms filters and validation messages",
+    "Confirm loading indicators error messages and empty states are understandable",
+    "Check keyboard focus and the main workflow at the supported window size"
+  ],
+  "backend_manual_checks": [
+    "Review server logs for exceptions timeouts and failed jobs",
+    "Check that request references map to the correct user and device",
+    "Review database or transaction records for duplicates where access is available",
+    "Confirm license limits and queued work are expected",
+    "Retest open backend defects and attach request references as evidence"
+  ]
+}

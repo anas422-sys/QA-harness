@@ -1,0 +1,341 @@
+{
+  "scope": "exploratory synthetic device payloads, shared account",
+  "peak_connections": 1,
+  "platforms": {
+    "ios": {
+      "dummy_devices": 10,
+      "login_ok": 6,
+      "connections": 5,
+      "requests_sent": 0,
+      "replies_received": 0,
+      "acknowledged_requests": 0,
+      "devices_with_acknowledgment": 0,
+      "explicitly_rejected": 0,
+      "unvalidated_replies": 0,
+      "diagnostics_completed": 0,
+      "request_attempt_p95_ms": null
+    },
+    "android": {
+      "dummy_devices": 10,
+      "login_ok": 7,
+      "connections": 4,
+      "requests_sent": 0,
+      "replies_received": 0,
+      "acknowledged_requests": 0,
+      "devices_with_acknowledgment": 0,
+      "explicitly_rejected": 0,
+      "unvalidated_replies": 0,
+      "diagnostics_completed": 0,
+      "request_attempt_p95_ms": null
+    }
+  },
+  "devices": [
+    {
+      "platform": "ios",
+      "device_id": "ios-01",
+      "dummy_udid": "D377F852-AFC45E79BE0C0A85",
+      "login_ok": true,
+      "connection_ok": true,
+      "requests_sent": 0,
+      "replies_received": 0,
+      "acknowledged_requests": 0,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "BrokenBarrierError"
+      ],
+      "response_samples": []
+    },
+    {
+      "platform": "android",
+      "device_id": "android-01",
+      "dummy_udid": "QAANDROID39247E8984C4",
+      "login_ok": true,
+      "connection_ok": false,
+      "requests_sent": 0,
+      "replies_received": 0,
+      "acknowledged_requests": 0,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "WebSocketBadStatusException"
+      ],
+      "response_samples": []
+    },
+    {
+      "platform": "ios",
+      "device_id": "ios-02",
+      "dummy_udid": "56913EEA-47FA517AB512D705",
+      "login_ok": true,
+      "connection_ok": true,
+      "requests_sent": 0,
+      "replies_received": 0,
+      "acknowledged_requests": 0,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "BrokenBarrierError"
+      ],
+      "response_samples": []
+    },
+    {
+      "platform": "android",
+      "device_id": "android-02",
+      "dummy_udid": "QAANDROID8D94A66A36F2",
+      "login_ok": true,
+      "connection_ok": true,
+      "requests_sent": 0,
+      "replies_received": 0,
+      "acknowledged_requests": 0,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "BrokenBarrierError"
+      ],
+      "response_samples": []
+    },
+    {
+      "platform": "ios",
+      "device_id": "ios-03",
+      "dummy_udid": "94C524DE-532D5606BABC76F4",
+      "login_ok": false,
+      "connection_ok": false,
+      "requests_sent": 0,
+      "replies_received": 0,
+      "acknowledged_requests": 0,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "HTTP 429"
+      ],
+      "response_samples": []
+    },
+    {
+      "platform": "android",
+      "device_id": "android-03",
+      "dummy_udid": "QAANDROIDC38788DEB57B",
+      "login_ok": false,
+      "connection_ok": false,
+      "requests_sent": 0,
+      "replies_received": 0,
+      "acknowledged_requests": 0,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "HTTP 429"
+      ],
+      "response_samples": []
+    },
+    {
+      "platform": "ios",
+      "device_id": "ios-04",
+      "dummy_udid": "0DA7661B-8E315D77B48501FF",
+      "login_ok": false,
+      "connection_ok": false,
+      "requests_sent": 0,
+      "replies_received": 0,
+      "acknowledged_requests": 0,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "HTTP 429"
+      ],
+      "response_samples": []
+    },
+    {
+      "platform": "android",
+      "device_id": "android-04",
+      "dummy_udid": "QAANDROIDE216969457AC",
+      "login_ok": true,
+      "connection_ok": true,
+      "requests_sent": 0,
+      "replies_received": 0,
+      "acknowledged_requests": 0,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "BrokenBarrierError"
+      ],
+      "response_samples": []
+    },
+    {
+      "platform": "ios",
+      "device_id": "ios-05",
+      "dummy_udid": "B00C8593-A6145AA1BBC2BA90",
+      "login_ok": true,
+      "connection_ok": true,
+      "requests_sent": 0,
+      "replies_received": 0,
+      "acknowledged_requests": 0,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "BrokenBarrierError"
+      ],
+      "response_samples": []
+    },
+    {
+      "platform": "android",
+      "device_id": "android-05",
+      "dummy_udid": "QAANDROID8E6432ACE2C4",
+      "login_ok": false,
+      "connection_ok": false,
+      "requests_sent": 0,
+      "replies_received": 0,
+      "acknowledged_requests": 0,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "HTTP 429"
+      ],
+      "response_samples": []
+    },
+    {
+      "platform": "ios",
+      "device_id": "ios-06",
+      "dummy_udid": "B51DF049-49F450AC9EA33B7A",
+      "login_ok": false,
+      "connection_ok": false,
+      "requests_sent": 0,
+      "replies_received": 0,
+      "acknowledged_requests": 0,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "HTTP 429"
+      ],
+      "response_samples": []
+    },
+    {
+      "platform": "android",
+      "device_id": "android-06",
+      "dummy_udid": "QAANDROIDB65505F3611C",
+      "login_ok": true,
+      "connection_ok": true,
+      "requests_sent": 0,
+      "replies_received": 0,
+      "acknowledged_requests": 0,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "BrokenBarrierError"
+      ],
+      "response_samples": []
+    },
+    {
+      "platform": "ios",
+      "device_id": "ios-07",
+      "dummy_udid": "D570F91A-710C54D491CB4362",
+      "login_ok": true,
+      "connection_ok": true,
+      "requests_sent": 0,
+      "replies_received": 0,
+      "acknowledged_requests": 0,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "BrokenBarrierError"
+      ],
+      "response_samples": []
+    },
+    {
+      "platform": "android",
+      "device_id": "android-07",
+      "dummy_udid": "QAANDROID2658BCDAFC59",
+      "login_ok": false,
+      "connection_ok": false,
+      "requests_sent": 0,
+      "replies_received": 0,
+      "acknowledged_requests": 0,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "HTTP 429"
+      ],
+      "response_samples": []
+    },
+    {
+      "platform": "ios",
+      "device_id": "ios-08",
+      "dummy_udid": "132DA588-0905579C9622DD6E",
+      "login_ok": true,
+      "connection_ok": true,
+      "requests_sent": 0,
+      "replies_received": 0,
+      "acknowledged_requests": 0,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "BrokenBarrierError"
+      ],
+      "response_samples": []
+    },
+    {
+      "platform": "android",
+      "device_id": "android-08",
+      "dummy_udid": "QAANDROID5A716739F779",
+      "login_ok": true,
+      "connection_ok": false,
+      "requests_sent": 0,
+      "replies_received": 0,
+      "acknowledged_requests": 0,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "WebSocketBadStatusException"
+      ],
+      "response_samples": []
+    },
+    {
+      "platform": "ios",
+      "device_id": "ios-09",
+      "dummy_udid": "AABFD997-FC5950A69113D4A2",
+      "login_ok": true,
+      "connection_ok": false,
+      "requests_sent": 0,
+      "replies_received": 0,
+      "acknowledged_requests": 0,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "WebSocketBadStatusException"
+      ],
+      "response_samples": []
+    },
+    {
+      "platform": "android",
+      "device_id": "android-09",
+      "dummy_udid": "QAANDROID8533F4D44862",
+      "login_ok": true,
+      "connection_ok": true,
+      "requests_sent": 0,
+      "replies_received": 0,
+      "acknowledged_requests": 0,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "BrokenBarrierError"
+      ],
+      "response_samples": []
+    },
+    {
+      "platform": "ios",
+      "device_id": "ios-10",
+      "dummy_udid": "51C68208-0B5453E094AC42FE",
+      "login_ok": false,
+      "connection_ok": false,
+      "requests_sent": 0,
+      "replies_received": 0,
+      "acknowledged_requests": 0,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "HTTP 429"
+      ],
+      "response_samples": []
+    },
+    {
+      "platform": "android",
+      "device_id": "android-10",
+      "dummy_udid": "QAANDROID9E90EA4F70C7",
+      "login_ok": true,
+      "connection_ok": false,
+      "requests_sent": 0,
+      "replies_received": 0,
+      "acknowledged_requests": 0,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "WebSocketBadStatusException"
+      ],
+      "response_samples": []
+    }
+  ],
+  "limitations": [
+    "Android device_info schema is assumed, not verified.",
+    "Synthetic iOS fixture contains only a subset of real-device plist fields.",
+    "Acknowledgment requires status=success and matching udid, client_data.ref and messagetype; it does not prove diagnostic completion.",
+    "No hardware/USB or desktop UI behavior is exercised.",
+    "Only message type 1 is repeated; returned hardware commands are not executed. Each device stops on a rejected or unmatched response."
+  ]
+}

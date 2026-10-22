@@ -1,0 +1,47 @@
+Startup complete: 20/20 connected; starting dummy requests.
+{
+  "scope": "exploratory synthetic device payloads, shared account",
+  "peak_connections": 20,
+  "spawn_rate": 2.0,
+  "requested_rounds": 12,
+  "platforms": {
+    "ios": {
+      "dummy_devices": 10,
+      "login_ok": 10,
+      "connections": 10,
+      "requests_sent": 120,
+      "replies_received": 120,
+      "acknowledged_requests": 120,
+      "devices_with_acknowledgment": 10,
+      "explicitly_rejected": 0,
+      "unvalidated_replies": 0,
+      "background_messages": 17,
+      "failed_devices": 0,
+      "diagnostics_completed": 0,
+      "request_attempt_p95_ms": 814.07
+    },
+    "android": {
+      "dummy_devices": 10,
+      "login_ok": 10,
+      "connections": 10,
+      "requests_sent": 120,
+      "replies_received": 120,
+      "acknowledged_requests": 120,
+      "devices_with_acknowledgment": 10,
+      "explicitly_rejected": 0,
+      "unvalidated_replies": 0,
+      "background_messages": 19,
+      "failed_devices": 0,
+      "diagnostics_completed": 0,
+      "request_attempt_p95_ms": 752.88
+    }
+  },
+  "limitations": [
+    "Android device_info schema is assumed, not verified.",
+    "Synthetic iOS fixture contains only a subset of real-device plist fields.",
+    "Acknowledgment requires status=success and matching udid, client_data.ref and messagetype; it does not prove diagnostic completion.",
+    "No hardware/USB or desktop UI behavior is exercised.",
+    "Only message type 1 is repeated; returned hardware commands are not executed. Unmatched/non-JSON messages are counted separately; each request waits up to 15 seconds for its matching reply."
+  ]
+}
+Report: C:\Users\usama\Downloads\locust\reports\suite-20260910T080312107040Z\dummy\experience_report.md

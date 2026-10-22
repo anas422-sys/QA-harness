@@ -1,0 +1,15 @@
+{
+  "users": 1,
+  "user": "user-02",
+  "ios_devices": 5,
+  "planned_requests": 47,
+  "sent": 47,
+  "received": 46,
+  "outcomes": {
+    "ACK_ONLY": 40,
+    "BATTERY_MATCH": 5,
+    "TIMEOUT": 2
+  },
+  "command_drift_requests": 15,
+  "session_error": ""
+}

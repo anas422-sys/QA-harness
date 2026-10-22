@@ -1,0 +1,15 @@
+﻿module,group,test,status,duration_ms,device,messages_sent,messages_received,details,blocker,evidence
+Backend,Server health,Staging server status,PASS,3140.47,,0,0,HTTP 200; Staging Server is Running,,
+Frontend,dashboard,Packaged JavaFX view contract,PASS,0.11,,0,0,views/dashboard.fxml parsed; 76 controls; 2 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,Physical devices,Discover selected USB devices,BLOCKED,0.0,,0,0,,No Android/iOS devices were returned by configured USB tools,
+Frontend,Application,Attach to reCheck360 desktop window,BLOCKED,9682.33,,0,0,,reCheck360 process is not running,
+Frontend,dashboard,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 process is not running,
+Frontend,device_connection,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 process is not running,
+Frontend,device_details,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 process is not running,
+Frontend,diagnostic_results,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 process is not running,
+Frontend,manual_tests,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 process is not running,
+Frontend,issues,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 process is not running,
+Frontend,reports,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 process is not running,
+Backend,Authentication,Login API,PASS,1444.54,,0,0,HTTP 200; token present: True,,
+Backend,WebSocket,Authenticated connection,PASS,2391.54,,0,0,Connection opened,,
+Backend,Version,Message type 119 correlation,PASS,327.39,,1,1,Status: success; ref: 1823275898135044; background messages: 0,,

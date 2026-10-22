@@ -1,0 +1,9 @@
+﻿module,group,test,status,duration_ms,device,messages_sent,messages_received,details,blocker,evidence
+Backend,Authentication,Login API,PASS,1420.32,,0,0,HTTP 200; token present: True,,
+Backend,Concurrent load,Session 001,PASS,1281.53,,1,1,status=success; ref=2722597513581268; background=0,,
+Backend,WebSocket,Authenticated connection,PASS,992.01,,0,0,Connection opened,,
+Backend,Version,Message type 119 correlation,PASS,322.7,,1,1,Status: success; ref: 2796786295408548; background messages: 0,,
+Backend,battery,Real-device payload contract,BLOCKED,0.0,,0,0,,Select an existing captured payload JSON file; synthetic data is not used for a real-device pass,
+Backend,device_registration,Real-device payload contract,BLOCKED,0.0,,0,0,,Select an existing captured payload JSON file; synthetic data is not used for a real-device pass,
+Backend,diagnostics,Real-device payload contract,BLOCKED,0.0,,0,0,,Select an existing captured payload JSON file; synthetic data is not used for a real-device pass,
+Backend,message_correlation,Real-device payload contract,BLOCKED,0.0,,0,0,,Select an existing captured payload JSON file; synthetic data is not used for a real-device pass,

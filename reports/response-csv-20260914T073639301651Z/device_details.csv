@@ -1,0 +1,2 @@
+﻿source,udid,username,messagetype,response_status,request_ref,measured_response_ms,fresh_diagnostic_verified,model,color,storage,imei_1,imei_2,serial_number,firmware,make,build_version,os_version,region,model_number,product_type,baseband_version,is_activated,current_date
+user_provided_response,00008101-001D2C103C09001E,anas-qa,1,success,123456789,,False,iPhone 12 mini,Purple,,356007204451103,356007204428549,MLW0RWGPJ1,6.51.04,Apple,23G71,26.6,B/A,MJQF3,"iPhone13,1",,Activated,03-09-2026 11:44

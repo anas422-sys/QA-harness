@@ -1,0 +1,45 @@
+device,platform,snapshot_time,code,test_name,result,category,enabled,hidden
+device-01,ios,2026-09-10 12:35:36.326,iWI-000,WiFi,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iGP-000,GPS,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iBL-000,Bluetooth,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iVI-000,Vibration,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iBA-000,Barometer Sensor,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iAL-000,Ambient Light Sensor,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iGY-000,Gyro Sensor,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iLi-000,LiDAR Sensor,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iCO-000,Compass Test,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iPS-000,Proximity Sensor,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iAC-000,Accelerometer Sensor,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iNF-000,NFC Sensor,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iAM-000,Auto Mics,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iAE-000,Auto Earpiece,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iAQ-000,Audio Quality,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iRP-000,Record & Play,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iPR-000,Play Recorded,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iHT-000,Headphones Test,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iFL-000,Flashlight,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iFI-000,Face ID,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iFC-000,Front Camera,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iRC-000,Rear Camera,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iUC-000,Ultrawide Camera,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iTC-000,Telephoto Camera,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iBS-000,Barcode Scanner,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iBRT-000,Brightness,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iMT-000,Multitouch,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iSR-000,Screen Rotation,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iPZ-000,Pinch Zoom,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iDGT-000,Digitizer Test,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iDGT2-000,Digitizer Test 2,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iLCDC-000,LCD Check,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iLCDP-000,LCD Screen Pixel,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iNC-000,Network Connectivity,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iLC-000,Live Call,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iST-000,SIM Test,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iWC-000,Wireless Charging,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iCP-000,Charging Port Test,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iBD-000,Battery Drain Test,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iCT-000,Cosmetics Test,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iAB-000,All Buttons,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iGRD-000,Grading & Comments,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iFVC-000,Front Video Camera,Pass,pass,True,False
+device-01,ios,2026-09-10 12:35:36.326,iRVC-000,Rear Video Camera,Pass,pass,True,False

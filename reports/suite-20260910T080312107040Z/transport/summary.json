@@ -1,0 +1,358 @@
+{
+  "scope": "shared-account login and WebSocket transport only",
+  "target_sessions": 20,
+  "peak_open_sessions": 20,
+  "open_sessions_at_hold_start": 20,
+  "open_sessions_at_hold_end": 20,
+  "requested_hold_seconds": 60,
+  "elapsed_seconds": 74.28,
+  "failures": 0,
+  "steps": {
+    "login": {
+      "attempts": 20,
+      "failures": 0,
+      "successful_p50_ms": 1259.8,
+      "successful_p95_ms": 2080.91,
+      "successful_max_ms": 9857.69
+    },
+    "connect": {
+      "attempts": 20,
+      "failures": 0,
+      "successful_p50_ms": 1174.18,
+      "successful_p95_ms": 1307.94,
+      "successful_max_ms": 1348.47
+    },
+    "ping_pong": {
+      "attempts": 254,
+      "failures": 0,
+      "successful_p50_ms": 369.28,
+      "successful_p95_ms": 424.56,
+      "successful_max_ms": 852.15
+    }
+  },
+  "users": [
+    {
+      "user_id": "session-01",
+      "login_ok": true,
+      "connection_ok": true,
+      "successful_pongs": 14,
+      "failures": 0,
+      "difficulties": []
+    },
+    {
+      "user_id": "session-02",
+      "login_ok": true,
+      "connection_ok": true,
+      "successful_pongs": 14,
+      "failures": 0,
+      "difficulties": []
+    },
+    {
+      "user_id": "session-03",
+      "login_ok": true,
+      "connection_ok": true,
+      "successful_pongs": 13,
+      "failures": 0,
+      "difficulties": []
+    },
+    {
+      "user_id": "session-04",
+      "login_ok": true,
+      "connection_ok": true,
+      "successful_pongs": 13,
+      "failures": 0,
+      "difficulties": []
+    },
+    {
+      "user_id": "session-05",
+      "login_ok": true,
+      "connection_ok": true,
+      "successful_pongs": 13,
+      "failures": 0,
+      "difficulties": []
+    },
+    {
+      "user_id": "session-06",
+      "login_ok": true,
+      "connection_ok": true,
+      "successful_pongs": 12,
+      "failures": 0,
+      "difficulties": []
+    },
+    {
+      "user_id": "session-07",
+      "login_ok": true,
+      "connection_ok": true,
+      "successful_pongs": 13,
+      "failures": 0,
+      "difficulties": []
+    },
+    {
+      "user_id": "session-08",
+      "login_ok": true,
+      "connection_ok": true,
+      "successful_pongs": 13,
+      "failures": 0,
+      "difficulties": []
+    },
+    {
+      "user_id": "session-09",
+      "login_ok": true,
+      "connection_ok": true,
+      "successful_pongs": 13,
+      "failures": 0,
+      "difficulties": []
+    },
+    {
+      "user_id": "session-10",
+      "login_ok": true,
+      "connection_ok": true,
+      "successful_pongs": 13,
+      "failures": 0,
+      "difficulties": []
+    },
+    {
+      "user_id": "session-11",
+      "login_ok": true,
+      "connection_ok": true,
+      "successful_pongs": 13,
+      "failures": 0,
+      "difficulties": []
+    },
+    {
+      "user_id": "session-12",
+      "login_ok": true,
+      "connection_ok": true,
+      "successful_pongs": 13,
+      "failures": 0,
+      "difficulties": []
+    },
+    {
+      "user_id": "session-13",
+      "login_ok": true,
+      "connection_ok": true,
+      "successful_pongs": 13,
+      "failures": 0,
+      "difficulties": []
+    },
+    {
+      "user_id": "session-14",
+      "login_ok": true,
+      "connection_ok": true,
+      "successful_pongs": 12,
+      "failures": 0,
+      "difficulties": []
+    },
+    {
+      "user_id": "session-15",
+      "login_ok": true,
+      "connection_ok": true,
+      "successful_pongs": 12,
+      "failures": 0,
+      "difficulties": []
+    },
+    {
+      "user_id": "session-16",
+      "login_ok": true,
+      "connection_ok": true,
+      "successful_pongs": 12,
+      "failures": 0,
+      "difficulties": []
+    },
+    {
+      "user_id": "session-17",
+      "login_ok": true,
+      "connection_ok": true,
+      "successful_pongs": 12,
+      "failures": 0,
+      "difficulties": []
+    },
+    {
+      "user_id": "session-18",
+      "login_ok": true,
+      "connection_ok": true,
+      "successful_pongs": 12,
+      "failures": 0,
+      "difficulties": []
+    },
+    {
+      "user_id": "session-19",
+      "login_ok": true,
+      "connection_ok": true,
+      "successful_pongs": 12,
+      "failures": 0,
+      "difficulties": []
+    },
+    {
+      "user_id": "session-20",
+      "login_ok": true,
+      "connection_ok": true,
+      "successful_pongs": 12,
+      "failures": 0,
+      "difficulties": []
+    }
+  ],
+  "connection_history": [
+    {
+      "elapsed_s": 3.341,
+      "open_sessions": 1
+    },
+    {
+      "elapsed_s": 3.396,
+      "open_sessions": 2
+    },
+    {
+      "elapsed_s": 3.759,
+      "open_sessions": 3
+    },
+    {
+      "elapsed_s": 3.99,
+      "open_sessions": 4
+    },
+    {
+      "elapsed_s": 4.061,
+      "open_sessions": 5
+    },
+    {
+      "elapsed_s": 5.462,
+      "open_sessions": 6
+    },
+    {
+      "elapsed_s": 6.171,
+      "open_sessions": 7
+    },
+    {
+      "elapsed_s": 6.534,
+      "open_sessions": 8
+    },
+    {
+      "elapsed_s": 7.076,
+      "open_sessions": 9
+    },
+    {
+      "elapsed_s": 7.523,
+      "open_sessions": 10
+    },
+    {
+      "elapsed_s": 7.605,
+      "open_sessions": 11
+    },
+    {
+      "elapsed_s": 8.099,
+      "open_sessions": 12
+    },
+    {
+      "elapsed_s": 9.092,
+      "open_sessions": 13
+    },
+    {
+      "elapsed_s": 9.52,
+      "open_sessions": 14
+    },
+    {
+      "elapsed_s": 9.969,
+      "open_sessions": 15
+    },
+    {
+      "elapsed_s": 10.017,
+      "open_sessions": 16
+    },
+    {
+      "elapsed_s": 10.636,
+      "open_sessions": 17
+    },
+    {
+      "elapsed_s": 11.125,
+      "open_sessions": 18
+    },
+    {
+      "elapsed_s": 11.982,
+      "open_sessions": 19
+    },
+    {
+      "elapsed_s": 13.561,
+      "open_sessions": 20
+    },
+    {
+      "elapsed_s": 73.564,
+      "open_sessions": 19
+    },
+    {
+      "elapsed_s": 73.564,
+      "open_sessions": 18
+    },
+    {
+      "elapsed_s": 73.564,
+      "open_sessions": 17
+    },
+    {
+      "elapsed_s": 73.564,
+      "open_sessions": 16
+    },
+    {
+      "elapsed_s": 73.565,
+      "open_sessions": 15
+    },
+    {
+      "elapsed_s": 73.565,
+      "open_sessions": 14
+    },
+    {
+      "elapsed_s": 73.565,
+      "open_sessions": 13
+    },
+    {
+      "elapsed_s": 73.566,
+      "open_sessions": 12
+    },
+    {
+      "elapsed_s": 73.567,
+      "open_sessions": 11
+    },
+    {
+      "elapsed_s": 73.567,
+      "open_sessions": 10
+    },
+    {
+      "elapsed_s": 73.568,
+      "open_sessions": 9
+    },
+    {
+      "elapsed_s": 73.568,
+      "open_sessions": 8
+    },
+    {
+      "elapsed_s": 73.569,
+      "open_sessions": 7
+    },
+    {
+      "elapsed_s": 73.569,
+      "open_sessions": 6
+    },
+    {
+      "elapsed_s": 73.569,
+      "open_sessions": 5
+    },
+    {
+      "elapsed_s": 73.57,
+      "open_sessions": 4
+    },
+    {
+      "elapsed_s": 73.57,
+      "open_sessions": 3
+    },
+    {
+      "elapsed_s": 73.573,
+      "open_sessions": 2
+    },
+    {
+      "elapsed_s": 73.652,
+      "open_sessions": 1
+    },
+    {
+      "elapsed_s": 73.884,
+      "open_sessions": 0
+    }
+  ],
+  "transport_check": "PASS"
+}

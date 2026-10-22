@@ -1,0 +1,1962 @@
+[
+  {
+    "platform": "ios",
+    "device_id": "ios-01",
+    "step": "login",
+    "outcome": "ok",
+    "duration_ms": 1290.51
+  },
+  {
+    "platform": "android",
+    "device_id": "android-01",
+    "step": "login",
+    "outcome": "ok",
+    "duration_ms": 1203.74
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-02",
+    "step": "login",
+    "outcome": "ok",
+    "duration_ms": 1201.0
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-01",
+    "step": "connect",
+    "outcome": "ok",
+    "duration_ms": 1136.9
+  },
+  {
+    "platform": "android",
+    "device_id": "android-02",
+    "step": "login",
+    "outcome": "ok",
+    "duration_ms": 1250.97
+  },
+  {
+    "platform": "android",
+    "device_id": "android-01",
+    "step": "connect",
+    "outcome": "ok",
+    "duration_ms": 1100.54
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-03",
+    "step": "login",
+    "outcome": "ok",
+    "duration_ms": 1207.76
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-02",
+    "step": "connect",
+    "outcome": "ok",
+    "duration_ms": 1149.5
+  },
+  {
+    "platform": "android",
+    "device_id": "android-03",
+    "step": "login",
+    "outcome": "ok",
+    "duration_ms": 1213.29
+  },
+  {
+    "platform": "android",
+    "device_id": "android-02",
+    "step": "connect",
+    "outcome": "ok",
+    "duration_ms": 1131.16
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-04",
+    "step": "login",
+    "outcome": "ok",
+    "duration_ms": 1238.25
+  },
+  {
+    "platform": "android",
+    "device_id": "android-04",
+    "step": "login",
+    "outcome": "ok",
+    "duration_ms": 762.7
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-03",
+    "step": "connect",
+    "outcome": "ok",
+    "duration_ms": 1118.47
+  },
+  {
+    "platform": "android",
+    "device_id": "android-03",
+    "step": "connect",
+    "outcome": "ok",
+    "duration_ms": 1144.4
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-05",
+    "step": "login",
+    "outcome": "ok",
+    "duration_ms": 1254.27
+  },
+  {
+    "platform": "android",
+    "device_id": "android-05",
+    "step": "login",
+    "outcome": "ok",
+    "duration_ms": 783.11
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-04",
+    "step": "connect",
+    "outcome": "ok",
+    "duration_ms": 1103.54
+  },
+  {
+    "platform": "android",
+    "device_id": "android-04",
+    "step": "connect",
+    "outcome": "ok",
+    "duration_ms": 1172.75
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-06",
+    "step": "login",
+    "outcome": "ok",
+    "duration_ms": 1184.97
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-05",
+    "step": "connect",
+    "outcome": "ok",
+    "duration_ms": 1139.33
+  },
+  {
+    "platform": "android",
+    "device_id": "android-05",
+    "step": "connect",
+    "outcome": "ok",
+    "duration_ms": 1125.76
+  },
+  {
+    "platform": "android",
+    "device_id": "android-06",
+    "step": "login",
+    "outcome": "ok",
+    "duration_ms": 1238.93
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-07",
+    "step": "login",
+    "outcome": "ok",
+    "duration_ms": 763.33
+  },
+  {
+    "platform": "android",
+    "device_id": "android-07",
+    "step": "login",
+    "outcome": "ok",
+    "duration_ms": 693.9
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-06",
+    "step": "connect",
+    "outcome": "ok",
+    "duration_ms": 1150.97
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-08",
+    "step": "login",
+    "outcome": "ok",
+    "duration_ms": 704.52
+  },
+  {
+    "platform": "android",
+    "device_id": "android-06",
+    "step": "connect",
+    "outcome": "ok",
+    "duration_ms": 1136.61
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-07",
+    "step": "connect",
+    "outcome": "ok",
+    "duration_ms": 1193.29
+  },
+  {
+    "platform": "android",
+    "device_id": "android-07",
+    "step": "connect",
+    "outcome": "ok",
+    "duration_ms": 1098.64
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-09",
+    "step": "login",
+    "outcome": "ok",
+    "duration_ms": 754.42
+  },
+  {
+    "platform": "android",
+    "device_id": "android-08",
+    "step": "login",
+    "outcome": "ok",
+    "duration_ms": 1273.84
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-08",
+    "step": "connect",
+    "outcome": "ok",
+    "duration_ms": 1118.01
+  },
+  {
+    "platform": "android",
+    "device_id": "android-09",
+    "step": "login",
+    "outcome": "ok",
+    "duration_ms": 1229.73
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-09",
+    "step": "connect",
+    "outcome": "ok",
+    "duration_ms": 1144.92
+  },
+  {
+    "platform": "android",
+    "device_id": "android-08",
+    "step": "connect",
+    "outcome": "ok",
+    "duration_ms": 1177.82
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-10",
+    "step": "login",
+    "outcome": "ok",
+    "duration_ms": 1209.42
+  },
+  {
+    "platform": "android",
+    "device_id": "android-10",
+    "step": "login",
+    "outcome": "ok",
+    "duration_ms": 1219.89
+  },
+  {
+    "platform": "android",
+    "device_id": "android-09",
+    "step": "connect",
+    "outcome": "ok",
+    "duration_ms": 1171.97
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-10",
+    "step": "connect",
+    "outcome": "ok",
+    "duration_ms": 1158.86
+  },
+  {
+    "platform": "android",
+    "device_id": "android-10",
+    "step": "connect",
+    "outcome": "ok",
+    "duration_ms": 1150.39
+  },
+  {
+    "platform": "android",
+    "device_id": "android-02",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 414.61
+  },
+  {
+    "platform": "android",
+    "device_id": "android-01",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 434.59
+  },
+  {
+    "platform": "android",
+    "device_id": "android-07",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 489.92
+  },
+  {
+    "platform": "android",
+    "device_id": "android-03",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 510.96
+  },
+  {
+    "platform": "android",
+    "device_id": "android-05",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 533.04
+  },
+  {
+    "platform": "android",
+    "device_id": "android-09",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 576.0
+  },
+  {
+    "platform": "android",
+    "device_id": "android-04",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 590.97
+  },
+  {
+    "platform": "android",
+    "device_id": "android-06",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 638.46
+  },
+  {
+    "platform": "android",
+    "device_id": "android-10",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 656.96
+  },
+  {
+    "platform": "android",
+    "device_id": "android-08",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 669.49
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-06",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 691.74
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-07",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 701.94
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-05",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 709.1
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-08",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 715.06
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-04",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 736.66
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-03",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 740.79
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-09",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 741.33
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-02",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 745.54
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-01",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 750.56
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-10",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 752.99
+  },
+  {
+    "platform": "android",
+    "device_id": "android-02",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 356.28
+  },
+  {
+    "platform": "android",
+    "device_id": "android-01",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 357.73
+  },
+  {
+    "platform": "android",
+    "device_id": "android-07",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 359.29
+  },
+  {
+    "platform": "android",
+    "device_id": "android-03",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 367.01
+  },
+  {
+    "platform": "android",
+    "device_id": "android-05",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 366.01
+  },
+  {
+    "platform": "android",
+    "device_id": "android-09",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 370.44
+  },
+  {
+    "platform": "android",
+    "device_id": "android-04",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 377.67
+  },
+  {
+    "platform": "android",
+    "device_id": "android-06",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 364.65
+  },
+  {
+    "platform": "android",
+    "device_id": "android-10",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 372.79
+  },
+  {
+    "platform": "android",
+    "device_id": "android-08",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 376.91
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-06",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 366.46
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-08",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 365.16
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-05",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 381.92
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-07",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 398.51
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-04",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 367.59
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-03",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 374.6
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-09",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 375.44
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-01",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 380.47
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-10",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 383.04
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-02",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 389.53
+  },
+  {
+    "platform": "android",
+    "device_id": "android-02",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 360.76
+  },
+  {
+    "platform": "android",
+    "device_id": "android-01",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 352.8
+  },
+  {
+    "platform": "android",
+    "device_id": "android-07",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 356.58
+  },
+  {
+    "platform": "android",
+    "device_id": "android-03",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 364.33
+  },
+  {
+    "platform": "android",
+    "device_id": "android-05",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 364.81
+  },
+  {
+    "platform": "android",
+    "device_id": "android-09",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 368.43
+  },
+  {
+    "platform": "android",
+    "device_id": "android-04",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 375.37
+  },
+  {
+    "platform": "android",
+    "device_id": "android-06",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 363.72
+  },
+  {
+    "platform": "android",
+    "device_id": "android-10",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 369.38
+  },
+  {
+    "platform": "android",
+    "device_id": "android-08",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 379.43
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-06",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 367.1
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-08",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 363.79
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-05",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 369.64
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-04",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 358.58
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-03",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 360.17
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-09",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 368.86
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-07",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 392.82
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-01",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 369.41
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-10",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 378.23
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-02",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 381.18
+  },
+  {
+    "platform": "android",
+    "device_id": "android-02",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 358.04
+  },
+  {
+    "platform": "android",
+    "device_id": "android-01",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 357.13
+  },
+  {
+    "platform": "android",
+    "device_id": "android-07",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 357.78
+  },
+  {
+    "platform": "android",
+    "device_id": "android-03",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 364.51
+  },
+  {
+    "platform": "android",
+    "device_id": "android-05",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 365.94
+  },
+  {
+    "platform": "android",
+    "device_id": "android-09",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 368.7
+  },
+  {
+    "platform": "android",
+    "device_id": "android-04",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 376.05
+  },
+  {
+    "platform": "android",
+    "device_id": "android-06",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 367.14
+  },
+  {
+    "platform": "android",
+    "device_id": "android-10",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 369.08
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-06",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 364.06
+  },
+  {
+    "platform": "android",
+    "device_id": "android-08",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 378.18
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-08",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 370.48
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-04",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 362.01
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-05",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 375.94
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-03",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 363.4
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-09",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 364.53
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-01",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 365.52
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-07",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 389.04
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-10",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 379.17
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-02",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 377.43
+  },
+  {
+    "platform": "android",
+    "device_id": "android-02",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 360.24
+  },
+  {
+    "platform": "android",
+    "device_id": "android-01",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 356.87
+  },
+  {
+    "platform": "android",
+    "device_id": "android-07",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 361.09
+  },
+  {
+    "platform": "android",
+    "device_id": "android-03",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 368.12
+  },
+  {
+    "platform": "android",
+    "device_id": "android-05",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 369.58
+  },
+  {
+    "platform": "android",
+    "device_id": "android-09",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 376.5
+  },
+  {
+    "platform": "android",
+    "device_id": "android-06",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 367.81
+  },
+  {
+    "platform": "android",
+    "device_id": "android-04",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 380.67
+  },
+  {
+    "platform": "android",
+    "device_id": "android-10",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 375.42
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-06",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 377.71
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-08",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 368.95
+  },
+  {
+    "platform": "android",
+    "device_id": "android-08",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 386.0
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-04",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 368.99
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-03",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 372.22
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-05",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 383.74
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-09",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 371.71
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-01",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 367.92
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-10",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 385.68
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-07",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 402.94
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-02",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 390.81
+  },
+  {
+    "platform": "android",
+    "device_id": "android-02",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 365.32
+  },
+  {
+    "platform": "android",
+    "device_id": "android-01",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 368.69
+  },
+  {
+    "platform": "android",
+    "device_id": "android-07",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 357.36
+  },
+  {
+    "platform": "android",
+    "device_id": "android-03",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 365.02
+  },
+  {
+    "platform": "android",
+    "device_id": "android-05",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 365.08
+  },
+  {
+    "platform": "android",
+    "device_id": "android-09",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 371.18
+  },
+  {
+    "platform": "android",
+    "device_id": "android-06",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 364.87
+  },
+  {
+    "platform": "android",
+    "device_id": "android-04",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 374.37
+  },
+  {
+    "platform": "android",
+    "device_id": "android-10",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 369.24
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-06",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 364.54
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-08",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 360.9
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-04",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 361.46
+  },
+  {
+    "platform": "android",
+    "device_id": "android-08",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 379.57
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-03",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 362.59
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-09",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 366.48
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-05",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 377.41
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-01",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 370.41
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-10",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 382.89
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-02",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 382.97
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-07",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 392.44
+  },
+  {
+    "platform": "android",
+    "device_id": "android-02",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 360.34
+  },
+  {
+    "platform": "android",
+    "device_id": "android-01",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 356.63
+  },
+  {
+    "platform": "android",
+    "device_id": "android-07",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 359.4
+  },
+  {
+    "platform": "android",
+    "device_id": "android-03",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 366.18
+  },
+  {
+    "platform": "android",
+    "device_id": "android-05",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 376.44
+  },
+  {
+    "platform": "android",
+    "device_id": "android-09",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 372.19
+  },
+  {
+    "platform": "android",
+    "device_id": "android-06",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 367.72
+  },
+  {
+    "platform": "android",
+    "device_id": "android-04",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 375.61
+  },
+  {
+    "platform": "android",
+    "device_id": "android-10",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 372.86
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-06",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 367.35
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-04",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 361.81
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-08",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 376.97
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-03",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 365.48
+  },
+  {
+    "platform": "android",
+    "device_id": "android-08",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 381.4
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-09",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 369.61
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-05",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 374.38
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-01",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 373.25
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-10",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 380.72
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-02",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 379.52
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-07",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 395.31
+  },
+  {
+    "platform": "android",
+    "device_id": "android-02",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 360.16
+  },
+  {
+    "platform": "android",
+    "device_id": "android-01",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 358.0
+  },
+  {
+    "platform": "android",
+    "device_id": "android-07",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 357.1
+  },
+  {
+    "platform": "android",
+    "device_id": "android-03",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 380.54
+  },
+  {
+    "platform": "android",
+    "device_id": "android-05",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 366.95
+  },
+  {
+    "platform": "android",
+    "device_id": "android-09",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 370.41
+  },
+  {
+    "platform": "android",
+    "device_id": "android-06",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 363.68
+  },
+  {
+    "platform": "android",
+    "device_id": "android-04",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 374.39
+  },
+  {
+    "platform": "android",
+    "device_id": "android-10",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 369.72
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-06",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 364.28
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-04",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 360.58
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-08",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 362.71
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-03",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 361.42
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-09",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 363.92
+  },
+  {
+    "platform": "android",
+    "device_id": "android-08",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 378.69
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-05",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 369.64
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-01",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 373.53
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-10",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 375.47
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-02",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 374.17
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-07",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 388.54
+  },
+  {
+    "platform": "android",
+    "device_id": "android-02",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 355.9
+  },
+  {
+    "platform": "android",
+    "device_id": "android-01",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 354.8
+  },
+  {
+    "platform": "android",
+    "device_id": "android-07",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 357.72
+  },
+  {
+    "platform": "android",
+    "device_id": "android-03",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 364.89
+  },
+  {
+    "platform": "android",
+    "device_id": "android-05",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 365.31
+  },
+  {
+    "platform": "android",
+    "device_id": "android-09",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 370.11
+  },
+  {
+    "platform": "android",
+    "device_id": "android-06",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 364.73
+  },
+  {
+    "platform": "android",
+    "device_id": "android-04",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 375.6
+  },
+  {
+    "platform": "android",
+    "device_id": "android-10",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 373.62
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-06",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 364.99
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-04",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 362.74
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-08",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 363.57
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-03",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 360.25
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-09",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 368.02
+  },
+  {
+    "platform": "android",
+    "device_id": "android-08",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 377.06
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-05",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 373.44
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-01",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 369.89
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-10",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 376.42
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-02",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 374.99
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-07",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 388.5
+  },
+  {
+    "platform": "android",
+    "device_id": "android-02",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 355.32
+  },
+  {
+    "platform": "android",
+    "device_id": "android-01",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 353.7
+  },
+  {
+    "platform": "android",
+    "device_id": "android-07",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 356.25
+  },
+  {
+    "platform": "android",
+    "device_id": "android-03",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 366.36
+  },
+  {
+    "platform": "android",
+    "device_id": "android-05",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 365.29
+  },
+  {
+    "platform": "android",
+    "device_id": "android-09",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 368.95
+  },
+  {
+    "platform": "android",
+    "device_id": "android-06",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 367.83
+  },
+  {
+    "platform": "android",
+    "device_id": "android-04",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 378.76
+  },
+  {
+    "platform": "android",
+    "device_id": "android-10",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 371.28
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-06",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 367.38
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-04",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 371.06
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-08",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 369.43
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-03",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 369.5
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-09",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 364.98
+  },
+  {
+    "platform": "android",
+    "device_id": "android-08",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 376.23
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-05",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 376.16
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-01",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 376.61
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-10",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 377.41
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-02",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 377.85
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-07",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 390.0
+  },
+  {
+    "platform": "android",
+    "device_id": "android-02",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 362.3
+  },
+  {
+    "platform": "android",
+    "device_id": "android-01",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 358.67
+  },
+  {
+    "platform": "android",
+    "device_id": "android-07",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 358.65
+  },
+  {
+    "platform": "android",
+    "device_id": "android-03",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 367.88
+  },
+  {
+    "platform": "android",
+    "device_id": "android-05",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 368.86
+  },
+  {
+    "platform": "android",
+    "device_id": "android-09",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 374.06
+  },
+  {
+    "platform": "android",
+    "device_id": "android-06",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 367.81
+  },
+  {
+    "platform": "android",
+    "device_id": "android-04",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 379.39
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-06",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 377.77
+  },
+  {
+    "platform": "android",
+    "device_id": "android-10",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 382.52
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-04",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 372.75
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-08",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 367.92
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-03",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 367.21
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-09",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 366.86
+  },
+  {
+    "platform": "android",
+    "device_id": "android-08",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 382.44
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-05",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 376.27
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-01",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 377.03
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-10",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 375.33
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-02",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 375.19
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-07",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 389.01
+  },
+  {
+    "platform": "android",
+    "device_id": "android-02",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 356.2
+  },
+  {
+    "platform": "android",
+    "device_id": "android-01",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 353.67
+  },
+  {
+    "platform": "android",
+    "device_id": "android-07",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 356.06
+  },
+  {
+    "platform": "android",
+    "device_id": "android-03",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 364.51
+  },
+  {
+    "platform": "android",
+    "device_id": "android-05",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 364.98
+  },
+  {
+    "platform": "android",
+    "device_id": "android-09",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 370.32
+  },
+  {
+    "platform": "android",
+    "device_id": "android-06",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 365.15
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-06",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 376.24
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-04",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 371.34
+  },
+  {
+    "platform": "android",
+    "device_id": "android-04",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 390.37
+  },
+  {
+    "platform": "android",
+    "device_id": "android-10",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 390.14
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-08",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 381.76
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-03",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 375.73
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-09",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 363.44
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-05",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 376.55
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-01",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 373.38
+  },
+  {
+    "platform": "android",
+    "device_id": "android-08",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 384.25
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-10",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 378.98
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-02",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 377.88
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-07",
+    "step": "device_request",
+    "outcome": "acknowledged",
+    "duration_ms": 394.07
+  }
+]

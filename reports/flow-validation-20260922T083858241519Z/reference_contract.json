@@ -1,0 +1,1723 @@
+[
+  {
+    "payload": {
+      "messagetype": 59
+    },
+    "schemas": [
+      {
+        "type": "object",
+        "fields": {
+          "full_name": {
+            "type": "str"
+          },
+          "login_id": {
+            "type": "str"
+          },
+          "company_id": {
+            "type": "str"
+          },
+          "user_type": {
+            "type": "str"
+          }
+        }
+      }
+    ],
+    "fingerprints": [
+      "f402a483b5cedde536b5d29993ff82ce0f4a9b1eb90d1a6f1a541ffaa3f583d3"
+    ]
+  },
+  {
+    "payload": {
+      "messagetype": 62
+    },
+    "schemas": [
+      {
+        "type": "object",
+        "fields": {
+          "name": {
+            "type": "str"
+          },
+          "address1": {
+            "type": "str"
+          },
+          "city": {
+            "type": "str"
+          },
+          "state": {
+            "type": "str"
+          },
+          "zip_code": {
+            "type": "str"
+          },
+          "country": {
+            "type": "str"
+          },
+          "business_type": {
+            "type": "str"
+          },
+          "company_id": {
+            "type": "str"
+          },
+          "phone": {
+            "type": "str"
+          },
+          "email": {
+            "type": "str"
+          },
+          "credit_days": {
+            "type": "int"
+          },
+          "subscription": {
+            "type": "int"
+          },
+          "account_type": {
+            "type": "str"
+          },
+          "address2": {
+            "type": "str"
+          },
+          "website": {
+            "type": "str"
+          },
+          "mobile": {
+            "type": "str"
+          },
+          "contact_person": {
+            "type": "str"
+          }
+        }
+      }
+    ],
+    "fingerprints": [
+      "5ea7b43a19f7efaea205203638a15297de5a9cdd655de2922e780dab7fb7ce69"
+    ]
+  },
+  {
+    "payload": {
+      "messagetype": 127
+    },
+    "schemas": [
+      {
+        "type": "object",
+        "fields": {
+          "symbol": {
+            "type": "str"
+          }
+        }
+      }
+    ],
+    "fingerprints": [
+      "f2f7860e7419fd068e36ba829ac289e68551ea95838607c4f7dca4c8568f190a"
+    ]
+  },
+  {
+    "payload": {
+      "messagetype": 60
+    },
+    "schemas": [
+      {
+        "type": "NoneType"
+      }
+    ],
+    "fingerprints": [
+      "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    ]
+  },
+  {
+    "payload": {
+      "messagetype": 67
+    },
+    "schemas": [
+      {
+        "type": "NoneType"
+      }
+    ],
+    "fingerprints": [
+      "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    ]
+  },
+  {
+    "payload": {
+      "messagetype": 135
+    },
+    "schemas": [
+      {
+        "type": "array",
+        "nonempty": true,
+        "items": [
+          {
+            "type": "object",
+            "fields": {
+              "customer_id": {
+                "type": "str"
+              },
+              "customer_name": {
+                "type": "str"
+              },
+              "address1": {
+                "type": "str"
+              },
+              "address2": {
+                "type": "str"
+              },
+              "city": {
+                "type": "str"
+              },
+              "state": {
+                "type": "str"
+              },
+              "zip_code": {
+                "type": "str"
+              },
+              "country": {
+                "type": "str"
+              },
+              "phone": {
+                "type": "str"
+              },
+              "mobile": {
+                "type": "str"
+              },
+              "email": {
+                "type": "str"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "fingerprints": [
+      "86bc2ee2cd2b9f308a06d242cf12c5075c7c5f5bbd906778012de8cfa63d3866"
+    ]
+  },
+  {
+    "payload": {
+      "messagetype": 58
+    },
+    "schemas": [
+      {
+        "type": "NoneType"
+      }
+    ],
+    "fingerprints": [
+      "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    ]
+  },
+  {
+    "payload": {
+      "messagetype": 33
+    },
+    "schemas": [
+      {
+        "type": "array",
+        "nonempty": true,
+        "items": [
+          {
+            "type": "object",
+            "fields": {
+              "is_active": {
+                "type": "bool"
+              },
+              "is_default": {
+                "type": "bool"
+              },
+              "type": {
+                "type": "str"
+              },
+              "sub_type": {
+                "type": "str"
+              },
+              "test_plan_name": {
+                "type": "str"
+              },
+              "os_name": {
+                "type": "str"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "fingerprints": [
+      "2ea933e364293aa790efddde0e0377cbe76e2710415af57028bcd994271c6f8c"
+    ]
+  },
+  {
+    "payload": {
+      "messagetype": 49
+    },
+    "schemas": [
+      {
+        "type": "object",
+        "fields": {
+          "overall_grades": {
+            "type": "array",
+            "nonempty": true,
+            "items": [
+              {
+                "type": "str"
+              }
+            ]
+          },
+          "screen_grades": {
+            "type": "NoneType"
+          },
+          "housing_grades": {
+            "type": "NoneType"
+          },
+          "backcover_grades": {
+            "type": "NoneType"
+          },
+          "desktop_grades": {
+            "type": "NoneType"
+          },
+          "mobile_comments": {
+            "type": "NoneType"
+          },
+          "desktop_comments": {
+            "type": "NoneType"
+          }
+        }
+      }
+    ],
+    "fingerprints": [
+      "7a4946769fa650d47a144aa2e86d50d7332b19194c7a1090e09d8eac6ec52a86"
+    ]
+  },
+  {
+    "payload": {
+      "messagetype": 119,
+      "app_version": "1.7.6",
+      "operating_system": "windows",
+      "architecture": "x64"
+    },
+    "schemas": [
+      {
+        "type": "object",
+        "fields": {
+          "version": {
+            "type": "str"
+          },
+          "url": {
+            "type": "str"
+          },
+          "message": {
+            "type": "str"
+          },
+          "resource_url": {
+            "type": "str"
+          }
+        }
+      }
+    ],
+    "fingerprints": [
+      "103ec2b21afa96969ec8901a09500f6ce47f7046838a9d8fb78395d3a58366a9"
+    ]
+  },
+  {
+    "payload": {
+      "messagetype": 34,
+      "os": "ios"
+    },
+    "schemas": [
+      {
+        "type": "array",
+        "nonempty": true,
+        "items": [
+          {
+            "type": "object",
+            "fields": {
+              "test_name": {
+                "type": "str"
+              },
+              "code": {
+                "type": "str"
+              },
+              "mode": {
+                "type": "str"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "fingerprints": [
+      "d578504bb30f839128e1025563b166a4ecf337d136af59af846578915fc3bc71"
+    ]
+  },
+  {
+    "payload": {
+      "messagetype": 39
+    },
+    "schemas": [
+      {
+        "type": "array",
+        "nonempty": true,
+        "items": [
+          {
+            "type": "object",
+            "fields": {
+              "name": {
+                "type": "str"
+              },
+              "max_frequency": {
+                "type": "int"
+              },
+              "min_frequency": {
+                "type": "int"
+              },
+              "frequency": {
+                "type": "int"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "fingerprints": [
+      "850521a3f68ca76cf09d30a8cc2600a34a8e8d49a4c73c4ed16aa47d04ef82fb"
+    ]
+  },
+  {
+    "payload": {
+      "messagetype": 56
+    },
+    "schemas": [
+      {
+        "type": "object",
+        "fields": {
+          "auto_install_app": {
+            "type": "bool"
+          },
+          "auto_install_wifi": {
+            "type": "bool"
+          },
+          "auto_erasure_on_connect": {
+            "type": "bool"
+          },
+          "auto_flash_firmware": {
+            "type": "bool"
+          },
+          "auto_activate_ios_device": {
+            "type": "bool"
+          },
+          "clear_device_info": {
+            "type": "bool"
+          },
+          "usb_port_mapping": {
+            "type": "bool"
+          },
+          "auto_oem_parts_detection": {
+            "type": "bool"
+          },
+          "auto_parts_functionality_tests": {
+            "type": "bool"
+          },
+          "auto_perform_esn": {
+            "type": "bool"
+          },
+          "auto_perform_apple_care_warranty": {
+            "type": "bool"
+          },
+          "auto_perform_sim_lock_check": {
+            "type": "bool"
+          },
+          "auto_uninstall_app_on_diagnostics_pass": {
+            "type": "bool"
+          },
+          "auto_uninstall_app_on_diagnostics_fail": {
+            "type": "bool"
+          },
+          "auto_erase_device_on_diagnostics_pass": {
+            "type": "bool"
+          },
+          "auto_erase_device_on_diagnostics_fail": {
+            "type": "bool"
+          },
+          "auto_erase_device_on_diagnostics_pass_or_fail": {
+            "type": "bool"
+          },
+          "auto_print_label_on_diagnostics_pass": {
+            "type": "bool"
+          },
+          "auto_print_label_on_diagnostics_fail": {
+            "type": "bool"
+          },
+          "auto_print_label_on_diagnostics_pass_or_fail": {
+            "type": "bool"
+          },
+          "auto_print_report_on_diagnostics_pass": {
+            "type": "bool"
+          },
+          "auto_print_report_on_diagnostics_fail": {
+            "type": "bool"
+          },
+          "auto_print_report_on_diagnostics_pass_or_fail": {
+            "type": "bool"
+          },
+          "auto_remove_wifi_on_diagnostics_pass": {
+            "type": "bool"
+          },
+          "auto_remove_wifi_on_diagnostics_fail": {
+            "type": "bool"
+          },
+          "auto_power_off_device_on_diagnostics_pass": {
+            "type": "bool"
+          },
+          "auto_power_off_device_on_erase": {
+            "type": "bool"
+          },
+          "auto_select_box": {
+            "type": "bool"
+          },
+          "enable_battery_criteria": {
+            "type": "bool"
+          },
+          "create_alert_battery_health": {
+            "type": "bool"
+          },
+          "enable_internal_message_comment": {
+            "type": "bool"
+          },
+          "enable_battery_service_message": {
+            "type": "bool"
+          },
+          "release_comment_on_device_box": {
+            "type": "bool"
+          },
+          "alert_percentage": {
+            "type": "int"
+          },
+          "alert_cycle_count": {
+            "type": "int"
+          },
+          "battery_criteria": {
+            "type": "array",
+            "nonempty": true,
+            "items": [
+              {
+                "type": "object",
+                "fields": {
+                  "id": {
+                    "type": "int"
+                  },
+                  "grade": {
+                    "type": "str"
+                  },
+                  "max_percentage": {
+                    "type": "int"
+                  },
+                  "min_percentage": {
+                    "type": "int"
+                  },
+                  "max_cycle_count": {
+                    "type": "int"
+                  },
+                  "min_cycle_count": {
+                    "type": "int"
+                  }
+                }
+              }
+            ]
+          },
+          "percentage_cycle_count_relation": {
+            "type": "str"
+          }
+        }
+      }
+    ],
+    "fingerprints": [
+      "ffabe9c8b6142d30fd545849450c3da11fe6e8796364a37c0e9f9fc9918a8a1f"
+    ]
+  },
+  {
+    "payload": {
+      "messagetype": 53
+    },
+    "schemas": [
+      {
+        "type": "object",
+        "fields": {
+          "android_manual_tests": {
+            "type": "array",
+            "nonempty": true,
+            "items": [
+              {
+                "type": "object",
+                "fields": {
+                  "is_enabled": {
+                    "type": "bool"
+                  },
+                  "test_name": {
+                    "type": "str"
+                  },
+                  "is_hidden": {
+                    "type": "bool"
+                  },
+                  "index": {
+                    "type": "int"
+                  },
+                  "mode": {
+                    "type": "str"
+                  },
+                  "code": {
+                    "type": "str"
+                  },
+                  "sub_test": {
+                    "type": "NoneType"
+                  }
+                }
+              },
+              {
+                "type": "object",
+                "fields": {
+                  "is_enabled": {
+                    "type": "bool"
+                  },
+                  "test_name": {
+                    "type": "str"
+                  },
+                  "is_hidden": {
+                    "type": "bool"
+                  },
+                  "index": {
+                    "type": "int"
+                  },
+                  "mode": {
+                    "type": "str"
+                  },
+                  "code": {
+                    "type": "str"
+                  },
+                  "sub_test": {
+                    "type": "array",
+                    "nonempty": true,
+                    "items": [
+                      {
+                        "type": "object",
+                        "fields": {
+                          "is_enabled": {
+                            "type": "bool"
+                          },
+                          "test_name": {
+                            "type": "str"
+                          },
+                          "is_hidden": {
+                            "type": "bool"
+                          },
+                          "mode": {
+                            "type": "str"
+                          },
+                          "code": {
+                            "type": "str"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          "ios_manual_tests": {
+            "type": "array",
+            "nonempty": true,
+            "items": [
+              {
+                "type": "object",
+                "fields": {
+                  "is_enabled": {
+                    "type": "bool"
+                  },
+                  "test_name": {
+                    "type": "str"
+                  },
+                  "is_hidden": {
+                    "type": "bool"
+                  },
+                  "index": {
+                    "type": "int"
+                  },
+                  "mode": {
+                    "type": "str"
+                  },
+                  "code": {
+                    "type": "str"
+                  },
+                  "sub_test": {
+                    "type": "NoneType"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "fingerprints": [
+      "b0548381bae8406b15b32626eedff7987ea7aa6ae7150b6ac40f624b656321c5"
+    ]
+  },
+  {
+    "payload": {
+      "messagetype": 70
+    },
+    "schemas": [
+      {
+        "type": "NoneType"
+      }
+    ],
+    "fingerprints": [
+      "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    ]
+  },
+  {
+    "payload": {
+      "messagetype": 30
+    },
+    "schemas": [
+      {
+        "type": "array",
+        "nonempty": true,
+        "items": [
+          {
+            "type": "object",
+            "fields": {
+              "id": {
+                "type": "int"
+              },
+              "name": {
+                "type": "str"
+              },
+              "orientation": {
+                "type": "str"
+              },
+              "width": {
+                "type": "int"
+              },
+              "height": {
+                "type": "int"
+              },
+              "file_name": {
+                "type": "str"
+              },
+              "logo_file": {
+                "type": "str"
+              },
+              "elements": {
+                "type": "array",
+                "nonempty": true,
+                "items": [
+                  {
+                    "type": "object",
+                    "fields": {
+                      "name": {
+                        "type": "str"
+                      },
+                      "key": {
+                        "type": "str"
+                      },
+                      "enabled": {
+                        "type": "bool"
+                      }
+                    }
+                  }
+                ]
+              },
+              "email": {
+                "type": "object",
+                "fields": {
+                  "enabled": {
+                    "type": "bool"
+                  },
+                  "email_address": {
+                    "type": "str"
+                  }
+                }
+              },
+              "whatsapp": {
+                "type": "object",
+                "fields": {
+                  "enabled": {
+                    "type": "bool"
+                  },
+                  "phone_number": {
+                    "type": "str"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "fingerprints": [
+      "51023f97fdc9a84366002302f644684aa33eb7a1d471ae6fb6f19209d8726c5b"
+    ]
+  },
+  {
+    "payload": {
+      "messagetype": 34,
+      "os": "android"
+    },
+    "schemas": [
+      {
+        "type": "array",
+        "nonempty": true,
+        "items": [
+          {
+            "type": "object",
+            "fields": {
+              "test_name": {
+                "type": "str"
+              },
+              "code": {
+                "type": "str"
+              },
+              "mode": {
+                "type": "str"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "fingerprints": [
+      "222b82848dc015c284e6883ce264b187fdf65b19b862cbe11a5741412053bdea"
+    ]
+  },
+  {
+    "payload": {
+      "messagetype": 54
+    },
+    "schemas": [
+      {
+        "type": "NoneType"
+      }
+    ],
+    "fingerprints": [
+      "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    ]
+  },
+  {
+    "payload": {
+      "messagetype": 64
+    },
+    "schemas": [
+      {
+        "type": "object",
+        "fields": {
+          "control_center": {
+            "type": "bool"
+          },
+          "settings": {
+            "type": "bool"
+          },
+          "license": {
+            "type": "bool"
+          },
+          "dashboard": {
+            "type": "bool"
+          },
+          "test_plan": {
+            "type": "bool"
+          },
+          "test_customization": {
+            "type": "bool"
+          },
+          "automation_workflow": {
+            "type": "bool"
+          },
+          "utility_permissions": {
+            "type": "array",
+            "nonempty": true,
+            "items": [
+              {
+                "type": "str"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "fingerprints": [
+      "2dd063f41bdb4777c04ab0424cdd788a18287698181ed04cc38e6783c91e4202"
+    ]
+  },
+  {
+    "payload": {
+      "messagetype": 32,
+      "test_plan_name": "android_default_desk"
+    },
+    "schemas": [
+      {
+        "type": "object",
+        "fields": {
+          "name": {
+            "type": "str"
+          },
+          "tests": {
+            "type": "array",
+            "nonempty": true,
+            "items": [
+              {
+                "type": "object",
+                "fields": {
+                  "is_enabled": {
+                    "type": "bool"
+                  },
+                  "test_name": {
+                    "type": "str"
+                  },
+                  "is_hidden": {
+                    "type": "bool"
+                  },
+                  "index": {
+                    "type": "int"
+                  },
+                  "mode": {
+                    "type": "str"
+                  },
+                  "code": {
+                    "type": "str"
+                  },
+                  "sub_test": {
+                    "type": "NoneType"
+                  }
+                }
+              },
+              {
+                "type": "object",
+                "fields": {
+                  "is_enabled": {
+                    "type": "bool"
+                  },
+                  "test_name": {
+                    "type": "str"
+                  },
+                  "is_hidden": {
+                    "type": "bool"
+                  },
+                  "index": {
+                    "type": "int"
+                  },
+                  "mode": {
+                    "type": "str"
+                  },
+                  "code": {
+                    "type": "str"
+                  },
+                  "sub_test": {
+                    "type": "array",
+                    "nonempty": true,
+                    "items": [
+                      {
+                        "type": "object",
+                        "fields": {
+                          "is_enabled": {
+                            "type": "bool"
+                          },
+                          "test_name": {
+                            "type": "str"
+                          },
+                          "is_hidden": {
+                            "type": "bool"
+                          },
+                          "mode": {
+                            "type": "str"
+                          },
+                          "code": {
+                            "type": "str"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "fingerprints": [
+      "f769c1fb1687a7c07e88f27b43902b0040f731d7b62e4dd72faa3120da936ff1"
+    ]
+  },
+  {
+    "payload": {
+      "messagetype": 45
+    },
+    "schemas": [
+      {
+        "type": "array",
+        "nonempty": true,
+        "items": [
+          {
+            "type": "object",
+            "fields": {
+              "vendor_name": {
+                "type": "str"
+              },
+              "customer_name": {
+                "type": "str"
+              },
+              "batch_id": {
+                "type": "str"
+              },
+              "batch_condition": {
+                "type": "str"
+              },
+              "batch_status": {
+                "type": "str"
+              },
+              "batch_type": {
+                "type": "str"
+              },
+              "no_boxes": {
+                "type": "int"
+              },
+              "no_devices": {
+                "type": "int"
+              },
+              "no_ios_devices": {
+                "type": "int"
+              },
+              "no_android_devices": {
+                "type": "int"
+              },
+              "ios_devices": {
+                "type": "array",
+                "nonempty": true,
+                "items": [
+                  {
+                    "type": "str"
+                  }
+                ]
+              },
+              "android_devices": {
+                "type": "array",
+                "nonempty": true,
+                "items": [
+                  {
+                    "type": "str"
+                  }
+                ]
+              },
+              "external_batch_id": {
+                "type": "str"
+              },
+              "bulk_batch": {
+                "type": "bool"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "fingerprints": [
+      "a995a15465bdcfe8f69a8c6c1cf8675dd99a4d1540ff896938dab0d951f1f514"
+    ]
+  },
+  {
+    "payload": {
+      "messagetype": 29
+    },
+    "schemas": [
+      {
+        "type": "array",
+        "nonempty": true,
+        "items": [
+          {
+            "type": "object",
+            "fields": {
+              "id": {
+                "type": "int"
+              },
+              "name": {
+                "type": "str"
+              },
+              "orientation": {
+                "type": "str"
+              },
+              "width": {
+                "type": "int"
+              },
+              "height": {
+                "type": "int"
+              },
+              "file_name": {
+                "type": "str"
+              },
+              "logo_file": {
+                "type": "str"
+              },
+              "elements": {
+                "type": "array",
+                "nonempty": true,
+                "items": [
+                  {
+                    "type": "object",
+                    "fields": {
+                      "name": {
+                        "type": "str"
+                      },
+                      "key": {
+                        "type": "str"
+                      },
+                      "enabled": {
+                        "type": "bool"
+                      }
+                    }
+                  }
+                ]
+              },
+              "code_field_mappings": {
+                "type": "object",
+                "fields": {
+                  "barcode": {
+                    "type": "str"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "object",
+            "fields": {
+              "id": {
+                "type": "int"
+              },
+              "name": {
+                "type": "str"
+              },
+              "orientation": {
+                "type": "str"
+              },
+              "width": {
+                "type": "int"
+              },
+              "height": {
+                "type": "int"
+              },
+              "file_name": {
+                "type": "str"
+              },
+              "logo_file": {
+                "type": "str"
+              },
+              "elements": {
+                "type": "array",
+                "nonempty": true,
+                "items": [
+                  {
+                    "type": "object",
+                    "fields": {
+                      "name": {
+                        "type": "str"
+                      },
+                      "key": {
+                        "type": "str"
+                      },
+                      "enabled": {
+                        "type": "bool"
+                      }
+                    }
+                  }
+                ]
+              },
+              "code_field_mappings": {
+                "type": "object",
+                "fields": {
+                  "barcode1": {
+                    "type": "str"
+                  },
+                  "barcode2": {
+                    "type": "str"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "object",
+            "fields": {
+              "id": {
+                "type": "int"
+              },
+              "name": {
+                "type": "str"
+              },
+              "orientation": {
+                "type": "str"
+              },
+              "width": {
+                "type": "float"
+              },
+              "height": {
+                "type": "float"
+              },
+              "file_name": {
+                "type": "str"
+              },
+              "logo_file": {
+                "type": "str"
+              },
+              "elements": {
+                "type": "array",
+                "nonempty": true,
+                "items": [
+                  {
+                    "type": "object",
+                    "fields": {
+                      "name": {
+                        "type": "str"
+                      },
+                      "key": {
+                        "type": "str"
+                      },
+                      "enabled": {
+                        "type": "bool"
+                      }
+                    }
+                  }
+                ]
+              },
+              "code_field_mappings": {
+                "type": "object",
+                "fields": {
+                  "barcode": {
+                    "type": "str"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "object",
+            "fields": {
+              "id": {
+                "type": "int"
+              },
+              "name": {
+                "type": "str"
+              },
+              "orientation": {
+                "type": "str"
+              },
+              "width": {
+                "type": "int"
+              },
+              "height": {
+                "type": "int"
+              },
+              "file_name": {
+                "type": "str"
+              },
+              "logo_file": {
+                "type": "str"
+              },
+              "elements": {
+                "type": "array",
+                "nonempty": true,
+                "items": [
+                  {
+                    "type": "object",
+                    "fields": {
+                      "name": {
+                        "type": "str"
+                      },
+                      "key": {
+                        "type": "str"
+                      },
+                      "enabled": {
+                        "type": "bool"
+                      }
+                    }
+                  }
+                ]
+              },
+              "code_field_mappings": {
+                "type": "object",
+                "fields": {}
+              }
+            }
+          },
+          {
+            "type": "object",
+            "fields": {
+              "id": {
+                "type": "int"
+              },
+              "name": {
+                "type": "str"
+              },
+              "orientation": {
+                "type": "str"
+              },
+              "width": {
+                "type": "float"
+              },
+              "height": {
+                "type": "float"
+              },
+              "file_name": {
+                "type": "str"
+              },
+              "logo_file": {
+                "type": "str"
+              },
+              "elements": {
+                "type": "array",
+                "nonempty": true,
+                "items": [
+                  {
+                    "type": "object",
+                    "fields": {
+                      "name": {
+                        "type": "str"
+                      },
+                      "key": {
+                        "type": "str"
+                      },
+                      "enabled": {
+                        "type": "bool"
+                      }
+                    }
+                  }
+                ]
+              },
+              "code_field_mappings": {
+                "type": "object",
+                "fields": {
+                  "barcode1": {
+                    "type": "str"
+                  },
+                  "barcode2": {
+                    "type": "str"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "nonempty": true,
+        "items": [
+          {
+            "type": "object",
+            "fields": {
+              "id": {
+                "type": "int"
+              },
+              "name": {
+                "type": "str"
+              },
+              "orientation": {
+                "type": "str"
+              },
+              "width": {
+                "type": "int"
+              },
+              "height": {
+                "type": "int"
+              },
+              "file_name": {
+                "type": "str"
+              },
+              "logo_file": {
+                "type": "str"
+              },
+              "elements": {
+                "type": "array",
+                "nonempty": true,
+                "items": [
+                  {
+                    "type": "object",
+                    "fields": {
+                      "name": {
+                        "type": "str"
+                      },
+                      "key": {
+                        "type": "str"
+                      },
+                      "enabled": {
+                        "type": "bool"
+                      }
+                    }
+                  }
+                ]
+              },
+              "code_field_mappings": {
+                "type": "object",
+                "fields": {}
+              }
+            }
+          },
+          {
+            "type": "object",
+            "fields": {
+              "id": {
+                "type": "int"
+              },
+              "name": {
+                "type": "str"
+              },
+              "orientation": {
+                "type": "str"
+              },
+              "width": {
+                "type": "float"
+              },
+              "height": {
+                "type": "float"
+              },
+              "file_name": {
+                "type": "str"
+              },
+              "logo_file": {
+                "type": "str"
+              },
+              "elements": {
+                "type": "array",
+                "nonempty": true,
+                "items": [
+                  {
+                    "type": "object",
+                    "fields": {
+                      "name": {
+                        "type": "str"
+                      },
+                      "key": {
+                        "type": "str"
+                      },
+                      "enabled": {
+                        "type": "bool"
+                      }
+                    }
+                  }
+                ]
+              },
+              "code_field_mappings": {
+                "type": "object",
+                "fields": {
+                  "barcode": {
+                    "type": "str"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "object",
+            "fields": {
+              "id": {
+                "type": "int"
+              },
+              "name": {
+                "type": "str"
+              },
+              "orientation": {
+                "type": "str"
+              },
+              "width": {
+                "type": "float"
+              },
+              "height": {
+                "type": "float"
+              },
+              "file_name": {
+                "type": "str"
+              },
+              "logo_file": {
+                "type": "str"
+              },
+              "elements": {
+                "type": "array",
+                "nonempty": true,
+                "items": [
+                  {
+                    "type": "object",
+                    "fields": {
+                      "name": {
+                        "type": "str"
+                      },
+                      "key": {
+                        "type": "str"
+                      },
+                      "enabled": {
+                        "type": "bool"
+                      }
+                    }
+                  }
+                ]
+              },
+              "code_field_mappings": {
+                "type": "object",
+                "fields": {
+                  "barcode1": {
+                    "type": "str"
+                  },
+                  "barcode2": {
+                    "type": "str"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "object",
+            "fields": {
+              "id": {
+                "type": "int"
+              },
+              "name": {
+                "type": "str"
+              },
+              "orientation": {
+                "type": "str"
+              },
+              "width": {
+                "type": "int"
+              },
+              "height": {
+                "type": "int"
+              },
+              "file_name": {
+                "type": "str"
+              },
+              "logo_file": {
+                "type": "str"
+              },
+              "elements": {
+                "type": "array",
+                "nonempty": true,
+                "items": [
+                  {
+                    "type": "object",
+                    "fields": {
+                      "name": {
+                        "type": "str"
+                      },
+                      "key": {
+                        "type": "str"
+                      },
+                      "enabled": {
+                        "type": "bool"
+                      }
+                    }
+                  }
+                ]
+              },
+              "code_field_mappings": {
+                "type": "object",
+                "fields": {
+                  "barcode1": {
+                    "type": "str"
+                  },
+                  "barcode2": {
+                    "type": "str"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "object",
+            "fields": {
+              "id": {
+                "type": "int"
+              },
+              "name": {
+                "type": "str"
+              },
+              "orientation": {
+                "type": "str"
+              },
+              "width": {
+                "type": "int"
+              },
+              "height": {
+                "type": "int"
+              },
+              "file_name": {
+                "type": "str"
+              },
+              "logo_file": {
+                "type": "str"
+              },
+              "elements": {
+                "type": "array",
+                "nonempty": true,
+                "items": [
+                  {
+                    "type": "object",
+                    "fields": {
+                      "name": {
+                        "type": "str"
+                      },
+                      "key": {
+                        "type": "str"
+                      },
+                      "enabled": {
+                        "type": "bool"
+                      }
+                    }
+                  }
+                ]
+              },
+              "code_field_mappings": {
+                "type": "object",
+                "fields": {
+                  "barcode": {
+                    "type": "str"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "fingerprints": [
+      "01076ab020be08bb8e932a56fea565d2d1c4ee166284e2a5ec6e57423e193027"
+    ]
+  },
+  {
+    "payload": {
+      "messagetype": 32,
+      "test_plan_name": "ios_default_desk"
+    },
+    "schemas": [
+      {
+        "type": "object",
+        "fields": {
+          "name": {
+            "type": "str"
+          },
+          "tests": {
+            "type": "array",
+            "nonempty": true,
+            "items": [
+              {
+                "type": "object",
+                "fields": {
+                  "is_enabled": {
+                    "type": "bool"
+                  },
+                  "test_name": {
+                    "type": "str"
+                  },
+                  "is_hidden": {
+                    "type": "bool"
+                  },
+                  "index": {
+                    "type": "int"
+                  },
+                  "mode": {
+                    "type": "str"
+                  },
+                  "code": {
+                    "type": "str"
+                  },
+                  "sub_test": {
+                    "type": "NoneType"
+                  }
+                }
+              },
+              {
+                "type": "object",
+                "fields": {
+                  "is_enabled": {
+                    "type": "bool"
+                  },
+                  "test_name": {
+                    "type": "str"
+                  },
+                  "is_hidden": {
+                    "type": "bool"
+                  },
+                  "index": {
+                    "type": "int"
+                  },
+                  "mode": {
+                    "type": "str"
+                  },
+                  "code": {
+                    "type": "str"
+                  },
+                  "sub_test": {
+                    "type": "array",
+                    "nonempty": true,
+                    "items": [
+                      {
+                        "type": "object",
+                        "fields": {
+                          "is_enabled": {
+                            "type": "bool"
+                          },
+                          "test_name": {
+                            "type": "str"
+                          },
+                          "is_hidden": {
+                            "type": "bool"
+                          },
+                          "mode": {
+                            "type": "str"
+                          },
+                          "code": {
+                            "type": "str"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "fingerprints": [
+      "1e4f6159bd53c190ff47dc1da289863f62114805860d143e145e326c59903bc6"
+    ]
+  },
+  {
+    "payload": {
+      "messagetype": 32,
+      "test_plan_name": "andriod test v1"
+    },
+    "schemas": [
+      {
+        "type": "object",
+        "fields": {
+          "name": {
+            "type": "str"
+          },
+          "tests": {
+            "type": "NoneType"
+          }
+        }
+      }
+    ],
+    "fingerprints": [
+      "66f74d61b66700dfd849a32f979b81518eae14d075621b2334d057769a1d5349"
+    ]
+  },
+  {
+    "payload": {
+      "messagetype": 101
+    },
+    "schemas": [
+      {
+        "type": "NoneType"
+      }
+    ],
+    "fingerprints": [
+      "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    ]
+  }
+]

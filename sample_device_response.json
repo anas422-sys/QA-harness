@@ -1,0 +1,38 @@
+{
+  "udid": "00008101-001D2C103C09001E",
+  "username": "anas-qa",
+  "messagetype": 1,
+  "status": "success",
+  "client_data": {
+    "ref": 123456789
+  },
+  "reply": {
+    "command": [
+      {
+        "cmd_id": 3,
+        "cmd": "ideviceinfo.exe -q com.apple.disk_usage -k TotalDiskCapacity --udid 00008101-001D2C103C09001E"
+      },
+      {
+        "cmd_id": 4,
+        "cmd": "idevicediagnostics.exe ioregentry device-tree --udid 00008101-001D2C103C09001E"
+      }
+    ],
+    "device_info": {
+      "model": "iPhone 12 mini",
+      "color": "Purple",
+      "imei_1": "356007204451103",
+      "imei_2": "356007204428549",
+      "serial_number": "MLW0RWGPJ1",
+      "firmware": "6.51.04",
+      "make": "Apple",
+      "build_version": "23G71",
+      "os_version": "26.6",
+      "region": "B/A",
+      "model_number": "MJQF3",
+      "product_type": "iPhone13,1",
+      "baseband_version": "",
+      "is_activated": "Activated",
+      "current_date": "03-09-2026 11:44"
+    }
+  }
+}

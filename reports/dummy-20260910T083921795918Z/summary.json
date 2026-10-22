@@ -1,0 +1,1621 @@
+{
+  "scope": "exploratory synthetic device payloads, shared account",
+  "peak_connections": 20,
+  "spawn_rate": 2.0,
+  "requested_rounds": 12,
+  "platforms": {
+    "ios": {
+      "dummy_devices": 10,
+      "login_ok": 10,
+      "connections": 10,
+      "requests_sent": 114,
+      "replies_received": 113,
+      "acknowledged_requests": 113,
+      "devices_with_acknowledgment": 10,
+      "explicitly_rejected": 0,
+      "unvalidated_replies": 0,
+      "background_messages": 14,
+      "failed_devices": 1,
+      "diagnostics_completed": 0,
+      "request_attempt_p95_ms": 675.92
+    },
+    "android": {
+      "dummy_devices": 10,
+      "login_ok": 10,
+      "connections": 10,
+      "requests_sent": 120,
+      "replies_received": 120,
+      "acknowledged_requests": 120,
+      "devices_with_acknowledgment": 10,
+      "explicitly_rejected": 0,
+      "unvalidated_replies": 0,
+      "background_messages": 15,
+      "failed_devices": 0,
+      "diagnostics_completed": 0,
+      "request_attempt_p95_ms": 576.65
+    }
+  },
+  "devices": [
+    {
+      "platform": "ios",
+      "device_id": "ios-01",
+      "dummy_udid": "8D790410-15A5508EA7A1A3E3",
+      "login_ok": true,
+      "connection_ok": true,
+      "requests_sent": 12,
+      "replies_received": 12,
+      "acknowledged_requests": 12,
+      "background_messages": 2,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged"
+      ],
+      "response_samples": [
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 155550898722214
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 3,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "model": "<string>",
+              "serial_number": "<string>",
+              "make": "<string>",
+              "os_version": "<string>",
+              "model_number": "<string>",
+              "product_type": "<string>",
+              "baseband_version": "<string>",
+              "is_activated": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        },
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 155550898722215
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 3,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "model": "<string>",
+              "serial_number": "<string>",
+              "make": "<string>",
+              "os_version": "<string>",
+              "model_number": "<string>",
+              "product_type": "<string>",
+              "baseband_version": "<string>",
+              "is_activated": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "platform": "android",
+      "device_id": "android-01",
+      "dummy_udid": "QAANDROID350A22998D49",
+      "login_ok": true,
+      "connection_ok": true,
+      "requests_sent": 12,
+      "replies_received": 12,
+      "acknowledged_requests": 12,
+      "background_messages": 1,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged"
+      ],
+      "response_samples": [
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 58317646433610
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 47,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "baseband_version": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        },
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 58317646433611
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 48,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "baseband_version": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "platform": "ios",
+      "device_id": "ios-02",
+      "dummy_udid": "C1D8C849-F40E56879DC67ED9",
+      "login_ok": true,
+      "connection_ok": true,
+      "requests_sent": 12,
+      "replies_received": 12,
+      "acknowledged_requests": 12,
+      "background_messages": 1,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged"
+      ],
+      "response_samples": [
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 213136817386511
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 4,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "model": "<string>",
+              "serial_number": "<string>",
+              "make": "<string>",
+              "os_version": "<string>",
+              "model_number": "<string>",
+              "product_type": "<string>",
+              "baseband_version": "<string>",
+              "is_activated": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        },
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 213136817386512
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 3,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "model": "<string>",
+              "serial_number": "<string>",
+              "make": "<string>",
+              "os_version": "<string>",
+              "model_number": "<string>",
+              "product_type": "<string>",
+              "baseband_version": "<string>",
+              "is_activated": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "platform": "android",
+      "device_id": "android-02",
+      "dummy_udid": "QAANDROID4A947EDB8C27",
+      "login_ok": true,
+      "connection_ok": true,
+      "requests_sent": 12,
+      "replies_received": 12,
+      "acknowledged_requests": 12,
+      "background_messages": 2,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged"
+      ],
+      "response_samples": [
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 82001643932712
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 48,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "baseband_version": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        },
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 82001643932713
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 47,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "baseband_version": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "platform": "ios",
+      "device_id": "ios-03",
+      "dummy_udid": "C62521C5-BAD65957A0F8E789",
+      "login_ok": true,
+      "connection_ok": true,
+      "requests_sent": 12,
+      "replies_received": 12,
+      "acknowledged_requests": 12,
+      "background_messages": 1,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged"
+      ],
+      "response_samples": [
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 217862782696151
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 3,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "model": "<string>",
+              "serial_number": "<string>",
+              "make": "<string>",
+              "os_version": "<string>",
+              "model_number": "<string>",
+              "product_type": "<string>",
+              "baseband_version": "<string>",
+              "is_activated": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        },
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 217862782696152
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 3,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "model": "<string>",
+              "serial_number": "<string>",
+              "make": "<string>",
+              "os_version": "<string>",
+              "model_number": "<string>",
+              "product_type": "<string>",
+              "baseband_version": "<string>",
+              "is_activated": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "platform": "android",
+      "device_id": "android-03",
+      "dummy_udid": "QAANDROIDAA458B7F3603",
+      "login_ok": true,
+      "connection_ok": true,
+      "requests_sent": 12,
+      "replies_received": 12,
+      "acknowledged_requests": 12,
+      "background_messages": 1,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged"
+      ],
+      "response_samples": [
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 187215669835268
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 48,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "baseband_version": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        },
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 187215669835269
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 48,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "baseband_version": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "platform": "ios",
+      "device_id": "ios-04",
+      "dummy_udid": "AD0740A6-122858B5B255F2E7",
+      "login_ok": true,
+      "connection_ok": true,
+      "requests_sent": 12,
+      "replies_received": 12,
+      "acknowledged_requests": 12,
+      "background_messages": 1,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged"
+      ],
+      "response_samples": [
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 190246661001769
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 3,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "model": "<string>",
+              "serial_number": "<string>",
+              "make": "<string>",
+              "os_version": "<string>",
+              "model_number": "<string>",
+              "product_type": "<string>",
+              "baseband_version": "<string>",
+              "is_activated": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        },
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 190246661001770
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 4,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "model": "<string>",
+              "serial_number": "<string>",
+              "make": "<string>",
+              "os_version": "<string>",
+              "model_number": "<string>",
+              "product_type": "<string>",
+              "baseband_version": "<string>",
+              "is_activated": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "platform": "android",
+      "device_id": "android-04",
+      "dummy_udid": "QAANDROID763909502480",
+      "login_ok": true,
+      "connection_ok": true,
+      "requests_sent": 12,
+      "replies_received": 12,
+      "acknowledged_requests": 12,
+      "background_messages": 2,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged"
+      ],
+      "response_samples": [
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 129987341460609
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 48,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "baseband_version": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        },
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 129987341460610
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 47,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "baseband_version": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "platform": "ios",
+      "device_id": "ios-05",
+      "dummy_udid": "FED7EA31-25E85077A0DD864E",
+      "login_ok": true,
+      "connection_ok": true,
+      "requests_sent": 12,
+      "replies_received": 12,
+      "acknowledged_requests": 12,
+      "background_messages": 2,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged"
+      ],
+      "response_samples": [
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 280203300513257
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 3,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "model": "<string>",
+              "serial_number": "<string>",
+              "make": "<string>",
+              "os_version": "<string>",
+              "model_number": "<string>",
+              "product_type": "<string>",
+              "baseband_version": "<string>",
+              "is_activated": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        },
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 280203300513258
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 3,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "model": "<string>",
+              "serial_number": "<string>",
+              "make": "<string>",
+              "os_version": "<string>",
+              "model_number": "<string>",
+              "product_type": "<string>",
+              "baseband_version": "<string>",
+              "is_activated": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "platform": "android",
+      "device_id": "android-05",
+      "dummy_udid": "QAANDROID727469A6B0E4",
+      "login_ok": true,
+      "connection_ok": true,
+      "requests_sent": 12,
+      "replies_received": 12,
+      "acknowledged_requests": 12,
+      "background_messages": 1,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged"
+      ],
+      "response_samples": [
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 125844314304741
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 48,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "baseband_version": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        },
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 125844314304742
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 48,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "baseband_version": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "platform": "ios",
+      "device_id": "ios-06",
+      "dummy_udid": "7488BA44-2440597289F5B66A",
+      "login_ok": true,
+      "connection_ok": true,
+      "requests_sent": 12,
+      "replies_received": 12,
+      "acknowledged_requests": 12,
+      "background_messages": 1,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged"
+      ],
+      "response_samples": [
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 128130589402177
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 3,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "model": "<string>",
+              "serial_number": "<string>",
+              "make": "<string>",
+              "os_version": "<string>",
+              "model_number": "<string>",
+              "product_type": "<string>",
+              "baseband_version": "<string>",
+              "is_activated": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        },
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 128130589402178
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 4,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "model": "<string>",
+              "serial_number": "<string>",
+              "make": "<string>",
+              "os_version": "<string>",
+              "model_number": "<string>",
+              "product_type": "<string>",
+              "baseband_version": "<string>",
+              "is_activated": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "platform": "android",
+      "device_id": "android-06",
+      "dummy_udid": "QAANDROID8480345D15CE",
+      "login_ok": true,
+      "connection_ok": true,
+      "requests_sent": 12,
+      "replies_received": 12,
+      "acknowledged_requests": 12,
+      "background_messages": 1,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged"
+      ],
+      "response_samples": [
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 145686169195983
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 48,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "baseband_version": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        },
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 145686169195984
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 48,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "baseband_version": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "platform": "ios",
+      "device_id": "ios-07",
+      "dummy_udid": "F0979ECF-546454E19624FBA6",
+      "login_ok": true,
+      "connection_ok": true,
+      "requests_sent": 12,
+      "replies_received": 12,
+      "acknowledged_requests": 12,
+      "background_messages": 1,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged"
+      ],
+      "response_samples": [
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 264533995115621
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 4,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "model": "<string>",
+              "serial_number": "<string>",
+              "make": "<string>",
+              "os_version": "<string>",
+              "model_number": "<string>",
+              "product_type": "<string>",
+              "baseband_version": "<string>",
+              "is_activated": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        },
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 264533995115622
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 4,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "model": "<string>",
+              "serial_number": "<string>",
+              "make": "<string>",
+              "os_version": "<string>",
+              "model_number": "<string>",
+              "product_type": "<string>",
+              "baseband_version": "<string>",
+              "is_activated": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "platform": "android",
+      "device_id": "android-07",
+      "dummy_udid": "QAANDROID0B241C6773DD",
+      "login_ok": true,
+      "connection_ok": true,
+      "requests_sent": 12,
+      "replies_received": 12,
+      "acknowledged_requests": 12,
+      "background_messages": 1,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged"
+      ],
+      "response_samples": [
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 12249723270110
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 48,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "baseband_version": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        },
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 12249723270111
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 48,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "baseband_version": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "platform": "ios",
+      "device_id": "ios-08",
+      "dummy_udid": "6FC14534-4C08541084D7B367",
+      "login_ok": true,
+      "connection_ok": true,
+      "requests_sent": 6,
+      "replies_received": 5,
+      "acknowledged_requests": 5,
+      "background_messages": 1,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "WebSocketTimeoutException"
+      ],
+      "response_samples": [
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 122875880426505
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 4,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "model": "<string>",
+              "serial_number": "<string>",
+              "make": "<string>",
+              "os_version": "<string>",
+              "model_number": "<string>",
+              "product_type": "<string>",
+              "baseband_version": "<string>",
+              "is_activated": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        },
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 122875880426506
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 4,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "model": "<string>",
+              "serial_number": "<string>",
+              "make": "<string>",
+              "os_version": "<string>",
+              "model_number": "<string>",
+              "product_type": "<string>",
+              "baseband_version": "<string>",
+              "is_activated": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "platform": "android",
+      "device_id": "android-08",
+      "dummy_udid": "QAANDROIDA3EDAF25C307",
+      "login_ok": true,
+      "connection_ok": true,
+      "requests_sent": 12,
+      "replies_received": 12,
+      "acknowledged_requests": 12,
+      "background_messages": 2,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged"
+      ],
+      "response_samples": [
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 180241241064200
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 47,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "baseband_version": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        },
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 180241241064201
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 48,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "baseband_version": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "platform": "ios",
+      "device_id": "ios-09",
+      "dummy_udid": "1BEED272-C5235998A9B4895C",
+      "login_ok": true,
+      "connection_ok": true,
+      "requests_sent": 12,
+      "replies_received": 12,
+      "acknowledged_requests": 12,
+      "background_messages": 2,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged"
+      ],
+      "response_samples": [
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 30712546903332
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 3,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "model": "<string>",
+              "serial_number": "<string>",
+              "make": "<string>",
+              "os_version": "<string>",
+              "model_number": "<string>",
+              "product_type": "<string>",
+              "baseband_version": "<string>",
+              "is_activated": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        },
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 30712546903333
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 3,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "model": "<string>",
+              "serial_number": "<string>",
+              "make": "<string>",
+              "os_version": "<string>",
+              "model_number": "<string>",
+              "product_type": "<string>",
+              "baseband_version": "<string>",
+              "is_activated": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "platform": "android",
+      "device_id": "android-09",
+      "dummy_udid": "QAANDROIDEF0EDDBA790D",
+      "login_ok": true,
+      "connection_ok": true,
+      "requests_sent": 12,
+      "replies_received": 12,
+      "acknowledged_requests": 12,
+      "background_messages": 2,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged"
+      ],
+      "response_samples": [
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 262847128566030
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 48,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "baseband_version": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        },
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 262847128566031
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 48,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "baseband_version": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "platform": "ios",
+      "device_id": "ios-10",
+      "dummy_udid": "A14C53B2-D3C45AC18955D906",
+      "login_ok": true,
+      "connection_ok": true,
+      "requests_sent": 12,
+      "replies_received": 12,
+      "acknowledged_requests": 12,
+      "background_messages": 2,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged"
+      ],
+      "response_samples": [
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 177349193814981
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 4,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "model": "<string>",
+              "serial_number": "<string>",
+              "make": "<string>",
+              "os_version": "<string>",
+              "model_number": "<string>",
+              "product_type": "<string>",
+              "baseband_version": "<string>",
+              "is_activated": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        },
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 177349193814982
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 4,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "model": "<string>",
+              "serial_number": "<string>",
+              "make": "<string>",
+              "os_version": "<string>",
+              "model_number": "<string>",
+              "product_type": "<string>",
+              "baseband_version": "<string>",
+              "is_activated": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "platform": "android",
+      "device_id": "android-10",
+      "dummy_udid": "QAANDROIDFAC77C56457F",
+      "login_ok": true,
+      "connection_ok": true,
+      "requests_sent": 12,
+      "replies_received": 12,
+      "acknowledged_requests": 12,
+      "background_messages": 2,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged",
+        "acknowledged"
+      ],
+      "response_samples": [
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 275734691464576
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 47,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "baseband_version": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        },
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 275734691464577
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 48,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "baseband_version": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Android device_info schema is assumed, not verified.",
+    "Synthetic iOS fixture contains only a subset of real-device plist fields.",
+    "Acknowledgment requires status=success and matching udid, client_data.ref and messagetype; it does not prove diagnostic completion.",
+    "No hardware/USB or desktop UI behavior is exercised.",
+    "Only message type 1 is repeated; returned hardware commands are not executed. Unmatched/non-JSON messages are counted separately; each request waits up to 15 seconds for its matching reply."
+  ]
+}

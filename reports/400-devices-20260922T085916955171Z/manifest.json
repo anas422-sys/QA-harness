@@ -1,0 +1,29 @@
+{
+  "users": 20,
+  "distinct_accounts": 1,
+  "devices_per_user": 20,
+  "ios": 200,
+  "android": 200,
+  "synthetic": true,
+  "reference_variants": 25,
+  "stages": [
+    5,
+    10,
+    20,
+    20,
+    20
+  ],
+  "pause_seconds": 10,
+  "timeout_seconds": 15,
+  "prepare_only": false,
+  "peak_open_client_sessions": 20,
+  "outcomes": {
+    "PASS": 40,
+    "VALUE_CHANGED": 120,
+    "MATCH": 220,
+    "SCHEMA_MISMATCH": 100,
+    "APPLICATION_FAILURE": 93,
+    "ACK_ONLY": 1456,
+    "TIMEOUT": 11
+  }
+}

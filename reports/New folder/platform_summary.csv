@@ -1,0 +1,3 @@
+﻿platform,assigned_devices,attempted_unique_devices,acknowledged_unique_devices,requests,acks,p50_ack_ms,p95_ack_ms,p99_ack_ms,outcomes
+ios,10,10,10,30,30,406.65,796.69,801.99,"{""ACK_ONLY"": 30}"
+android,10,10,10,30,28,377.03,750.12,775.11,"{""ACK_ONLY"": 28, ""TIMEOUT"": 2}"

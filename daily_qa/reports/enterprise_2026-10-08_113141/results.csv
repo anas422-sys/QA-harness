@@ -1,0 +1,3 @@
+﻿module,group,test,status,duration_ms,device,messages_sent,messages_received,details,blocker,evidence
+Dummy devices,ios,Dummy iPhone 1,ERROR,0.02,7D968342-01065D3B930AAC69,0,0,,WebSocketConnectionClosedException: Connection to remote host was lost.,
+Dummy devices,android,Dummy Android 1 · round 1,TIMEOUT,10003.45,QAANDROID6F372B8A8B9E,1,0,Background messages: 0,No exact response within 10.0s,

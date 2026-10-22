@@ -1,0 +1,14 @@
+{
+  "users": 1,
+  "ios_devices": 20,
+  "planned_requests": 182,
+  "sent": 182,
+  "received": 175,
+  "outcomes": {
+    "ACK_ONLY": 149,
+    "BATTERY_MATCH": 18,
+    "TIMEOUT": 15
+  },
+  "command_drift_requests": 60,
+  "session_error": ""
+}

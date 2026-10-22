@@ -1,0 +1,296 @@
+[
+  {
+    "platform": "ios",
+    "device_id": "ios-08",
+    "step": "login",
+    "outcome": "ok",
+    "duration_ms": 1010.02
+  },
+  {
+    "platform": "android",
+    "device_id": "android-09",
+    "step": "login",
+    "outcome": "ok",
+    "duration_ms": 1011.66
+  },
+  {
+    "platform": "android",
+    "device_id": "android-07",
+    "step": "login",
+    "outcome": "HTTP 429",
+    "duration_ms": 1659.73
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-10",
+    "step": "login",
+    "outcome": "HTTP 429",
+    "duration_ms": 1652.88
+  },
+  {
+    "platform": "android",
+    "device_id": "android-03",
+    "step": "login",
+    "outcome": "HTTP 429",
+    "duration_ms": 1693.7
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-06",
+    "step": "login",
+    "outcome": "HTTP 429",
+    "duration_ms": 1685.87
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-04",
+    "step": "login",
+    "outcome": "HTTP 429",
+    "duration_ms": 1705.67
+  },
+  {
+    "platform": "android",
+    "device_id": "android-05",
+    "step": "login",
+    "outcome": "HTTP 429",
+    "duration_ms": 1713.18
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-03",
+    "step": "login",
+    "outcome": "HTTP 429",
+    "duration_ms": 1724.09
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-05",
+    "step": "login",
+    "outcome": "ok",
+    "duration_ms": 1821.99
+  },
+  {
+    "platform": "android",
+    "device_id": "android-08",
+    "step": "login",
+    "outcome": "ok",
+    "duration_ms": 1887.68
+  },
+  {
+    "platform": "android",
+    "device_id": "android-02",
+    "step": "login",
+    "outcome": "ok",
+    "duration_ms": 1935.69
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-08",
+    "step": "connect",
+    "outcome": "ok",
+    "duration_ms": 900.04
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-08",
+    "step": "synchronize",
+    "outcome": "BrokenBarrierError",
+    "duration_ms": 0.06
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-02",
+    "step": "login",
+    "outcome": "ok",
+    "duration_ms": 1955.57
+  },
+  {
+    "platform": "android",
+    "device_id": "android-06",
+    "step": "login",
+    "outcome": "ok",
+    "duration_ms": 1947.83
+  },
+  {
+    "platform": "android",
+    "device_id": "android-04",
+    "step": "login",
+    "outcome": "ok",
+    "duration_ms": 1960.15
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-01",
+    "step": "login",
+    "outcome": "ok",
+    "duration_ms": 1969.21
+  },
+  {
+    "platform": "android",
+    "device_id": "android-01",
+    "step": "login",
+    "outcome": "ok",
+    "duration_ms": 1970.07
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-07",
+    "step": "login",
+    "outcome": "ok",
+    "duration_ms": 1946.32
+  },
+  {
+    "platform": "android",
+    "device_id": "android-10",
+    "step": "login",
+    "outcome": "ok",
+    "duration_ms": 1933.25
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-09",
+    "step": "login",
+    "outcome": "ok",
+    "duration_ms": 1941.18
+  },
+  {
+    "platform": "android",
+    "device_id": "android-09",
+    "step": "connect",
+    "outcome": "ok",
+    "duration_ms": 1445.86
+  },
+  {
+    "platform": "android",
+    "device_id": "android-09",
+    "step": "synchronize",
+    "outcome": "BrokenBarrierError",
+    "duration_ms": 0.04
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-05",
+    "step": "connect",
+    "outcome": "ok",
+    "duration_ms": 1488.16
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-05",
+    "step": "synchronize",
+    "outcome": "BrokenBarrierError",
+    "duration_ms": 0.62
+  },
+  {
+    "platform": "android",
+    "device_id": "android-04",
+    "step": "connect",
+    "outcome": "ok",
+    "duration_ms": 1428.51
+  },
+  {
+    "platform": "android",
+    "device_id": "android-04",
+    "step": "synchronize",
+    "outcome": "BrokenBarrierError",
+    "duration_ms": 0.05
+  },
+  {
+    "platform": "android",
+    "device_id": "android-02",
+    "step": "connect",
+    "outcome": "ok",
+    "duration_ms": 1493.85
+  },
+  {
+    "platform": "android",
+    "device_id": "android-02",
+    "step": "synchronize",
+    "outcome": "BrokenBarrierError",
+    "duration_ms": 0.05
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-01",
+    "step": "connect",
+    "outcome": "ok",
+    "duration_ms": 1542.05
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-01",
+    "step": "synchronize",
+    "outcome": "BrokenBarrierError",
+    "duration_ms": 0.04
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-02",
+    "step": "connect",
+    "outcome": "ok",
+    "duration_ms": 1563.49
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-02",
+    "step": "synchronize",
+    "outcome": "BrokenBarrierError",
+    "duration_ms": 0.13
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-07",
+    "step": "connect",
+    "outcome": "ok",
+    "duration_ms": 1560.48
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-07",
+    "step": "synchronize",
+    "outcome": "BrokenBarrierError",
+    "duration_ms": 0.09
+  },
+  {
+    "platform": "android",
+    "device_id": "android-06",
+    "step": "connect",
+    "outcome": "ok",
+    "duration_ms": 1576.07
+  },
+  {
+    "platform": "android",
+    "device_id": "android-06",
+    "step": "synchronize",
+    "outcome": "BrokenBarrierError",
+    "duration_ms": 0.04
+  },
+  {
+    "platform": "android",
+    "device_id": "android-10",
+    "step": "connect",
+    "outcome": "WebSocketBadStatusException",
+    "duration_ms": 1569.05
+  },
+  {
+    "platform": "android",
+    "device_id": "android-01",
+    "step": "connect",
+    "outcome": "WebSocketBadStatusException",
+    "duration_ms": 1592.64
+  },
+  {
+    "platform": "android",
+    "device_id": "android-08",
+    "step": "connect",
+    "outcome": "WebSocketBadStatusException",
+    "duration_ms": 1659.37
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-09",
+    "step": "connect",
+    "outcome": "WebSocketBadStatusException",
+    "duration_ms": 1610.86
+  }
+]

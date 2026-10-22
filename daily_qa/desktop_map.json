@@ -1,0 +1,18 @@
+{
+  "application": {
+    "process_names": ["reCheck360.exe", "reCheck360"],
+    "window_title_patterns": [".*reCheck360.*", ".*Diagnostics.*", ".*"],
+    "automation_backend": "uia"
+  },
+  "pages": {
+    "login": {"navigation": [], "expected_text": ["Login", "Username", "Password"]},
+    "dashboard": {"navigation": ["Home", "Dashboard"], "expected_text": ["Device", "Results", "Manual", "Issues"]},
+    "device_connection": {"navigation": ["Home", "Dashboard"], "expected_text": ["Device", "IMEI", "SN"]},
+    "device_details": {"navigation": ["Device"], "expected_text": ["IMEI", "S Model", "Firmware", "Version"]},
+    "diagnostic_results": {"navigation": ["Results"], "expected_text": ["Test Code", "Test Name", "Result"]},
+    "manual_tests": {"navigation": ["Manual"], "expected_text": ["Manual"]},
+    "issues": {"navigation": ["Issues"], "expected_text": ["Issues"]},
+    "reports": {"navigation": ["Reports", "Report"], "expected_text": ["Report"]},
+    "settings": {"navigation": ["Settings"], "expected_text": ["Settings"]}
+  }
+}

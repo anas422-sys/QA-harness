@@ -1,0 +1,7 @@
+﻿module,group,test,status,duration_ms,device,messages_sent,messages_received,details,blocker,evidence
+Backend,Server health,Staging server status,PASS,1218.79,,0,0,HTTP 200; Staging Server is Running,,
+Dummy devices,ios,Dummy iPhone 1 · round 1,TIMEOUT,20003.64,7DC1C211-32745D219F710081,1,0,Background messages: 0,No exact response within 20.0s,
+Dummy devices,ios,Dummy iPhone 2 · round 1,TIMEOUT,20002.29,288F8EE5-8E80571C9D1E4249,1,0,Background messages: 0,No exact response within 20.0s,
+Dummy devices,ios,Dummy iPhone 3,ERROR,0.02,7FE86F86-C23B51BA834B6C63,0,0,,WebSocketConnectionClosedException: Connection to remote host was lost.,
+Dummy devices,ios,Dummy iPhone 4,ERROR,0.02,8A8C5B92-BA2451FE81A34FE0,0,0,,WebSocketConnectionClosedException: Connection to remote host was lost.,
+Dummy devices,ios,Dummy iPhone 5 · round 1,ACKNOWLEDGED,410.09,1F7FF93E-212F581993EAF78A,1,1,Backend acknowledged synthetic payload; physical hardware was not tested,,

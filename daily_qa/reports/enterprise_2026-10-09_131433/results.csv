@@ -1,0 +1,14 @@
+﻿module,group,test,status,duration_ms,device,messages_sent,messages_received,details,blocker,evidence
+Frontend,dashboard,Packaged JavaFX view contract,PASS,0.19,,0,0,views/dashboard.fxml parsed; 76 controls; 2 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,Physical devices,Discover selected USB devices,BLOCKED,0.01,,0,0,,No Android/iOS devices were returned by configured USB tools,
+Frontend,Application,Attach to reCheck360 desktop window,PASS,29848.97,,0,0,Desktop automation window attached,,
+Frontend,dashboard,Navigate and validate page,FAIL,4607.53,,0,0,"Clicked: current view; expected: Device, Results, Manual, Issues",,C:\Users\usama\Downloads\locust\daily_qa\reports\enterprise_2026-10-09_131433\evidence\frontend_dashboard.png
+Frontend,device_connection,Navigate and validate page,FAIL,1065.9,,0,0,"Clicked: current view; expected: Device, IMEI, SN",,C:\Users\usama\Downloads\locust\daily_qa\reports\enterprise_2026-10-09_131433\evidence\frontend_device_connection.png
+Frontend,device_details,Navigate and validate page,BLOCKED,203.5,,0,0,Visible markers: none,Navigation control was not exposed through Windows UI Automation; calibrate desktop_map.json,C:\Users\usama\Downloads\locust\daily_qa\reports\enterprise_2026-10-09_131433\evidence\frontend_device_details.png
+Frontend,diagnostic_results,Navigate and validate page,BLOCKED,130.36,,0,0,Visible markers: none,Navigation control was not exposed through Windows UI Automation; calibrate desktop_map.json,C:\Users\usama\Downloads\locust\daily_qa\reports\enterprise_2026-10-09_131433\evidence\frontend_diagnostic_results.png
+Frontend,manual_tests,Navigate and validate page,BLOCKED,147.39,,0,0,Visible markers: none,Navigation control was not exposed through Windows UI Automation; calibrate desktop_map.json,C:\Users\usama\Downloads\locust\daily_qa\reports\enterprise_2026-10-09_131433\evidence\frontend_manual_tests.png
+Frontend,issues,Navigate and validate page,BLOCKED,110.22,,0,0,Visible markers: none,Navigation control was not exposed through Windows UI Automation; calibrate desktop_map.json,C:\Users\usama\Downloads\locust\daily_qa\reports\enterprise_2026-10-09_131433\evidence\frontend_issues.png
+Frontend,reports,Navigate and validate page,BLOCKED,110.22,,0,0,Visible markers: none,Navigation control was not exposed through Windows UI Automation; calibrate desktop_map.json,C:\Users\usama\Downloads\locust\daily_qa\reports\enterprise_2026-10-09_131433\evidence\frontend_reports.png
+Backend,Authentication,Login API,ERROR,42713.8,,0,0,,"ConnectionError: ('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine'))",
+Backend,websocket_connection,Backend feature,BLOCKED,0.06,,0,0,,Authentication did not provide a token,
+Backend,version_contract,Backend feature,BLOCKED,0.0,,0,0,,Authentication did not provide a token,

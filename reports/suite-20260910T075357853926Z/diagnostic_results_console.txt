@@ -1,0 +1,36 @@
+{
+  "source": "app-2026-09-10.log",
+  "snapshot_events": 1,
+  "devices_with_result_snapshots": 1,
+  "scope": "stored/reported diagnostic results, not proof of a fresh test run"
+}
+{
+  "timestamp": "2026-09-10 12:35:36.326",
+  "device": "device-01",
+  "platform": "ios",
+  "message_type": 15,
+  "success_envelope": true,
+  "result_count": 44,
+  "expected_enabled_count": 46,
+  "required_after_exclusions": 46,
+  "counts": {
+    "pass": 44
+  },
+  "missing_tests": [
+    {
+      "code": "iFT-000",
+      "test_name": "Force Touch"
+    },
+    {
+      "code": "iTI-000",
+      "test_name": "Touch ID"
+    }
+  ],
+  "excluded_codes": [],
+  "duplicate_codes": [],
+  "unresolved_required_codes": [],
+  "reported_required_results_complete": false,
+  "all_required_reported_pass": false,
+  "fresh_diagnostic_run_verified": false
+}
+Report: C:\Users\usama\Downloads\locust\reports\suite-20260910T075357853926Z\diagnostic_results\results_report.md

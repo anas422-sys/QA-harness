@@ -1,0 +1,5 @@
+﻿module,group,test,status,duration_ms,device,messages_sent,messages_received,details,blocker,evidence
+Frontend,Physical devices,Discover selected USB devices,BLOCKED,0.01,,0,0,,No Android/iOS devices were returned by configured USB tools,
+Frontend,Application,Attach to reCheck360 desktop window,BLOCKED,3498.62,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,dashboard,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,device_connection,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,

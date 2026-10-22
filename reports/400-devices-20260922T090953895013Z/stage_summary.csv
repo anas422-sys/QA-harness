@@ -1,0 +1,9 @@
+﻿phase,requests,acknowledged_devices,responding_sessions,p95_ack_ms,outcomes
+connect,20,0,0,,"{""PASS"": 20}"
+login,20,0,0,,"{""PASS"": 20}"
+stage-1-5-devices-per-user,100,97,20,7322.76,"{""APPLICATION_FAILURE"": 3, ""ACK_ONLY"": 97}"
+stage-2-10-devices-per-user,200,170,20,9144.53,"{""ACK_ONLY"": 170, ""APPLICATION_FAILURE"": 26, ""TIMEOUT"": 4}"
+stage-3-20-devices-per-user,400,368,20,12403.6,"{""ACK_ONLY"": 368, ""APPLICATION_FAILURE"": 15, ""TIMEOUT"": 17}"
+stage-4-20-devices-per-user,400,389,20,5150.63,"{""ACK_ONLY"": 389, ""APPLICATION_FAILURE"": 9, ""TIMEOUT"": 2}"
+stage-5-20-devices-per-user,400,389,20,6226.92,"{""APPLICATION_FAILURE"": 9, ""ACK_ONLY"": 389, ""TIMEOUT"": 2}"
+startup,500,0,0,,"{""VALUE_CHANGED"": 120, ""MATCH"": 220, ""SCHEMA_MISMATCH"": 100, ""APPLICATION_FAILURE"": 60}"

@@ -1,0 +1,63 @@
+{
+  "environment": "staging",
+  "started_at": "2026-10-08T11:31:32+05:00",
+  "finished_at": "2026-10-08T11:31:32+05:00",
+  "selection": {
+    "payload_file": "C:\\does-not-exist.json",
+    "timeout_seconds": 5,
+    "max_messages": 10,
+    "mode": "messages"
+  },
+  "mode": "messages",
+  "device_inventory": {
+    "devices": [],
+    "counts": {
+      "total": 0,
+      "android": 0,
+      "ios": 0,
+      "selected": 0,
+      "capacity": 20
+    },
+    "tools": {
+      "adb": "C:\\Program Files\\reCheck360\\app\\native-dev\\windows\\adb.exe",
+      "idevice_id": "C:\\Program Files\\reCheck360\\app\\native-dev\\windows\\idevice_id.exe",
+      "ideviceinfo": "C:\\Program Files\\reCheck360\\app\\native-dev\\windows\\ideviceinfo.exe"
+    },
+    "blockers": []
+  },
+  "summary": {
+    "tests": 1,
+    "pass": 0,
+    "fail": 0,
+    "blocked": 1,
+    "acknowledged": 0,
+    "connected": 0,
+    "messages_sent": 0,
+    "messages_received": 0,
+    "duration_ms": 247.34,
+    "real_devices": {
+      "total": 0,
+      "android": 0,
+      "ios": 0,
+      "selected": 0,
+      "capacity": 20
+    }
+  },
+  "results": [
+    {
+      "module": "Messages",
+      "group": "Input",
+      "test": "Load payload file",
+      "status": "BLOCKED",
+      "duration_ms": 0.01,
+      "device": "",
+      "messages_sent": 0,
+      "messages_received": 0,
+      "details": "",
+      "blocker": "Select an existing JSON or application log file",
+      "evidence": ""
+    }
+  ],
+  "sent_messages": [],
+  "received_messages": []
+}

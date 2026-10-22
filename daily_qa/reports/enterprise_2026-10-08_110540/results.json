@@ -1,0 +1,79 @@
+{
+  "environment": "staging",
+  "started_at": "2026-10-08T11:05:40+05:00",
+  "finished_at": "2026-10-08T11:05:42+05:00",
+  "selection": {
+    "require_devices": false,
+    "frontend_pages": [
+      "dashboard"
+    ],
+    "device_limit": 20,
+    "payload_file": "",
+    "users": 1,
+    "timeout_seconds": 5,
+    "backend_features": []
+  },
+  "device_inventory": {
+    "devices": [],
+    "counts": {
+      "total": 0,
+      "android": 0,
+      "ios": 0,
+      "selected": 0,
+      "capacity": 20
+    },
+    "tools": {
+      "adb": "",
+      "idevice_id": "",
+      "ideviceinfo": ""
+    },
+    "blockers": [
+      "Android tooling unavailable: configure device_tools.adb or install Android platform-tools",
+      "iOS tooling unavailable: configure device_tools.idevice_id or install libimobiledevice"
+    ]
+  },
+  "summary": {
+    "tests": 2,
+    "pass": 0,
+    "fail": 0,
+    "blocked": 2,
+    "messages_sent": 0,
+    "messages_received": 0,
+    "duration_ms": 2548.36,
+    "real_devices": {
+      "total": 0,
+      "android": 0,
+      "ios": 0,
+      "selected": 0,
+      "capacity": 20
+    }
+  },
+  "results": [
+    {
+      "module": "Frontend",
+      "group": "Application",
+      "test": "Attach to reCheck360 desktop window",
+      "status": "BLOCKED",
+      "duration_ms": 2465.37,
+      "device": "",
+      "messages_sent": 0,
+      "messages_received": 0,
+      "details": "",
+      "blocker": "reCheck360 has no UI Automation-visible window",
+      "evidence": ""
+    },
+    {
+      "module": "Frontend",
+      "group": "dashboard",
+      "test": "Automated page workflow",
+      "status": "BLOCKED",
+      "duration_ms": 0.0,
+      "device": "",
+      "messages_sent": 0,
+      "messages_received": 0,
+      "details": "",
+      "blocker": "reCheck360 has no UI Automation-visible window",
+      "evidence": ""
+    }
+  ]
+}

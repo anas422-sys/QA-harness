@@ -1,0 +1,7047 @@
+[
+  {
+    "line": 25,
+    "time": "2026-09-10T05:35:36.442",
+    "direction": "sent",
+    "message_type": 134,
+    "device": null,
+    "request": "request-001",
+    "status": null,
+    "schema": {
+      "messagetype": 134,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "tester_name": {
+        "type": "string",
+        "length": 0
+      },
+      "external_batch_id": {
+        "type": "string",
+        "length": 0
+      },
+      "customer_name": {
+        "type": "string",
+        "length": 0
+      },
+      "invoice_number": {
+        "type": "string",
+        "length": 0
+      }
+    }
+  },
+  {
+    "line": 34,
+    "time": "2026-09-10T05:35:36.486",
+    "direction": "sent",
+    "message_type": 59,
+    "device": null,
+    "request": "request-002",
+    "status": null,
+    "schema": {
+      "messagetype": 59,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 37,
+    "time": "2026-09-10T05:35:36.488",
+    "direction": "sent",
+    "message_type": 62,
+    "device": null,
+    "request": "request-003",
+    "status": null,
+    "schema": {
+      "messagetype": 62,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 40,
+    "time": "2026-09-10T05:35:36.490",
+    "direction": "sent",
+    "message_type": 127,
+    "device": null,
+    "request": "request-004",
+    "status": null,
+    "schema": {
+      "messagetype": 127,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 43,
+    "time": "2026-09-10T05:35:36.492",
+    "direction": "sent",
+    "message_type": 60,
+    "device": null,
+    "request": "request-005",
+    "status": null,
+    "schema": {
+      "messagetype": 60,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 46,
+    "time": "2026-09-10T05:35:36.494",
+    "direction": "sent",
+    "message_type": 67,
+    "device": null,
+    "request": "request-006",
+    "status": null,
+    "schema": {
+      "messagetype": 67,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 49,
+    "time": "2026-09-10T05:35:36.497",
+    "direction": "sent",
+    "message_type": 135,
+    "device": null,
+    "request": "request-007",
+    "status": null,
+    "schema": {
+      "messagetype": 135,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 52,
+    "time": "2026-09-10T05:35:36.499",
+    "direction": "sent",
+    "message_type": 58,
+    "device": null,
+    "request": "request-008",
+    "status": null,
+    "schema": {
+      "messagetype": 58,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 55,
+    "time": "2026-09-10T05:35:36.502",
+    "direction": "sent",
+    "message_type": 49,
+    "device": null,
+    "request": "request-009",
+    "status": null,
+    "schema": {
+      "messagetype": 49,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 58,
+    "time": "2026-09-10T05:35:36.505",
+    "direction": "sent",
+    "message_type": 33,
+    "device": null,
+    "request": "request-010",
+    "status": null,
+    "schema": {
+      "messagetype": 33,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 76,
+    "time": "2026-09-10T05:35:36.801",
+    "direction": "received",
+    "message_type": 134,
+    "device": null,
+    "request": "request-001",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 134,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "hub_token": {
+          "type": "string",
+          "length": 0
+        }
+      }
+    }
+  },
+  {
+    "line": 83,
+    "time": "2026-09-10T05:35:36.939",
+    "direction": "received",
+    "message_type": 59,
+    "device": null,
+    "request": "request-002",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 59,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "full_name": {
+          "type": "string",
+          "length": 7
+        },
+        "login_id": {
+          "type": "string",
+          "length": 7
+        },
+        "company_id": {
+          "type": "string",
+          "length": 2
+        },
+        "user_type": {
+          "type": "string",
+          "length": 13
+        }
+      }
+    }
+  },
+  {
+    "line": 85,
+    "time": "2026-09-10T05:35:36.944",
+    "direction": "received",
+    "message_type": 62,
+    "device": null,
+    "request": "request-003",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 62,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "name": {
+          "type": "string",
+          "length": 7
+        },
+        "address1": {
+          "type": "string",
+          "length": 0
+        },
+        "city": {
+          "type": "string",
+          "length": 0
+        },
+        "state": {
+          "type": "string",
+          "length": 0
+        },
+        "zip_code": {
+          "type": "string",
+          "length": 0
+        },
+        "country": {
+          "type": "string",
+          "length": 0
+        },
+        "business_type": {
+          "type": "string",
+          "length": 0
+        },
+        "company_id": {
+          "type": "string",
+          "length": 2
+        },
+        "phone": {
+          "type": "string",
+          "length": 0
+        },
+        "email": {
+          "type": "string",
+          "length": 0
+        },
+        "credit_days": {
+          "type": "int"
+        },
+        "subscription": {
+          "type": "int"
+        },
+        "account_type": {
+          "type": "string",
+          "length": 4
+        },
+        "address2": {
+          "type": "string",
+          "length": 0
+        },
+        "website": {
+          "type": "string",
+          "length": 0
+        },
+        "mobile": {
+          "type": "string",
+          "length": 0
+        },
+        "contact_person": {
+          "type": "string",
+          "length": 0
+        }
+      }
+    }
+  },
+  {
+    "line": 87,
+    "time": "2026-09-10T05:35:36.946",
+    "direction": "received",
+    "message_type": 127,
+    "device": null,
+    "request": "request-004",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 127,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "symbol": {
+          "type": "string",
+          "length": 0
+        }
+      }
+    }
+  },
+  {
+    "line": 89,
+    "time": "2026-09-10T05:35:36.947",
+    "direction": "received",
+    "message_type": 60,
+    "device": null,
+    "request": "request-005",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 60,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "type": "NoneType"
+      }
+    }
+  },
+  {
+    "line": 91,
+    "time": "2026-09-10T05:35:36.949",
+    "direction": "received",
+    "message_type": 67,
+    "device": null,
+    "request": "request-006",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 67,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "type": "NoneType"
+      }
+    }
+  },
+  {
+    "line": 93,
+    "time": "2026-09-10T05:35:36.952",
+    "direction": "received",
+    "message_type": 135,
+    "device": null,
+    "request": "request-007",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 135,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "type": "array",
+        "items": {
+          "customer_id": {
+            "type": "string",
+            "length": 2
+          },
+          "customer_name": {
+            "type": "string",
+            "length": 9
+          },
+          "address1": {
+            "type": "string",
+            "length": 0
+          },
+          "address2": {
+            "type": "string",
+            "length": 0
+          },
+          "city": {
+            "type": "string",
+            "length": 0
+          },
+          "state": {
+            "type": "string",
+            "length": 0
+          },
+          "zip_code": {
+            "type": "string",
+            "length": 0
+          },
+          "country": {
+            "type": "string",
+            "length": 0
+          },
+          "phone": {
+            "type": "string",
+            "length": 0
+          },
+          "mobile": {
+            "type": "string",
+            "length": 0
+          },
+          "email": {
+            "type": "string",
+            "length": 0
+          }
+        },
+        "count": 1
+      }
+    }
+  },
+  {
+    "line": 95,
+    "time": "2026-09-10T05:35:36.953",
+    "direction": "received",
+    "message_type": 58,
+    "device": null,
+    "request": "request-008",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 58,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "type": "NoneType"
+      }
+    }
+  },
+  {
+    "line": 97,
+    "time": "2026-09-10T05:35:36.955",
+    "direction": "received",
+    "message_type": 33,
+    "device": null,
+    "request": "request-010",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 33,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "type": "array",
+        "items": {
+          "is_active": {
+            "type": "bool"
+          },
+          "is_default": {
+            "type": "bool"
+          },
+          "type": {
+            "type": "string",
+            "length": 0
+          },
+          "sub_type": {
+            "type": "string",
+            "length": 0
+          },
+          "test_plan_name": {
+            "type": "string",
+            "length": 11
+          },
+          "os_name": {
+            "type": "string",
+            "length": 7
+          }
+        },
+        "count": 6
+      }
+    }
+  },
+  {
+    "line": 99,
+    "time": "2026-09-10T05:35:36.961",
+    "direction": "received",
+    "message_type": 49,
+    "device": null,
+    "request": "request-009",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 49,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "overall_grades": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "length": 4
+          },
+          "count": 1
+        },
+        "screen_grades": {
+          "type": "NoneType"
+        },
+        "housing_grades": {
+          "type": "NoneType"
+        },
+        "backcover_grades": {
+          "type": "NoneType"
+        },
+        "desktop_grades": {
+          "type": "NoneType"
+        },
+        "mobile_comments": {
+          "type": "NoneType"
+        },
+        "desktop_comments": {
+          "type": "NoneType"
+        }
+      }
+    }
+  },
+  {
+    "line": 109,
+    "time": "2026-09-10T05:35:37.007",
+    "direction": "sent",
+    "message_type": 34,
+    "device": null,
+    "request": "request-011",
+    "status": null,
+    "schema": {
+      "messagetype": 34,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "os": {
+        "type": "string",
+        "length": 3
+      }
+    }
+  },
+  {
+    "line": 112,
+    "time": "2026-09-10T05:35:37.008",
+    "direction": "sent",
+    "message_type": 34,
+    "device": null,
+    "request": "request-012",
+    "status": null,
+    "schema": {
+      "messagetype": 34,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "os": {
+        "type": "string",
+        "length": 7
+      }
+    }
+  },
+  {
+    "line": 115,
+    "time": "2026-09-10T05:35:37.010",
+    "direction": "sent",
+    "message_type": 39,
+    "device": null,
+    "request": "request-013",
+    "status": null,
+    "schema": {
+      "messagetype": 39,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 118,
+    "time": "2026-09-10T05:35:37.012",
+    "direction": "sent",
+    "message_type": 56,
+    "device": null,
+    "request": "request-014",
+    "status": null,
+    "schema": {
+      "messagetype": 56,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 121,
+    "time": "2026-09-10T05:35:37.015",
+    "direction": "sent",
+    "message_type": 103,
+    "device": null,
+    "request": "request-015",
+    "status": null,
+    "schema": {
+      "messagetype": 103,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 124,
+    "time": "2026-09-10T05:35:37.019",
+    "direction": "sent",
+    "message_type": 29,
+    "device": null,
+    "request": "request-016",
+    "status": null,
+    "schema": {
+      "messagetype": 29,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 126,
+    "time": "2026-09-10T05:35:37.021",
+    "direction": "sent",
+    "message_type": 30,
+    "device": null,
+    "request": "request-017",
+    "status": null,
+    "schema": {
+      "messagetype": 30,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 128,
+    "time": "2026-09-10T05:35:37.023",
+    "direction": "sent",
+    "message_type": 70,
+    "device": null,
+    "request": "request-018",
+    "status": null,
+    "schema": {
+      "messagetype": 70,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 131,
+    "time": "2026-09-10T05:35:37.025",
+    "direction": "sent",
+    "message_type": 54,
+    "device": null,
+    "request": "request-019",
+    "status": null,
+    "schema": {
+      "messagetype": 54,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 134,
+    "time": "2026-09-10T05:35:37.028",
+    "direction": "sent",
+    "message_type": 45,
+    "device": null,
+    "request": "request-020",
+    "status": null,
+    "schema": {
+      "messagetype": 45,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 137,
+    "time": "2026-09-10T05:35:37.031",
+    "direction": "sent",
+    "message_type": 53,
+    "device": null,
+    "request": "request-021",
+    "status": null,
+    "schema": {
+      "messagetype": 53,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 141,
+    "time": "2026-09-10T05:35:37.059",
+    "direction": "sent",
+    "message_type": 101,
+    "device": null,
+    "request": "request-022",
+    "status": null,
+    "schema": {
+      "messagetype": 101,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 144,
+    "time": "2026-09-10T05:35:37.069",
+    "direction": "sent",
+    "message_type": 64,
+    "device": null,
+    "request": "request-023",
+    "status": null,
+    "schema": {
+      "messagetype": 64,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 152,
+    "time": "2026-09-10T05:35:37.089",
+    "direction": "sent",
+    "message_type": 32,
+    "device": null,
+    "request": "request-024",
+    "status": null,
+    "schema": {
+      "messagetype": 32,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "test_plan_name": {
+        "type": "string",
+        "length": 20
+      }
+    }
+  },
+  {
+    "line": 155,
+    "time": "2026-09-10T05:35:37.090",
+    "direction": "sent",
+    "message_type": 32,
+    "device": null,
+    "request": "request-025",
+    "status": null,
+    "schema": {
+      "messagetype": 32,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "test_plan_name": {
+        "type": "string",
+        "length": 16
+      }
+    }
+  },
+  {
+    "line": 158,
+    "time": "2026-09-10T05:35:37.091",
+    "direction": "sent",
+    "message_type": 32,
+    "device": null,
+    "request": "request-026",
+    "status": null,
+    "schema": {
+      "messagetype": 32,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "test_plan_name": {
+        "type": "string",
+        "length": 15
+      }
+    }
+  },
+  {
+    "line": 161,
+    "time": "2026-09-10T05:35:37.364",
+    "direction": "received",
+    "message_type": 34,
+    "device": null,
+    "request": "request-011",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 34,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "type": "array",
+        "items": {
+          "test_name": {
+            "type": "string",
+            "length": 9
+          },
+          "code": {
+            "type": "string",
+            "length": 7
+          },
+          "mode": {
+            "type": "string",
+            "length": 4
+          }
+        },
+        "count": 81
+      }
+    }
+  },
+  {
+    "line": 164,
+    "time": "2026-09-10T05:35:37.451",
+    "direction": "received",
+    "message_type": 39,
+    "device": null,
+    "request": "request-013",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 39,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "type": "array",
+        "items": {
+          "name": {
+            "type": "string",
+            "length": 9
+          },
+          "max_frequency": {
+            "type": "int"
+          },
+          "min_frequency": {
+            "type": "int"
+          },
+          "frequency": {
+            "type": "int"
+          }
+        },
+        "count": 5
+      }
+    }
+  },
+  {
+    "line": 166,
+    "time": "2026-09-10T05:35:37.453",
+    "direction": "received",
+    "message_type": 103,
+    "device": null,
+    "request": "request-015",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 103,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "cpu_chart": {
+          "type": "bool"
+        },
+        "network_chart": {
+          "type": "bool"
+        },
+        "memory_chart": {
+          "type": "bool"
+        },
+        "wifi_chart": {
+          "type": "bool"
+        },
+        "disk_chart": {
+          "type": "bool"
+        },
+        "gpu_chart": {
+          "type": "bool"
+        }
+      }
+    }
+  },
+  {
+    "line": 168,
+    "time": "2026-09-10T05:35:37.455",
+    "direction": "received",
+    "message_type": 30,
+    "device": null,
+    "request": "request-017",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 30,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "type": "array",
+        "items": {
+          "id": {
+            "type": "int"
+          },
+          "name": {
+            "type": "string",
+            "length": 25
+          },
+          "orientation": {
+            "type": "string",
+            "length": 8
+          },
+          "width": {
+            "type": "int"
+          },
+          "height": {
+            "type": "int"
+          },
+          "file_name": {
+            "type": "string",
+            "length": 104
+          },
+          "logo_file": {
+            "type": "string",
+            "length": 0
+          },
+          "elements": {
+            "type": "array",
+            "items": {
+              "name": {
+                "type": "string",
+                "length": 19
+              },
+              "key": {
+                "type": "string",
+                "length": 17
+              },
+              "enabled": {
+                "type": "bool"
+              }
+            },
+            "count": 5
+          },
+          "email": {
+            "enabled": {
+              "type": "bool"
+            },
+            "email_address": {
+              "type": "string",
+              "length": 0
+            }
+          },
+          "whatsapp": {
+            "enabled": {
+              "type": "bool"
+            },
+            "phone_number": {
+              "type": "string",
+              "length": 0
+            }
+          }
+        },
+        "count": 1
+      }
+    }
+  },
+  {
+    "line": 171,
+    "time": "2026-09-10T05:35:37.685",
+    "direction": "received",
+    "message_type": 53,
+    "device": null,
+    "request": "request-021",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 53,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "android_manual_tests": {
+          "type": "array",
+          "items": {
+            "is_enabled": {
+              "type": "bool"
+            },
+            "test_name": {
+              "type": "string",
+              "length": 4
+            },
+            "is_hidden": {
+              "type": "bool"
+            },
+            "index": {
+              "type": "int"
+            },
+            "mode": {
+              "type": "string",
+              "length": 4
+            },
+            "code": {
+              "type": "string",
+              "length": 7
+            },
+            "sub_test": {
+              "type": "NoneType"
+            }
+          },
+          "count": 88
+        },
+        "ios_manual_tests": {
+          "type": "array",
+          "items": {
+            "is_enabled": {
+              "type": "bool"
+            },
+            "test_name": {
+              "type": "string",
+              "length": 4
+            },
+            "is_hidden": {
+              "type": "bool"
+            },
+            "index": {
+              "type": "int"
+            },
+            "mode": {
+              "type": "string",
+              "length": 4
+            },
+            "code": {
+              "type": "string",
+              "length": 7
+            },
+            "sub_test": {
+              "type": "NoneType"
+            }
+          },
+          "count": 81
+        }
+      }
+    }
+  },
+  {
+    "line": 178,
+    "time": "2026-09-10T05:35:37.701",
+    "direction": "received",
+    "message_type": 101,
+    "device": null,
+    "request": "request-022",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 101,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "type": "NoneType"
+      }
+    }
+  },
+  {
+    "line": 180,
+    "time": "2026-09-10T05:35:37.702",
+    "direction": "received",
+    "message_type": 56,
+    "device": null,
+    "request": "request-014",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 56,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "auto_install_app": {
+          "type": "bool"
+        },
+        "auto_install_wifi": {
+          "type": "bool"
+        },
+        "auto_erasure_on_connect": {
+          "type": "bool"
+        },
+        "auto_flash_firmware": {
+          "type": "bool"
+        },
+        "auto_activate_ios_device": {
+          "type": "bool"
+        },
+        "clear_device_info": {
+          "type": "bool"
+        },
+        "usb_port_mapping": {
+          "type": "bool"
+        },
+        "auto_oem_parts_detection": {
+          "type": "bool"
+        },
+        "auto_parts_functionality_tests": {
+          "type": "bool"
+        },
+        "auto_perform_esn": {
+          "type": "bool"
+        },
+        "auto_perform_apple_care_warranty": {
+          "type": "bool"
+        },
+        "auto_perform_sim_lock_check": {
+          "type": "bool"
+        },
+        "auto_uninstall_app_on_diagnostics_pass": {
+          "type": "bool"
+        },
+        "auto_uninstall_app_on_diagnostics_fail": {
+          "type": "bool"
+        },
+        "auto_erase_device_on_diagnostics_pass": {
+          "type": "bool"
+        },
+        "auto_erase_device_on_diagnostics_fail": {
+          "type": "bool"
+        },
+        "auto_erase_device_on_diagnostics_pass_or_fail": {
+          "type": "bool"
+        },
+        "auto_print_label_on_diagnostics_pass": {
+          "type": "bool"
+        },
+        "auto_print_label_on_diagnostics_fail": {
+          "type": "bool"
+        },
+        "auto_print_label_on_diagnostics_pass_or_fail": {
+          "type": "bool"
+        },
+        "auto_print_report_on_diagnostics_pass": {
+          "type": "bool"
+        },
+        "auto_print_report_on_diagnostics_fail": {
+          "type": "bool"
+        },
+        "auto_print_report_on_diagnostics_pass_or_fail": {
+          "type": "bool"
+        },
+        "auto_remove_wifi_on_diagnostics_pass": {
+          "type": "bool"
+        },
+        "auto_remove_wifi_on_diagnostics_fail": {
+          "type": "bool"
+        },
+        "auto_power_off_device_on_diagnostics_pass": {
+          "type": "bool"
+        },
+        "auto_power_off_device_on_erase": {
+          "type": "bool"
+        },
+        "auto_select_box": {
+          "type": "bool"
+        },
+        "enable_battery_criteria": {
+          "type": "bool"
+        },
+        "create_alert_battery_health": {
+          "type": "bool"
+        },
+        "enable_internal_message_comment": {
+          "type": "bool"
+        },
+        "enable_battery_service_message": {
+          "type": "bool"
+        },
+        "release_comment_on_device_box": {
+          "type": "bool"
+        },
+        "alert_percentage": {
+          "type": "int"
+        },
+        "alert_cycle_count": {
+          "type": "int"
+        },
+        "battery_criteria": {
+          "type": "array",
+          "items": {
+            "id": {
+              "type": "int"
+            },
+            "grade": {
+              "type": "string",
+              "length": 4
+            },
+            "max_percentage": {
+              "type": "int"
+            },
+            "min_percentage": {
+              "type": "int"
+            },
+            "max_cycle_count": {
+              "type": "int"
+            },
+            "min_cycle_count": {
+              "type": "int"
+            }
+          },
+          "count": 1
+        },
+        "percentage_cycle_count_relation": {
+          "type": "string",
+          "length": 3
+        }
+      }
+    }
+  },
+  {
+    "line": 182,
+    "time": "2026-09-10T05:35:37.706",
+    "direction": "received",
+    "message_type": 29,
+    "device": null,
+    "request": "request-016",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 29,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "type": "array",
+        "items": {
+          "id": {
+            "type": "int"
+          },
+          "name": {
+            "type": "string",
+            "length": 32
+          },
+          "orientation": {
+            "type": "string",
+            "length": 8
+          },
+          "width": {
+            "type": "int"
+          },
+          "height": {
+            "type": "int"
+          },
+          "file_name": {
+            "type": "string",
+            "length": 33
+          },
+          "logo_file": {
+            "type": "string",
+            "length": 0
+          },
+          "elements": {
+            "type": "array",
+            "items": {
+              "name": {
+                "type": "string",
+                "length": 4
+              },
+              "key": {
+                "type": "string",
+                "length": 4
+              },
+              "enabled": {
+                "type": "bool"
+              }
+            },
+            "count": 27
+          },
+          "code_field_mappings": {
+            "barcode": {
+              "type": "string",
+              "length": 4
+            }
+          }
+        },
+        "count": 17
+      }
+    }
+  },
+  {
+    "line": 184,
+    "time": "2026-09-10T05:35:37.713",
+    "direction": "received",
+    "message_type": 45,
+    "device": null,
+    "request": "request-020",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 45,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "type": "array",
+        "items": {
+          "vendor_name": {
+            "type": "string",
+            "length": 0
+          },
+          "customer_name": {
+            "type": "string",
+            "length": 0
+          },
+          "batch_id": {
+            "type": "string",
+            "length": 3
+          },
+          "batch_condition": {
+            "type": "string",
+            "length": 0
+          },
+          "batch_status": {
+            "type": "string",
+            "length": 0
+          },
+          "batch_type": {
+            "type": "string",
+            "length": 0
+          },
+          "no_boxes": {
+            "type": "int"
+          },
+          "no_devices": {
+            "type": "int"
+          },
+          "no_ios_devices": {
+            "type": "int"
+          },
+          "no_android_devices": {
+            "type": "int"
+          },
+          "ios_devices": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "length": 0
+            },
+            "count": 1
+          },
+          "android_devices": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "length": 0
+            },
+            "count": 1
+          },
+          "external_batch_id": {
+            "type": "string",
+            "length": 12
+          },
+          "bulk_batch": {
+            "type": "bool"
+          }
+        },
+        "count": 1
+      }
+    }
+  },
+  {
+    "line": 187,
+    "time": "2026-09-10T05:35:37.715",
+    "direction": "received",
+    "message_type": 32,
+    "device": null,
+    "request": "request-025",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 32,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "name": {
+          "type": "string",
+          "length": 16
+        },
+        "tests": {
+          "type": "array",
+          "items": {
+            "is_enabled": {
+              "type": "bool"
+            },
+            "test_name": {
+              "type": "string",
+              "length": 4
+            },
+            "is_hidden": {
+              "type": "bool"
+            },
+            "index": {
+              "type": "int"
+            },
+            "mode": {
+              "type": "string",
+              "length": 4
+            },
+            "code": {
+              "type": "string",
+              "length": 7
+            },
+            "sub_test": {
+              "type": "NoneType"
+            }
+          },
+          "count": 46
+        }
+      }
+    }
+  },
+  {
+    "line": 201,
+    "time": "2026-09-10T05:35:37.828",
+    "direction": "received",
+    "message_type": 32,
+    "device": null,
+    "request": "request-024",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 32,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "name": {
+          "type": "string",
+          "length": 20
+        },
+        "tests": {
+          "type": "array",
+          "items": {
+            "is_enabled": {
+              "type": "bool"
+            },
+            "test_name": {
+              "type": "string",
+              "length": 4
+            },
+            "is_hidden": {
+              "type": "bool"
+            },
+            "index": {
+              "type": "int"
+            },
+            "mode": {
+              "type": "string",
+              "length": 4
+            },
+            "code": {
+              "type": "string",
+              "length": 7
+            },
+            "sub_test": {
+              "type": "NoneType"
+            }
+          },
+          "count": 52
+        }
+      }
+    }
+  },
+  {
+    "line": 203,
+    "time": "2026-09-10T05:35:37.833",
+    "direction": "received",
+    "message_type": 32,
+    "device": null,
+    "request": "request-026",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 32,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "name": {
+          "type": "string",
+          "length": 0
+        },
+        "tests": {
+          "type": "NoneType"
+        }
+      }
+    }
+  },
+  {
+    "line": 208,
+    "time": "2026-09-10T05:35:45.186",
+    "direction": "sent",
+    "message_type": 119,
+    "device": null,
+    "request": "request-027",
+    "status": null,
+    "schema": {
+      "messagetype": 119,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "app_version": {
+        "type": "string",
+        "length": 6
+      },
+      "operating_system": {
+        "type": "string",
+        "length": 7
+      },
+      "architecture": {
+        "type": "string",
+        "length": 3
+      }
+    }
+  },
+  {
+    "line": 210,
+    "time": "2026-09-10T05:35:45.544",
+    "direction": "received",
+    "message_type": 119,
+    "device": null,
+    "request": "request-027",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 119,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 227,
+    "time": "2026-09-10T05:43:01.310",
+    "direction": "sent",
+    "message_type": 141,
+    "device": "device-01",
+    "request": "request-028",
+    "status": null,
+    "schema": {
+      "messagetype": 141,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "error_from": {
+        "type": "string",
+        "length": 10
+      },
+      "error_code": {
+        "type": "string",
+        "length": 17
+      },
+      "udid": {
+        "type": "string",
+        "length": 25
+      },
+      "message": {
+        "type": "string",
+        "length": 36
+      },
+      "version": {
+        "type": "string",
+        "length": 6
+      }
+    }
+  },
+  {
+    "line": 230,
+    "time": "2026-09-10T05:43:01.316",
+    "direction": "sent",
+    "message_type": 139,
+    "device": "device-01",
+    "request": "request-029",
+    "status": null,
+    "schema": {
+      "messagetype": 139,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "udid": {
+        "type": "string",
+        "length": 25
+      }
+    }
+  },
+  {
+    "line": 235,
+    "time": "2026-09-10T05:43:01.667",
+    "direction": "received",
+    "message_type": 141,
+    "device": null,
+    "request": null,
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 141,
+      "status": {
+        "type": "string",
+        "length": 7
+      }
+    }
+  },
+  {
+    "line": 237,
+    "time": "2026-09-10T05:43:01.801",
+    "direction": "received",
+    "message_type": 139,
+    "device": null,
+    "request": "request-029",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 139,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "device_info": {
+          "model": {
+            "type": "string",
+            "length": 17
+          },
+          "color": {
+            "type": "string",
+            "length": 9
+          },
+          "storage": {
+            "type": "string",
+            "length": 5
+          },
+          "imei_1": {
+            "type": "string",
+            "length": 15
+          },
+          "imei_2": {
+            "type": "string",
+            "length": 15
+          },
+          "serial_number": {
+            "type": "string",
+            "length": 10
+          },
+          "firmware": {
+            "type": "string",
+            "length": 7
+          },
+          "make": {
+            "type": "string",
+            "length": 5
+          },
+          "build_version": {
+            "type": "string",
+            "length": 5
+          },
+          "os_version": {
+            "type": "string",
+            "length": 6
+          },
+          "region": {
+            "type": "string",
+            "length": 4
+          },
+          "model_number": {
+            "type": "string",
+            "length": 5
+          },
+          "regulatory_number": {
+            "type": "string",
+            "length": 5
+          },
+          "product_type": {
+            "type": "string",
+            "length": 10
+          },
+          "baseband_version": {
+            "type": "string",
+            "length": 0
+          },
+          "is_activated": {
+            "type": "string",
+            "length": 9
+          },
+          "current_date": {
+            "type": "string",
+            "length": 16
+          },
+          "has_baseband": {
+            "type": "bool"
+          },
+          "has_wifi": {
+            "type": "bool"
+          },
+          "has_face_id": {
+            "type": "bool"
+          },
+          "colors": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "length": 6
+            },
+            "count": 3
+          }
+        },
+        "validation_info": {
+          "icloud_status": {
+            "type": "string",
+            "length": 2
+          },
+          "fmi_status": {
+            "type": "string",
+            "length": 2
+          },
+          "jailbreak_status": {
+            "type": "string",
+            "length": 2
+          },
+          "sim_lock_status": {
+            "type": "string",
+            "length": 6
+          },
+          "release": {
+            "type": "string",
+            "length": 9
+          },
+          "esn_status": {
+            "type": "string",
+            "length": 5
+          },
+          "mdm_status": {
+            "type": "string",
+            "length": 3
+          },
+          "manufacturing_date": {
+            "type": "string",
+            "length": 2
+          }
+        },
+        "oem_info": {
+          "battery": {
+            "factory": {
+              "type": "string",
+              "length": 18
+            },
+            "current": {
+              "type": "string",
+              "length": 18
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "screen": {
+            "factory": {
+              "type": "string",
+              "length": 173
+            },
+            "current": {
+              "type": "string",
+              "length": 173
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "front_camera": {
+            "factory": {
+              "type": "string",
+              "length": 18
+            },
+            "current": {
+              "type": "string",
+              "length": 18
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "back_camera": {
+            "factory": {
+              "type": "string",
+              "length": 18
+            },
+            "current": {
+              "type": "string",
+              "length": 18
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "face_id": {
+            "has_face_id": {
+              "type": "bool"
+            },
+            "distance_sensor": {
+              "type": "string",
+              "length": 5
+            },
+            "infrared_camera": {
+              "type": "string",
+              "length": 18
+            },
+            "infrared_dot_matrix": {
+              "type": "string",
+              "length": 17
+            },
+            "working": {
+              "type": "bool"
+            }
+          },
+          "touch_id": {
+            "has_touch_id": {
+              "type": "bool"
+            },
+            "factory": {
+              "type": "string",
+              "length": 0
+            },
+            "current": {
+              "type": "string",
+              "length": 0
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "motherboard": {
+            "factory": {
+              "type": "string",
+              "length": 18
+            },
+            "current": {
+              "type": "string",
+              "length": 18
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "bluetooth": {
+            "factory": {
+              "type": "string",
+              "length": 17
+            },
+            "current": {
+              "type": "string",
+              "length": 17
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "cellular": {
+            "factory": {
+              "type": "string",
+              "length": 17
+            },
+            "current": {
+              "type": "string",
+              "length": 17
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "wifi": {
+            "factory": {
+              "type": "string",
+              "length": 17
+            },
+            "current": {
+              "type": "string",
+              "length": 17
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "serial_number": {
+            "factory": {
+              "type": "string",
+              "length": 10
+            },
+            "current": {
+              "type": "string",
+              "length": 10
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "total_original_parts": {
+            "type": "int"
+          },
+          "total_replaced_parts": {
+            "type": "int"
+          }
+        },
+        "battery_info": {
+          "battery_serial": {
+            "type": "string",
+            "length": 18
+          },
+          "cycle_count": {
+            "type": "int"
+          },
+          "current_capacity": {
+            "type": "int"
+          },
+          "design_capacity": {
+            "type": "int"
+          },
+          "battery_health": {
+            "type": "int"
+          }
+        },
+        "extended_device_info": {},
+        "has_old_device_info": {
+          "type": "bool"
+        },
+        "internal_messages": {
+          "battery": {
+            "factory": {
+              "type": "string",
+              "length": 0
+            },
+            "current": {
+              "type": "string",
+              "length": 18
+            },
+            "is_original": {
+              "type": "string",
+              "length": 6
+            },
+            "has_part": {
+              "type": "bool"
+            }
+          },
+          "screen": {
+            "factory": {
+              "type": "string",
+              "length": 0
+            },
+            "current": {
+              "type": "string",
+              "length": 173
+            },
+            "is_original": {
+              "type": "string",
+              "length": 6
+            },
+            "has_part": {
+              "type": "bool"
+            }
+          },
+          "front_camera": {
+            "factory": {
+              "type": "string",
+              "length": 0
+            },
+            "current": {
+              "type": "string",
+              "length": 0
+            },
+            "is_original": {
+              "type": "string",
+              "length": 6
+            },
+            "has_part": {
+              "type": "bool"
+            }
+          },
+          "back_camera": {
+            "factory": {
+              "type": "string",
+              "length": 0
+            },
+            "current": {
+              "type": "string",
+              "length": 18
+            },
+            "is_original": {
+              "type": "string",
+              "length": 6
+            },
+            "has_part": {
+              "type": "bool"
+            }
+          },
+          "face_id": {
+            "has_face_id": {
+              "type": "bool"
+            },
+            "distance_sensor": {
+              "type": "string",
+              "length": 0
+            },
+            "infrared_camera": {
+              "type": "string",
+              "length": 18
+            },
+            "infrared_dot_matrix": {
+              "type": "string",
+              "length": 17
+            },
+            "working": {
+              "type": "bool"
+            },
+            "is_original": {
+              "type": "string",
+              "length": 6
+            }
+          },
+          "motherboard": {
+            "factory": {
+              "type": "string",
+              "length": 0
+            },
+            "current": {
+              "type": "string",
+              "length": 18
+            },
+            "is_original": {
+              "type": "string",
+              "length": 6
+            },
+            "has_part": {
+              "type": "bool"
+            }
+          },
+          "bluetooth": {
+            "factory": {
+              "type": "string",
+              "length": 0
+            },
+            "current": {
+              "type": "string",
+              "length": 17
+            },
+            "is_original": {
+              "type": "string",
+              "length": 6
+            }
+          },
+          "serial_number": {
+            "factory": {
+              "type": "string",
+              "length": 0
+            },
+            "current": {
+              "type": "string",
+              "length": 0
+            },
+            "is_original": {
+              "type": "string",
+              "length": 0
+            }
+          },
+          "total_original_parts": {
+            "type": "int"
+          },
+          "total_replaced_parts": {
+            "type": "int"
+          }
+        },
+        "parts_functionality": {
+          "type": "array",
+          "items": {
+            "name": {
+              "type": "string",
+              "length": 7
+            },
+            "is_supported": {
+              "type": "bool"
+            },
+            "functional": {
+              "type": "bool"
+            }
+          },
+          "count": 21
+        }
+      }
+    }
+  },
+  {
+    "line": 244,
+    "time": "2026-09-10T05:43:03.370",
+    "direction": "sent",
+    "message_type": 1,
+    "device": "device-01",
+    "request": "request-030",
+    "status": null,
+    "schema": {
+      "messagetype": 1,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "device_operating_system": {
+        "type": "string",
+        "length": 3
+      },
+      "device_info": {
+        "type": "string",
+        "length": 9212
+      },
+      "operating_system": {
+        "type": "string",
+        "length": 10
+      },
+      "udid": {
+        "type": "string",
+        "length": 25
+      }
+    }
+  },
+  {
+    "line": 246,
+    "time": "2026-09-10T05:43:04.096",
+    "direction": "received",
+    "message_type": 1,
+    "device": "device-01",
+    "request": "request-030",
+    "status": "success",
+    "schema": {
+      "udid": {
+        "type": "string",
+        "length": 25
+      },
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 1,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "command": {
+          "type": "array",
+          "items": {
+            "cmd_id": 4,
+            "cmd": {
+              "type": "string",
+              "length": 75
+            }
+          },
+          "count": 2
+        },
+        "device_info": {
+          "model": {
+            "type": "string",
+            "length": 17
+          },
+          "color": {
+            "type": "string",
+            "length": 9
+          },
+          "imei_1": {
+            "type": "string",
+            "length": 15
+          },
+          "imei_2": {
+            "type": "string",
+            "length": 15
+          },
+          "serial_number": {
+            "type": "string",
+            "length": 10
+          },
+          "firmware": {
+            "type": "string",
+            "length": 7
+          },
+          "make": {
+            "type": "string",
+            "length": 5
+          },
+          "build_version": {
+            "type": "string",
+            "length": 5
+          },
+          "os_version": {
+            "type": "string",
+            "length": 6
+          },
+          "region": {
+            "type": "string",
+            "length": 4
+          },
+          "model_number": {
+            "type": "string",
+            "length": 5
+          },
+          "product_type": {
+            "type": "string",
+            "length": 10
+          },
+          "baseband_version": {
+            "type": "string",
+            "length": 0
+          },
+          "is_activated": {
+            "type": "string",
+            "length": 9
+          },
+          "current_date": {
+            "type": "string",
+            "length": 16
+          },
+          "has_baseband": {
+            "type": "bool"
+          },
+          "has_wifi": {
+            "type": "bool"
+          },
+          "has_face_id": {
+            "type": "bool"
+          },
+          "colors": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "length": 6
+            },
+            "count": 3
+          }
+        }
+      }
+    }
+  },
+  {
+    "line": 256,
+    "time": "2026-09-10T05:43:05.931",
+    "direction": "sent",
+    "message_type": 2,
+    "device": "device-01",
+    "request": "request-031",
+    "status": null,
+    "schema": {
+      "messagetype": 2,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "udid": {
+        "type": "string",
+        "length": 25
+      },
+      "command": {
+        "type": "array",
+        "items": {
+          "cmd_id": 4,
+          "cmd": {
+            "type": "string",
+            "length": 75
+          },
+          "response": {
+            "type": "string",
+            "length": 3060
+          }
+        },
+        "count": 2
+      }
+    }
+  },
+  {
+    "line": 257,
+    "time": "2026-09-10T05:43:06.329",
+    "direction": "received",
+    "message_type": 2,
+    "device": "device-01",
+    "request": "request-031",
+    "status": "success",
+    "schema": {
+      "udid": {
+        "type": "string",
+        "length": 25
+      },
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 2,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "storage": {
+          "type": "string",
+          "length": 5
+        },
+        "regulatory_number": {
+          "type": "string",
+          "length": 5
+        },
+        "baseband_version": {
+          "type": "string",
+          "length": 0
+        }
+      }
+    }
+  },
+  {
+    "line": 269,
+    "time": "2026-09-10T05:43:06.336",
+    "direction": "sent",
+    "message_type": 7,
+    "device": "device-01",
+    "request": "request-032",
+    "status": null,
+    "schema": {
+      "messagetype": 7,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "udid": {
+        "type": "string",
+        "length": 25
+      }
+    }
+  },
+  {
+    "line": 270,
+    "time": "2026-09-10T05:43:06.549",
+    "direction": "received",
+    "message_type": 72,
+    "device": null,
+    "request": null,
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 72,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "reply": {
+        "uph_diagnostics": {
+          "pass": {
+            "type": "int"
+          },
+          "fail": {
+            "type": "int"
+          },
+          "pending": {
+            "type": "int"
+          }
+        },
+        "uph_eraser": {
+          "pass": {
+            "type": "int"
+          },
+          "fail": {
+            "type": "int"
+          }
+        },
+        "total_devices": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 273,
+    "time": "2026-09-10T05:43:06.690",
+    "direction": "received",
+    "message_type": 7,
+    "device": "device-01",
+    "request": "request-032",
+    "status": "success",
+    "schema": {
+      "udid": {
+        "type": "string",
+        "length": 25
+      },
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 7,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "command": {
+          "type": "array",
+          "items": {
+            "cmd_id": 8,
+            "cmd": {
+              "type": "string",
+              "length": 97
+            }
+          },
+          "count": 3
+        }
+      }
+    }
+  },
+  {
+    "line": 277,
+    "time": "2026-09-10T05:43:07.339",
+    "direction": "sent",
+    "message_type": 3,
+    "device": "device-01",
+    "request": "request-033",
+    "status": null,
+    "schema": {
+      "messagetype": 3,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "udid": {
+        "type": "string",
+        "length": 25
+      }
+    }
+  },
+  {
+    "line": 280,
+    "time": "2026-09-10T05:43:07.341",
+    "direction": "sent",
+    "message_type": 5,
+    "device": "device-01",
+    "request": "request-034",
+    "status": null,
+    "schema": {
+      "messagetype": 5,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "udid": {
+        "type": "string",
+        "length": 25
+      }
+    }
+  },
+  {
+    "line": 283,
+    "time": "2026-09-10T05:43:07.695",
+    "direction": "received",
+    "message_type": 3,
+    "device": "device-01",
+    "request": "request-033",
+    "status": "success",
+    "schema": {
+      "udid": {
+        "type": "string",
+        "length": 25
+      },
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 3,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "command": {
+          "type": "array",
+          "items": {
+            "cmd_id": 5,
+            "cmd": {
+              "type": "string",
+              "length": 81
+            }
+          },
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "line": 289,
+    "time": "2026-09-10T05:43:07.823",
+    "direction": "received",
+    "message_type": 5,
+    "device": "device-01",
+    "request": "request-034",
+    "status": "success",
+    "schema": {
+      "udid": {
+        "type": "string",
+        "length": 25
+      },
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 5,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "command": {
+          "type": "array",
+          "items": {
+            "cmd_id": 38,
+            "cmd": {
+              "type": "string",
+              "length": 87
+            }
+          },
+          "count": 4
+        }
+      }
+    }
+  },
+  {
+    "line": 308,
+    "time": "2026-09-10T05:43:12.569",
+    "direction": "sent",
+    "message_type": 138,
+    "device": null,
+    "request": "request-035",
+    "status": null,
+    "schema": {
+      "messagetype": 138,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "info": {
+        "type": "string",
+        "length": 5568
+      }
+    }
+  },
+  {
+    "line": 310,
+    "time": "2026-09-10T05:43:12.972",
+    "direction": "received",
+    "message_type": 138,
+    "device": "device-01",
+    "request": "request-035",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 138,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "device_info": {
+          "model": {
+            "type": "string",
+            "length": 17
+          },
+          "color": {
+            "type": "string",
+            "length": 9
+          },
+          "storage": {
+            "type": "string",
+            "length": 5
+          },
+          "imei_1": {
+            "type": "string",
+            "length": 15
+          },
+          "imei_2": {
+            "type": "string",
+            "length": 15
+          },
+          "serial_number": {
+            "type": "string",
+            "length": 10
+          },
+          "firmware": {
+            "type": "string",
+            "length": 7
+          },
+          "make": {
+            "type": "string",
+            "length": 5
+          },
+          "build_version": {
+            "type": "string",
+            "length": 5
+          },
+          "os_version": {
+            "type": "string",
+            "length": 6
+          },
+          "region": {
+            "type": "string",
+            "length": 4
+          },
+          "model_number": {
+            "type": "string",
+            "length": 5
+          },
+          "regulatory_number": {
+            "type": "string",
+            "length": 5
+          },
+          "product_type": {
+            "type": "string",
+            "length": 10
+          },
+          "baseband_version": {
+            "type": "string",
+            "length": 0
+          },
+          "is_activated": {
+            "type": "string",
+            "length": 9
+          },
+          "current_date": {
+            "type": "string",
+            "length": 16
+          },
+          "has_baseband": {
+            "type": "bool"
+          },
+          "has_wifi": {
+            "type": "bool"
+          },
+          "has_face_id": {
+            "type": "bool"
+          },
+          "colors": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "length": 6
+            },
+            "count": 3
+          }
+        },
+        "validation_info": {
+          "icloud_status": {
+            "type": "string",
+            "length": 2
+          },
+          "jailbreak_status": {
+            "type": "string",
+            "length": 2
+          },
+          "release": {
+            "type": "string",
+            "length": 9
+          }
+        },
+        "oem_info": {
+          "battery": {
+            "factory": {
+              "type": "string",
+              "length": 18
+            },
+            "current": {
+              "type": "string",
+              "length": 18
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "screen": {
+            "factory": {
+              "type": "string",
+              "length": 173
+            },
+            "current": {
+              "type": "string",
+              "length": 173
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "front_camera": {
+            "factory": {
+              "type": "string",
+              "length": 18
+            },
+            "current": {
+              "type": "string",
+              "length": 18
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "back_camera": {
+            "factory": {
+              "type": "string",
+              "length": 18
+            },
+            "current": {
+              "type": "string",
+              "length": 18
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "face_id": {
+            "has_face_id": {
+              "type": "bool"
+            },
+            "distance_sensor": {
+              "type": "string",
+              "length": 5
+            },
+            "infrared_camera": {
+              "type": "string",
+              "length": 18
+            },
+            "infrared_dot_matrix": {
+              "type": "string",
+              "length": 17
+            },
+            "working": {
+              "type": "bool"
+            }
+          },
+          "touch_id": {
+            "has_touch_id": {
+              "type": "bool"
+            },
+            "factory": {
+              "type": "string",
+              "length": 0
+            },
+            "current": {
+              "type": "string",
+              "length": 0
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "motherboard": {
+            "factory": {
+              "type": "string",
+              "length": 18
+            },
+            "current": {
+              "type": "string",
+              "length": 18
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "bluetooth": {
+            "factory": {
+              "type": "string",
+              "length": 17
+            },
+            "current": {
+              "type": "string",
+              "length": 17
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "cellular": {
+            "factory": {
+              "type": "string",
+              "length": 17
+            },
+            "current": {
+              "type": "string",
+              "length": 17
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "wifi": {
+            "factory": {
+              "type": "string",
+              "length": 17
+            },
+            "current": {
+              "type": "string",
+              "length": 17
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "serial_number": {
+            "factory": {
+              "type": "string",
+              "length": 10
+            },
+            "current": {
+              "type": "string",
+              "length": 10
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "total_original_parts": {
+            "type": "int"
+          },
+          "total_replaced_parts": {
+            "type": "int"
+          }
+        },
+        "udid": {
+          "type": "string",
+          "length": 25
+        }
+      }
+    }
+  },
+  {
+    "line": 322,
+    "time": "2026-09-10T05:43:39.892",
+    "direction": "sent",
+    "message_type": 12,
+    "device": "device-01",
+    "request": "request-036",
+    "status": null,
+    "schema": {
+      "messagetype": 12,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "app_path": {
+        "type": "string",
+        "length": 75
+      },
+      "udid": {
+        "type": "string",
+        "length": 25
+      }
+    }
+  },
+  {
+    "line": 326,
+    "time": "2026-09-10T05:43:39.898",
+    "direction": "sent",
+    "message_type": 120,
+    "device": "device-01",
+    "request": "request-037",
+    "status": null,
+    "schema": {
+      "messagetype": 120,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "udid": {
+        "type": "string",
+        "length": 25
+      }
+    }
+  },
+  {
+    "line": 329,
+    "time": "2026-09-10T05:43:40.263",
+    "direction": "received",
+    "message_type": 12,
+    "device": "device-01",
+    "request": "request-036",
+    "status": "success",
+    "schema": {
+      "udid": {
+        "type": "string",
+        "length": 25
+      },
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 12,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "command": {
+          "type": "array",
+          "items": {
+            "cmd_id": 12,
+            "cmd": {
+              "type": "string",
+              "length": 123
+            }
+          },
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "line": 332,
+    "time": "2026-09-10T05:43:40.422",
+    "direction": "received",
+    "message_type": 120,
+    "device": null,
+    "request": "request-037",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 120,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {}
+    }
+  },
+  {
+    "line": 340,
+    "time": "2026-09-10T05:43:40.651",
+    "direction": "sent",
+    "message_type": 8,
+    "device": "device-01",
+    "request": "request-038",
+    "status": null,
+    "schema": {
+      "messagetype": 8,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "udid": {
+        "type": "string",
+        "length": 25
+      },
+      "command": {
+        "type": "array",
+        "items": {
+          "cmd_id": 8,
+          "cmd": {
+            "type": "string",
+            "length": 97
+          },
+          "response": {
+            "type": "string",
+            "length": 8
+          }
+        },
+        "count": 3
+      }
+    }
+  },
+  {
+    "line": 343,
+    "time": "2026-09-10T05:43:41.552",
+    "direction": "sent",
+    "message_type": 140,
+    "device": "device-01",
+    "request": "request-039",
+    "status": null,
+    "schema": {
+      "messagetype": 140,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "syslog": {
+        "type": "string",
+        "length": 1616
+      },
+      "udid": {
+        "type": "string",
+        "length": 25
+      }
+    }
+  },
+  {
+    "line": 345,
+    "time": "2026-09-10T05:43:41.924",
+    "direction": "received",
+    "message_type": 140,
+    "device": null,
+    "request": "request-039",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 140,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "battery": {
+          "factory": {
+            "type": "string",
+            "length": 0
+          },
+          "current": {
+            "type": "string",
+            "length": 18
+          },
+          "is_original": {
+            "type": "string",
+            "length": 6
+          },
+          "has_part": {
+            "type": "bool"
+          }
+        },
+        "screen": {
+          "factory": {
+            "type": "string",
+            "length": 0
+          },
+          "current": {
+            "type": "string",
+            "length": 173
+          },
+          "is_original": {
+            "type": "string",
+            "length": 6
+          },
+          "has_part": {
+            "type": "bool"
+          }
+        },
+        "front_camera": {
+          "factory": {
+            "type": "string",
+            "length": 0
+          },
+          "current": {
+            "type": "string",
+            "length": 0
+          },
+          "is_original": {
+            "type": "string",
+            "length": 6
+          },
+          "has_part": {
+            "type": "bool"
+          }
+        },
+        "back_camera": {
+          "factory": {
+            "type": "string",
+            "length": 0
+          },
+          "current": {
+            "type": "string",
+            "length": 18
+          },
+          "is_original": {
+            "type": "string",
+            "length": 6
+          },
+          "has_part": {
+            "type": "bool"
+          }
+        },
+        "face_id": {
+          "has_face_id": {
+            "type": "bool"
+          },
+          "distance_sensor": {
+            "type": "string",
+            "length": 0
+          },
+          "infrared_camera": {
+            "type": "string",
+            "length": 18
+          },
+          "infrared_dot_matrix": {
+            "type": "string",
+            "length": 17
+          },
+          "working": {
+            "type": "bool"
+          },
+          "is_original": {
+            "type": "string",
+            "length": 6
+          }
+        },
+        "motherboard": {
+          "factory": {
+            "type": "string",
+            "length": 0
+          },
+          "current": {
+            "type": "string",
+            "length": 18
+          },
+          "is_original": {
+            "type": "string",
+            "length": 6
+          },
+          "has_part": {
+            "type": "bool"
+          }
+        },
+        "bluetooth": {
+          "factory": {
+            "type": "string",
+            "length": 0
+          },
+          "current": {
+            "type": "string",
+            "length": 17
+          },
+          "is_original": {
+            "type": "string",
+            "length": 6
+          }
+        },
+        "serial_number": {
+          "factory": {
+            "type": "string",
+            "length": 0
+          },
+          "current": {
+            "type": "string",
+            "length": 0
+          },
+          "is_original": {
+            "type": "string",
+            "length": 0
+          }
+        },
+        "total_original_parts": {
+          "type": "int"
+        },
+        "total_replaced_parts": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 352,
+    "time": "2026-09-10T05:43:42.189",
+    "direction": "sent",
+    "message_type": 4,
+    "device": "device-01",
+    "request": "request-040",
+    "status": null,
+    "schema": {
+      "messagetype": 4,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "udid": {
+        "type": "string",
+        "length": 25
+      },
+      "command": {
+        "type": "array",
+        "items": {
+          "cmd_id": 5,
+          "cmd": {
+            "type": "string",
+            "length": 81
+          },
+          "response": {
+            "type": "string",
+            "length": 32796
+          }
+        },
+        "count": 1
+      }
+    }
+  },
+  {
+    "line": 357,
+    "time": "2026-09-10T05:43:42.715",
+    "direction": "received",
+    "message_type": 4,
+    "device": "device-01",
+    "request": "request-040",
+    "status": "success",
+    "schema": {
+      "udid": {
+        "type": "string",
+        "length": 25
+      },
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 4,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "battery_serial": {
+          "type": "string",
+          "length": 18
+        },
+        "cycle_count": {
+          "type": "int"
+        },
+        "current_capacity": {
+          "type": "int"
+        },
+        "design_capacity": {
+          "type": "int"
+        },
+        "battery_health": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 364,
+    "time": "2026-09-10T05:43:42.862",
+    "direction": "sent",
+    "message_type": 6,
+    "device": "device-01",
+    "request": "request-041",
+    "status": null,
+    "schema": {
+      "messagetype": 6,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "udid": {
+        "type": "string",
+        "length": 25
+      },
+      "command": {
+        "type": "array",
+        "items": {
+          "cmd_id": 38,
+          "cmd": {
+            "type": "string",
+            "length": 87
+          },
+          "response": {
+            "type": "string",
+            "length": 0
+          }
+        },
+        "count": 4
+      }
+    }
+  },
+  {
+    "line": 365,
+    "time": "2026-09-10T05:43:43.273",
+    "direction": "received",
+    "message_type": 6,
+    "device": "device-01",
+    "request": "request-041",
+    "status": "success",
+    "schema": {
+      "udid": {
+        "type": "string",
+        "length": 25
+      },
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 6,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "face_id": {
+          "has_face_id": {
+            "type": "bool"
+          },
+          "distance_sensor": {
+            "type": "string",
+            "length": 5
+          },
+          "infrared_camera": {
+            "type": "string",
+            "length": 18
+          },
+          "infrared_dot_matrix": {
+            "type": "string",
+            "length": 17
+          },
+          "working": {
+            "type": "bool"
+          }
+        }
+      }
+    }
+  },
+  {
+    "line": 370,
+    "time": "2026-09-10T05:43:50.639",
+    "direction": "received",
+    "message_type": 8,
+    "device": "device-01",
+    "request": "request-038",
+    "status": "success",
+    "schema": {
+      "udid": {
+        "type": "string",
+        "length": 25
+      },
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 8,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "icloud_status": {
+          "type": "string",
+          "length": 2
+        },
+        "fmi_status": {
+          "type": "string",
+          "length": 2
+        },
+        "jailbreak_status": {
+          "type": "string",
+          "length": 2
+        },
+        "sim_lock_status": {
+          "type": "string",
+          "length": 6
+        },
+        "release": {
+          "type": "string",
+          "length": 9
+        },
+        "esn_status": {
+          "type": "string",
+          "length": 5
+        },
+        "mdm_status": {
+          "type": "string",
+          "length": 3
+        },
+        "manufacturing_date": {
+          "type": "string",
+          "length": 2
+        }
+      }
+    }
+  },
+  {
+    "line": 400,
+    "time": "2026-09-10T05:43:55.269",
+    "direction": "sent",
+    "message_type": 141,
+    "device": "device-01",
+    "request": "request-042",
+    "status": null,
+    "schema": {
+      "messagetype": 141,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "error_from": {
+        "type": "string",
+        "length": 10
+      },
+      "error_code": {
+        "type": "string",
+        "length": 17
+      },
+      "udid": {
+        "type": "string",
+        "length": 25
+      },
+      "message": {
+        "type": "string",
+        "length": 12
+      },
+      "version": {
+        "type": "string",
+        "length": 6
+      }
+    }
+  },
+  {
+    "line": 401,
+    "time": "2026-09-10T05:43:55.627",
+    "direction": "received",
+    "message_type": 141,
+    "device": null,
+    "request": null,
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 141,
+      "status": {
+        "type": "string",
+        "length": 7
+      }
+    }
+  },
+  {
+    "line": 450,
+    "time": "2026-09-10T12:26:08.320",
+    "direction": "sent",
+    "message_type": 134,
+    "device": null,
+    "request": "request-043",
+    "status": null,
+    "schema": {
+      "messagetype": 134,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "tester_name": {
+        "type": "string",
+        "length": 0
+      },
+      "external_batch_id": {
+        "type": "string",
+        "length": 0
+      },
+      "customer_name": {
+        "type": "string",
+        "length": 0
+      },
+      "invoice_number": {
+        "type": "string",
+        "length": 0
+      }
+    }
+  },
+  {
+    "line": 459,
+    "time": "2026-09-10T12:26:08.330",
+    "direction": "sent",
+    "message_type": 59,
+    "device": null,
+    "request": "request-044",
+    "status": null,
+    "schema": {
+      "messagetype": 59,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 462,
+    "time": "2026-09-10T12:26:08.334",
+    "direction": "sent",
+    "message_type": 62,
+    "device": null,
+    "request": "request-045",
+    "status": null,
+    "schema": {
+      "messagetype": 62,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 465,
+    "time": "2026-09-10T12:26:08.336",
+    "direction": "sent",
+    "message_type": 127,
+    "device": null,
+    "request": "request-046",
+    "status": null,
+    "schema": {
+      "messagetype": 127,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 468,
+    "time": "2026-09-10T12:26:08.339",
+    "direction": "sent",
+    "message_type": 60,
+    "device": null,
+    "request": "request-047",
+    "status": null,
+    "schema": {
+      "messagetype": 60,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 471,
+    "time": "2026-09-10T12:26:08.341",
+    "direction": "sent",
+    "message_type": 67,
+    "device": null,
+    "request": "request-048",
+    "status": null,
+    "schema": {
+      "messagetype": 67,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 474,
+    "time": "2026-09-10T12:26:08.343",
+    "direction": "sent",
+    "message_type": 135,
+    "device": null,
+    "request": "request-049",
+    "status": null,
+    "schema": {
+      "messagetype": 135,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 477,
+    "time": "2026-09-10T12:26:08.345",
+    "direction": "sent",
+    "message_type": 58,
+    "device": null,
+    "request": "request-050",
+    "status": null,
+    "schema": {
+      "messagetype": 58,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 480,
+    "time": "2026-09-10T12:26:08.348",
+    "direction": "sent",
+    "message_type": 49,
+    "device": null,
+    "request": "request-051",
+    "status": null,
+    "schema": {
+      "messagetype": 49,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 483,
+    "time": "2026-09-10T12:26:08.351",
+    "direction": "sent",
+    "message_type": 33,
+    "device": null,
+    "request": "request-052",
+    "status": null,
+    "schema": {
+      "messagetype": 33,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 501,
+    "time": "2026-09-10T12:26:08.790",
+    "direction": "received",
+    "message_type": 134,
+    "device": null,
+    "request": "request-043",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 134,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "hub_token": {
+          "type": "string",
+          "length": 0
+        }
+      }
+    }
+  },
+  {
+    "line": 504,
+    "time": "2026-09-10T12:26:08.853",
+    "direction": "sent",
+    "message_type": 34,
+    "device": null,
+    "request": "request-053",
+    "status": null,
+    "schema": {
+      "messagetype": 34,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "os": {
+        "type": "string",
+        "length": 3
+      }
+    }
+  },
+  {
+    "line": 507,
+    "time": "2026-09-10T12:26:08.854",
+    "direction": "sent",
+    "message_type": 34,
+    "device": null,
+    "request": "request-054",
+    "status": null,
+    "schema": {
+      "messagetype": 34,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "os": {
+        "type": "string",
+        "length": 7
+      }
+    }
+  },
+  {
+    "line": 510,
+    "time": "2026-09-10T12:26:08.855",
+    "direction": "sent",
+    "message_type": 39,
+    "device": null,
+    "request": "request-055",
+    "status": null,
+    "schema": {
+      "messagetype": 39,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 513,
+    "time": "2026-09-10T12:26:08.855",
+    "direction": "sent",
+    "message_type": 56,
+    "device": null,
+    "request": "request-056",
+    "status": null,
+    "schema": {
+      "messagetype": 56,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 516,
+    "time": "2026-09-10T12:26:08.856",
+    "direction": "sent",
+    "message_type": 103,
+    "device": null,
+    "request": "request-057",
+    "status": null,
+    "schema": {
+      "messagetype": 103,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 519,
+    "time": "2026-09-10T12:26:08.857",
+    "direction": "sent",
+    "message_type": 29,
+    "device": null,
+    "request": "request-058",
+    "status": null,
+    "schema": {
+      "messagetype": 29,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 521,
+    "time": "2026-09-10T12:26:08.857",
+    "direction": "sent",
+    "message_type": 30,
+    "device": null,
+    "request": "request-059",
+    "status": null,
+    "schema": {
+      "messagetype": 30,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 523,
+    "time": "2026-09-10T12:26:08.858",
+    "direction": "sent",
+    "message_type": 70,
+    "device": null,
+    "request": "request-060",
+    "status": null,
+    "schema": {
+      "messagetype": 70,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 526,
+    "time": "2026-09-10T12:26:08.858",
+    "direction": "sent",
+    "message_type": 54,
+    "device": null,
+    "request": "request-061",
+    "status": null,
+    "schema": {
+      "messagetype": 54,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 529,
+    "time": "2026-09-10T12:26:08.862",
+    "direction": "sent",
+    "message_type": 45,
+    "device": null,
+    "request": "request-062",
+    "status": null,
+    "schema": {
+      "messagetype": 45,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 532,
+    "time": "2026-09-10T12:26:08.863",
+    "direction": "sent",
+    "message_type": 53,
+    "device": null,
+    "request": "request-063",
+    "status": null,
+    "schema": {
+      "messagetype": 53,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 536,
+    "time": "2026-09-10T12:26:08.870",
+    "direction": "sent",
+    "message_type": 101,
+    "device": null,
+    "request": "request-064",
+    "status": null,
+    "schema": {
+      "messagetype": 101,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 543,
+    "time": "2026-09-10T12:26:09.012",
+    "direction": "received",
+    "message_type": 59,
+    "device": null,
+    "request": "request-044",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 59,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "full_name": {
+          "type": "string",
+          "length": 7
+        },
+        "login_id": {
+          "type": "string",
+          "length": 7
+        },
+        "company_id": {
+          "type": "string",
+          "length": 2
+        },
+        "user_type": {
+          "type": "string",
+          "length": 13
+        }
+      }
+    }
+  },
+  {
+    "line": 545,
+    "time": "2026-09-10T12:26:09.013",
+    "direction": "received",
+    "message_type": 62,
+    "device": null,
+    "request": "request-045",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 62,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "name": {
+          "type": "string",
+          "length": 7
+        },
+        "address1": {
+          "type": "string",
+          "length": 0
+        },
+        "city": {
+          "type": "string",
+          "length": 0
+        },
+        "state": {
+          "type": "string",
+          "length": 0
+        },
+        "zip_code": {
+          "type": "string",
+          "length": 0
+        },
+        "country": {
+          "type": "string",
+          "length": 0
+        },
+        "business_type": {
+          "type": "string",
+          "length": 0
+        },
+        "company_id": {
+          "type": "string",
+          "length": 2
+        },
+        "phone": {
+          "type": "string",
+          "length": 0
+        },
+        "email": {
+          "type": "string",
+          "length": 0
+        },
+        "credit_days": {
+          "type": "int"
+        },
+        "subscription": {
+          "type": "int"
+        },
+        "account_type": {
+          "type": "string",
+          "length": 4
+        },
+        "address2": {
+          "type": "string",
+          "length": 0
+        },
+        "website": {
+          "type": "string",
+          "length": 0
+        },
+        "mobile": {
+          "type": "string",
+          "length": 0
+        },
+        "contact_person": {
+          "type": "string",
+          "length": 0
+        }
+      }
+    }
+  },
+  {
+    "line": 547,
+    "time": "2026-09-10T12:26:09.016",
+    "direction": "received",
+    "message_type": 127,
+    "device": null,
+    "request": "request-046",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 127,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "symbol": {
+          "type": "string",
+          "length": 0
+        }
+      }
+    }
+  },
+  {
+    "line": 549,
+    "time": "2026-09-10T12:26:09.016",
+    "direction": "received",
+    "message_type": 60,
+    "device": null,
+    "request": "request-047",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 60,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "type": "NoneType"
+      }
+    }
+  },
+  {
+    "line": 551,
+    "time": "2026-09-10T12:26:09.018",
+    "direction": "received",
+    "message_type": 67,
+    "device": null,
+    "request": "request-048",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 67,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "type": "NoneType"
+      }
+    }
+  },
+  {
+    "line": 553,
+    "time": "2026-09-10T12:26:09.019",
+    "direction": "received",
+    "message_type": 135,
+    "device": null,
+    "request": "request-049",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 135,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "type": "array",
+        "items": {
+          "customer_id": {
+            "type": "string",
+            "length": 2
+          },
+          "customer_name": {
+            "type": "string",
+            "length": 9
+          },
+          "address1": {
+            "type": "string",
+            "length": 0
+          },
+          "address2": {
+            "type": "string",
+            "length": 0
+          },
+          "city": {
+            "type": "string",
+            "length": 0
+          },
+          "state": {
+            "type": "string",
+            "length": 0
+          },
+          "zip_code": {
+            "type": "string",
+            "length": 0
+          },
+          "country": {
+            "type": "string",
+            "length": 0
+          },
+          "phone": {
+            "type": "string",
+            "length": 0
+          },
+          "mobile": {
+            "type": "string",
+            "length": 0
+          },
+          "email": {
+            "type": "string",
+            "length": 0
+          }
+        },
+        "count": 1
+      }
+    }
+  },
+  {
+    "line": 555,
+    "time": "2026-09-10T12:26:09.020",
+    "direction": "received",
+    "message_type": 58,
+    "device": null,
+    "request": "request-050",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 58,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "type": "NoneType"
+      }
+    }
+  },
+  {
+    "line": 557,
+    "time": "2026-09-10T12:26:09.025",
+    "direction": "received",
+    "message_type": 49,
+    "device": null,
+    "request": "request-051",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 49,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "overall_grades": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "length": 4
+          },
+          "count": 1
+        },
+        "screen_grades": {
+          "type": "NoneType"
+        },
+        "housing_grades": {
+          "type": "NoneType"
+        },
+        "backcover_grades": {
+          "type": "NoneType"
+        },
+        "desktop_grades": {
+          "type": "NoneType"
+        },
+        "mobile_comments": {
+          "type": "NoneType"
+        },
+        "desktop_comments": {
+          "type": "NoneType"
+        }
+      }
+    }
+  },
+  {
+    "line": 560,
+    "time": "2026-09-10T12:26:09.027",
+    "direction": "received",
+    "message_type": 33,
+    "device": null,
+    "request": "request-052",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 33,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "type": "array",
+        "items": {
+          "is_active": {
+            "type": "bool"
+          },
+          "is_default": {
+            "type": "bool"
+          },
+          "type": {
+            "type": "string",
+            "length": 0
+          },
+          "sub_type": {
+            "type": "string",
+            "length": 0
+          },
+          "test_plan_name": {
+            "type": "string",
+            "length": 11
+          },
+          "os_name": {
+            "type": "string",
+            "length": 7
+          }
+        },
+        "count": 6
+      }
+    }
+  },
+  {
+    "line": 561,
+    "time": "2026-09-10T12:26:09.027",
+    "direction": "sent",
+    "message_type": 64,
+    "device": null,
+    "request": "request-065",
+    "status": null,
+    "schema": {
+      "messagetype": 64,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 571,
+    "time": "2026-09-10T12:26:09.040",
+    "direction": "sent",
+    "message_type": 32,
+    "device": null,
+    "request": "request-066",
+    "status": null,
+    "schema": {
+      "messagetype": 32,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "test_plan_name": {
+        "type": "string",
+        "length": 20
+      }
+    }
+  },
+  {
+    "line": 574,
+    "time": "2026-09-10T12:26:09.041",
+    "direction": "sent",
+    "message_type": 32,
+    "device": null,
+    "request": "request-067",
+    "status": null,
+    "schema": {
+      "messagetype": 32,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "test_plan_name": {
+        "type": "string",
+        "length": 16
+      }
+    }
+  },
+  {
+    "line": 577,
+    "time": "2026-09-10T12:26:09.042",
+    "direction": "sent",
+    "message_type": 32,
+    "device": null,
+    "request": "request-068",
+    "status": null,
+    "schema": {
+      "messagetype": 32,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "test_plan_name": {
+        "type": "string",
+        "length": 15
+      }
+    }
+  },
+  {
+    "line": 586,
+    "time": "2026-09-10T12:26:09.346",
+    "direction": "received",
+    "message_type": 34,
+    "device": null,
+    "request": "request-053",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 34,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "type": "array",
+        "items": {
+          "test_name": {
+            "type": "string",
+            "length": 13
+          },
+          "code": {
+            "type": "string",
+            "length": 8
+          },
+          "mode": {
+            "type": "string",
+            "length": 4
+          }
+        },
+        "count": 81
+      }
+    }
+  },
+  {
+    "line": 589,
+    "time": "2026-09-10T12:26:09.519",
+    "direction": "received",
+    "message_type": 34,
+    "device": null,
+    "request": "request-054",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 34,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "type": "array",
+        "items": {
+          "test_name": {
+            "type": "string",
+            "length": 12
+          },
+          "code": {
+            "type": "string",
+            "length": 7
+          },
+          "mode": {
+            "type": "string",
+            "length": 4
+          }
+        },
+        "count": 88
+      }
+    }
+  },
+  {
+    "line": 593,
+    "time": "2026-09-10T12:26:09.523",
+    "direction": "received",
+    "message_type": 56,
+    "device": null,
+    "request": "request-056",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 56,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "auto_install_app": {
+          "type": "bool"
+        },
+        "auto_install_wifi": {
+          "type": "bool"
+        },
+        "auto_erasure_on_connect": {
+          "type": "bool"
+        },
+        "auto_flash_firmware": {
+          "type": "bool"
+        },
+        "auto_activate_ios_device": {
+          "type": "bool"
+        },
+        "clear_device_info": {
+          "type": "bool"
+        },
+        "usb_port_mapping": {
+          "type": "bool"
+        },
+        "auto_oem_parts_detection": {
+          "type": "bool"
+        },
+        "auto_parts_functionality_tests": {
+          "type": "bool"
+        },
+        "auto_perform_esn": {
+          "type": "bool"
+        },
+        "auto_perform_apple_care_warranty": {
+          "type": "bool"
+        },
+        "auto_perform_sim_lock_check": {
+          "type": "bool"
+        },
+        "auto_uninstall_app_on_diagnostics_pass": {
+          "type": "bool"
+        },
+        "auto_uninstall_app_on_diagnostics_fail": {
+          "type": "bool"
+        },
+        "auto_erase_device_on_diagnostics_pass": {
+          "type": "bool"
+        },
+        "auto_erase_device_on_diagnostics_fail": {
+          "type": "bool"
+        },
+        "auto_erase_device_on_diagnostics_pass_or_fail": {
+          "type": "bool"
+        },
+        "auto_print_label_on_diagnostics_pass": {
+          "type": "bool"
+        },
+        "auto_print_label_on_diagnostics_fail": {
+          "type": "bool"
+        },
+        "auto_print_label_on_diagnostics_pass_or_fail": {
+          "type": "bool"
+        },
+        "auto_print_report_on_diagnostics_pass": {
+          "type": "bool"
+        },
+        "auto_print_report_on_diagnostics_fail": {
+          "type": "bool"
+        },
+        "auto_print_report_on_diagnostics_pass_or_fail": {
+          "type": "bool"
+        },
+        "auto_remove_wifi_on_diagnostics_pass": {
+          "type": "bool"
+        },
+        "auto_remove_wifi_on_diagnostics_fail": {
+          "type": "bool"
+        },
+        "auto_power_off_device_on_diagnostics_pass": {
+          "type": "bool"
+        },
+        "auto_power_off_device_on_erase": {
+          "type": "bool"
+        },
+        "auto_select_box": {
+          "type": "bool"
+        },
+        "enable_battery_criteria": {
+          "type": "bool"
+        },
+        "create_alert_battery_health": {
+          "type": "bool"
+        },
+        "enable_internal_message_comment": {
+          "type": "bool"
+        },
+        "enable_battery_service_message": {
+          "type": "bool"
+        },
+        "release_comment_on_device_box": {
+          "type": "bool"
+        },
+        "alert_percentage": {
+          "type": "int"
+        },
+        "alert_cycle_count": {
+          "type": "int"
+        },
+        "battery_criteria": {
+          "type": "array",
+          "items": {
+            "id": {
+              "type": "int"
+            },
+            "grade": {
+              "type": "string",
+              "length": 4
+            },
+            "max_percentage": {
+              "type": "int"
+            },
+            "min_percentage": {
+              "type": "int"
+            },
+            "max_cycle_count": {
+              "type": "int"
+            },
+            "min_cycle_count": {
+              "type": "int"
+            }
+          },
+          "count": 1
+        },
+        "percentage_cycle_count_relation": {
+          "type": "string",
+          "length": 3
+        }
+      }
+    }
+  },
+  {
+    "line": 596,
+    "time": "2026-09-10T12:26:09.524",
+    "direction": "received",
+    "message_type": 54,
+    "device": null,
+    "request": "request-061",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 54,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "type": "NoneType"
+      }
+    }
+  },
+  {
+    "line": 598,
+    "time": "2026-09-10T12:26:09.525",
+    "direction": "received",
+    "message_type": 103,
+    "device": null,
+    "request": "request-057",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 103,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "cpu_chart": {
+          "type": "bool"
+        },
+        "network_chart": {
+          "type": "bool"
+        },
+        "memory_chart": {
+          "type": "bool"
+        },
+        "wifi_chart": {
+          "type": "bool"
+        },
+        "disk_chart": {
+          "type": "bool"
+        },
+        "gpu_chart": {
+          "type": "bool"
+        }
+      }
+    }
+  },
+  {
+    "line": 603,
+    "time": "2026-09-10T12:26:09.619",
+    "direction": "received",
+    "message_type": 70,
+    "device": null,
+    "request": "request-060",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 70,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "type": "NoneType"
+      }
+    }
+  },
+  {
+    "line": 605,
+    "time": "2026-09-10T12:26:09.619",
+    "direction": "received",
+    "message_type": 30,
+    "device": null,
+    "request": "request-059",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 30,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "type": "array",
+        "items": {
+          "id": {
+            "type": "int"
+          },
+          "name": {
+            "type": "string",
+            "length": 25
+          },
+          "orientation": {
+            "type": "string",
+            "length": 8
+          },
+          "width": {
+            "type": "int"
+          },
+          "height": {
+            "type": "int"
+          },
+          "file_name": {
+            "type": "string",
+            "length": 104
+          },
+          "logo_file": {
+            "type": "string",
+            "length": 0
+          },
+          "elements": {
+            "type": "array",
+            "items": {
+              "name": {
+                "type": "string",
+                "length": 19
+              },
+              "key": {
+                "type": "string",
+                "length": 17
+              },
+              "enabled": {
+                "type": "bool"
+              }
+            },
+            "count": 5
+          },
+          "email": {
+            "enabled": {
+              "type": "bool"
+            },
+            "email_address": {
+              "type": "string",
+              "length": 0
+            }
+          },
+          "whatsapp": {
+            "enabled": {
+              "type": "bool"
+            },
+            "phone_number": {
+              "type": "string",
+              "length": 0
+            }
+          }
+        },
+        "count": 1
+      }
+    }
+  },
+  {
+    "line": 608,
+    "time": "2026-09-10T12:26:09.787",
+    "direction": "received",
+    "message_type": 53,
+    "device": null,
+    "request": "request-063",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 53,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "android_manual_tests": {
+          "type": "array",
+          "items": {
+            "is_enabled": {
+              "type": "bool"
+            },
+            "test_name": {
+              "type": "string",
+              "length": 4
+            },
+            "is_hidden": {
+              "type": "bool"
+            },
+            "index": {
+              "type": "int"
+            },
+            "mode": {
+              "type": "string",
+              "length": 4
+            },
+            "code": {
+              "type": "string",
+              "length": 7
+            },
+            "sub_test": {
+              "type": "NoneType"
+            }
+          },
+          "count": 88
+        },
+        "ios_manual_tests": {
+          "type": "array",
+          "items": {
+            "is_enabled": {
+              "type": "bool"
+            },
+            "test_name": {
+              "type": "string",
+              "length": 4
+            },
+            "is_hidden": {
+              "type": "bool"
+            },
+            "index": {
+              "type": "int"
+            },
+            "mode": {
+              "type": "string",
+              "length": 4
+            },
+            "code": {
+              "type": "string",
+              "length": 7
+            },
+            "sub_test": {
+              "type": "NoneType"
+            }
+          },
+          "count": 81
+        }
+      }
+    }
+  },
+  {
+    "line": 610,
+    "time": "2026-09-10T12:26:09.792",
+    "direction": "received",
+    "message_type": 45,
+    "device": null,
+    "request": "request-062",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 45,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "type": "array",
+        "items": {
+          "vendor_name": {
+            "type": "string",
+            "length": 0
+          },
+          "customer_name": {
+            "type": "string",
+            "length": 0
+          },
+          "batch_id": {
+            "type": "string",
+            "length": 3
+          },
+          "batch_condition": {
+            "type": "string",
+            "length": 0
+          },
+          "batch_status": {
+            "type": "string",
+            "length": 0
+          },
+          "batch_type": {
+            "type": "string",
+            "length": 0
+          },
+          "no_boxes": {
+            "type": "int"
+          },
+          "no_devices": {
+            "type": "int"
+          },
+          "no_ios_devices": {
+            "type": "int"
+          },
+          "no_android_devices": {
+            "type": "int"
+          },
+          "ios_devices": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "length": 0
+            },
+            "count": 1
+          },
+          "android_devices": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "length": 0
+            },
+            "count": 1
+          },
+          "external_batch_id": {
+            "type": "string",
+            "length": 12
+          },
+          "bulk_batch": {
+            "type": "bool"
+          }
+        },
+        "count": 1
+      }
+    }
+  },
+  {
+    "line": 612,
+    "time": "2026-09-10T12:26:09.793",
+    "direction": "received",
+    "message_type": 101,
+    "device": null,
+    "request": "request-064",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 101,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "type": "NoneType"
+      }
+    }
+  },
+  {
+    "line": 619,
+    "time": "2026-09-10T12:26:09.886",
+    "direction": "received",
+    "message_type": 29,
+    "device": null,
+    "request": "request-058",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 29,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "type": "array",
+        "items": {
+          "id": {
+            "type": "int"
+          },
+          "name": {
+            "type": "string",
+            "length": 24
+          },
+          "orientation": {
+            "type": "string",
+            "length": 9
+          },
+          "width": {
+            "type": "int"
+          },
+          "height": {
+            "type": "int"
+          },
+          "file_name": {
+            "type": "string",
+            "length": 26
+          },
+          "logo_file": {
+            "type": "string",
+            "length": 0
+          },
+          "elements": {
+            "type": "array",
+            "items": {
+              "name": {
+                "type": "string",
+                "length": 4
+              },
+              "key": {
+                "type": "string",
+                "length": 4
+              },
+              "enabled": {
+                "type": "bool"
+              }
+            },
+            "count": 23
+          },
+          "code_field_mappings": {
+            "barcode": {
+              "type": "string",
+              "length": 4
+            }
+          }
+        },
+        "count": 17
+      }
+    }
+  },
+  {
+    "line": 621,
+    "time": "2026-09-10T12:26:09.893",
+    "direction": "received",
+    "message_type": 64,
+    "device": null,
+    "request": "request-065",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 64,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "control_center": {
+          "type": "bool"
+        },
+        "settings": {
+          "type": "bool"
+        },
+        "license": {
+          "type": "bool"
+        },
+        "dashboard": {
+          "type": "bool"
+        },
+        "test_plan": {
+          "type": "bool"
+        },
+        "test_customization": {
+          "type": "bool"
+        },
+        "automation_workflow": {
+          "type": "bool"
+        },
+        "utility_permissions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "length": 6
+          },
+          "count": 15
+        }
+      }
+    }
+  },
+  {
+    "line": 623,
+    "time": "2026-09-10T12:26:09.894",
+    "direction": "received",
+    "message_type": 32,
+    "device": null,
+    "request": "request-068",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 32,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "name": {
+          "type": "string",
+          "length": 0
+        },
+        "tests": {
+          "type": "NoneType"
+        }
+      }
+    }
+  },
+  {
+    "line": 629,
+    "time": "2026-09-10T12:26:10.177",
+    "direction": "received",
+    "message_type": 32,
+    "device": null,
+    "request": "request-066",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 32,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "name": {
+          "type": "string",
+          "length": 20
+        },
+        "tests": {
+          "type": "array",
+          "items": {
+            "is_enabled": {
+              "type": "bool"
+            },
+            "test_name": {
+              "type": "string",
+              "length": 4
+            },
+            "is_hidden": {
+              "type": "bool"
+            },
+            "index": {
+              "type": "int"
+            },
+            "mode": {
+              "type": "string",
+              "length": 4
+            },
+            "code": {
+              "type": "string",
+              "length": 7
+            },
+            "sub_test": {
+              "type": "NoneType"
+            }
+          },
+          "count": 52
+        }
+      }
+    }
+  },
+  {
+    "line": 631,
+    "time": "2026-09-10T12:26:10.183",
+    "direction": "received",
+    "message_type": 32,
+    "device": null,
+    "request": "request-067",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 32,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "name": {
+          "type": "string",
+          "length": 16
+        },
+        "tests": {
+          "type": "array",
+          "items": {
+            "is_enabled": {
+              "type": "bool"
+            },
+            "test_name": {
+              "type": "string",
+              "length": 4
+            },
+            "is_hidden": {
+              "type": "bool"
+            },
+            "index": {
+              "type": "int"
+            },
+            "mode": {
+              "type": "string",
+              "length": 4
+            },
+            "code": {
+              "type": "string",
+              "length": 7
+            },
+            "sub_test": {
+              "type": "NoneType"
+            }
+          },
+          "count": 46
+        }
+      }
+    }
+  },
+  {
+    "line": 633,
+    "time": "2026-09-10T12:26:10.187",
+    "direction": "received",
+    "message_type": 72,
+    "device": null,
+    "request": null,
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 72,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "reply": {
+        "uph_diagnostics": {
+          "pass": {
+            "type": "int"
+          },
+          "fail": {
+            "type": "int"
+          },
+          "pending": {
+            "type": "int"
+          }
+        },
+        "uph_eraser": {
+          "pass": {
+            "type": "int"
+          },
+          "fail": {
+            "type": "int"
+          }
+        },
+        "total_devices": {
+          "type": "int"
+        }
+      }
+    }
+  },
+  {
+    "line": 652,
+    "time": "2026-09-10T12:26:20.113",
+    "direction": "sent",
+    "message_type": 141,
+    "device": "device-01",
+    "request": "request-069",
+    "status": null,
+    "schema": {
+      "messagetype": 141,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "error_from": {
+        "type": "string",
+        "length": 10
+      },
+      "error_code": {
+        "type": "string",
+        "length": 17
+      },
+      "udid": {
+        "type": "string",
+        "length": 25
+      },
+      "message": {
+        "type": "string",
+        "length": 36
+      },
+      "version": {
+        "type": "string",
+        "length": 6
+      }
+    }
+  },
+  {
+    "line": 655,
+    "time": "2026-09-10T12:26:20.115",
+    "direction": "sent",
+    "message_type": 139,
+    "device": "device-01",
+    "request": "request-070",
+    "status": null,
+    "schema": {
+      "messagetype": 139,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "udid": {
+        "type": "string",
+        "length": 25
+      }
+    }
+  },
+  {
+    "line": 660,
+    "time": "2026-09-10T12:26:20.582",
+    "direction": "received",
+    "message_type": 141,
+    "device": null,
+    "request": null,
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 141,
+      "status": {
+        "type": "string",
+        "length": 7
+      }
+    }
+  },
+  {
+    "line": 666,
+    "time": "2026-09-10T12:26:20.809",
+    "direction": "sent",
+    "message_type": 1,
+    "device": "device-01",
+    "request": "request-071",
+    "status": null,
+    "schema": {
+      "messagetype": 1,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "device_operating_system": {
+        "type": "string",
+        "length": 3
+      },
+      "device_info": {
+        "type": "string",
+        "length": 9212
+      },
+      "operating_system": {
+        "type": "string",
+        "length": 10
+      },
+      "udid": {
+        "type": "string",
+        "length": 25
+      }
+    }
+  },
+  {
+    "line": 668,
+    "time": "2026-09-10T12:26:20.861",
+    "direction": "received",
+    "message_type": 139,
+    "device": null,
+    "request": "request-070",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 139,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "device_info": {
+          "model": {
+            "type": "string",
+            "length": 17
+          },
+          "color": {
+            "type": "string",
+            "length": 9
+          },
+          "storage": {
+            "type": "string",
+            "length": 5
+          },
+          "imei_1": {
+            "type": "string",
+            "length": 15
+          },
+          "imei_2": {
+            "type": "string",
+            "length": 15
+          },
+          "serial_number": {
+            "type": "string",
+            "length": 10
+          },
+          "firmware": {
+            "type": "string",
+            "length": 7
+          },
+          "make": {
+            "type": "string",
+            "length": 5
+          },
+          "build_version": {
+            "type": "string",
+            "length": 5
+          },
+          "os_version": {
+            "type": "string",
+            "length": 6
+          },
+          "region": {
+            "type": "string",
+            "length": 4
+          },
+          "model_number": {
+            "type": "string",
+            "length": 5
+          },
+          "regulatory_number": {
+            "type": "string",
+            "length": 5
+          },
+          "product_type": {
+            "type": "string",
+            "length": 10
+          },
+          "baseband_version": {
+            "type": "string",
+            "length": 0
+          },
+          "is_activated": {
+            "type": "string",
+            "length": 9
+          },
+          "current_date": {
+            "type": "string",
+            "length": 16
+          },
+          "has_baseband": {
+            "type": "bool"
+          },
+          "has_wifi": {
+            "type": "bool"
+          },
+          "has_face_id": {
+            "type": "bool"
+          },
+          "colors": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "length": 6
+            },
+            "count": 3
+          }
+        },
+        "validation_info": {
+          "icloud_status": {
+            "type": "string",
+            "length": 2
+          },
+          "fmi_status": {
+            "type": "string",
+            "length": 2
+          },
+          "jailbreak_status": {
+            "type": "string",
+            "length": 2
+          },
+          "sim_lock_status": {
+            "type": "string",
+            "length": 6
+          },
+          "release": {
+            "type": "string",
+            "length": 9
+          },
+          "esn_status": {
+            "type": "string",
+            "length": 5
+          },
+          "mdm_status": {
+            "type": "string",
+            "length": 3
+          },
+          "manufacturing_date": {
+            "type": "string",
+            "length": 2
+          }
+        },
+        "oem_info": {
+          "battery": {
+            "factory": {
+              "type": "string",
+              "length": 18
+            },
+            "current": {
+              "type": "string",
+              "length": 18
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "screen": {
+            "factory": {
+              "type": "string",
+              "length": 173
+            },
+            "current": {
+              "type": "string",
+              "length": 173
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "front_camera": {
+            "factory": {
+              "type": "string",
+              "length": 18
+            },
+            "current": {
+              "type": "string",
+              "length": 18
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "back_camera": {
+            "factory": {
+              "type": "string",
+              "length": 18
+            },
+            "current": {
+              "type": "string",
+              "length": 18
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "face_id": {
+            "has_face_id": {
+              "type": "bool"
+            },
+            "distance_sensor": {
+              "type": "string",
+              "length": 5
+            },
+            "infrared_camera": {
+              "type": "string",
+              "length": 18
+            },
+            "infrared_dot_matrix": {
+              "type": "string",
+              "length": 17
+            },
+            "working": {
+              "type": "bool"
+            }
+          },
+          "touch_id": {
+            "has_touch_id": {
+              "type": "bool"
+            },
+            "factory": {
+              "type": "string",
+              "length": 0
+            },
+            "current": {
+              "type": "string",
+              "length": 0
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "motherboard": {
+            "factory": {
+              "type": "string",
+              "length": 18
+            },
+            "current": {
+              "type": "string",
+              "length": 18
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "bluetooth": {
+            "factory": {
+              "type": "string",
+              "length": 17
+            },
+            "current": {
+              "type": "string",
+              "length": 17
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "cellular": {
+            "factory": {
+              "type": "string",
+              "length": 17
+            },
+            "current": {
+              "type": "string",
+              "length": 17
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "wifi": {
+            "factory": {
+              "type": "string",
+              "length": 17
+            },
+            "current": {
+              "type": "string",
+              "length": 17
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "serial_number": {
+            "factory": {
+              "type": "string",
+              "length": 10
+            },
+            "current": {
+              "type": "string",
+              "length": 10
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "total_original_parts": {
+            "type": "int"
+          },
+          "total_replaced_parts": {
+            "type": "int"
+          }
+        },
+        "battery_info": {
+          "battery_serial": {
+            "type": "string",
+            "length": 18
+          },
+          "cycle_count": {
+            "type": "int"
+          },
+          "current_capacity": {
+            "type": "int"
+          },
+          "design_capacity": {
+            "type": "int"
+          },
+          "battery_health": {
+            "type": "int"
+          }
+        },
+        "extended_device_info": {},
+        "has_old_device_info": {
+          "type": "bool"
+        },
+        "internal_messages": {
+          "battery": {
+            "factory": {
+              "type": "string",
+              "length": 0
+            },
+            "current": {
+              "type": "string",
+              "length": 18
+            },
+            "is_original": {
+              "type": "string",
+              "length": 6
+            },
+            "has_part": {
+              "type": "bool"
+            }
+          },
+          "screen": {
+            "factory": {
+              "type": "string",
+              "length": 0
+            },
+            "current": {
+              "type": "string",
+              "length": 173
+            },
+            "is_original": {
+              "type": "string",
+              "length": 6
+            },
+            "has_part": {
+              "type": "bool"
+            }
+          },
+          "front_camera": {
+            "factory": {
+              "type": "string",
+              "length": 0
+            },
+            "current": {
+              "type": "string",
+              "length": 0
+            },
+            "is_original": {
+              "type": "string",
+              "length": 6
+            },
+            "has_part": {
+              "type": "bool"
+            }
+          },
+          "back_camera": {
+            "factory": {
+              "type": "string",
+              "length": 0
+            },
+            "current": {
+              "type": "string",
+              "length": 18
+            },
+            "is_original": {
+              "type": "string",
+              "length": 6
+            },
+            "has_part": {
+              "type": "bool"
+            }
+          },
+          "face_id": {
+            "has_face_id": {
+              "type": "bool"
+            },
+            "distance_sensor": {
+              "type": "string",
+              "length": 0
+            },
+            "infrared_camera": {
+              "type": "string",
+              "length": 18
+            },
+            "infrared_dot_matrix": {
+              "type": "string",
+              "length": 17
+            },
+            "working": {
+              "type": "bool"
+            },
+            "is_original": {
+              "type": "string",
+              "length": 6
+            }
+          },
+          "motherboard": {
+            "factory": {
+              "type": "string",
+              "length": 0
+            },
+            "current": {
+              "type": "string",
+              "length": 18
+            },
+            "is_original": {
+              "type": "string",
+              "length": 6
+            },
+            "has_part": {
+              "type": "bool"
+            }
+          },
+          "bluetooth": {
+            "factory": {
+              "type": "string",
+              "length": 0
+            },
+            "current": {
+              "type": "string",
+              "length": 17
+            },
+            "is_original": {
+              "type": "string",
+              "length": 6
+            }
+          },
+          "serial_number": {
+            "factory": {
+              "type": "string",
+              "length": 0
+            },
+            "current": {
+              "type": "string",
+              "length": 0
+            },
+            "is_original": {
+              "type": "string",
+              "length": 0
+            }
+          },
+          "total_original_parts": {
+            "type": "int"
+          },
+          "total_replaced_parts": {
+            "type": "int"
+          }
+        },
+        "parts_functionality": {
+          "type": "NoneType"
+        }
+      }
+    }
+  },
+  {
+    "line": 671,
+    "time": "2026-09-10T12:26:21.446",
+    "direction": "received",
+    "message_type": 1,
+    "device": "device-01",
+    "request": "request-071",
+    "status": "success",
+    "schema": {
+      "udid": {
+        "type": "string",
+        "length": 25
+      },
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 1,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "command": {
+          "type": "array",
+          "items": {
+            "cmd_id": 3,
+            "cmd": {
+              "type": "string",
+              "length": 90
+            }
+          },
+          "count": 2
+        },
+        "device_info": {
+          "model": {
+            "type": "string",
+            "length": 17
+          },
+          "color": {
+            "type": "string",
+            "length": 9
+          },
+          "storage": {
+            "type": "string",
+            "length": 5
+          },
+          "imei_1": {
+            "type": "string",
+            "length": 15
+          },
+          "imei_2": {
+            "type": "string",
+            "length": 15
+          },
+          "serial_number": {
+            "type": "string",
+            "length": 10
+          },
+          "firmware": {
+            "type": "string",
+            "length": 7
+          },
+          "make": {
+            "type": "string",
+            "length": 5
+          },
+          "build_version": {
+            "type": "string",
+            "length": 5
+          },
+          "os_version": {
+            "type": "string",
+            "length": 6
+          },
+          "region": {
+            "type": "string",
+            "length": 4
+          },
+          "model_number": {
+            "type": "string",
+            "length": 5
+          },
+          "regulatory_number": {
+            "type": "string",
+            "length": 5
+          },
+          "product_type": {
+            "type": "string",
+            "length": 10
+          },
+          "baseband_version": {
+            "type": "string",
+            "length": 0
+          },
+          "is_activated": {
+            "type": "string",
+            "length": 9
+          },
+          "current_date": {
+            "type": "string",
+            "length": 16
+          },
+          "has_baseband": {
+            "type": "bool"
+          },
+          "has_wifi": {
+            "type": "bool"
+          },
+          "has_face_id": {
+            "type": "bool"
+          },
+          "colors": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "length": 6
+            },
+            "count": 6
+          }
+        }
+      }
+    }
+  },
+  {
+    "line": 681,
+    "time": "2026-09-10T12:26:24.458",
+    "direction": "sent",
+    "message_type": 2,
+    "device": "device-01",
+    "request": "request-072",
+    "status": null,
+    "schema": {
+      "messagetype": 2,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "udid": {
+        "type": "string",
+        "length": 25
+      },
+      "command": {
+        "type": "array",
+        "items": {
+          "cmd_id": 3,
+          "cmd": {
+            "type": "string",
+            "length": 90
+          },
+          "response": {
+            "type": "string",
+            "length": 20
+          }
+        },
+        "count": 2
+      }
+    }
+  },
+  {
+    "line": 682,
+    "time": "2026-09-10T12:26:24.969",
+    "direction": "received",
+    "message_type": 2,
+    "device": "device-01",
+    "request": "request-072",
+    "status": "success",
+    "schema": {
+      "udid": {
+        "type": "string",
+        "length": 25
+      },
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 2,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "storage": {
+          "type": "string",
+          "length": 5
+        },
+        "regulatory_number": {
+          "type": "string",
+          "length": 5
+        },
+        "baseband_version": {
+          "type": "string",
+          "length": 0
+        }
+      }
+    }
+  },
+  {
+    "line": 694,
+    "time": "2026-09-10T12:26:24.975",
+    "direction": "sent",
+    "message_type": 7,
+    "device": "device-01",
+    "request": "request-073",
+    "status": null,
+    "schema": {
+      "messagetype": 7,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "udid": {
+        "type": "string",
+        "length": 25
+      }
+    }
+  },
+  {
+    "line": 695,
+    "time": "2026-09-10T12:26:25.475",
+    "direction": "received",
+    "message_type": 7,
+    "device": "device-01",
+    "request": "request-073",
+    "status": "success",
+    "schema": {
+      "udid": {
+        "type": "string",
+        "length": 25
+      },
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 7,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "command": {
+          "type": "array",
+          "items": {
+            "cmd_id": 8,
+            "cmd": {
+              "type": "string",
+              "length": 97
+            }
+          },
+          "count": 3
+        }
+      }
+    }
+  },
+  {
+    "line": 699,
+    "time": "2026-09-10T12:26:25.975",
+    "direction": "sent",
+    "message_type": 3,
+    "device": "device-01",
+    "request": "request-074",
+    "status": null,
+    "schema": {
+      "messagetype": 3,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "udid": {
+        "type": "string",
+        "length": 25
+      }
+    }
+  },
+  {
+    "line": 702,
+    "time": "2026-09-10T12:26:25.976",
+    "direction": "sent",
+    "message_type": 5,
+    "device": "device-01",
+    "request": "request-075",
+    "status": null,
+    "schema": {
+      "messagetype": 5,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "udid": {
+        "type": "string",
+        "length": 25
+      }
+    }
+  },
+  {
+    "line": 705,
+    "time": "2026-09-10T12:26:26.455",
+    "direction": "received",
+    "message_type": 3,
+    "device": "device-01",
+    "request": "request-074",
+    "status": "success",
+    "schema": {
+      "udid": {
+        "type": "string",
+        "length": 25
+      },
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 3,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "command": {
+          "type": "array",
+          "items": {
+            "cmd_id": 5,
+            "cmd": {
+              "type": "string",
+              "length": 81
+            }
+          },
+          "count": 1
+        }
+      }
+    }
+  },
+  {
+    "line": 711,
+    "time": "2026-09-10T12:26:26.682",
+    "direction": "received",
+    "message_type": 5,
+    "device": "device-01",
+    "request": "request-075",
+    "status": "success",
+    "schema": {
+      "udid": {
+        "type": "string",
+        "length": 25
+      },
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 5,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "command": {
+          "type": "array",
+          "items": {
+            "cmd_id": 37,
+            "cmd": {
+              "type": "string",
+              "length": 83
+            }
+          },
+          "count": 4
+        }
+      }
+    }
+  },
+  {
+    "line": 730,
+    "time": "2026-09-10T12:26:30.340",
+    "direction": "sent",
+    "message_type": 138,
+    "device": null,
+    "request": "request-076",
+    "status": null,
+    "schema": {
+      "messagetype": 138,
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "info": {
+        "type": "string",
+        "length": 5568
+      }
+    }
+  },
+  {
+    "line": 732,
+    "time": "2026-09-10T12:26:30.946",
+    "direction": "received",
+    "message_type": 138,
+    "device": "device-01",
+    "request": "request-076",
+    "status": "success",
+    "schema": {
+      "username": {
+        "type": "string",
+        "length": 7
+      },
+      "messagetype": 138,
+      "status": {
+        "type": "string",
+        "length": 7
+      },
+      "client_data": {
+        "ref": {
+          "type": "int"
+        }
+      },
+      "reply": {
+        "device_info": {
+          "model": {
+            "type": "string",
+            "length": 17
+          },
+          "color": {
+            "type": "string",
+            "length": 9
+          },
+          "storage": {
+            "type": "string",
+            "length": 5
+          },
+          "imei_1": {
+            "type": "string",
+            "length": 15
+          },
+          "imei_2": {
+            "type": "string",
+            "length": 15
+          },
+          "serial_number": {
+            "type": "string",
+            "length": 10
+          },
+          "firmware": {
+            "type": "string",
+            "length": 7
+          },
+          "make": {
+            "type": "string",
+            "length": 5
+          },
+          "build_version": {
+            "type": "string",
+            "length": 5
+          },
+          "os_version": {
+            "type": "string",
+            "length": 6
+          },
+          "region": {
+            "type": "string",
+            "length": 4
+          },
+          "model_number": {
+            "type": "string",
+            "length": 5
+          },
+          "regulatory_number": {
+            "type": "string",
+            "length": 5
+          },
+          "product_type": {
+            "type": "string",
+            "length": 10
+          },
+          "baseband_version": {
+            "type": "string",
+            "length": 0
+          },
+          "is_activated": {
+            "type": "string",
+            "length": 9
+          },
+          "current_date": {
+            "type": "string",
+            "length": 16
+          },
+          "has_baseband": {
+            "type": "bool"
+          },
+          "has_wifi": {
+            "type": "bool"
+          },
+          "has_face_id": {
+            "type": "bool"
+          },
+          "colors": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "length": 6
+            },
+            "count": 6
+          }
+        },
+        "validation_info": {
+          "icloud_status": {
+            "type": "string",
+            "length": 2
+          },
+          "fmi_status": {
+            "type": "string",
+            "length": 2
+          },
+          "jailbreak_status": {
+            "type": "string",
+            "length": 2
+          },
+          "sim_lock_status": {
+            "type": "string",
+            "length": 6
+          },
+          "release": {
+            "type": "string",
+            "length": 9
+          },
+          "esn_status": {
+            "type": "string",
+            "length": 5
+          },
+          "mdm_status": {
+            "type": "string",
+            "length": 3
+          },
+          "manufacturing_date": {
+            "type": "string",
+            "length": 2
+          }
+        },
+        "oem_info": {
+          "battery": {
+            "factory": {
+              "type": "string",
+              "length": 18
+            },
+            "current": {
+              "type": "string",
+              "length": 18
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "screen": {
+            "factory": {
+              "type": "string",
+              "length": 173
+            },
+            "current": {
+              "type": "string",
+              "length": 173
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "front_camera": {
+            "factory": {
+              "type": "string",
+              "length": 18
+            },
+            "current": {
+              "type": "string",
+              "length": 18
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "back_camera": {
+            "factory": {
+              "type": "string",
+              "length": 18
+            },
+            "current": {
+              "type": "string",
+              "length": 18
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "face_id": {
+            "has_face_id": {
+              "type": "bool"
+            },
+            "distance_sensor": {
+              "type": "string",
+              "length": 5
+            },
+            "infrared_camera": {
+              "type": "string",
+              "length": 18
+            },
+            "infrared_dot_matrix": {
+              "type": "string",
+              "length": 17
+            },
+            "working": {
+              "type": "bool"
+            }
+          },
+          "touch_id": {
+            "has_touch_id": {
+              "type": "bool"
+            },
+            "factory": {
+              "type": "string",
+              "length": 0
+            },
+            "current": {
+              "type": "string",
+              "length": 0
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "motherboard": {
+            "factory": {
+              "type": "string",
+              "length": 18
+            },
+            "current": {
+              "type": "string",
+              "length": 18
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "bluetooth": {
+            "factory": {
+              "type": "string",
+              "length": 17
+            },
+            "current": {
+              "type": "string",
+              "length": 17
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "cellular": {
+            "factory": {
+              "type": "string",
+              "length": 17
+            },
+            "current": {
+              "type": "string",
+              "length": 17
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "wifi": {
+            "factory": {
+              "type": "string",
+              "length": 17
+            },
+            "current": {
+              "type": "string",
+              "length": 17
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "serial_number": {
+            "factory": {
+              "type": "string",
+              "length": 10
+            },
+            "current": {
+              "type": "string",
+              "length": 10
+            },
+            "is_original": {
+              "type": "bool"
+            }
+          },
+          "total_original_parts": {
+            "type": "int"
+          },
+          "total_replaced_parts": {
+            "type": "int"
+          }
+        },
+        "udid": {
+          "type": "string",
+          "length": 25
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,3 @@
+﻿timestamp,direction,device_type,device_name,udid,message_type,ref,duration_ms,json
+2026-10-08T11:32:36.698+05:00,SENT,session,,,134,1599234712297060,0.35,"{""messagetype"": 134, ""client_data"": {""ref"": 1599234712297060}, ""tester_name"": """", ""external_batch_id"": """", ""customer_name"": """", ""invoice_number"": """"}"
+2026-10-08T11:32:37.011+05:00,SENT,session,,,119,3584723129416932,0.35,"{""messagetype"": 119, ""client_data"": {""ref"": 3584723129416932}, ""app_version"": ""1.7.6"", ""operating_system"": ""windows"", ""architecture"": ""x64""}"

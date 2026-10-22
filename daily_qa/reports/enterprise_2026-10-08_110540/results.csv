@@ -1,0 +1,3 @@
+﻿module,group,test,status,duration_ms,device,messages_sent,messages_received,details,blocker,evidence
+Frontend,Application,Attach to reCheck360 desktop window,BLOCKED,2465.37,,0,0,,reCheck360 has no UI Automation-visible window,
+Frontend,dashboard,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 has no UI Automation-visible window,

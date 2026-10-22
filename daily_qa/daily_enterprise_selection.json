@@ -1,0 +1,21 @@
+{
+  "frontend_pages": [
+    "dashboard",
+    "device_connection",
+    "device_details",
+    "diagnostic_results",
+    "manual_tests",
+    "issues",
+    "reports"
+  ],
+  "backend_features": [
+    "authentication",
+    "websocket_connection",
+    "version_contract"
+  ],
+  "timeout_seconds": 40,
+  "users": 1,
+  "device_limit": 20,
+  "payload_file": "",
+  "require_devices": false
+}

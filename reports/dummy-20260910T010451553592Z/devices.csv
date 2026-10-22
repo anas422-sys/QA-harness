@@ -1,0 +1,3 @@
+platform,device_id,dummy_udid,login_ok,connection_ok,requests_sent,replies_received,diagnostics_completed,outcomes
+ios,ios-01,129D30F9-8EA853AE8943C285,True,True,1,1,0,['unvalidated_response']
+android,android-01,QAANDROID1116D81F94B2,True,True,1,1,0,['unvalidated_response']

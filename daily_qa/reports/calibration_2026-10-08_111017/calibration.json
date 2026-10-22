@@ -1,0 +1,8 @@
+{
+  "status": "BLOCKED",
+  "blocker": "JavaFX window was found but it is minimized/off-screen and exposes no automation controls",
+  "output": "C:\\Users\\usama\\Downloads\\locust\\daily_qa\\reports\\calibration_2026-10-08_111017",
+  "controls": 0,
+  "window_title": "reCheck360 (v1.7.14)",
+  "screenshot": ""
+}

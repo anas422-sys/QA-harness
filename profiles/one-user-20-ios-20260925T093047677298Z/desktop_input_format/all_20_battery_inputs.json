@@ -1,0 +1,162 @@
+{
+  "user-01-iOS-01": {
+    "serial_number": "QAB7058FE92038FF9",
+    "design_capacity": 2030,
+    "current_capacity": 3720,
+    "battery_health": 80,
+    "cycle_count": 260,
+    "is_analytics": true
+  },
+  "user-01-iOS-02": {
+    "serial_number": "QABE254EEBEFFEF1E",
+    "design_capacity": 2030,
+    "current_capacity": 3720,
+    "battery_health": 80,
+    "cycle_count": 260,
+    "is_analytics": true
+  },
+  "user-01-iOS-03": {
+    "serial_number": "QAB875D1592D4C822",
+    "design_capacity": 2030,
+    "current_capacity": 3720,
+    "battery_health": 80,
+    "cycle_count": 260,
+    "is_analytics": true
+  },
+  "user-01-iOS-04": {
+    "serial_number": "QAB9F51F7ACCF8A02",
+    "design_capacity": 2030,
+    "current_capacity": 3720,
+    "battery_health": 80,
+    "cycle_count": 260,
+    "is_analytics": true
+  },
+  "user-01-iOS-05": {
+    "serial_number": "QABFE588CAF674FC3",
+    "design_capacity": 2030,
+    "current_capacity": 3720,
+    "battery_health": 80,
+    "cycle_count": 260,
+    "is_analytics": true
+  },
+  "user-01-iOS-06": {
+    "serial_number": "QABE259D5A605A46E",
+    "design_capacity": 2030,
+    "current_capacity": 3720,
+    "battery_health": 80,
+    "cycle_count": 260,
+    "is_analytics": true
+  },
+  "user-01-iOS-07": {
+    "serial_number": "QAB345AAD9B8B06E7",
+    "design_capacity": 2030,
+    "current_capacity": 3720,
+    "battery_health": 80,
+    "cycle_count": 260,
+    "is_analytics": true
+  },
+  "user-01-iOS-08": {
+    "serial_number": "QABDD55CBA14EF7C1",
+    "design_capacity": 2030,
+    "current_capacity": 3720,
+    "battery_health": 80,
+    "cycle_count": 260,
+    "is_analytics": true
+  },
+  "user-01-iOS-09": {
+    "serial_number": "QAB115C72B88FE40C",
+    "design_capacity": 2030,
+    "current_capacity": 3720,
+    "battery_health": 80,
+    "cycle_count": 260,
+    "is_analytics": true
+  },
+  "user-01-iOS-10": {
+    "serial_number": "QABD055BD9791E0FC",
+    "design_capacity": 2030,
+    "current_capacity": 3720,
+    "battery_health": 80,
+    "cycle_count": 260,
+    "is_analytics": true
+  },
+  "user-01-iOS-11": {
+    "serial_number": "QABDC543A8A6F6876",
+    "design_capacity": 2030,
+    "current_capacity": 3720,
+    "battery_health": 80,
+    "cycle_count": 260,
+    "is_analytics": true
+  },
+  "user-01-iOS-12": {
+    "serial_number": "QAB795C79AFEA397A",
+    "design_capacity": 2030,
+    "current_capacity": 3720,
+    "battery_health": 80,
+    "cycle_count": 260,
+    "is_analytics": true
+  },
+  "user-01-iOS-13": {
+    "serial_number": "QABE05196888BF9F1",
+    "design_capacity": 2030,
+    "current_capacity": 3720,
+    "battery_health": 80,
+    "cycle_count": 260,
+    "is_analytics": true
+  },
+  "user-01-iOS-14": {
+    "serial_number": "QAB015A6B86B9E152",
+    "design_capacity": 2030,
+    "current_capacity": 3720,
+    "battery_health": 80,
+    "cycle_count": 260,
+    "is_analytics": true
+  },
+  "user-01-iOS-15": {
+    "serial_number": "QAB9053C683FC35B6",
+    "design_capacity": 2030,
+    "current_capacity": 3720,
+    "battery_health": 80,
+    "cycle_count": 260,
+    "is_analytics": true
+  },
+  "user-01-iOS-16": {
+    "serial_number": "QAB6150C08F7A5A2C",
+    "design_capacity": 2030,
+    "current_capacity": 3720,
+    "battery_health": 80,
+    "cycle_count": 260,
+    "is_analytics": true
+  },
+  "user-01-iOS-17": {
+    "serial_number": "QABD55AF9A61E742C",
+    "design_capacity": 2030,
+    "current_capacity": 3720,
+    "battery_health": 80,
+    "cycle_count": 260,
+    "is_analytics": true
+  },
+  "user-01-iOS-18": {
+    "serial_number": "QAB1850D5981F94A5",
+    "design_capacity": 2030,
+    "current_capacity": 3720,
+    "battery_health": 80,
+    "cycle_count": 260,
+    "is_analytics": true
+  },
+  "user-01-iOS-19": {
+    "serial_number": "QAB6A5EE093856427",
+    "design_capacity": 2030,
+    "current_capacity": 3720,
+    "battery_health": 80,
+    "cycle_count": 260,
+    "is_analytics": true
+  },
+  "user-01-iOS-20": {
+    "serial_number": "QABC35E42B17729D3",
+    "design_capacity": 2030,
+    "current_capacity": 3720,
+    "battery_health": 80,
+    "cycle_count": 260,
+    "is_analytics": true
+  }
+}

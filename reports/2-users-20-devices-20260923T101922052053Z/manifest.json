@@ -1,0 +1,17 @@
+{
+  "users": 2,
+  "distinct_accounts": 1,
+  "devices_per_user": 10,
+  "ios": 10,
+  "android": 10,
+  "synthetic": true,
+  "reference_variants": 25,
+  "stages": [
+    10,
+    10,
+    10
+  ],
+  "pause_seconds": 10,
+  "timeout_seconds": 15,
+  "prepare_only": true
+}

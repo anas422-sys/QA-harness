@@ -1,0 +1,15 @@
+﻿agent,category,test,status,duration_ms,details,evidence
+Frontend QA Agent,Frontend automated,Desktop application process,PASS,1963.23,"Detected: recheck360, recheck",
+Frontend QA Agent,Frontend manual,Open the dashboard and confirm the layout loads without clipping or overlap,PENDING MANUAL,,A tester must perform and record this visual or interactive check,
+Frontend QA Agent,Frontend manual,Connect one available device and confirm its name platform and identifiers are correct,PENDING MANUAL,,A tester must perform and record this visual or interactive check,
+Frontend QA Agent,Frontend manual,Check navigation tabs buttons forms filters and validation messages,PENDING MANUAL,,A tester must perform and record this visual or interactive check,
+Frontend QA Agent,Frontend manual,Confirm loading indicators error messages and empty states are understandable,PENDING MANUAL,,A tester must perform and record this visual or interactive check,
+Frontend QA Agent,Frontend manual,Check keyboard focus and the main workflow at the supported window size,PENDING MANUAL,,A tester must perform and record this visual or interactive check,
+Backend QA Agent,Backend automated,Authentication API,PASS,1529.02,HTTP 200; token present: True,
+Backend QA Agent,Backend automated,WebSocket connection,PASS,988.55,Authenticated connection opened,
+Backend QA Agent,Backend automated,Version message contract,PASS,319.23,Correlated success; additional messages: 0,message type 119 ref 1087706842983252
+Backend QA Agent,Backend manual,Review server logs for exceptions timeouts and failed jobs,PENDING MANUAL,,Requires backend log database or operational access,
+Backend QA Agent,Backend manual,Check that request references map to the correct user and device,PENDING MANUAL,,Requires backend log database or operational access,
+Backend QA Agent,Backend manual,Review database or transaction records for duplicates where access is available,PENDING MANUAL,,Requires backend log database or operational access,
+Backend QA Agent,Backend manual,Confirm license limits and queued work are expected,PENDING MANUAL,,Requires backend log database or operational access,
+Backend QA Agent,Backend manual,Retest open backend defects and attach request references as evidence,PENDING MANUAL,,Requires backend log database or operational access,

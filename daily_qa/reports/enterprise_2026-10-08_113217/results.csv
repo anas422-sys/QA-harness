@@ -1,0 +1,2 @@
+﻿module,group,test,status,duration_ms,device,messages_sent,messages_received,details,blocker,evidence
+Dummy devices,ios,Dummy iPhone 1 · round 1,ACKNOWLEDGED,344.23,F266EF7D-00A4595D85C67B53,1,1,Backend acknowledged synthetic payload; physical hardware was not tested,,

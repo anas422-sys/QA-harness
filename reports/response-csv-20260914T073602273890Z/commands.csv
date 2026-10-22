@@ -1,0 +1,3 @@
+﻿source,udid,request_ref,cmd_id,command,executed
+user_provided_response,00008101-001D2C103C09001E,123456789,3,ideviceinfo.exe -q com.apple.disk_usage -k TotalDiskCapacity --udid 00008101-001D2C103C09001E,False
+user_provided_response,00008101-001D2C103C09001E,123456789,4,idevicediagnostics.exe ioregentry device-tree --udid 00008101-001D2C103C09001E,False

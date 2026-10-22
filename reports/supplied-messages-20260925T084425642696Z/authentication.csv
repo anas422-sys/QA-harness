@@ -1,0 +1,3 @@
+﻿step,outcome,duration_ms,detail
+HTTP login,PASS,1157.84,
+WebSocket connect,PASS,787.66,

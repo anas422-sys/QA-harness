@@ -1,0 +1,19 @@
+{
+  "mode": "sequential baseline",
+  "timeout_seconds": 60,
+  "slow_threshold_seconds": 20,
+  "users": 1,
+  "user": "user-01",
+  "ios_devices": 15,
+  "planned_requests": 137,
+  "sent": 107,
+  "received": 108,
+  "outcomes": {
+    "ACK_ONLY": 77,
+    "BLOCKED_MISSING_FIXTURE": 30,
+    "BATTERY_MATCH": 15,
+    "ACK_WITH_SOURCE_WARNINGS": 15
+  },
+  "command_drift_requests": 0,
+  "session_error": ""
+}

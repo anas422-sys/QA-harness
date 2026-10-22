@@ -1,0 +1,9 @@
+{
+  "frontend_pages": [],
+  "backend_features": ["authentication", "websocket_connection", "version_contract", "load"],
+  "timeout_seconds": 5,
+  "users": 2,
+  "device_limit": 20,
+  "payload_file": "",
+  "require_devices": false
+}

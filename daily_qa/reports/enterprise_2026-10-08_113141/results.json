@@ -1,0 +1,100 @@
+{
+  "environment": "staging",
+  "started_at": "2026-10-08T11:31:41+05:00",
+  "finished_at": "2026-10-08T11:31:54+05:00",
+  "selection": {
+    "rounds": 1,
+    "timeout_seconds": 10,
+    "dummy_ios": 1,
+    "mode": "dummy",
+    "dummy_android": 1
+  },
+  "mode": "dummy",
+  "device_inventory": {
+    "devices": [],
+    "counts": {
+      "total": 0,
+      "android": 0,
+      "ios": 0,
+      "selected": 0,
+      "capacity": 20
+    },
+    "tools": {
+      "adb": "C:\\Program Files\\reCheck360\\app\\native-dev\\windows\\adb.exe",
+      "idevice_id": "C:\\Program Files\\reCheck360\\app\\native-dev\\windows\\idevice_id.exe",
+      "ideviceinfo": "C:\\Program Files\\reCheck360\\app\\native-dev\\windows\\ideviceinfo.exe"
+    },
+    "blockers": []
+  },
+  "summary": {
+    "tests": 2,
+    "pass": 0,
+    "fail": 2,
+    "blocked": 0,
+    "acknowledged": 0,
+    "connected": 0,
+    "messages_sent": 1,
+    "messages_received": 0,
+    "duration_ms": 12885.23,
+    "real_devices": {
+      "total": 0,
+      "android": 0,
+      "ios": 0,
+      "selected": 0,
+      "capacity": 20
+    }
+  },
+  "results": [
+    {
+      "module": "Dummy devices",
+      "group": "ios",
+      "test": "Dummy iPhone 1",
+      "status": "ERROR",
+      "duration_ms": 0.02,
+      "device": "7D968342-01065D3B930AAC69",
+      "messages_sent": 0,
+      "messages_received": 0,
+      "details": "",
+      "blocker": "WebSocketConnectionClosedException: Connection to remote host was lost.",
+      "evidence": ""
+    },
+    {
+      "module": "Dummy devices",
+      "group": "android",
+      "test": "Dummy Android 1 \u00b7 round 1",
+      "status": "TIMEOUT",
+      "duration_ms": 10003.45,
+      "device": "QAANDROID6F372B8A8B9E",
+      "messages_sent": 1,
+      "messages_received": 0,
+      "details": "Background messages: 0",
+      "blocker": "No exact response within 10.0s",
+      "evidence": ""
+    }
+  ],
+  "sent_messages": [
+    {
+      "timestamp": "2026-10-08T11:31:44.222+05:00",
+      "direction": "SENT",
+      "device_type": "ios",
+      "device_name": "Dummy iPhone 1",
+      "udid": "7D968342-01065D3B930AAC69",
+      "message_type": 1,
+      "ref": 2645178101501556,
+      "duration_ms": 0.46,
+      "json": "{\"client_data\": {\"ref\": 2645178101501556}, \"messagetype\": 1, \"udid\": \"7D968342-01065D3B930AAC69\", \"device_name\": \"Dummy iPhone 1\", \"device_operating_system\": \"ios\", \"operating_system\": \"windows\", \"device_info\": \"PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPCFET0NUWVBFIHBsaXN0IFBVQkxJQyAiLS8vQXBwbGUvL0RURCBQTElTVCAxLjAvL0VOIiAiaHR0cDovL3d3dy5hcHBsZS5jb20vRFREcy9Qcm9wZXJ0eUxpc3QtMS4wLmR0ZCI+CjxwbGlzdCB2ZXJzaW9uPSIxLjAiPgo8ZGljdD4KCTxrZXk+RGV2aWNlQ2xhc3M8L2tleT4KCTxzdHJpbmc+aVBob25lPC9zdHJpbmc+Cgk8a2V5PkRldmljZU5hbWU8L2tleT4KCTxzdHJpbmc+RHVtbXkgaVBob25lIDE8L3N0cmluZz4KCTxrZXk+UHJvZHVjdFR5cGU8L2tleT4KCTxzdHJpbmc+aVBob25lMTMsMTwvc3RyaW5nPgoJPGtleT5Qcm9kdWN0VmVyc2lvbjwva2V5PgoJPHN0cmluZz4xOC4wPC9zdHJpbmc+Cgk8a2V5PlNlcmlhbE51bWJlcjwva2V5PgoJPHN0cmluZz5RQTdEOTY4MzQyMDE8L3N0cmluZz4KCTxrZXk+VW5pcXVlRGV2aWNlSUQ8L2tleT4KCTxzdHJpbmc+N0Q5NjgzNDItMDEwNjVEM0I5MzBBQUM2OTwvc3RyaW5nPgo8L2RpY3Q+CjwvcGxpc3Q+Cg==\"}"
+    },
+    {
+      "timestamp": "2026-10-08T11:31:44.220+05:00",
+      "direction": "SENT",
+      "device_type": "android",
+      "device_name": "Dummy Android 1",
+      "udid": "QAANDROID6F372B8A8B9E",
+      "message_type": 1,
+      "ref": 3035074506193444,
+      "duration_ms": 0.44,
+      "json": "{\"client_data\": {\"ref\": 3035074506193444}, \"messagetype\": 1, \"udid\": \"QAANDROID6F372B8A8B9E\", \"device_name\": \"Dummy Android 1\", \"device_operating_system\": \"android\", \"operating_system\": \"windows\", \"device_info\": \"eyJzZXJpYWwiOiAiUUFBTkRST0lENkYzNzJCOEE4QjlFIiwgIm1hbnVmYWN0dXJlciI6ICJRQSIsICJtb2RlbCI6ICJEdW1teSBBbmRyb2lkIDEiLCAiYW5kcm9pZF92ZXJzaW9uIjogIjE0In0=\"}"
+    }
+  ],
+  "received_messages": []
+}

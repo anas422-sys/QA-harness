@@ -1,0 +1,162 @@
+[
+  {
+    "device_name": "user-01-iOS-01",
+    "udid": "EEB210F3-727058FE92038FF9",
+    "device_serial": "QAEEB210F372",
+    "battery_serial": "QAB7058FE92038FF9",
+    "input_file": "user-01-iOS-01/input.txt",
+    "output_file": "user-01-iOS-01/output.txt"
+  },
+  {
+    "device_name": "user-01-iOS-02",
+    "udid": "46E5B1B2-DCE254EEBEFFEF1E",
+    "device_serial": "QA46E5B1B2DC",
+    "battery_serial": "QABE254EEBEFFEF1E",
+    "input_file": "user-01-iOS-02/input.txt",
+    "output_file": "user-01-iOS-02/output.txt"
+  },
+  {
+    "device_name": "user-01-iOS-03",
+    "udid": "FA75156A-90875D1592D4C822",
+    "device_serial": "QAFA75156A90",
+    "battery_serial": "QAB875D1592D4C822",
+    "input_file": "user-01-iOS-03/input.txt",
+    "output_file": "user-01-iOS-03/output.txt"
+  },
+  {
+    "device_name": "user-01-iOS-04",
+    "udid": "DDB10E7E-D89F51F7ACCF8A02",
+    "device_serial": "QADDB10E7ED8",
+    "battery_serial": "QAB9F51F7ACCF8A02",
+    "input_file": "user-01-iOS-04/input.txt",
+    "output_file": "user-01-iOS-04/output.txt"
+  },
+  {
+    "device_name": "user-01-iOS-05",
+    "udid": "03E71FF5-A7FE588CAF674FC3",
+    "device_serial": "QA03E71FF5A7",
+    "battery_serial": "QABFE588CAF674FC3",
+    "input_file": "user-01-iOS-05/input.txt",
+    "output_file": "user-01-iOS-05/output.txt"
+  },
+  {
+    "device_name": "user-01-iOS-06",
+    "udid": "D4152046-BFE259D5A605A46E",
+    "device_serial": "QAD4152046BF",
+    "battery_serial": "QABE259D5A605A46E",
+    "input_file": "user-01-iOS-06/input.txt",
+    "output_file": "user-01-iOS-06/output.txt"
+  },
+  {
+    "device_name": "user-01-iOS-07",
+    "udid": "149C188E-AF345AAD9B8B06E7",
+    "device_serial": "QA149C188EAF",
+    "battery_serial": "QAB345AAD9B8B06E7",
+    "input_file": "user-01-iOS-07/input.txt",
+    "output_file": "user-01-iOS-07/output.txt"
+  },
+  {
+    "device_name": "user-01-iOS-08",
+    "udid": "282E1CF6-C6DD55CBA14EF7C1",
+    "device_serial": "QA282E1CF6C6",
+    "battery_serial": "QABDD55CBA14EF7C1",
+    "input_file": "user-01-iOS-08/input.txt",
+    "output_file": "user-01-iOS-08/output.txt"
+  },
+  {
+    "device_name": "user-01-iOS-09",
+    "udid": "519D3DEC-0D115C72B88FE40C",
+    "device_serial": "QA519D3DEC0D",
+    "battery_serial": "QAB115C72B88FE40C",
+    "input_file": "user-01-iOS-09/input.txt",
+    "output_file": "user-01-iOS-09/output.txt"
+  },
+  {
+    "device_name": "user-01-iOS-10",
+    "udid": "9FCE9138-CDD055BD9791E0FC",
+    "device_serial": "QA9FCE9138CD",
+    "battery_serial": "QABD055BD9791E0FC",
+    "input_file": "user-01-iOS-10/input.txt",
+    "output_file": "user-01-iOS-10/output.txt"
+  },
+  {
+    "device_name": "user-01-iOS-11",
+    "udid": "B037283F-74DC543A8A6F6876",
+    "device_serial": "QAB037283F74",
+    "battery_serial": "QABDC543A8A6F6876",
+    "input_file": "user-01-iOS-11/input.txt",
+    "output_file": "user-01-iOS-11/output.txt"
+  },
+  {
+    "device_name": "user-01-iOS-12",
+    "udid": "9D3CE8E5-4C795C79AFEA397A",
+    "device_serial": "QA9D3CE8E54C",
+    "battery_serial": "QAB795C79AFEA397A",
+    "input_file": "user-01-iOS-12/input.txt",
+    "output_file": "user-01-iOS-12/output.txt"
+  },
+  {
+    "device_name": "user-01-iOS-13",
+    "udid": "4B19DAEC-10E05196888BF9F1",
+    "device_serial": "QA4B19DAEC10",
+    "battery_serial": "QABE05196888BF9F1",
+    "input_file": "user-01-iOS-13/input.txt",
+    "output_file": "user-01-iOS-13/output.txt"
+  },
+  {
+    "device_name": "user-01-iOS-14",
+    "udid": "91E28EE9-33015A6B86B9E152",
+    "device_serial": "QA91E28EE933",
+    "battery_serial": "QAB015A6B86B9E152",
+    "input_file": "user-01-iOS-14/input.txt",
+    "output_file": "user-01-iOS-14/output.txt"
+  },
+  {
+    "device_name": "user-01-iOS-15",
+    "udid": "063D2FA8-789053C683FC35B6",
+    "device_serial": "QA063D2FA878",
+    "battery_serial": "QAB9053C683FC35B6",
+    "input_file": "user-01-iOS-15/input.txt",
+    "output_file": "user-01-iOS-15/output.txt"
+  },
+  {
+    "device_name": "user-01-iOS-16",
+    "udid": "CD87BF52-526150C08F7A5A2C",
+    "device_serial": "QACD87BF5252",
+    "battery_serial": "QAB6150C08F7A5A2C",
+    "input_file": "user-01-iOS-16/input.txt",
+    "output_file": "user-01-iOS-16/output.txt"
+  },
+  {
+    "device_name": "user-01-iOS-17",
+    "udid": "64CF8F4F-60D55AF9A61E742C",
+    "device_serial": "QA64CF8F4F60",
+    "battery_serial": "QABD55AF9A61E742C",
+    "input_file": "user-01-iOS-17/input.txt",
+    "output_file": "user-01-iOS-17/output.txt"
+  },
+  {
+    "device_name": "user-01-iOS-18",
+    "udid": "E899BE77-701850D5981F94A5",
+    "device_serial": "QAE899BE7770",
+    "battery_serial": "QAB1850D5981F94A5",
+    "input_file": "user-01-iOS-18/input.txt",
+    "output_file": "user-01-iOS-18/output.txt"
+  },
+  {
+    "device_name": "user-01-iOS-19",
+    "udid": "F9580265-D36A5EE093856427",
+    "device_serial": "QAF9580265D3",
+    "battery_serial": "QAB6A5EE093856427",
+    "input_file": "user-01-iOS-19/input.txt",
+    "output_file": "user-01-iOS-19/output.txt"
+  },
+  {
+    "device_name": "user-01-iOS-20",
+    "udid": "B0D5043F-FFC35E42B17729D3",
+    "device_serial": "QAB0D5043FFF",
+    "battery_serial": "QABC35E42B17729D3",
+    "input_file": "user-01-iOS-20/input.txt",
+    "output_file": "user-01-iOS-20/output.txt"
+  }
+]

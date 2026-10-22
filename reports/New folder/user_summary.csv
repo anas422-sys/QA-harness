@@ -1,0 +1,3 @@
+﻿user,assigned_devices,acknowledged_unique_devices,outcomes
+user-01,10,10,"{""PASS"": 2, ""VALUE_CHANGED"": 6, ""MATCH"": 11, ""SCHEMA_MISMATCH"": 5, ""APPLICATION_FAILURE"": 3, ""ACK_ONLY"": 28, ""TIMEOUT"": 2}"
+user-02,10,10,"{""PASS"": 2, ""VALUE_CHANGED"": 6, ""MATCH"": 11, ""SCHEMA_MISMATCH"": 5, ""APPLICATION_FAILURE"": 3, ""ACK_ONLY"": 30}"

@@ -1,0 +1,36 @@
+Started 20 sessions; 20 sockets open. Holding for 60s.
+{
+  "scope": "shared-account login and WebSocket transport only",
+  "target_sessions": 20,
+  "peak_open_sessions": 20,
+  "open_sessions_at_hold_start": 20,
+  "open_sessions_at_hold_end": 20,
+  "requested_hold_seconds": 60,
+  "elapsed_seconds": 74.28,
+  "failures": 0,
+  "steps": {
+    "login": {
+      "attempts": 20,
+      "failures": 0,
+      "successful_p50_ms": 1259.8,
+      "successful_p95_ms": 2080.91,
+      "successful_max_ms": 9857.69
+    },
+    "connect": {
+      "attempts": 20,
+      "failures": 0,
+      "successful_p50_ms": 1174.18,
+      "successful_p95_ms": 1307.94,
+      "successful_max_ms": 1348.47
+    },
+    "ping_pong": {
+      "attempts": 254,
+      "failures": 0,
+      "successful_p50_ms": 369.28,
+      "successful_p95_ms": 424.56,
+      "successful_max_ms": 852.15
+    }
+  },
+  "transport_check": "PASS"
+}
+Report: C:\Users\usama\Downloads\locust\reports\suite-20260910T080312107040Z\transport\experience_report.md

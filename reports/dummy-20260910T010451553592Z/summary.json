@@ -1,0 +1,118 @@
+{
+  "scope": "exploratory synthetic device payloads, shared account",
+  "peak_connections": 2,
+  "platforms": {
+    "ios": {
+      "dummy_devices": 1,
+      "login_ok": 1,
+      "connections": 1,
+      "requests_sent": 1,
+      "replies_received": 1,
+      "explicitly_rejected": 0,
+      "unvalidated_replies": 1,
+      "diagnostics_completed": 0,
+      "request_attempt_p95_ms": 537.22
+    },
+    "android": {
+      "dummy_devices": 1,
+      "login_ok": 1,
+      "connections": 1,
+      "requests_sent": 1,
+      "replies_received": 1,
+      "explicitly_rejected": 0,
+      "unvalidated_replies": 1,
+      "diagnostics_completed": 0,
+      "request_attempt_p95_ms": 505.63
+    }
+  },
+  "devices": [
+    {
+      "platform": "ios",
+      "device_id": "ios-01",
+      "dummy_udid": "129D30F9-8EA853AE8943C285",
+      "login_ok": true,
+      "connection_ok": true,
+      "requests_sent": 1,
+      "replies_received": 1,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "unvalidated_response"
+      ],
+      "response_samples": [
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 20466340826792
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 4,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "model": "<string>",
+              "serial_number": "<string>",
+              "make": "<string>",
+              "os_version": "<string>",
+              "model_number": "<string>",
+              "product_type": "<string>",
+              "baseband_version": "<string>",
+              "is_activated": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "platform": "android",
+      "device_id": "android-01",
+      "dummy_udid": "QAANDROID1116D81F94B2",
+      "login_ok": true,
+      "connection_ok": true,
+      "requests_sent": 1,
+      "replies_received": 1,
+      "diagnostics_completed": 0,
+      "outcomes": [
+        "unvalidated_response"
+      ],
+      "response_samples": [
+        {
+          "udid": "<string>",
+          "username": "<string>",
+          "messagetype": 1,
+          "status": "success",
+          "client_data": {
+            "ref": 18789812901042
+          },
+          "reply": {
+            "command": {
+              "list_count": 2,
+              "first_shape": {
+                "cmd_id": 47,
+                "cmd": "<string>"
+              }
+            },
+            "device_info": {
+              "baseband_version": "<string>",
+              "current_date": "<string>"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Android device_info schema is assumed, not verified.",
+    "Synthetic iOS fixture contains only a subset of real-device plist fields.",
+    "First reply is not proof of processing or diagnostic completion; correlation contract is unknown.",
+    "No hardware/USB or desktop UI behavior is exercised.",
+    "Run stops each device after its first unvalidated/rejected reply."
+  ]
+}

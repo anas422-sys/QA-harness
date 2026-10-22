@@ -1,0 +1,776 @@
+{
+  "source": "app-2026-09-10.log",
+  "snapshot_events": 1,
+  "devices_with_result_snapshots": 1,
+  "devices": [
+    {
+      "timestamp": "2026-09-10 12:35:36.326",
+      "device": "device-01",
+      "platform": "ios",
+      "message_type": 15,
+      "success_envelope": true,
+      "result_count": 44,
+      "expected_enabled_count": 46,
+      "required_after_exclusions": 46,
+      "counts": {
+        "pass": 44
+      },
+      "missing_tests": [
+        {
+          "code": "iFT-000",
+          "test_name": "Force Touch"
+        },
+        {
+          "code": "iTI-000",
+          "test_name": "Touch ID"
+        }
+      ],
+      "excluded_codes": [],
+      "duplicate_codes": [],
+      "unresolved_required_codes": [],
+      "reported_required_results_complete": false,
+      "all_required_reported_pass": false,
+      "fresh_diagnostic_run_verified": false,
+      "tests": [
+        {
+          "code": "iWI-000",
+          "test_name": "WiFi",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iGP-000",
+          "test_name": "GPS",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iBL-000",
+          "test_name": "Bluetooth",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iVI-000",
+          "test_name": "Vibration",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iBA-000",
+          "test_name": "Barometer Sensor",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iAL-000",
+          "test_name": "Ambient Light Sensor",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iGY-000",
+          "test_name": "Gyro Sensor",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iLi-000",
+          "test_name": "LiDAR Sensor",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iCO-000",
+          "test_name": "Compass Test",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iPS-000",
+          "test_name": "Proximity Sensor",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iAC-000",
+          "test_name": "Accelerometer Sensor",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iNF-000",
+          "test_name": "NFC Sensor",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iAM-000",
+          "test_name": "Auto Mics",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iAE-000",
+          "test_name": "Auto Earpiece",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iAQ-000",
+          "test_name": "Audio Quality",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iRP-000",
+          "test_name": "Record & Play",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iPR-000",
+          "test_name": "Play Recorded",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iHT-000",
+          "test_name": "Headphones Test",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iFL-000",
+          "test_name": "Flashlight",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iFI-000",
+          "test_name": "Face ID",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iFC-000",
+          "test_name": "Front Camera",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iRC-000",
+          "test_name": "Rear Camera",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iUC-000",
+          "test_name": "Ultrawide Camera",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iTC-000",
+          "test_name": "Telephoto Camera",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iBS-000",
+          "test_name": "Barcode Scanner",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iBRT-000",
+          "test_name": "Brightness",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iMT-000",
+          "test_name": "Multitouch",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iSR-000",
+          "test_name": "Screen Rotation",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iPZ-000",
+          "test_name": "Pinch Zoom",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iDGT-000",
+          "test_name": "Digitizer Test",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iDGT2-000",
+          "test_name": "Digitizer Test 2",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iLCDC-000",
+          "test_name": "LCD Check",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iLCDP-000",
+          "test_name": "LCD Screen Pixel",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iNC-000",
+          "test_name": "Network Connectivity",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iLC-000",
+          "test_name": "Live Call",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iST-000",
+          "test_name": "SIM Test",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iWC-000",
+          "test_name": "Wireless Charging",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iCP-000",
+          "test_name": "Charging Port Test",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iBD-000",
+          "test_name": "Battery Drain Test",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iCT-000",
+          "test_name": "Cosmetics Test",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iAB-000",
+          "test_name": "All Buttons",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iGRD-000",
+          "test_name": "Grading & Comments",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iFVC-000",
+          "test_name": "Front Video Camera",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iRVC-000",
+          "test_name": "Rear Video Camera",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        }
+      ]
+    }
+  ],
+  "all_snapshots": [
+    {
+      "timestamp": "2026-09-10 12:35:36.326",
+      "device": "device-01",
+      "platform": "ios",
+      "message_type": 15,
+      "success_envelope": true,
+      "result_count": 44,
+      "expected_enabled_count": 46,
+      "required_after_exclusions": 46,
+      "counts": {
+        "pass": 44
+      },
+      "missing_tests": [
+        {
+          "code": "iFT-000",
+          "test_name": "Force Touch"
+        },
+        {
+          "code": "iTI-000",
+          "test_name": "Touch ID"
+        }
+      ],
+      "excluded_codes": [],
+      "duplicate_codes": [],
+      "unresolved_required_codes": [],
+      "reported_required_results_complete": false,
+      "all_required_reported_pass": false,
+      "fresh_diagnostic_run_verified": false,
+      "tests": [
+        {
+          "code": "iWI-000",
+          "test_name": "WiFi",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iGP-000",
+          "test_name": "GPS",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iBL-000",
+          "test_name": "Bluetooth",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iVI-000",
+          "test_name": "Vibration",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iBA-000",
+          "test_name": "Barometer Sensor",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iAL-000",
+          "test_name": "Ambient Light Sensor",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iGY-000",
+          "test_name": "Gyro Sensor",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iLi-000",
+          "test_name": "LiDAR Sensor",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iCO-000",
+          "test_name": "Compass Test",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iPS-000",
+          "test_name": "Proximity Sensor",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iAC-000",
+          "test_name": "Accelerometer Sensor",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iNF-000",
+          "test_name": "NFC Sensor",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iAM-000",
+          "test_name": "Auto Mics",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iAE-000",
+          "test_name": "Auto Earpiece",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iAQ-000",
+          "test_name": "Audio Quality",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iRP-000",
+          "test_name": "Record & Play",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iPR-000",
+          "test_name": "Play Recorded",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iHT-000",
+          "test_name": "Headphones Test",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iFL-000",
+          "test_name": "Flashlight",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iFI-000",
+          "test_name": "Face ID",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iFC-000",
+          "test_name": "Front Camera",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iRC-000",
+          "test_name": "Rear Camera",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iUC-000",
+          "test_name": "Ultrawide Camera",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iTC-000",
+          "test_name": "Telephoto Camera",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iBS-000",
+          "test_name": "Barcode Scanner",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iBRT-000",
+          "test_name": "Brightness",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iMT-000",
+          "test_name": "Multitouch",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iSR-000",
+          "test_name": "Screen Rotation",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iPZ-000",
+          "test_name": "Pinch Zoom",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iDGT-000",
+          "test_name": "Digitizer Test",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iDGT2-000",
+          "test_name": "Digitizer Test 2",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iLCDC-000",
+          "test_name": "LCD Check",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iLCDP-000",
+          "test_name": "LCD Screen Pixel",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iNC-000",
+          "test_name": "Network Connectivity",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iLC-000",
+          "test_name": "Live Call",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iST-000",
+          "test_name": "SIM Test",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iWC-000",
+          "test_name": "Wireless Charging",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iCP-000",
+          "test_name": "Charging Port Test",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iBD-000",
+          "test_name": "Battery Drain Test",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iCT-000",
+          "test_name": "Cosmetics Test",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iAB-000",
+          "test_name": "All Buttons",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iGRD-000",
+          "test_name": "Grading & Comments",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iFVC-000",
+          "test_name": "Front Video Camera",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        },
+        {
+          "code": "iRVC-000",
+          "test_name": "Rear Video Camera",
+          "result": "Pass",
+          "category": "pass",
+          "enabled": true,
+          "hidden": false
+        }
+      ]
+    }
+  ],
+  "scope": "stored/reported diagnostic results, not proof of a fresh test run"
+}

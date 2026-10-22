@@ -1,0 +1,15 @@
+﻿run_mode,session,platform,device_id,embedded_udid_matches,login_ok,connection_ok,requests,acknowledged,failed_operations,request_p50_ms,request_p95_ms,request_max_ms,diagnostics_verified,difficulties
+local_demo,session-01,ios,DEMO-IOS-01,True,True,True,9,9,0,3.46,7.93,7.93,0,
+local_demo,session-02,ios,DEMO-IOS-02,True,True,True,9,9,0,5.65,18.65,18.65,0,
+local_demo,session-03,ios,DEMO-IOS-03,True,True,True,8,8,0,3.82,16.85,16.85,0,
+local_demo,session-04,ios,DEMO-IOS-04,True,True,True,7,6,1,3.49,17.72,17.72,0,device_request: interrupted
+local_demo,session-05,ios,DEMO-IOS-05,True,True,True,9,8,1,3.2,11.29,11.29,0,device_request: interrupted
+local_demo,session-06,ios,DEMO-IOS-06,True,True,True,7,7,0,3.53,6.02,6.02,0,
+local_demo,session-07,ios,DEMO-IOS-07,True,True,True,6,6,0,3.05,21.27,21.27,0,
+local_demo,session-08,ios,DEMO-IOS-08,True,True,True,6,6,0,3.87,15.86,15.86,0,
+local_demo,session-09,ios,DEMO-IOS-09,True,True,True,6,6,0,3.39,25.01,25.01,0,
+local_demo,session-10,ios,DEMO-IOS-10,True,True,True,6,6,0,3.83,21.69,21.69,0,
+local_demo,session-11,ios,DEMO-IOS-11,True,True,True,6,5,1,3.6,6.79,6.79,0,device_request: interrupted
+local_demo,session-12,ios,DEMO-IOS-12,True,True,True,6,6,0,3.76,6.95,6.95,0,
+local_demo,session-13,ios,DEMO-IOS-13,True,True,True,4,4,0,3.08,75.11,75.11,0,
+local_demo,session-14,ios,DEMO-IOS-14,True,True,True,5,5,0,2.96,6.75,6.75,0,

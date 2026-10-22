@@ -1,0 +1,44 @@
+[
+  {
+    "platform": "ios",
+    "device_id": "ios-01",
+    "step": "login",
+    "outcome": "ok",
+    "duration_ms": 1641.8
+  },
+  {
+    "platform": "android",
+    "device_id": "android-01",
+    "step": "login",
+    "outcome": "ok",
+    "duration_ms": 1647.69
+  },
+  {
+    "platform": "android",
+    "device_id": "android-01",
+    "step": "connect",
+    "outcome": "ok",
+    "duration_ms": 1423.73
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-01",
+    "step": "connect",
+    "outcome": "ok",
+    "duration_ms": 1447.52
+  },
+  {
+    "platform": "android",
+    "device_id": "android-01",
+    "step": "device_request",
+    "outcome": "unvalidated_response",
+    "duration_ms": 505.63
+  },
+  {
+    "platform": "ios",
+    "device_id": "ios-01",
+    "step": "device_request",
+    "outcome": "unvalidated_response",
+    "duration_ms": 537.22
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "source_filename": "app-2026-09-10.log",
+  "scope": "new log lines during 180-second capture; no automatic UI actions",
+  "recorded_messages": 0,
+  "skipped_unparseable_messages": 0,
+  "pseudonymous_devices": 0,
+  "unpaired_received_messages": 0,
+  "steps": [],
+  "complete_diagnostic_journey_verified": false
+}

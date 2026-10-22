@@ -1,0 +1,89 @@
+{
+  "environment": "staging",
+  "started_at": "2026-10-14T13:10:18+05:00",
+  "finished_at": "2026-10-14T13:10:20+05:00",
+  "selection": {
+    "mode": "dummy",
+    "dummy_ios": 10,
+    "dummy_android": 10,
+    "rounds": 1,
+    "timeout_seconds": 40
+  },
+  "mode": "dummy",
+  "device_inventory": {
+    "devices": [],
+    "counts": {
+      "total": 0,
+      "android": 0,
+      "ios": 0,
+      "selected": 0,
+      "capacity": 20
+    },
+    "tools": {
+      "adb": "C:\\Program Files\\reCheck360\\app\\native-dev\\windows\\adb.exe",
+      "idevice_id": "C:\\Program Files\\reCheck360\\app\\native-dev\\windows\\idevice_id.exe",
+      "ideviceinfo": "C:\\Program Files\\reCheck360\\app\\native-dev\\windows\\ideviceinfo.exe"
+    },
+    "blockers": []
+  },
+  "summary": {
+    "tests": 1,
+    "pass": 0,
+    "fail": 1,
+    "blocked": 0,
+    "acknowledged": 0,
+    "connected": 0,
+    "messages_sent": 0,
+    "messages_received": 0,
+    "api_calls": 1,
+    "api_pass": 0,
+    "api_fail": 1,
+    "duration_ms": 2274.99,
+    "real_devices": {
+      "total": 0,
+      "android": 0,
+      "ios": 0,
+      "selected": 0,
+      "capacity": 20
+    },
+    "verification_scope": "Synthetic backend acknowledgment only; no hardware verification"
+  },
+  "results": [
+    {
+      "module": "Dummy devices",
+      "group": "Authentication",
+      "test": "Login API",
+      "status": "ERROR",
+      "duration_ms": 0.0,
+      "device": "",
+      "messages_sent": 0,
+      "messages_received": 0,
+      "details": "",
+      "blocker": "ProxyError: HTTPSConnectionPool(host='staging.phone-diagnostics.com', port=443): Max retries exceeded with url: /v1/login (Caused by ProxyError('Unable to connect to proxy', NewConnectionError(\"HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\")))",
+      "evidence": ""
+    }
+  ],
+  "sent_messages": [],
+  "received_messages": [],
+  "api_calls": [
+    {
+      "timestamp": "2026-10-14T13:10:20.424+05:00",
+      "transport": "HTTP",
+      "method": "POST",
+      "endpoint": "https://staging.phone-diagnostics.com/v1/login",
+      "operation": "Authentication",
+      "device": "",
+      "message_type": "",
+      "ref": "",
+      "result": "ERROR",
+      "status_code": "",
+      "response_status": "",
+      "duration_ms": 2086.93,
+      "request_json": "{\"username\": \"anas-qa\", \"password\": \"[REDACTED]\"}",
+      "response_json": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='staging.phone-diagnostics.com', port=443): Max retries exceeded with url: /v1/login (Caused by ProxyError('Unable to connect to proxy', NewConnectionError(\"HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\")))"
+    }
+  ],
+  "batch_summary": [],
+  "device_summary": []
+}

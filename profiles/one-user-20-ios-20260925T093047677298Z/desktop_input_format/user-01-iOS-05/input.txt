@@ -1,0 +1,8 @@
+{
+  "serial_number": "QABFE588CAF674FC3",
+  "design_capacity": 2030,
+  "current_capacity": 3720,
+  "battery_health": 80,
+  "cycle_count": 260,
+  "is_analytics": true
+}

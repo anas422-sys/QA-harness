@@ -1,0 +1,404 @@
+{
+  "source_filename": "app-2026-09-10.log",
+  "scope": "historical log through latest available device activity; not the idle three-minute recording",
+  "recorded_messages": 163,
+  "skipped_unparseable_messages": 0,
+  "pseudonymous_devices": 1,
+  "unpaired_received_messages": 6,
+  "steps": [
+    {
+      "message_type": 1,
+      "label": "Device information",
+      "outgoing": 2,
+      "matched": 2,
+      "outcomes": {
+        "acknowledged": 2
+      },
+      "max_reply_ms": 726.0
+    },
+    {
+      "message_type": 2,
+      "label": "Unmapped application message",
+      "outgoing": 2,
+      "matched": 2,
+      "outcomes": {
+        "acknowledged": 2
+      },
+      "max_reply_ms": 511.0
+    },
+    {
+      "message_type": 3,
+      "label": "Battery command request (inferred)",
+      "outgoing": 2,
+      "matched": 2,
+      "outcomes": {
+        "acknowledged": 2
+      },
+      "max_reply_ms": 480.0
+    },
+    {
+      "message_type": 4,
+      "label": "Battery results",
+      "outgoing": 2,
+      "matched": 2,
+      "outcomes": {
+        "acknowledged": 2
+      },
+      "max_reply_ms": 798.0
+    },
+    {
+      "message_type": 5,
+      "label": "OEM command request (inferred)",
+      "outgoing": 2,
+      "matched": 2,
+      "outcomes": {
+        "acknowledged": 2
+      },
+      "max_reply_ms": 706.0
+    },
+    {
+      "message_type": 6,
+      "label": "OEM results",
+      "outgoing": 2,
+      "matched": 2,
+      "outcomes": {
+        "acknowledged": 2
+      },
+      "max_reply_ms": 509.0
+    },
+    {
+      "message_type": 7,
+      "label": "Validation command request (inferred)",
+      "outgoing": 2,
+      "matched": 2,
+      "outcomes": {
+        "acknowledged": 2
+      },
+      "max_reply_ms": 500.0
+    },
+    {
+      "message_type": 8,
+      "label": "Validation results",
+      "outgoing": 2,
+      "matched": 2,
+      "outcomes": {
+        "acknowledged": 2
+      },
+      "max_reply_ms": 9988.0
+    },
+    {
+      "message_type": 12,
+      "label": "App-install command request",
+      "outgoing": 2,
+      "matched": 2,
+      "outcomes": {
+        "acknowledged": 2
+      },
+      "max_reply_ms": 554.0
+    },
+    {
+      "message_type": 29,
+      "label": "Unmapped application message",
+      "outgoing": 2,
+      "matched": 2,
+      "outcomes": {
+        "acknowledged": 2
+      },
+      "max_reply_ms": 1029.0
+    },
+    {
+      "message_type": 30,
+      "label": "Unmapped application message",
+      "outgoing": 2,
+      "matched": 2,
+      "outcomes": {
+        "acknowledged": 2
+      },
+      "max_reply_ms": 762.0
+    },
+    {
+      "message_type": 32,
+      "label": "Unmapped application message",
+      "outgoing": 6,
+      "matched": 6,
+      "outcomes": {
+        "acknowledged": 6
+      },
+      "max_reply_ms": 1142.0
+    },
+    {
+      "message_type": 33,
+      "label": "Unmapped application message",
+      "outgoing": 2,
+      "matched": 2,
+      "outcomes": {
+        "acknowledged": 2
+      },
+      "max_reply_ms": 676.0
+    },
+    {
+      "message_type": 34,
+      "label": "Unmapped application message",
+      "outgoing": 4,
+      "matched": 3,
+      "outcomes": {
+        "acknowledged": 3,
+        "no_reply_in_capture": 1
+      },
+      "max_reply_ms": 665.0
+    },
+    {
+      "message_type": 39,
+      "label": "Unmapped application message",
+      "outgoing": 2,
+      "matched": 1,
+      "outcomes": {
+        "acknowledged": 1,
+        "no_reply_in_capture": 1
+      },
+      "max_reply_ms": 441.0
+    },
+    {
+      "message_type": 45,
+      "label": "Unmapped application message",
+      "outgoing": 2,
+      "matched": 2,
+      "outcomes": {
+        "acknowledged": 2
+      },
+      "max_reply_ms": 930.0
+    },
+    {
+      "message_type": 49,
+      "label": "Unmapped application message",
+      "outgoing": 2,
+      "matched": 2,
+      "outcomes": {
+        "acknowledged": 2
+      },
+      "max_reply_ms": 677.0
+    },
+    {
+      "message_type": 53,
+      "label": "Unmapped application message",
+      "outgoing": 2,
+      "matched": 2,
+      "outcomes": {
+        "acknowledged": 2
+      },
+      "max_reply_ms": 924.0
+    },
+    {
+      "message_type": 54,
+      "label": "Unmapped application message",
+      "outgoing": 2,
+      "matched": 1,
+      "outcomes": {
+        "no_reply_in_capture": 1,
+        "acknowledged": 1
+      },
+      "max_reply_ms": 666.0
+    },
+    {
+      "message_type": 56,
+      "label": "Unmapped application message",
+      "outgoing": 2,
+      "matched": 2,
+      "outcomes": {
+        "acknowledged": 2
+      },
+      "max_reply_ms": 690.0
+    },
+    {
+      "message_type": 58,
+      "label": "Unmapped application message",
+      "outgoing": 2,
+      "matched": 2,
+      "outcomes": {
+        "acknowledged": 2
+      },
+      "max_reply_ms": 675.0
+    },
+    {
+      "message_type": 59,
+      "label": "Unmapped application message",
+      "outgoing": 2,
+      "matched": 2,
+      "outcomes": {
+        "acknowledged": 2
+      },
+      "max_reply_ms": 682.0
+    },
+    {
+      "message_type": 60,
+      "label": "Unmapped application message",
+      "outgoing": 2,
+      "matched": 2,
+      "outcomes": {
+        "acknowledged": 2
+      },
+      "max_reply_ms": 677.0
+    },
+    {
+      "message_type": 62,
+      "label": "Unmapped application message",
+      "outgoing": 2,
+      "matched": 2,
+      "outcomes": {
+        "acknowledged": 2
+      },
+      "max_reply_ms": 679.0
+    },
+    {
+      "message_type": 64,
+      "label": "Unmapped application message",
+      "outgoing": 2,
+      "matched": 1,
+      "outcomes": {
+        "no_reply_in_capture": 1,
+        "acknowledged": 1
+      },
+      "max_reply_ms": 866.0
+    },
+    {
+      "message_type": 67,
+      "label": "Unmapped application message",
+      "outgoing": 2,
+      "matched": 2,
+      "outcomes": {
+        "acknowledged": 2
+      },
+      "max_reply_ms": 677.0
+    },
+    {
+      "message_type": 70,
+      "label": "Unmapped application message",
+      "outgoing": 2,
+      "matched": 1,
+      "outcomes": {
+        "no_reply_in_capture": 1,
+        "acknowledged": 1
+      },
+      "max_reply_ms": 761.0
+    },
+    {
+      "message_type": 72,
+      "label": "Unmapped application message",
+      "outgoing": 0,
+      "matched": 0,
+      "outcomes": {},
+      "max_reply_ms": null
+    },
+    {
+      "message_type": 101,
+      "label": "Unmapped application message",
+      "outgoing": 2,
+      "matched": 2,
+      "outcomes": {
+        "acknowledged": 2
+      },
+      "max_reply_ms": 923.0
+    },
+    {
+      "message_type": 103,
+      "label": "Unmapped application message",
+      "outgoing": 2,
+      "matched": 2,
+      "outcomes": {
+        "acknowledged": 2
+      },
+      "max_reply_ms": 669.0
+    },
+    {
+      "message_type": 119,
+      "label": "Unmapped application message",
+      "outgoing": 1,
+      "matched": 1,
+      "outcomes": {
+        "acknowledged": 1
+      },
+      "max_reply_ms": 358.0
+    },
+    {
+      "message_type": 120,
+      "label": "Unmapped application message",
+      "outgoing": 2,
+      "matched": 2,
+      "outcomes": {
+        "acknowledged": 2
+      },
+      "max_reply_ms": 895.0
+    },
+    {
+      "message_type": 127,
+      "label": "Unmapped application message",
+      "outgoing": 2,
+      "matched": 2,
+      "outcomes": {
+        "acknowledged": 2
+      },
+      "max_reply_ms": 680.0
+    },
+    {
+      "message_type": 134,
+      "label": "Unmapped application message",
+      "outgoing": 2,
+      "matched": 2,
+      "outcomes": {
+        "acknowledged": 2
+      },
+      "max_reply_ms": 470.0
+    },
+    {
+      "message_type": 135,
+      "label": "Unmapped application message",
+      "outgoing": 2,
+      "matched": 2,
+      "outcomes": {
+        "acknowledged": 2
+      },
+      "max_reply_ms": 676.0
+    },
+    {
+      "message_type": 138,
+      "label": "3uTools integration data",
+      "outgoing": 2,
+      "matched": 2,
+      "outcomes": {
+        "acknowledged": 2
+      },
+      "max_reply_ms": 606.0
+    },
+    {
+      "message_type": 139,
+      "label": "Unmapped application message",
+      "outgoing": 2,
+      "matched": 2,
+      "outcomes": {
+        "acknowledged": 2
+      },
+      "max_reply_ms": 746.0
+    },
+    {
+      "message_type": 140,
+      "label": "OEM2 data",
+      "outgoing": 2,
+      "matched": 2,
+      "outcomes": {
+        "acknowledged": 2
+      },
+      "max_reply_ms": 521.0
+    },
+    {
+      "message_type": 141,
+      "label": "Unmapped application message",
+      "outgoing": 4,
+      "matched": 0,
+      "outcomes": {
+        "no_reply_in_capture": 4
+      },
+      "max_reply_ms": null
+    }
+  ],
+  "complete_diagnostic_journey_verified": false
+}

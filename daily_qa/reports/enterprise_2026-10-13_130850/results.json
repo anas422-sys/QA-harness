@@ -1,0 +1,316 @@
+{
+  "environment": "staging",
+  "started_at": "2026-10-13T13:08:50+05:00",
+  "finished_at": "2026-10-13T13:08:52+05:00",
+  "selection": {
+    "mode": "fixed_batch",
+    "timeout_seconds": 40
+  },
+  "mode": "fixed_batch",
+  "device_inventory": {
+    "devices": [],
+    "counts": {
+      "total": 0,
+      "android": 0,
+      "ios": 0,
+      "selected": 0,
+      "capacity": 20
+    },
+    "tools": {
+      "adb": "C:\\Program Files\\reCheck360\\app\\native-dev\\windows\\adb.exe",
+      "idevice_id": "C:\\Program Files\\reCheck360\\app\\native-dev\\windows\\idevice_id.exe",
+      "ideviceinfo": "C:\\Program Files\\reCheck360\\app\\native-dev\\windows\\ideviceinfo.exe"
+    },
+    "blockers": []
+  },
+  "summary": {
+    "tests": 1,
+    "pass": 0,
+    "fail": 1,
+    "blocked": 0,
+    "acknowledged": 0,
+    "connected": 0,
+    "messages_sent": 0,
+    "messages_received": 0,
+    "api_calls": 1,
+    "api_pass": 0,
+    "api_fail": 1,
+    "duration_ms": 2181.53,
+    "real_devices": {
+      "total": 0,
+      "android": 0,
+      "ios": 0,
+      "selected": 0,
+      "capacity": 20
+    },
+    "verification_scope": "15 synthetic iOS devices in sequential batches of five; eight exact protocol messages per device"
+  },
+  "results": [
+    {
+      "module": "Fixed protocol load",
+      "group": "Authentication",
+      "test": "Staging login",
+      "status": "ERROR",
+      "duration_ms": 0.01,
+      "device": "",
+      "messages_sent": 0,
+      "messages_received": 0,
+      "details": "",
+      "blocker": "ProxyError: HTTPSConnectionPool(host='staging.phone-diagnostics.com', port=443): Max retries exceeded with url: /v1/login (Caused by ProxyError('Unable to connect to proxy', NewConnectionError(\"HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\")))",
+      "evidence": ""
+    }
+  ],
+  "sent_messages": [],
+  "received_messages": [],
+  "api_calls": [
+    {
+      "timestamp": "2026-10-13T13:08:52.362+05:00",
+      "transport": "HTTP",
+      "method": "POST",
+      "endpoint": "https://staging.phone-diagnostics.com/v1/login",
+      "operation": "Authentication",
+      "device": "",
+      "message_type": "",
+      "ref": "",
+      "result": "ERROR",
+      "status_code": "",
+      "response_status": "",
+      "duration_ms": 2033.53,
+      "request_json": "{\"username\": \"anas-qa\", \"password\": \"[REDACTED]\"}",
+      "response_json": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='staging.phone-diagnostics.com', port=443): Max retries exceeded with url: /v1/login (Caused by ProxyError('Unable to connect to proxy', NewConnectionError(\"HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\")))"
+    }
+  ],
+  "batch_summary": [
+    {
+      "batch": 1,
+      "device_range": "1-5",
+      "devices": 0,
+      "tests": 0,
+      "pass": 0,
+      "fail": 0,
+      "messages_sent": 0,
+      "messages_received": 0,
+      "message_duration_ms": 0
+    },
+    {
+      "batch": 2,
+      "device_range": "6-10",
+      "devices": 0,
+      "tests": 0,
+      "pass": 0,
+      "fail": 0,
+      "messages_sent": 0,
+      "messages_received": 0,
+      "message_duration_ms": 0
+    },
+    {
+      "batch": 3,
+      "device_range": "11-15",
+      "devices": 0,
+      "tests": 0,
+      "pass": 0,
+      "fail": 0,
+      "messages_sent": 0,
+      "messages_received": 0,
+      "message_duration_ms": 0
+    }
+  ],
+  "device_summary": [
+    {
+      "device_number": 1,
+      "device_name": "Load iPhone 01",
+      "platform": "iOS",
+      "udid": "00008110-0000000000000001",
+      "batch": 1,
+      "tests": 0,
+      "pass": 0,
+      "fail": 0,
+      "messages_sent": 0,
+      "messages_received": 0,
+      "message_duration_ms": 0
+    },
+    {
+      "device_number": 2,
+      "device_name": "Load iPhone 02",
+      "platform": "iOS",
+      "udid": "00008110-0000000000000002",
+      "batch": 1,
+      "tests": 0,
+      "pass": 0,
+      "fail": 0,
+      "messages_sent": 0,
+      "messages_received": 0,
+      "message_duration_ms": 0
+    },
+    {
+      "device_number": 3,
+      "device_name": "Load iPhone 03",
+      "platform": "iOS",
+      "udid": "00008110-0000000000000003",
+      "batch": 1,
+      "tests": 0,
+      "pass": 0,
+      "fail": 0,
+      "messages_sent": 0,
+      "messages_received": 0,
+      "message_duration_ms": 0
+    },
+    {
+      "device_number": 4,
+      "device_name": "Load iPhone 04",
+      "platform": "iOS",
+      "udid": "00008110-0000000000000004",
+      "batch": 1,
+      "tests": 0,
+      "pass": 0,
+      "fail": 0,
+      "messages_sent": 0,
+      "messages_received": 0,
+      "message_duration_ms": 0
+    },
+    {
+      "device_number": 5,
+      "device_name": "Load iPhone 05",
+      "platform": "iOS",
+      "udid": "00008110-0000000000000005",
+      "batch": 1,
+      "tests": 0,
+      "pass": 0,
+      "fail": 0,
+      "messages_sent": 0,
+      "messages_received": 0,
+      "message_duration_ms": 0
+    },
+    {
+      "device_number": 6,
+      "device_name": "Load iPhone 06",
+      "platform": "iOS",
+      "udid": "00008110-0000000000000006",
+      "batch": 2,
+      "tests": 0,
+      "pass": 0,
+      "fail": 0,
+      "messages_sent": 0,
+      "messages_received": 0,
+      "message_duration_ms": 0
+    },
+    {
+      "device_number": 7,
+      "device_name": "Load iPhone 07",
+      "platform": "iOS",
+      "udid": "00008110-0000000000000007",
+      "batch": 2,
+      "tests": 0,
+      "pass": 0,
+      "fail": 0,
+      "messages_sent": 0,
+      "messages_received": 0,
+      "message_duration_ms": 0
+    },
+    {
+      "device_number": 8,
+      "device_name": "Load iPhone 08",
+      "platform": "iOS",
+      "udid": "00008110-0000000000000008",
+      "batch": 2,
+      "tests": 0,
+      "pass": 0,
+      "fail": 0,
+      "messages_sent": 0,
+      "messages_received": 0,
+      "message_duration_ms": 0
+    },
+    {
+      "device_number": 9,
+      "device_name": "Load iPhone 09",
+      "platform": "iOS",
+      "udid": "00008110-0000000000000009",
+      "batch": 2,
+      "tests": 0,
+      "pass": 0,
+      "fail": 0,
+      "messages_sent": 0,
+      "messages_received": 0,
+      "message_duration_ms": 0
+    },
+    {
+      "device_number": 10,
+      "device_name": "Load iPhone 10",
+      "platform": "iOS",
+      "udid": "00008110-000000000000000A",
+      "batch": 2,
+      "tests": 0,
+      "pass": 0,
+      "fail": 0,
+      "messages_sent": 0,
+      "messages_received": 0,
+      "message_duration_ms": 0
+    },
+    {
+      "device_number": 11,
+      "device_name": "Load iPhone 11",
+      "platform": "iOS",
+      "udid": "00008110-000000000000000B",
+      "batch": 3,
+      "tests": 0,
+      "pass": 0,
+      "fail": 0,
+      "messages_sent": 0,
+      "messages_received": 0,
+      "message_duration_ms": 0
+    },
+    {
+      "device_number": 12,
+      "device_name": "Load iPhone 12",
+      "platform": "iOS",
+      "udid": "00008110-000000000000000C",
+      "batch": 3,
+      "tests": 0,
+      "pass": 0,
+      "fail": 0,
+      "messages_sent": 0,
+      "messages_received": 0,
+      "message_duration_ms": 0
+    },
+    {
+      "device_number": 13,
+      "device_name": "Load iPhone 13",
+      "platform": "iOS",
+      "udid": "00008110-000000000000000D",
+      "batch": 3,
+      "tests": 0,
+      "pass": 0,
+      "fail": 0,
+      "messages_sent": 0,
+      "messages_received": 0,
+      "message_duration_ms": 0
+    },
+    {
+      "device_number": 14,
+      "device_name": "Load iPhone 14",
+      "platform": "iOS",
+      "udid": "00008110-000000000000000E",
+      "batch": 3,
+      "tests": 0,
+      "pass": 0,
+      "fail": 0,
+      "messages_sent": 0,
+      "messages_received": 0,
+      "message_duration_ms": 0
+    },
+    {
+      "device_number": 15,
+      "device_name": "Load iPhone 15",
+      "platform": "iOS",
+      "udid": "00008110-000000000000000F",
+      "batch": 3,
+      "tests": 0,
+      "pass": 0,
+      "fail": 0,
+      "messages_sent": 0,
+      "messages_received": 0,
+      "message_duration_ms": 0
+    }
+  ]
+}

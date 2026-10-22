@@ -1,0 +1,2 @@
+﻿run_mode,platform,sessions,unique_device_ids,connected,requests,acknowledged,failed_operations,successful_request_p95_ms,diagnostics_verified
+local_demo,ios,14,14,14,93,93,0,12.22,0

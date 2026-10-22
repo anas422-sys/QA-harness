@@ -1,0 +1,72 @@
+{
+  "frontend": {
+    "pages": [
+      {
+        "id": "login",
+        "name": "Login",
+        "description": "Application launch, login form, validation and successful session creation",
+        "tests": ["window_available", "controls_available", "validation_messages", "successful_navigation", "screenshot"]
+      },
+      {
+        "id": "dashboard",
+        "name": "Dashboard",
+        "description": "Main dashboard, device slots, counters and navigation",
+        "tests": ["navigate", "page_visible", "controls_enabled", "layout_snapshot", "response_time"]
+      },
+      {
+        "id": "device_connection",
+        "name": "Device Connection",
+        "description": "USB discovery and iOS/Android device cards",
+        "tests": ["navigate", "device_count", "device_identity", "platform_label", "connection_state", "screenshot"]
+      },
+      {
+        "id": "device_details",
+        "name": "Device Details",
+        "description": "IMEI, serial, model, firmware, capacity and activation data",
+        "tests": ["navigate", "required_fields", "selected_device_matches", "empty_state", "response_time"]
+      },
+      {
+        "id": "diagnostic_results",
+        "name": "Diagnostic Results",
+        "description": "Automated diagnostic result list and statuses",
+        "tests": ["navigate", "result_table", "status_values", "scroll", "screenshot"]
+      },
+      {
+        "id": "manual_tests",
+        "name": "Manual Tests",
+        "description": "Interactive/manual device tests and completion workflow",
+        "tests": ["navigate", "test_list", "controls_enabled", "result_selection", "persistence"]
+      },
+      {
+        "id": "issues",
+        "name": "Issues",
+        "description": "Issue list, selection and comments",
+        "tests": ["navigate", "issue_list", "selection", "comment_validation", "persistence"]
+      },
+      {
+        "id": "reports",
+        "name": "Reports",
+        "description": "Report preview, filters and export controls",
+        "tests": ["navigate", "filters", "preview", "export_control", "response_time"]
+      },
+      {
+        "id": "settings",
+        "name": "Settings",
+        "description": "Application settings and read-only configuration checks",
+        "tests": ["navigate", "controls_available", "values_load", "validation_messages", "screenshot"]
+      }
+    ]
+  },
+  "backend": {
+    "features": [
+      {"id": "authentication", "name": "Authentication API", "transport": "REST", "safe_default": true},
+      {"id": "websocket_connection", "name": "WebSocket Connection", "transport": "WebSocket", "safe_default": true},
+      {"id": "version_contract", "name": "Version Contract (119)", "transport": "WebSocket", "safe_default": true},
+      {"id": "device_registration", "name": "Device Registration / Information", "transport": "WebSocket", "message_types": [1]},
+      {"id": "battery", "name": "Battery Information", "transport": "WebSocket", "message_types": [3, 4]},
+      {"id": "diagnostics", "name": "Diagnostic Commands and Results", "transport": "WebSocket", "message_types": [5, 6, 7, 8]},
+      {"id": "message_correlation", "name": "Sent/Received Message Correlation", "transport": "WebSocket"},
+      {"id": "load", "name": "Concurrent Session and Device Load", "transport": "REST + WebSocket"}
+    ]
+  }
+}

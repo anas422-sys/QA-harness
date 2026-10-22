@@ -1,0 +1,1 @@
+Run interrupted before completion: receive wait exceeded the configured deadline. No completed result CSV was produced. websocket recv() can consume control frames internally without returning to the application deadline check. Re-run uses recv_data(control_frame=True) so control frames return to that check. Do not treat this attempt as completed.

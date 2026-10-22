@@ -1,0 +1,15 @@
+﻿module,group,test,status,duration_ms,device,messages_sent,messages_received,details,blocker,evidence
+Backend,Server health,Staging server status,ERROR,21351.23,,0,0,,"SSLError: HTTPSConnectionPool(host='staging.phone-diagnostics.com', port=443): Max retries exceeded with url: /v1/ServerStatus (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))",
+Frontend,dashboard,Packaged JavaFX view contract,PASS,0.09,,0,0,views/dashboard.fxml parsed; 76 controls; 2 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,Physical devices,Discover selected USB devices,BLOCKED,0.0,,0,0,,No Android/iOS devices were returned by configured USB tools,
+Frontend,Application,Attach to reCheck360 desktop window,BLOCKED,34790.2,,0,0,,reCheck360 process is not running,
+Frontend,dashboard,Automated page workflow,BLOCKED,0.01,,0,0,,reCheck360 process is not running,
+Frontend,device_connection,Automated page workflow,BLOCKED,0.11,,0,0,,reCheck360 process is not running,
+Frontend,device_details,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 process is not running,
+Frontend,diagnostic_results,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 process is not running,
+Frontend,manual_tests,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 process is not running,
+Frontend,issues,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 process is not running,
+Frontend,reports,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 process is not running,
+Backend,Authentication,Login API,PASS,60778.11,,0,0,HTTP 200; token present: True,,
+Backend,WebSocket,Authenticated connection,PASS,6338.52,,0,0,Connection opened,,
+Backend,Version,Message type 119 correlation,PASS,1125.29,,1,1,Status: success; ref: 3920325528625684; background messages: 0,,

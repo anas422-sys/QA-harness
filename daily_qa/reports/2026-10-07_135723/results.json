@@ -1,0 +1,132 @@
+{
+  "environment": "staging",
+  "started_at": "2026-10-07T13:57:23+05:00",
+  "results": [
+    {
+      "agent": "Frontend QA Agent",
+      "category": "Frontend automated",
+      "test": "Desktop application process",
+      "status": "ERROR",
+      "duration_ms": 10731.46,
+      "details": "TimeoutExpired",
+      "evidence": ""
+    },
+    {
+      "agent": "Frontend QA Agent",
+      "category": "Frontend manual",
+      "test": "Open the dashboard and confirm the layout loads without clipping or overlap",
+      "status": "PENDING MANUAL",
+      "duration_ms": "",
+      "details": "A tester must perform and record this visual or interactive check",
+      "evidence": ""
+    },
+    {
+      "agent": "Frontend QA Agent",
+      "category": "Frontend manual",
+      "test": "Connect one available device and confirm its name platform and identifiers are correct",
+      "status": "PENDING MANUAL",
+      "duration_ms": "",
+      "details": "A tester must perform and record this visual or interactive check",
+      "evidence": ""
+    },
+    {
+      "agent": "Frontend QA Agent",
+      "category": "Frontend manual",
+      "test": "Check navigation tabs buttons forms filters and validation messages",
+      "status": "PENDING MANUAL",
+      "duration_ms": "",
+      "details": "A tester must perform and record this visual or interactive check",
+      "evidence": ""
+    },
+    {
+      "agent": "Frontend QA Agent",
+      "category": "Frontend manual",
+      "test": "Confirm loading indicators error messages and empty states are understandable",
+      "status": "PENDING MANUAL",
+      "duration_ms": "",
+      "details": "A tester must perform and record this visual or interactive check",
+      "evidence": ""
+    },
+    {
+      "agent": "Frontend QA Agent",
+      "category": "Frontend manual",
+      "test": "Check keyboard focus and the main workflow at the supported window size",
+      "status": "PENDING MANUAL",
+      "duration_ms": "",
+      "details": "A tester must perform and record this visual or interactive check",
+      "evidence": ""
+    },
+    {
+      "agent": "Backend QA Agent",
+      "category": "Backend automated",
+      "test": "Authentication API",
+      "status": "PASS",
+      "duration_ms": 3318.61,
+      "details": "HTTP 200; token present: True",
+      "evidence": ""
+    },
+    {
+      "agent": "Backend QA Agent",
+      "category": "Backend automated",
+      "test": "WebSocket connection",
+      "status": "PASS",
+      "duration_ms": 1325.43,
+      "details": "Authenticated connection opened",
+      "evidence": ""
+    },
+    {
+      "agent": "Backend QA Agent",
+      "category": "Backend automated",
+      "test": "Version message contract",
+      "status": "PASS",
+      "duration_ms": 321.69,
+      "details": "Correlated success; additional messages: 0",
+      "evidence": "message type 119 ref 4214321417370100"
+    },
+    {
+      "agent": "Backend QA Agent",
+      "category": "Backend manual",
+      "test": "Review server logs for exceptions timeouts and failed jobs",
+      "status": "PENDING MANUAL",
+      "duration_ms": "",
+      "details": "Requires backend log database or operational access",
+      "evidence": ""
+    },
+    {
+      "agent": "Backend QA Agent",
+      "category": "Backend manual",
+      "test": "Check that request references map to the correct user and device",
+      "status": "PENDING MANUAL",
+      "duration_ms": "",
+      "details": "Requires backend log database or operational access",
+      "evidence": ""
+    },
+    {
+      "agent": "Backend QA Agent",
+      "category": "Backend manual",
+      "test": "Review database or transaction records for duplicates where access is available",
+      "status": "PENDING MANUAL",
+      "duration_ms": "",
+      "details": "Requires backend log database or operational access",
+      "evidence": ""
+    },
+    {
+      "agent": "Backend QA Agent",
+      "category": "Backend manual",
+      "test": "Confirm license limits and queued work are expected",
+      "status": "PENDING MANUAL",
+      "duration_ms": "",
+      "details": "Requires backend log database or operational access",
+      "evidence": ""
+    },
+    {
+      "agent": "Backend QA Agent",
+      "category": "Backend manual",
+      "test": "Retest open backend defects and attach request references as evidence",
+      "status": "PENDING MANUAL",
+      "duration_ms": "",
+      "details": "Requires backend log database or operational access",
+      "evidence": ""
+    }
+  ]
+}

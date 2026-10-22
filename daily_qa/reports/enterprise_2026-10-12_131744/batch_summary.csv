@@ -1,0 +1,4 @@
+﻿batch,device_range,devices,tests,pass,fail,messages_sent,messages_received,message_duration_ms
+1,1-5,5,40,8,32,24,8,222079.45
+2,6-10,5,40,8,32,24,8,222036.78
+3,11-15,5,40,8,32,24,8,222112.34

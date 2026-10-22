@@ -1,0 +1,120 @@
+{
+  "environment": "staging",
+  "started_at": "2026-10-08T11:04:07+05:00",
+  "finished_at": "2026-10-08T11:04:09+05:00",
+  "selection": {
+    "frontend_pages": [
+      "dashboard",
+      "device_connection",
+      "diagnostic_results"
+    ],
+    "backend_features": [],
+    "timeout_seconds": 5,
+    "users": 1,
+    "device_limit": 20,
+    "payload_file": "",
+    "require_devices": true
+  },
+  "device_inventory": {
+    "devices": [],
+    "counts": {
+      "total": 0,
+      "android": 0,
+      "ios": 0,
+      "selected": 0,
+      "capacity": 20
+    },
+    "tools": {
+      "adb": "",
+      "idevice_id": "",
+      "ideviceinfo": ""
+    },
+    "blockers": [
+      "Android tooling unavailable: configure device_tools.adb or install Android platform-tools",
+      "iOS tooling unavailable: configure device_tools.idevice_id or install libimobiledevice"
+    ]
+  },
+  "summary": {
+    "tests": 5,
+    "pass": 0,
+    "fail": 0,
+    "blocked": 5,
+    "messages_sent": 0,
+    "messages_received": 0,
+    "duration_ms": 1889.11,
+    "real_devices": {
+      "total": 0,
+      "android": 0,
+      "ios": 0,
+      "selected": 0,
+      "capacity": 20
+    }
+  },
+  "results": [
+    {
+      "module": "Frontend",
+      "group": "Physical devices",
+      "test": "Discover selected USB devices",
+      "status": "BLOCKED",
+      "duration_ms": 0.0,
+      "device": "",
+      "messages_sent": 0,
+      "messages_received": 0,
+      "details": "",
+      "blocker": "No Android/iOS devices were returned by configured USB tools",
+      "evidence": ""
+    },
+    {
+      "module": "Frontend",
+      "group": "Application",
+      "test": "Attach to reCheck360 desktop window",
+      "status": "BLOCKED",
+      "duration_ms": 1808.04,
+      "device": "",
+      "messages_sent": 0,
+      "messages_received": 0,
+      "details": "",
+      "blocker": "reCheck360 has no UI Automation-visible window",
+      "evidence": ""
+    },
+    {
+      "module": "Frontend",
+      "group": "dashboard",
+      "test": "Automated page workflow",
+      "status": "BLOCKED",
+      "duration_ms": 0.0,
+      "device": "",
+      "messages_sent": 0,
+      "messages_received": 0,
+      "details": "",
+      "blocker": "reCheck360 has no UI Automation-visible window",
+      "evidence": ""
+    },
+    {
+      "module": "Frontend",
+      "group": "device_connection",
+      "test": "Automated page workflow",
+      "status": "BLOCKED",
+      "duration_ms": 0.0,
+      "device": "",
+      "messages_sent": 0,
+      "messages_received": 0,
+      "details": "",
+      "blocker": "reCheck360 has no UI Automation-visible window",
+      "evidence": ""
+    },
+    {
+      "module": "Frontend",
+      "group": "diagnostic_results",
+      "test": "Automated page workflow",
+      "status": "BLOCKED",
+      "duration_ms": 0.0,
+      "device": "",
+      "messages_sent": 0,
+      "messages_received": 0,
+      "details": "",
+      "blocker": "reCheck360 has no UI Automation-visible window",
+      "evidence": ""
+    }
+  ]
+}

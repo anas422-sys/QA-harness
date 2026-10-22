@@ -1,0 +1,14 @@
+﻿module,group,test,status,duration_ms,device,messages_sent,messages_received,details,blocker,evidence
+Frontend,dashboard,Packaged JavaFX view contract,PASS,0.12,,0,0,views/dashboard.fxml parsed; 76 controls; 2 declared actions,,C:\Users\usama\Downloads\locust\daily_qa\application_contract.json
+Frontend,Physical devices,Discover selected USB devices,BLOCKED,0.0,,0,0,,No Android/iOS devices were returned by configured USB tools,
+Frontend,Application,Attach to reCheck360 desktop window,BLOCKED,6142.56,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,dashboard,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,device_connection,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,device_details,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,diagnostic_results,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,manual_tests,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,issues,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Frontend,reports,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 window is minimized/off-screen and could not be restored,
+Backend,Authentication,Login API,PASS,1301.05,,0,0,HTTP 200; token present: True,,
+Backend,WebSocket,Authenticated connection,PASS,890.22,,0,0,Connection opened,,
+Backend,Version,Message type 119 correlation,PASS,254.34,,1,1,Status: success; ref: 3001999674637716; background messages: 0,,

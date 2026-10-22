@@ -1,0 +1,9 @@
+﻿module,group,test,status,duration_ms,device,messages_sent,messages_received,details,blocker,evidence
+Messages,Fixed iOS protocol,1/8 - type 1 - Device connect,PASS,597.56,00008150-00026C6926F0401C,1,1,status=success; type_match=true; ref_match=true; udid_match=true,,
+Messages,Fixed iOS protocol,2/8 - type 2 - Device information result,PASS,302.04,00008150-00026C6926F0401C,1,1,status=success; type_match=true; ref_match=true; udid_match=true,,
+Messages,Fixed iOS protocol,3/8 - type 3 - Battery command request,PASS,295.3,00008150-00026C6926F0401C,1,1,status=success; type_match=true; ref_match=true; udid_match=true,,
+Messages,Fixed iOS protocol,4/8 - type 4 - Battery result,PASS,332.32,00008150-00026C6926F0401C,1,1,status=success; type_match=true; ref_match=true; udid_match=true,,
+Messages,Fixed iOS protocol,5/8 - type 5 - OEM command request,PASS,324.92,00008150-00026C6926F0401C,1,1,status=success; type_match=true; ref_match=true; udid_match=true,,
+Messages,Fixed iOS protocol,6/8 - type 6 - OEM result,PASS,319.21,00008150-00026C6926F0401C,1,1,status=success; type_match=true; ref_match=true; udid_match=true,,
+Messages,Fixed iOS protocol,7/8 - type 7 - Validation command request,PASS,299.38,00008150-00026C6926F0401C,1,1,status=success; type_match=true; ref_match=true; udid_match=true,,
+Messages,Fixed iOS protocol,8/8 - type 8 - Validation result,PASS,302.22,00008150-00026C6926F0401C,1,1,status=success; type_match=true; ref_match=true; udid_match=true,,

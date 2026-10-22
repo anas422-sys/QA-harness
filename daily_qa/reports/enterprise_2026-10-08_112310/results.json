@@ -1,0 +1,161 @@
+{
+  "environment": "staging",
+  "started_at": "2026-10-08T11:23:10+05:00",
+  "finished_at": "2026-10-08T11:23:15+05:00",
+  "selection": {
+    "frontend_pages": [],
+    "backend_features": [
+      "authentication",
+      "websocket_connection",
+      "version_contract",
+      "device_registration",
+      "battery",
+      "diagnostics",
+      "message_correlation",
+      "load"
+    ],
+    "timeout_seconds": 40,
+    "users": 1,
+    "device_limit": 20,
+    "payload_file": "",
+    "require_devices": false
+  },
+  "device_inventory": {
+    "devices": [],
+    "counts": {
+      "total": 0,
+      "android": 0,
+      "ios": 0,
+      "selected": 0,
+      "capacity": 20
+    },
+    "tools": {
+      "adb": "C:\\Program Files\\reCheck360\\app\\native-dev\\windows\\adb.exe",
+      "idevice_id": "C:\\Program Files\\reCheck360\\app\\native-dev\\windows\\idevice_id.exe",
+      "ideviceinfo": "C:\\Program Files\\reCheck360\\app\\native-dev\\windows\\ideviceinfo.exe"
+    },
+    "blockers": []
+  },
+  "summary": {
+    "tests": 8,
+    "pass": 4,
+    "fail": 0,
+    "blocked": 4,
+    "messages_sent": 2,
+    "messages_received": 2,
+    "duration_ms": 4874.68,
+    "real_devices": {
+      "total": 0,
+      "android": 0,
+      "ios": 0,
+      "selected": 0,
+      "capacity": 20
+    }
+  },
+  "results": [
+    {
+      "module": "Backend",
+      "group": "Authentication",
+      "test": "Login API",
+      "status": "PASS",
+      "duration_ms": 1420.32,
+      "device": "",
+      "messages_sent": 0,
+      "messages_received": 0,
+      "details": "HTTP 200; token present: True",
+      "blocker": "",
+      "evidence": ""
+    },
+    {
+      "module": "Backend",
+      "group": "Concurrent load",
+      "test": "Session 001",
+      "status": "PASS",
+      "duration_ms": 1281.53,
+      "device": "",
+      "messages_sent": 1,
+      "messages_received": 1,
+      "details": "status=success; ref=2722597513581268; background=0",
+      "blocker": "",
+      "evidence": ""
+    },
+    {
+      "module": "Backend",
+      "group": "WebSocket",
+      "test": "Authenticated connection",
+      "status": "PASS",
+      "duration_ms": 992.01,
+      "device": "",
+      "messages_sent": 0,
+      "messages_received": 0,
+      "details": "Connection opened",
+      "blocker": "",
+      "evidence": ""
+    },
+    {
+      "module": "Backend",
+      "group": "Version",
+      "test": "Message type 119 correlation",
+      "status": "PASS",
+      "duration_ms": 322.7,
+      "device": "",
+      "messages_sent": 1,
+      "messages_received": 1,
+      "details": "Status: success; ref: 2796786295408548; background messages: 0",
+      "blocker": "",
+      "evidence": ""
+    },
+    {
+      "module": "Backend",
+      "group": "battery",
+      "test": "Real-device payload contract",
+      "status": "BLOCKED",
+      "duration_ms": 0.0,
+      "device": "",
+      "messages_sent": 0,
+      "messages_received": 0,
+      "details": "",
+      "blocker": "Select an existing captured payload JSON file; synthetic data is not used for a real-device pass",
+      "evidence": ""
+    },
+    {
+      "module": "Backend",
+      "group": "device_registration",
+      "test": "Real-device payload contract",
+      "status": "BLOCKED",
+      "duration_ms": 0.0,
+      "device": "",
+      "messages_sent": 0,
+      "messages_received": 0,
+      "details": "",
+      "blocker": "Select an existing captured payload JSON file; synthetic data is not used for a real-device pass",
+      "evidence": ""
+    },
+    {
+      "module": "Backend",
+      "group": "diagnostics",
+      "test": "Real-device payload contract",
+      "status": "BLOCKED",
+      "duration_ms": 0.0,
+      "device": "",
+      "messages_sent": 0,
+      "messages_received": 0,
+      "details": "",
+      "blocker": "Select an existing captured payload JSON file; synthetic data is not used for a real-device pass",
+      "evidence": ""
+    },
+    {
+      "module": "Backend",
+      "group": "message_correlation",
+      "test": "Real-device payload contract",
+      "status": "BLOCKED",
+      "duration_ms": 0.0,
+      "device": "",
+      "messages_sent": 0,
+      "messages_received": 0,
+      "details": "",
+      "blocker": "Select an existing captured payload JSON file; synthetic data is not used for a real-device pass",
+      "evidence": ""
+    }
+  ]
+}

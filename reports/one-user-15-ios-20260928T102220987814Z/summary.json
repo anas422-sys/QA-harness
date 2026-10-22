@@ -1,0 +1,16 @@
+{
+  "response_timeout_seconds": 40.0,
+  "users": 1,
+  "user": "user-01",
+  "ios_devices": 15,
+  "planned_requests": 137,
+  "sent": 137,
+  "received": 132,
+  "outcomes": {
+    "ACK_ONLY": 111,
+    "TIMEOUT": 11,
+    "BATTERY_MATCH": 15
+  },
+  "command_drift_requests": 43,
+  "session_error": ""
+}

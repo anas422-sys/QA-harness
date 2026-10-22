@@ -1,0 +1,6 @@
+﻿module,group,test,status,duration_ms,device,messages_sent,messages_received,details,blocker,evidence
+Frontend,Physical devices,Discover selected USB devices,BLOCKED,0.0,,0,0,,No Android/iOS devices were returned by configured USB tools,
+Frontend,Application,Attach to reCheck360 desktop window,BLOCKED,1808.04,,0,0,,reCheck360 has no UI Automation-visible window,
+Frontend,dashboard,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 has no UI Automation-visible window,
+Frontend,device_connection,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 has no UI Automation-visible window,
+Frontend,diagnostic_results,Automated page workflow,BLOCKED,0.0,,0,0,,reCheck360 has no UI Automation-visible window,

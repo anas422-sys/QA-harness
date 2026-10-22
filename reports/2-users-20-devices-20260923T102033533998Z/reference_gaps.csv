@@ -1,0 +1,13 @@
+﻿message_type,outcome,reason
+134,EXCLUDED,session creation changes application state
+134,EXCLUDED,session creation changes application state
+119,NO_SUCCESS_REFERENCE,no successful reply payload
+119,NO_SUCCESS_REFERENCE,no successful reply payload
+103,NO_MATCHING_REPLY_IN_LOG,not evidence of a server failure
+18,EXCLUDED,logout can invalidate shared account sessions
+127,NO_MATCHING_REPLY_IN_LOG,not evidence of a server failure
+34,NO_MATCHING_REPLY_IN_LOG,not evidence of a server failure
+103,NO_MATCHING_REPLY_IN_LOG,not evidence of a server failure
+30,NO_MATCHING_REPLY_IN_LOG,not evidence of a server failure
+70,NO_MATCHING_REPLY_IN_LOG,not evidence of a server failure
+64,NO_MATCHING_REPLY_IN_LOG,not evidence of a server failure

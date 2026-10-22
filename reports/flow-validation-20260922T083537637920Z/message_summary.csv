@@ -1,0 +1,51 @@
+﻿platform,message_type,checks,outcomes,max_response_ms
+ios,1,10,"{""ACK_ONLY_NO_REFERENCE"": 10}",478.06
+ios,101,10,"{""MATCH"": 10}",1046.77
+ios,119,10,"{""VALUE_CHANGED"": 10}",750.68
+ios,127,10,"{""MATCH"": 10}",895.6
+ios,135,10,"{""SCHEMA_MISMATCH"": 10}",435.84
+ios,29,10,"{""MATCH"": 10}",810.03
+ios,30,10,"{""MATCH"": 10}",1667.31
+ios,32,30,"{""ISOLATION_MISMATCH"": 30}",739.57
+ios,33,10,"{""VALUE_CHANGED"": 10}",469.33
+ios,34,20,"{""MATCH"": 20}",1658.1
+ios,39,10,"{""MATCH"": 10}",2838.28
+ios,45,10,"{""SCHEMA_MISMATCH"": 10}",439.73
+ios,49,10,"{""SCHEMA_MISMATCH"": 10}",742.46
+ios,53,10,"{""SCHEMA_MISMATCH"": 10}",456.37
+ios,54,10,"{""SCHEMA_MISMATCH"": 10}",1064.65
+ios,56,10,"{""VALUE_CHANGED"": 10}",458.08
+ios,58,10,"{""MATCH"": 10}",432.87
+ios,59,10,"{""VALUE_CHANGED"": 10}",477.87
+ios,60,10,"{""MATCH"": 10}",434.48
+ios,62,10,"{""VALUE_CHANGED"": 10}",889.93
+ios,64,10,"{""VALUE_CHANGED"": 10}",1641.51
+ios,67,10,"{""MATCH"": 10}",1292.47
+ios,70,10,"{""MATCH"": 10}",433.87
+ios,connect,10,"{""PASS"": 10}",2446.08
+ios,login,10,"{""PASS"": 10}",8051.62
+android,1,10,"{""ACK_ONLY_NO_REFERENCE"": 8, ""NOT_RUN"": 2}",523.11
+android,101,10,"{""MATCH"": 8, ""NOT_RUN"": 2}",427.4
+android,119,10,"{""VALUE_CHANGED"": 9, ""ERROR"": 1}",15006.49
+android,127,10,"{""MATCH"": 10}",1018.94
+android,135,10,"{""SCHEMA_MISMATCH"": 10}",975.03
+android,29,10,"{""MATCH"": 8, ""NOT_RUN"": 2}",1966.61
+android,30,10,"{""MATCH"": 9, ""NOT_RUN"": 1}",2375.92
+android,32,30,"{""ISOLATION_MISMATCH"": 24, ""NOT_RUN"": 6}",1878.66
+android,33,10,"{""VALUE_CHANGED"": 10}",1219.35
+android,34,20,"{""MATCH"": 17, ""NOT_RUN"": 2, ""ERROR"": 1}",15010.87
+android,39,10,"{""MATCH"": 9, ""NOT_RUN"": 1}",2419.79
+android,45,10,"{""SCHEMA_MISMATCH"": 8, ""NOT_RUN"": 2}",452.75
+android,49,10,"{""SCHEMA_MISMATCH"": 10}",10066.22
+android,53,10,"{""SCHEMA_MISMATCH"": 9, ""NOT_RUN"": 1}",1200.55
+android,54,10,"{""SCHEMA_MISMATCH"": 8, ""NOT_RUN"": 2}",868.6
+android,56,10,"{""VALUE_CHANGED"": 9, ""NOT_RUN"": 1}",897.96
+android,58,10,"{""MATCH"": 10}",4801.09
+android,59,10,"{""VALUE_CHANGED"": 10}",1164.34
+android,60,10,"{""MATCH"": 10}",1618.55
+android,62,10,"{""VALUE_CHANGED"": 10}",1151.77
+android,64,10,"{""VALUE_CHANGED"": 8, ""NOT_RUN"": 2}",1340.66
+android,67,10,"{""MATCH"": 10}",1020.16
+android,70,10,"{""MATCH"": 9, ""NOT_RUN"": 1}",2345.2
+android,connect,10,"{""PASS"": 10}",9605.74
+android,login,10,"{""PASS"": 10}",16068.46

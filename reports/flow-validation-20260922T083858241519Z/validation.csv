@@ -1,0 +1,561 @@
+﻿session,platform,dummy_udid,message_type,variant,outcome,response_ms,slow,details,background_messages
+ios-01,ios,8C170F0E-146B51F3BB3D0888,login,,PASS,1260.84,False,,0
+ios-02,ios,D07A8FFE-716356A5804E64BC,login,,PASS,1018.87,False,,0
+ios-01,ios,8C170F0E-146B51F3BB3D0888,connect,,PASS,1209.38,False,,0
+android-01,android,QAANDROID6D1DB295D9B3,login,,PASS,2193.29,True,,0
+ios-01,ios,8C170F0E-146B51F3BB3D0888,59,,VALUE_CHANGED,385.88,False,stable data differs from reference; review configuration changes,0
+android-02,android,QAANDROID49396E95E0B3,login,,PASS,1524.29,False,,0
+ios-01,ios,8C170F0E-146B51F3BB3D0888,62,,VALUE_CHANGED,384.95,False,stable data differs from reference; review configuration changes,0
+ios-03,ios,E3DCAAD6-69835553A4344E8F,login,,PASS,1356.35,False,,0
+ios-01,ios,8C170F0E-146B51F3BB3D0888,127,,MATCH,426.79,False,structure and stable values match reference,0
+android-01,android,QAANDROID6D1DB295D9B3,connect,,PASS,1273.88,False,,0
+ios-01,ios,8C170F0E-146B51F3BB3D0888,60,,MATCH,387.24,False,structure and stable values match reference,0
+ios-01,ios,8C170F0E-146B51F3BB3D0888,67,,MATCH,383.24,False,structure and stable values match reference,0
+android-01,android,QAANDROID6D1DB295D9B3,59,,VALUE_CHANGED,786.02,False,stable data differs from reference; review configuration changes,0
+ios-01,ios,8C170F0E-146B51F3BB3D0888,135,,SCHEMA_MISMATCH,385.59,False,"reply: expected array, received NoneType",0
+android-04,android,QAANDROID33A3BCF1344F,login,,PASS,1322.59,False,,0
+ios-01,ios,8C170F0E-146B51F3BB3D0888,58,,MATCH,385.69,False,structure and stable values match reference,0
+ios-04,ios,0C43B468-A26B55DEA788A463,login,,PASS,2232.92,True,,0
+ios-05,ios,861F983D-E6825F26BF47E6C1,login,,PASS,1250.65,False,,0
+ios-03,ios,E3DCAAD6-69835553A4344E8F,connect,,PASS,2099.56,True,,0
+android-01,android,QAANDROID6D1DB295D9B3,62,,VALUE_CHANGED,770.44,False,stable data differs from reference; review configuration changes,0
+ios-01,ios,8C170F0E-146B51F3BB3D0888,33,,VALUE_CHANGED,387.01,False,stable data differs from reference; review configuration changes,0
+ios-03,ios,E3DCAAD6-69835553A4344E8F,59,,VALUE_CHANGED,399.86,False,stable data differs from reference; review configuration changes,0
+android-05,android,QAANDROID829C9BEC8686,login,,PASS,1351.53,False,,0
+android-01,android,QAANDROID6D1DB295D9B3,127,,MATCH,405.79,False,structure and stable values match reference,0
+ios-01,ios,8C170F0E-146B51F3BB3D0888,49,,SCHEMA_MISMATCH,385.33,False,"reply.overall_grades: expected array, received NoneType",0
+android-04,android,QAANDROID33A3BCF1344F,connect,,PASS,1133.28,False,,0
+ios-04,ios,0C43B468-A26B55DEA788A463,connect,,PASS,936.46,False,,0
+ios-05,ios,861F983D-E6825F26BF47E6C1,connect,,PASS,914.89,False,,0
+android-01,android,QAANDROID6D1DB295D9B3,60,,MATCH,405.29,False,structure and stable values match reference,0
+android-04,android,QAANDROID33A3BCF1344F,59,,VALUE_CHANGED,346.57,False,stable data differs from reference; review configuration changes,0
+ios-01,ios,8C170F0E-146B51F3BB3D0888,119,1.7.6,VALUE_CHANGED,388.15,False,stable data differs from reference; review configuration changes,0
+ios-06,ios,13CAAF6E-3ACF5077978DF34D,login,,PASS,1401.67,False,,0
+ios-04,ios,0C43B468-A26B55DEA788A463,59,,VALUE_CHANGED,296.75,False,stable data differs from reference; review configuration changes,0
+ios-05,ios,861F983D-E6825F26BF47E6C1,59,,VALUE_CHANGED,285.98,False,stable data differs from reference; review configuration changes,0
+android-04,android,QAANDROID33A3BCF1344F,62,,VALUE_CHANGED,349.98,False,stable data differs from reference; review configuration changes,0
+ios-02,ios,D07A8FFE-716356A5804E64BC,connect,,PASS,4683.14,True,,0
+ios-01,ios,8C170F0E-146B51F3BB3D0888,34,ios,MATCH,406.97,False,structure and stable values match reference,0
+ios-04,ios,0C43B468-A26B55DEA788A463,62,,VALUE_CHANGED,301.21,False,stable data differs from reference; review configuration changes,0
+ios-05,ios,861F983D-E6825F26BF47E6C1,62,,VALUE_CHANGED,285.65,False,stable data differs from reference; review configuration changes,0
+ios-07,ios,C6A6D9A8-95A4563197483552,login,,PASS,871.11,False,,0
+ios-03,ios,E3DCAAD6-69835553A4344E8F,62,,VALUE_CHANGED,1106.48,False,stable data differs from reference; review configuration changes,0
+android-01,android,QAANDROID6D1DB295D9B3,67,,MATCH,713.01,False,structure and stable values match reference,0
+android-04,android,QAANDROID33A3BCF1344F,127,,MATCH,349.87,False,structure and stable values match reference,0
+ios-04,ios,0C43B468-A26B55DEA788A463,127,,MATCH,297.87,False,structure and stable values match reference,0
+ios-05,ios,861F983D-E6825F26BF47E6C1,127,,MATCH,287.47,False,structure and stable values match reference,0
+ios-01,ios,8C170F0E-146B51F3BB3D0888,39,,MATCH,382.97,False,structure and stable values match reference,0
+android-06,android,QAANDROID66AD4FB4226F,login,,PASS,1633.66,False,,0
+ios-05,ios,861F983D-E6825F26BF47E6C1,60,,MATCH,286.41,False,structure and stable values match reference,0
+ios-03,ios,E3DCAAD6-69835553A4344E8F,127,,MATCH,397.3,False,structure and stable values match reference,0
+ios-04,ios,0C43B468-A26B55DEA788A463,60,,MATCH,298.43,False,structure and stable values match reference,0
+android-04,android,QAANDROID33A3BCF1344F,60,,MATCH,347.18,False,structure and stable values match reference,0
+android-07,android,QAANDROID96427346B109,login,,PASS,940.34,False,,0
+ios-01,ios,8C170F0E-146B51F3BB3D0888,56,,VALUE_CHANGED,391.34,False,stable data differs from reference; review configuration changes,0
+ios-04,ios,0C43B468-A26B55DEA788A463,67,,MATCH,318.61,False,structure and stable values match reference,0
+ios-05,ios,861F983D-E6825F26BF47E6C1,67,,MATCH,328.07,False,structure and stable values match reference,0
+android-04,android,QAANDROID33A3BCF1344F,67,,MATCH,347.34,False,structure and stable values match reference,0
+ios-06,ios,13CAAF6E-3ACF5077978DF34D,connect,,PASS,1296.84,False,,0
+android-01,android,QAANDROID6D1DB295D9B3,135,,SCHEMA_MISMATCH,713.42,False,"reply: expected array, received NoneType",0
+ios-01,ios,8C170F0E-146B51F3BB3D0888,53,,SCHEMA_MISMATCH,407.99,False,"reply.android_manual_tests: expected array, received NoneType",0
+ios-05,ios,861F983D-E6825F26BF47E6C1,135,,SCHEMA_MISMATCH,285.45,False,"reply: expected array, received NoneType",0
+ios-08,ios,969729B4-F0F65386A61B8E93,login,,PASS,918.31,False,,0
+ios-04,ios,0C43B468-A26B55DEA788A463,135,,SCHEMA_MISMATCH,297.13,False,"reply: expected array, received NoneType",0
+android-05,android,QAANDROID829C9BEC8686,connect,,PASS,2094.89,True,,0
+android-04,android,QAANDROID33A3BCF1344F,135,,SCHEMA_MISMATCH,346.66,False,"reply: expected array, received NoneType",0
+ios-06,ios,13CAAF6E-3ACF5077978DF34D,59,,VALUE_CHANGED,414.03,False,stable data differs from reference; review configuration changes,0
+ios-05,ios,861F983D-E6825F26BF47E6C1,58,,MATCH,284.21,False,structure and stable values match reference,0
+ios-07,ios,C6A6D9A8-95A4563197483552,connect,,PASS,1335.33,False,,0
+ios-04,ios,0C43B468-A26B55DEA788A463,58,,MATCH,296.8,False,structure and stable values match reference,0
+ios-01,ios,8C170F0E-146B51F3BB3D0888,70,,MATCH,385.17,False,structure and stable values match reference,0
+android-08,android,QAANDROIDEC0624E9BF82,login,,PASS,780.75,False,,0
+android-04,android,QAANDROID33A3BCF1344F,58,,MATCH,348.12,False,structure and stable values match reference,0
+ios-05,ios,861F983D-E6825F26BF47E6C1,33,,VALUE_CHANGED,290.23,False,stable data differs from reference; review configuration changes,0
+ios-06,ios,13CAAF6E-3ACF5077978DF34D,62,,VALUE_CHANGED,413.76,False,stable data differs from reference; review configuration changes,0
+ios-04,ios,0C43B468-A26B55DEA788A463,33,,VALUE_CHANGED,299.35,False,stable data differs from reference; review configuration changes,0
+ios-07,ios,C6A6D9A8-95A4563197483552,59,,VALUE_CHANGED,409.41,False,stable data differs from reference; review configuration changes,0
+android-07,android,QAANDROID96427346B109,connect,,PASS,1206.44,False,,0
+ios-01,ios,8C170F0E-146B51F3BB3D0888,30,,MATCH,385.9,False,structure and stable values match reference,0
+android-04,android,QAANDROID33A3BCF1344F,33,,VALUE_CHANGED,350.4,False,stable data differs from reference; review configuration changes,0
+ios-05,ios,861F983D-E6825F26BF47E6C1,49,,SCHEMA_MISMATCH,287.14,False,"reply.overall_grades: expected array, received NoneType",0
+ios-04,ios,0C43B468-A26B55DEA788A463,49,,SCHEMA_MISMATCH,298.26,False,"reply.overall_grades: expected array, received NoneType",0
+ios-06,ios,13CAAF6E-3ACF5077978DF34D,127,,MATCH,415.24,False,structure and stable values match reference,0
+ios-03,ios,E3DCAAD6-69835553A4344E8F,60,,MATCH,1650.29,False,structure and stable values match reference,0
+android-07,android,QAANDROID96427346B109,59,,VALUE_CHANGED,368.91,False,stable data differs from reference; review configuration changes,0
+ios-07,ios,C6A6D9A8-95A4563197483552,62,,VALUE_CHANGED,412.36,False,stable data differs from reference; review configuration changes,0
+ios-01,ios,8C170F0E-146B51F3BB3D0888,34,android,MATCH,396.49,False,structure and stable values match reference,0
+ios-05,ios,861F983D-E6825F26BF47E6C1,119,1.7.6,VALUE_CHANGED,288.94,False,stable data differs from reference; review configuration changes,0
+android-04,android,QAANDROID33A3BCF1344F,49,,SCHEMA_MISMATCH,350.41,False,"reply.overall_grades: expected array, received NoneType",0
+ios-04,ios,0C43B468-A26B55DEA788A463,119,1.7.6,VALUE_CHANGED,298.72,False,stable data differs from reference; review configuration changes,0
+ios-08,ios,969729B4-F0F65386A61B8E93,connect,,PASS,1271.62,False,,0
+ios-06,ios,13CAAF6E-3ACF5077978DF34D,60,,MATCH,414.51,False,structure and stable values match reference,0
+ios-03,ios,E3DCAAD6-69835553A4344E8F,67,,MATCH,414.03,False,structure and stable values match reference,0
+ios-05,ios,861F983D-E6825F26BF47E6C1,34,ios,MATCH,304.56,False,structure and stable values match reference,0
+android-07,android,QAANDROID96427346B109,62,,VALUE_CHANGED,370.33,False,stable data differs from reference; review configuration changes,0
+android-08,android,QAANDROIDEC0624E9BF82,connect,,PASS,1110.41,False,,0
+ios-04,ios,0C43B468-A26B55DEA788A463,34,ios,MATCH,303.82,False,structure and stable values match reference,0
+android-04,android,QAANDROID33A3BCF1344F,119,1.7.6,VALUE_CHANGED,349.39,False,stable data differs from reference; review configuration changes,0
+ios-07,ios,C6A6D9A8-95A4563197483552,127,,MATCH,411.46,False,structure and stable values match reference,0
+ios-01,ios,8C170F0E-146B51F3BB3D0888,54,,SCHEMA_MISMATCH,383.77,False,"reply: expected NoneType, received array",0
+ios-08,ios,969729B4-F0F65386A61B8E93,59,,VALUE_CHANGED,403.98,False,stable data differs from reference; review configuration changes,0
+ios-05,ios,861F983D-E6825F26BF47E6C1,39,,MATCH,285.68,False,structure and stable values match reference,0
+ios-04,ios,0C43B468-A26B55DEA788A463,39,,MATCH,297.92,False,structure and stable values match reference,0
+android-07,android,QAANDROID96427346B109,127,,MATCH,368.89,False,structure and stable values match reference,0
+android-08,android,QAANDROIDEC0624E9BF82,59,,VALUE_CHANGED,356.43,False,stable data differs from reference; review configuration changes,0
+android-05,android,QAANDROID829C9BEC8686,59,,VALUE_CHANGED,1816.85,False,stable data differs from reference; review configuration changes,0
+android-06,android,QAANDROID66AD4FB4226F,connect,,PASS,2630.17,True,,0
+ios-06,ios,13CAAF6E-3ACF5077978DF34D,67,,MATCH,413.91,False,structure and stable values match reference,0
+android-04,android,QAANDROID33A3BCF1344F,34,ios,MATCH,361.38,False,structure and stable values match reference,0
+ios-01,ios,8C170F0E-146B51F3BB3D0888,64,,VALUE_CHANGED,383.85,False,stable data differs from reference; review configuration changes,0
+ios-07,ios,C6A6D9A8-95A4563197483552,60,,MATCH,409.0,False,structure and stable values match reference,0
+android-09,android,QAANDROID47329A4009B8,login,,PASS,1360.07,False,,0
+ios-05,ios,861F983D-E6825F26BF47E6C1,56,,VALUE_CHANGED,289.84,False,stable data differs from reference; review configuration changes,0
+ios-08,ios,969729B4-F0F65386A61B8E93,62,,VALUE_CHANGED,412.51,False,stable data differs from reference; review configuration changes,0
+ios-04,ios,0C43B468-A26B55DEA788A463,56,,VALUE_CHANGED,298.61,False,stable data differs from reference; review configuration changes,0
+ios-02,ios,D07A8FFE-716356A5804E64BC,59,,VALUE_CHANGED,3453.0,True,stable data differs from reference; review configuration changes,0
+android-08,android,QAANDROIDEC0624E9BF82,62,,VALUE_CHANGED,348.32,False,stable data differs from reference; review configuration changes,0
+android-07,android,QAANDROID96427346B109,60,,MATCH,365.11,False,structure and stable values match reference,0
+android-04,android,QAANDROID33A3BCF1344F,39,,MATCH,347.09,False,structure and stable values match reference,0
+android-06,android,QAANDROID66AD4FB4226F,59,,VALUE_CHANGED,385.43,False,stable data differs from reference; review configuration changes,0
+android-05,android,QAANDROID829C9BEC8686,62,,VALUE_CHANGED,408.34,False,stable data differs from reference; review configuration changes,0
+ios-06,ios,13CAAF6E-3ACF5077978DF34D,135,,SCHEMA_MISMATCH,412.84,False,"reply: expected array, received NoneType",0
+ios-01,ios,8C170F0E-146B51F3BB3D0888,32,android_default_desk,APPLICATION_FAILURE,386.65,False,status was not success,0
+ios-05,ios,861F983D-E6825F26BF47E6C1,53,,SCHEMA_MISMATCH,312.87,False,"reply.android_manual_tests: expected array, received NoneType",0
+ios-07,ios,C6A6D9A8-95A4563197483552,67,,MATCH,414.46,False,structure and stable values match reference,0
+ios-04,ios,0C43B468-A26B55DEA788A463,53,,SCHEMA_MISMATCH,313.52,False,"reply.android_manual_tests: expected array, received NoneType",0
+ios-03,ios,E3DCAAD6-69835553A4344E8F,135,,SCHEMA_MISMATCH,989.12,False,"reply: expected array, received NoneType",0
+ios-10,ios,72CBB899-3A7C5BE2880D3406,login,,PASS,1360.24,False,,0
+android-08,android,QAANDROIDEC0624E9BF82,127,,MATCH,347.08,False,structure and stable values match reference,0
+android-04,android,QAANDROID33A3BCF1344F,56,,VALUE_CHANGED,352.76,False,stable data differs from reference; review configuration changes,0
+android-07,android,QAANDROID96427346B109,67,,MATCH,370.12,False,structure and stable values match reference,0
+ios-02,ios,D07A8FFE-716356A5804E64BC,62,,VALUE_CHANGED,435.21,False,stable data differs from reference; review configuration changes,0
+ios-05,ios,861F983D-E6825F26BF47E6C1,70,,MATCH,286.28,False,structure and stable values match reference,0
+android-05,android,QAANDROID829C9BEC8686,127,,MATCH,406.51,False,structure and stable values match reference,0
+ios-06,ios,13CAAF6E-3ACF5077978DF34D,58,,MATCH,413.83,False,structure and stable values match reference,0
+ios-01,ios,8C170F0E-146B51F3BB3D0888,45,,SCHEMA_MISMATCH,382.64,False,"reply: expected array, received NoneType",0
+ios-04,ios,0C43B468-A26B55DEA788A463,70,,MATCH,297.06,False,structure and stable values match reference,0
+ios-07,ios,C6A6D9A8-95A4563197483552,135,,SCHEMA_MISMATCH,411.12,False,"reply: expected array, received NoneType",0
+ios-03,ios,E3DCAAD6-69835553A4344E8F,58,,MATCH,398.88,False,structure and stable values match reference,0
+android-08,android,QAANDROIDEC0624E9BF82,60,,MATCH,351.11,False,structure and stable values match reference,0
+ios-05,ios,861F983D-E6825F26BF47E6C1,30,,MATCH,288.09,False,structure and stable values match reference,0
+android-07,android,QAANDROID96427346B109,135,,SCHEMA_MISMATCH,376.37,False,"reply: expected array, received NoneType",0
+android-04,android,QAANDROID33A3BCF1344F,53,,SCHEMA_MISMATCH,377.8,False,"reply.android_manual_tests: expected array, received NoneType",0
+android-10,android,QAANDROID94095830D5A4,login,,PASS,1388.41,False,,0
+ios-04,ios,0C43B468-A26B55DEA788A463,30,,MATCH,297.15,False,structure and stable values match reference,0
+android-05,android,QAANDROID829C9BEC8686,60,,MATCH,407.32,False,structure and stable values match reference,0
+ios-06,ios,13CAAF6E-3ACF5077978DF34D,33,,VALUE_CHANGED,426.69,False,stable data differs from reference; review configuration changes,0
+ios-08,ios,969729B4-F0F65386A61B8E93,127,,MATCH,1053.66,False,structure and stable values match reference,0
+ios-07,ios,C6A6D9A8-95A4563197483552,58,,MATCH,408.88,False,structure and stable values match reference,0
+ios-05,ios,861F983D-E6825F26BF47E6C1,34,android,MATCH,293.26,False,structure and stable values match reference,0
+android-08,android,QAANDROIDEC0624E9BF82,67,,MATCH,347.42,False,structure and stable values match reference,0
+android-04,android,QAANDROID33A3BCF1344F,70,,MATCH,345.77,False,structure and stable values match reference,0
+android-07,android,QAANDROID96427346B109,58,,MATCH,374.41,False,structure and stable values match reference,0
+ios-04,ios,0C43B468-A26B55DEA788A463,34,android,MATCH,311.89,False,structure and stable values match reference,0
+android-06,android,QAANDROID66AD4FB4226F,62,,VALUE_CHANGED,1156.85,False,stable data differs from reference; review configuration changes,0
+ios-05,ios,861F983D-E6825F26BF47E6C1,54,,SCHEMA_MISMATCH,312.9,False,"reply: expected NoneType, received array",0
+ios-06,ios,13CAAF6E-3ACF5077978DF34D,49,,SCHEMA_MISMATCH,423.36,False,"reply.overall_grades: expected array, received NoneType",0
+ios-01,ios,8C170F0E-146B51F3BB3D0888,29,,MATCH,842.79,False,structure and stable values match reference,0
+ios-08,ios,969729B4-F0F65386A61B8E93,60,,MATCH,401.74,False,structure and stable values match reference,0
+ios-07,ios,C6A6D9A8-95A4563197483552,33,,VALUE_CHANGED,412.26,False,stable data differs from reference; review configuration changes,0
+android-08,android,QAANDROIDEC0624E9BF82,135,,SCHEMA_MISMATCH,348.87,False,"reply: expected array, received NoneType",0
+ios-10,ios,72CBB899-3A7C5BE2880D3406,connect,,PASS,1172.24,False,,0
+ios-04,ios,0C43B468-A26B55DEA788A463,54,,SCHEMA_MISMATCH,310.04,False,"reply: expected NoneType, received array",0
+android-04,android,QAANDROID33A3BCF1344F,30,,MATCH,348.03,False,structure and stable values match reference,0
+ios-02,ios,D07A8FFE-716356A5804E64BC,127,,MATCH,1038.39,False,structure and stable values match reference,0
+android-07,android,QAANDROID96427346B109,33,,VALUE_CHANGED,384.05,False,stable data differs from reference; review configuration changes,0
+android-06,android,QAANDROID66AD4FB4226F,127,,MATCH,385.14,False,structure and stable values match reference,0
+android-05,android,QAANDROID829C9BEC8686,67,,MATCH,716.3,False,structure and stable values match reference,0
+ios-03,ios,E3DCAAD6-69835553A4344E8F,33,,VALUE_CHANGED,952.17,False,stable data differs from reference; review configuration changes,0
+ios-05,ios,861F983D-E6825F26BF47E6C1,64,,VALUE_CHANGED,285.42,False,stable data differs from reference; review configuration changes,0
+ios-01,ios,8C170F0E-146B51F3BB3D0888,32,ios_default_desk,APPLICATION_FAILURE,387.48,False,status was not success,0
+ios-04,ios,0C43B468-A26B55DEA788A463,64,,VALUE_CHANGED,297.5,False,stable data differs from reference; review configuration changes,0
+android-08,android,QAANDROIDEC0624E9BF82,58,,MATCH,350.33,False,structure and stable values match reference,0
+ios-06,ios,13CAAF6E-3ACF5077978DF34D,119,1.7.6,VALUE_CHANGED,417.64,False,stable data differs from reference; review configuration changes,0
+ios-09,ios,7FB5A818-44FD58C2BB8E1F50,login,,PASS,3859.15,True,,0
+ios-08,ios,969729B4-F0F65386A61B8E93,67,,MATCH,407.19,False,structure and stable values match reference,0
+ios-07,ios,C6A6D9A8-95A4563197483552,49,,SCHEMA_MISMATCH,412.53,False,"reply.overall_grades: expected array, received NoneType",0
+android-04,android,QAANDROID33A3BCF1344F,34,android,MATCH,356.76,False,structure and stable values match reference,0
+ios-10,ios,72CBB899-3A7C5BE2880D3406,59,,VALUE_CHANGED,372.14,False,stable data differs from reference; review configuration changes,0
+android-07,android,QAANDROID96427346B109,49,,SCHEMA_MISMATCH,384.09,False,"reply.overall_grades: expected array, received NoneType",0
+ios-05,ios,861F983D-E6825F26BF47E6C1,32,android_default_desk,APPLICATION_FAILURE,287.75,False,status was not success,0
+android-09,android,QAANDROID47329A4009B8,connect,,PASS,2223.38,True,,0
+ios-03,ios,E3DCAAD6-69835553A4344E8F,49,,SCHEMA_MISMATCH,404.73,False,"reply.overall_grades: expected array, received NoneType",0
+ios-04,ios,0C43B468-A26B55DEA788A463,32,android_default_desk,APPLICATION_FAILURE,304.49,False,status was not success,0
+android-10,android,QAANDROID94095830D5A4,connect,,PASS,1276.73,False,,0
+android-08,android,QAANDROIDEC0624E9BF82,33,,VALUE_CHANGED,354.12,False,stable data differs from reference; review configuration changes,0
+ios-01,ios,8C170F0E-146B51F3BB3D0888,32,andriod test v1,APPLICATION_FAILURE,391.34,False,status was not success,0
+android-04,android,QAANDROID33A3BCF1344F,54,,SCHEMA_MISMATCH,348.59,False,"reply: expected NoneType, received array",0
+ios-10,ios,72CBB899-3A7C5BE2880D3406,62,,VALUE_CHANGED,382.48,False,stable data differs from reference; review configuration changes,0
+ios-06,ios,13CAAF6E-3ACF5077978DF34D,34,ios,MATCH,441.06,False,structure and stable values match reference,0
+ios-08,ios,969729B4-F0F65386A61B8E93,135,,SCHEMA_MISMATCH,429.46,False,"reply: expected array, received NoneType",0
+ios-05,ios,861F983D-E6825F26BF47E6C1,45,,SCHEMA_MISMATCH,289.0,False,"reply: expected array, received NoneType",0
+ios-07,ios,C6A6D9A8-95A4563197483552,119,1.7.6,VALUE_CHANGED,411.4,False,stable data differs from reference; review configuration changes,0
+android-07,android,QAANDROID96427346B109,119,1.7.6,VALUE_CHANGED,372.4,False,stable data differs from reference; review configuration changes,0
+android-05,android,QAANDROID829C9BEC8686,135,,SCHEMA_MISMATCH,723.6,False,"reply: expected array, received NoneType",0
+ios-04,ios,0C43B468-A26B55DEA788A463,45,,SCHEMA_MISMATCH,296.83,False,"reply: expected array, received NoneType",0
+android-09,android,QAANDROID47329A4009B8,59,,VALUE_CHANGED,384.85,False,stable data differs from reference; review configuration changes,0
+ios-03,ios,E3DCAAD6-69835553A4344E8F,119,1.7.6,VALUE_CHANGED,408.87,False,stable data differs from reference; review configuration changes,0
+android-08,android,QAANDROIDEC0624E9BF82,49,,SCHEMA_MISMATCH,349.72,False,"reply.overall_grades: expected array, received NoneType",0
+android-10,android,QAANDROID94095830D5A4,59,,VALUE_CHANGED,401.44,False,stable data differs from reference; review configuration changes,0
+ios-01,ios,8C170F0E-146B51F3BB3D0888,101,,MATCH,383.88,False,structure and stable values match reference,0
+android-04,android,QAANDROID33A3BCF1344F,64,,VALUE_CHANGED,348.61,False,stable data differs from reference; review configuration changes,0
+ios-10,ios,72CBB899-3A7C5BE2880D3406,127,,MATCH,363.16,False,structure and stable values match reference,0
+android-06,android,QAANDROID66AD4FB4226F,60,,MATCH,977.34,False,structure and stable values match reference,0
+ios-06,ios,13CAAF6E-3ACF5077978DF34D,39,,MATCH,435.05,False,structure and stable values match reference,0
+ios-08,ios,969729B4-F0F65386A61B8E93,58,,MATCH,464.93,False,structure and stable values match reference,0
+ios-07,ios,C6A6D9A8-95A4563197483552,34,ios,MATCH,464.73,False,structure and stable values match reference,0
+ios-05,ios,861F983D-E6825F26BF47E6C1,29,,MATCH,496.55,False,structure and stable values match reference,0
+android-07,android,QAANDROID96427346B109,34,ios,MATCH,418.91,False,structure and stable values match reference,0
+android-09,android,QAANDROID47329A4009B8,62,,VALUE_CHANGED,399.49,False,stable data differs from reference; review configuration changes,0
+android-08,android,QAANDROIDEC0624E9BF82,119,1.7.6,VALUE_CHANGED,366.11,False,stable data differs from reference; review configuration changes,0
+ios-04,ios,0C43B468-A26B55DEA788A463,29,,MATCH,469.73,False,structure and stable values match reference,0
+ios-03,ios,E3DCAAD6-69835553A4344E8F,34,ios,MATCH,411.03,False,structure and stable values match reference,0
+android-04,android,QAANDROID33A3BCF1344F,32,android_default_desk,APPLICATION_FAILURE,348.78,False,status was not success,0
+ios-09,ios,7FB5A818-44FD58C2BB8E1F50,connect,,PASS,1096.58,False,,0
+android-10,android,QAANDROID94095830D5A4,62,,VALUE_CHANGED,404.91,False,stable data differs from reference; review configuration changes,0
+ios-01,ios,8C170F0E-146B51F3BB3D0888,1,,ACK_ONLY_NO_REFERENCE,415.37,False,attachment has no device-info reference; not validated as equivalent,1
+ios-10,ios,72CBB899-3A7C5BE2880D3406,60,,MATCH,374.75,False,structure and stable values match reference,0
+android-06,android,QAANDROID66AD4FB4226F,67,,MATCH,384.96,False,structure and stable values match reference,0
+ios-05,ios,861F983D-E6825F26BF47E6C1,32,ios_default_desk,APPLICATION_FAILURE,298.23,False,status was not success,0
+android-05,android,QAANDROID829C9BEC8686,58,,MATCH,718.79,False,structure and stable values match reference,0
+android-07,android,QAANDROID96427346B109,39,,MATCH,372.05,False,structure and stable values match reference,0
+ios-08,ios,969729B4-F0F65386A61B8E93,33,,VALUE_CHANGED,410.17,False,stable data differs from reference; review configuration changes,0
+ios-06,ios,13CAAF6E-3ACF5077978DF34D,56,,VALUE_CHANGED,465.17,False,stable data differs from reference; review configuration changes,0
+ios-07,ios,C6A6D9A8-95A4563197483552,39,,MATCH,423.11,False,structure and stable values match reference,0
+ios-04,ios,0C43B468-A26B55DEA788A463,32,ios_default_desk,APPLICATION_FAILURE,299.89,False,status was not success,0
+android-08,android,QAANDROIDEC0624E9BF82,34,ios,MATCH,357.77,False,structure and stable values match reference,0
+android-04,android,QAANDROID33A3BCF1344F,45,,SCHEMA_MISMATCH,349.25,False,"reply: expected array, received NoneType",0
+ios-09,ios,7FB5A818-44FD58C2BB8E1F50,59,,VALUE_CHANGED,348.75,False,stable data differs from reference; review configuration changes,0
+ios-03,ios,E3DCAAD6-69835553A4344E8F,39,,MATCH,398.57,False,structure and stable values match reference,0
+android-10,android,QAANDROID94095830D5A4,127,,MATCH,400.72,False,structure and stable values match reference,0
+ios-05,ios,861F983D-E6825F26BF47E6C1,32,andriod test v1,APPLICATION_FAILURE,288.73,False,status was not success,0
+ios-10,ios,72CBB899-3A7C5BE2880D3406,67,,MATCH,363.68,False,structure and stable values match reference,0
+android-06,android,QAANDROID66AD4FB4226F,135,,SCHEMA_MISMATCH,387.94,False,"reply: expected array, received NoneType",0
+ios-04,ios,0C43B468-A26B55DEA788A463,32,andriod test v1,APPLICATION_FAILURE,298.35,False,status was not success,0
+android-07,android,QAANDROID96427346B109,56,,VALUE_CHANGED,369.13,False,stable data differs from reference; review configuration changes,0
+android-05,android,QAANDROID829C9BEC8686,33,,VALUE_CHANGED,412.79,False,stable data differs from reference; review configuration changes,0
+ios-08,ios,969729B4-F0F65386A61B8E93,49,,SCHEMA_MISMATCH,406.02,False,"reply.overall_grades: expected array, received NoneType",0
+ios-07,ios,C6A6D9A8-95A4563197483552,56,,VALUE_CHANGED,411.39,False,stable data differs from reference; review configuration changes,0
+ios-06,ios,13CAAF6E-3ACF5077978DF34D,53,,SCHEMA_MISMATCH,435.16,False,"reply.android_manual_tests: expected array, received NoneType",0
+android-08,android,QAANDROIDEC0624E9BF82,39,,MATCH,359.86,False,structure and stable values match reference,0
+ios-09,ios,7FB5A818-44FD58C2BB8E1F50,62,,VALUE_CHANGED,353.08,False,stable data differs from reference; review configuration changes,0
+ios-05,ios,861F983D-E6825F26BF47E6C1,101,,MATCH,286.01,False,structure and stable values match reference,0
+ios-03,ios,E3DCAAD6-69835553A4344E8F,56,,VALUE_CHANGED,402.9,False,stable data differs from reference; review configuration changes,0
+ios-10,ios,72CBB899-3A7C5BE2880D3406,135,,SCHEMA_MISMATCH,359.72,False,"reply: expected array, received NoneType",0
+android-10,android,QAANDROID94095830D5A4,60,,MATCH,400.22,False,structure and stable values match reference,0
+ios-02,ios,D07A8FFE-716356A5804E64BC,60,,MATCH,2246.49,True,structure and stable values match reference,0
+ios-04,ios,0C43B468-A26B55DEA788A463,101,,MATCH,297.13,False,structure and stable values match reference,0
+android-06,android,QAANDROID66AD4FB4226F,58,,MATCH,392.11,False,structure and stable values match reference,0
+android-07,android,QAANDROID96427346B109,53,,SCHEMA_MISMATCH,424.65,False,"reply.android_manual_tests: expected array, received NoneType",0
+android-05,android,QAANDROID829C9BEC8686,49,,SCHEMA_MISMATCH,417.2,False,"reply.overall_grades: expected array, received NoneType",0
+android-09,android,QAANDROID47329A4009B8,127,,MATCH,1089.7,False,structure and stable values match reference,0
+ios-08,ios,969729B4-F0F65386A61B8E93,119,1.7.6,VALUE_CHANGED,415.9,False,stable data differs from reference; review configuration changes,0
+android-08,android,QAANDROIDEC0624E9BF82,56,,VALUE_CHANGED,365.47,False,stable data differs from reference; review configuration changes,0
+ios-05,ios,861F983D-E6825F26BF47E6C1,1,,ACK_ONLY_NO_REFERENCE,341.36,False,attachment has no device-info reference; not validated as equivalent,1
+ios-09,ios,7FB5A818-44FD58C2BB8E1F50,127,,MATCH,347.55,False,structure and stable values match reference,0
+android-04,android,QAANDROID33A3BCF1344F,29,,MATCH,725.09,False,structure and stable values match reference,0
+ios-07,ios,C6A6D9A8-95A4563197483552,53,,SCHEMA_MISMATCH,431.35,False,"reply.android_manual_tests: expected array, received NoneType",0
+ios-06,ios,13CAAF6E-3ACF5077978DF34D,70,,MATCH,413.68,False,structure and stable values match reference,0
+ios-10,ios,72CBB899-3A7C5BE2880D3406,58,,MATCH,360.67,False,structure and stable values match reference,0
+android-10,android,QAANDROID94095830D5A4,67,,MATCH,405.28,False,structure and stable values match reference,0
+ios-02,ios,D07A8FFE-716356A5804E64BC,67,,MATCH,407.46,False,structure and stable values match reference,0
+ios-04,ios,0C43B468-A26B55DEA788A463,1,,ACK_ONLY_NO_REFERENCE,425.29,False,attachment has no device-info reference; not validated as equivalent,1
+android-06,android,QAANDROID66AD4FB4226F,33,,VALUE_CHANGED,447.15,False,stable data differs from reference; review configuration changes,0
+android-07,android,QAANDROID96427346B109,70,,MATCH,369.71,False,structure and stable values match reference,0
+ios-09,ios,7FB5A818-44FD58C2BB8E1F50,60,,MATCH,344.76,False,structure and stable values match reference,0
+android-08,android,QAANDROIDEC0624E9BF82,53,,SCHEMA_MISMATCH,389.37,False,"reply.android_manual_tests: expected array, received NoneType",0
+android-04,android,QAANDROID33A3BCF1344F,32,ios_default_desk,APPLICATION_FAILURE,355.08,False,status was not success,0
+android-05,android,QAANDROID829C9BEC8686,119,1.7.6,VALUE_CHANGED,426.36,False,stable data differs from reference; review configuration changes,0
+ios-06,ios,13CAAF6E-3ACF5077978DF34D,30,,MATCH,413.77,False,structure and stable values match reference,0
+ios-07,ios,C6A6D9A8-95A4563197483552,70,,MATCH,423.11,False,structure and stable values match reference,0
+ios-10,ios,72CBB899-3A7C5BE2880D3406,33,,VALUE_CHANGED,362.02,False,stable data differs from reference; review configuration changes,0
+ios-02,ios,D07A8FFE-716356A5804E64BC,135,,SCHEMA_MISMATCH,403.03,False,"reply: expected array, received NoneType",0
+ios-03,ios,E3DCAAD6-69835553A4344E8F,53,,SCHEMA_MISMATCH,917.09,False,"reply.android_manual_tests: expected array, received NoneType",0
+android-06,android,QAANDROID66AD4FB4226F,49,,SCHEMA_MISMATCH,391.09,False,"reply.overall_grades: expected array, received NoneType",0
+android-07,android,QAANDROID96427346B109,30,,MATCH,369.17,False,structure and stable values match reference,0
+ios-09,ios,7FB5A818-44FD58C2BB8E1F50,67,,MATCH,347.01,False,structure and stable values match reference,0
+android-08,android,QAANDROIDEC0624E9BF82,70,,MATCH,349.87,False,structure and stable values match reference,0
+android-04,android,QAANDROID33A3BCF1344F,32,andriod test v1,APPLICATION_FAILURE,352.12,False,status was not success,0
+ios-10,ios,72CBB899-3A7C5BE2880D3406,49,,SCHEMA_MISMATCH,368.09,False,"reply.overall_grades: expected array, received NoneType",0
+ios-06,ios,13CAAF6E-3ACF5077978DF34D,34,android,MATCH,434.24,False,structure and stable values match reference,0
+ios-07,ios,C6A6D9A8-95A4563197483552,30,,MATCH,428.88,False,structure and stable values match reference,0
+ios-08,ios,969729B4-F0F65386A61B8E93,34,ios,MATCH,926.03,False,structure and stable values match reference,0
+android-09,android,QAANDROID47329A4009B8,60,,MATCH,1003.71,False,structure and stable values match reference,0
+android-10,android,QAANDROID94095830D5A4,135,,SCHEMA_MISMATCH,787.11,False,"reply: expected array, received NoneType",0
+ios-09,ios,7FB5A818-44FD58C2BB8E1F50,135,,SCHEMA_MISMATCH,344.64,False,"reply: expected array, received NoneType",0
+android-07,android,QAANDROID96427346B109,34,android,MATCH,375.28,False,structure and stable values match reference,0
+android-08,android,QAANDROIDEC0624E9BF82,30,,MATCH,353.1,False,structure and stable values match reference,0
+android-04,android,QAANDROID33A3BCF1344F,101,,MATCH,350.39,False,structure and stable values match reference,0
+ios-10,ios,72CBB899-3A7C5BE2880D3406,119,1.7.6,VALUE_CHANGED,364.64,False,stable data differs from reference; review configuration changes,0
+ios-06,ios,13CAAF6E-3ACF5077978DF34D,54,,SCHEMA_MISMATCH,417.45,False,"reply: expected NoneType, received array",0
+ios-07,ios,C6A6D9A8-95A4563197483552,34,android,MATCH,422.2,False,structure and stable values match reference,0
+ios-02,ios,D07A8FFE-716356A5804E64BC,58,,MATCH,706.1,False,structure and stable values match reference,0
+ios-08,ios,969729B4-F0F65386A61B8E93,39,,MATCH,406.63,False,structure and stable values match reference,0
+android-09,android,QAANDROID47329A4009B8,67,,MATCH,386.6,False,structure and stable values match reference,0
+android-10,android,QAANDROID94095830D5A4,58,,MATCH,400.97,False,structure and stable values match reference,0
+ios-09,ios,7FB5A818-44FD58C2BB8E1F50,58,,MATCH,347.03,False,structure and stable values match reference,0
+android-05,android,QAANDROID829C9BEC8686,34,ios,MATCH,1051.23,False,structure and stable values match reference,0
+android-08,android,QAANDROIDEC0624E9BF82,34,android,MATCH,358.18,False,structure and stable values match reference,0
+android-07,android,QAANDROID96427346B109,54,,SCHEMA_MISMATCH,373.56,False,"reply: expected NoneType, received array",0
+android-04,android,QAANDROID33A3BCF1344F,1,,ACK_ONLY_NO_REFERENCE,372.54,False,attachment has no device-info reference; not validated as equivalent,1
+ios-10,ios,72CBB899-3A7C5BE2880D3406,34,ios,MATCH,370.38,False,structure and stable values match reference,0
+ios-06,ios,13CAAF6E-3ACF5077978DF34D,64,,VALUE_CHANGED,417.36,False,stable data differs from reference; review configuration changes,0
+ios-07,ios,C6A6D9A8-95A4563197483552,54,,SCHEMA_MISMATCH,415.8,False,"reply: expected NoneType, received array",0
+ios-08,ios,969729B4-F0F65386A61B8E93,56,,VALUE_CHANGED,412.08,False,stable data differs from reference; review configuration changes,0
+ios-09,ios,7FB5A818-44FD58C2BB8E1F50,33,,VALUE_CHANGED,352.92,False,stable data differs from reference; review configuration changes,0
+android-09,android,QAANDROID47329A4009B8,135,,SCHEMA_MISMATCH,393.26,False,"reply: expected array, received NoneType",0
+android-10,android,QAANDROID94095830D5A4,33,,VALUE_CHANGED,408.92,False,stable data differs from reference; review configuration changes,0
+android-08,android,QAANDROIDEC0624E9BF82,54,,SCHEMA_MISMATCH,348.09,False,"reply: expected NoneType, received array",0
+android-07,android,QAANDROID96427346B109,64,,VALUE_CHANGED,365.72,False,stable data differs from reference; review configuration changes,0
+android-05,android,QAANDROID829C9BEC8686,39,,MATCH,421.79,False,structure and stable values match reference,0
+ios-10,ios,72CBB899-3A7C5BE2880D3406,39,,MATCH,359.38,False,structure and stable values match reference,0
+ios-09,ios,7FB5A818-44FD58C2BB8E1F50,49,,SCHEMA_MISMATCH,348.23,False,"reply.overall_grades: expected array, received NoneType",0
+android-09,android,QAANDROID47329A4009B8,58,,MATCH,392.14,False,structure and stable values match reference,0
+android-08,android,QAANDROIDEC0624E9BF82,64,,VALUE_CHANGED,346.82,False,stable data differs from reference; review configuration changes,0
+ios-06,ios,13CAAF6E-3ACF5077978DF34D,32,android_default_desk,APPLICATION_FAILURE,417.01,False,status was not success,0
+ios-07,ios,C6A6D9A8-95A4563197483552,64,,VALUE_CHANGED,416.81,False,stable data differs from reference; review configuration changes,0
+android-07,android,QAANDROID96427346B109,32,android_default_desk,APPLICATION_FAILURE,372.13,False,status was not success,0
+android-10,android,QAANDROID94095830D5A4,49,,SCHEMA_MISMATCH,412.14,False,"reply.overall_grades: expected array, received NoneType",0
+android-05,android,QAANDROID829C9BEC8686,56,,VALUE_CHANGED,413.76,False,stable data differs from reference; review configuration changes,0
+ios-02,ios,D07A8FFE-716356A5804E64BC,33,,VALUE_CHANGED,977.64,False,stable data differs from reference; review configuration changes,0
+ios-10,ios,72CBB899-3A7C5BE2880D3406,56,,VALUE_CHANGED,366.15,False,stable data differs from reference; review configuration changes,0
+android-03,android,QAANDROIDB2F2650BBDA4,login,,PASS,13868.46,True,,0
+ios-09,ios,7FB5A818-44FD58C2BB8E1F50,119,1.7.6,VALUE_CHANGED,372.8,False,stable data differs from reference; review configuration changes,0
+android-08,android,QAANDROIDEC0624E9BF82,32,android_default_desk,APPLICATION_FAILURE,349.28,False,status was not success,0
+ios-03,ios,E3DCAAD6-69835553A4344E8F,70,,MATCH,1849.0,False,structure and stable values match reference,0
+android-09,android,QAANDROID47329A4009B8,33,,VALUE_CHANGED,397.79,False,stable data differs from reference; review configuration changes,0
+android-07,android,QAANDROID96427346B109,45,,SCHEMA_MISMATCH,366.08,False,"reply: expected array, received NoneType",0
+ios-06,ios,13CAAF6E-3ACF5077978DF34D,45,,SCHEMA_MISMATCH,416.71,False,"reply: expected array, received NoneType",0
+ios-07,ios,C6A6D9A8-95A4563197483552,32,android_default_desk,APPLICATION_FAILURE,420.12,False,status was not success,0
+android-10,android,QAANDROID94095830D5A4,119,1.7.6,VALUE_CHANGED,404.99,False,stable data differs from reference; review configuration changes,0
+ios-08,ios,969729B4-F0F65386A61B8E93,53,,SCHEMA_MISMATCH,921.21,False,"reply.android_manual_tests: expected array, received NoneType",0
+ios-10,ios,72CBB899-3A7C5BE2880D3406,53,,SCHEMA_MISMATCH,379.62,False,"reply.android_manual_tests: expected array, received NoneType",0
+android-05,android,QAANDROID829C9BEC8686,53,,SCHEMA_MISMATCH,425.63,False,"reply.android_manual_tests: expected array, received NoneType",0
+ios-09,ios,7FB5A818-44FD58C2BB8E1F50,34,ios,MATCH,358.17,False,structure and stable values match reference,0
+android-08,android,QAANDROIDEC0624E9BF82,45,,SCHEMA_MISMATCH,348.2,False,"reply: expected array, received NoneType",0
+ios-03,ios,E3DCAAD6-69835553A4344E8F,30,,MATCH,402.04,False,structure and stable values match reference,0
+android-09,android,QAANDROID47329A4009B8,49,,SCHEMA_MISMATCH,388.93,False,"reply.overall_grades: expected array, received NoneType",0
+ios-07,ios,C6A6D9A8-95A4563197483552,45,,SCHEMA_MISMATCH,415.3,False,"reply: expected array, received NoneType",0
+android-10,android,QAANDROID94095830D5A4,34,ios,MATCH,414.71,False,structure and stable values match reference,0
+ios-10,ios,72CBB899-3A7C5BE2880D3406,70,,MATCH,356.75,False,structure and stable values match reference,0
+ios-08,ios,969729B4-F0F65386A61B8E93,70,,MATCH,400.94,False,structure and stable values match reference,0
+android-05,android,QAANDROID829C9BEC8686,70,,MATCH,420.95,False,structure and stable values match reference,0
+ios-09,ios,7FB5A818-44FD58C2BB8E1F50,39,,MATCH,384.0,False,structure and stable values match reference,0
+android-07,android,QAANDROID96427346B109,29,,MATCH,656.58,False,structure and stable values match reference,0
+ios-02,ios,D07A8FFE-716356A5804E64BC,49,,SCHEMA_MISMATCH,909.24,False,"reply.overall_grades: expected array, received NoneType",0
+ios-06,ios,13CAAF6E-3ACF5077978DF34D,29,,MATCH,749.94,False,structure and stable values match reference,0
+android-09,android,QAANDROID47329A4009B8,119,1.7.6,VALUE_CHANGED,396.15,False,stable data differs from reference; review configuration changes,0
+ios-10,ios,72CBB899-3A7C5BE2880D3406,30,,MATCH,355.77,False,structure and stable values match reference,0
+android-10,android,QAANDROID94095830D5A4,39,,MATCH,401.43,False,structure and stable values match reference,0
+android-08,android,QAANDROIDEC0624E9BF82,29,,MATCH,633.68,False,structure and stable values match reference,0
+android-03,android,QAANDROIDB2F2650BBDA4,connect,,PASS,1210.79,False,,0
+ios-09,ios,7FB5A818-44FD58C2BB8E1F50,56,,VALUE_CHANGED,346.81,False,stable data differs from reference; review configuration changes,0
+android-07,android,QAANDROID96427346B109,32,ios_default_desk,APPLICATION_FAILURE,365.4,False,status was not success,0
+ios-02,ios,D07A8FFE-716356A5804E64BC,119,1.7.6,VALUE_CHANGED,403.04,False,stable data differs from reference; review configuration changes,0
+ios-06,ios,13CAAF6E-3ACF5077978DF34D,32,ios_default_desk,APPLICATION_FAILURE,443.2,False,status was not success,0
+android-09,android,QAANDROID47329A4009B8,34,ios,MATCH,446.62,False,structure and stable values match reference,0
+ios-10,ios,72CBB899-3A7C5BE2880D3406,34,android,MATCH,373.15,False,structure and stable values match reference,0
+android-01,android,QAANDROID6D1DB295D9B3,58,,MATCH,10082.43,True,structure and stable values match reference,0
+ios-07,ios,C6A6D9A8-95A4563197483552,29,,MATCH,796.09,False,structure and stable values match reference,0
+android-10,android,QAANDROID94095830D5A4,56,,VALUE_CHANGED,406.25,False,stable data differs from reference; review configuration changes,0
+android-08,android,QAANDROIDEC0624E9BF82,32,ios_default_desk,APPLICATION_FAILURE,350.62,False,status was not success,0
+android-03,android,QAANDROIDB2F2650BBDA4,59,,VALUE_CHANGED,374.8,False,stable data differs from reference; review configuration changes,0
+ios-09,ios,7FB5A818-44FD58C2BB8E1F50,53,,SCHEMA_MISMATCH,370.19,False,"reply.android_manual_tests: expected array, received NoneType",0
+android-07,android,QAANDROID96427346B109,32,andriod test v1,APPLICATION_FAILURE,366.19,False,status was not success,0
+ios-10,ios,72CBB899-3A7C5BE2880D3406,54,,SCHEMA_MISMATCH,357.11,False,"reply: expected NoneType, received array",0
+android-09,android,QAANDROID47329A4009B8,39,,MATCH,392.09,False,structure and stable values match reference,0
+android-08,android,QAANDROIDEC0624E9BF82,32,andriod test v1,APPLICATION_FAILURE,348.22,False,status was not success,0
+ios-06,ios,13CAAF6E-3ACF5077978DF34D,32,andriod test v1,APPLICATION_FAILURE,436.16,False,status was not success,0
+ios-07,ios,C6A6D9A8-95A4563197483552,32,ios_default_desk,APPLICATION_FAILURE,415.91,False,status was not success,0
+android-10,android,QAANDROID94095830D5A4,53,,SCHEMA_MISMATCH,425.71,False,"reply.android_manual_tests: expected array, received NoneType",0
+ios-03,ios,E3DCAAD6-69835553A4344E8F,34,android,MATCH,1375.05,False,structure and stable values match reference,0
+android-03,android,QAANDROIDB2F2650BBDA4,62,,VALUE_CHANGED,379.67,False,stable data differs from reference; review configuration changes,0
+ios-09,ios,7FB5A818-44FD58C2BB8E1F50,70,,MATCH,348.21,False,structure and stable values match reference,0
+ios-02,ios,D07A8FFE-716356A5804E64BC,34,ios,MATCH,673.74,False,structure and stable values match reference,0
+android-02,android,QAANDROID49396E95E0B3,connect,,ERROR,15344.05,True,WebSocketConnectionClosedException,0
+android-02,android,QAANDROID49396E95E0B3,59,,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-02,android,QAANDROID49396E95E0B3,62,,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-02,android,QAANDROID49396E95E0B3,127,,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-02,android,QAANDROID49396E95E0B3,60,,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-02,android,QAANDROID49396E95E0B3,67,,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-02,android,QAANDROID49396E95E0B3,135,,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-02,android,QAANDROID49396E95E0B3,58,,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-02,android,QAANDROID49396E95E0B3,33,,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-02,android,QAANDROID49396E95E0B3,49,,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-02,android,QAANDROID49396E95E0B3,119,1.7.6,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-02,android,QAANDROID49396E95E0B3,34,ios,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-02,android,QAANDROID49396E95E0B3,39,,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-02,android,QAANDROID49396E95E0B3,56,,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-02,android,QAANDROID49396E95E0B3,53,,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-02,android,QAANDROID49396E95E0B3,70,,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-02,android,QAANDROID49396E95E0B3,30,,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-02,android,QAANDROID49396E95E0B3,34,android,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-02,android,QAANDROID49396E95E0B3,54,,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-02,android,QAANDROID49396E95E0B3,64,,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-02,android,QAANDROID49396E95E0B3,32,android_default_desk,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-02,android,QAANDROID49396E95E0B3,45,,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-02,android,QAANDROID49396E95E0B3,29,,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-02,android,QAANDROID49396E95E0B3,32,ios_default_desk,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-02,android,QAANDROID49396E95E0B3,32,andriod test v1,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-02,android,QAANDROID49396E95E0B3,101,,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-02,android,QAANDROID49396E95E0B3,1,,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-07,android,QAANDROID96427346B109,101,,MATCH,367.26,False,structure and stable values match reference,0
+ios-08,ios,969729B4-F0F65386A61B8E93,30,,MATCH,1366.58,False,structure and stable values match reference,0
+ios-10,ios,72CBB899-3A7C5BE2880D3406,64,,VALUE_CHANGED,358.43,False,stable data differs from reference; review configuration changes,0
+android-08,android,QAANDROIDEC0624E9BF82,101,,MATCH,346.42,False,structure and stable values match reference,0
+android-09,android,QAANDROID47329A4009B8,56,,VALUE_CHANGED,385.51,False,stable data differs from reference; review configuration changes,0
+ios-06,ios,13CAAF6E-3ACF5077978DF34D,101,,MATCH,414.6,False,structure and stable values match reference,0
+ios-07,ios,C6A6D9A8-95A4563197483552,32,andriod test v1,APPLICATION_FAILURE,417.37,False,status was not success,0
+ios-09,ios,7FB5A818-44FD58C2BB8E1F50,30,,MATCH,346.91,False,structure and stable values match reference,0
+android-03,android,QAANDROIDB2F2650BBDA4,127,,MATCH,375.2,False,structure and stable values match reference,0
+android-10,android,QAANDROID94095830D5A4,70,,MATCH,401.77,False,structure and stable values match reference,0
+ios-02,ios,D07A8FFE-716356A5804E64BC,39,,MATCH,398.47,False,structure and stable values match reference,0
+android-07,android,QAANDROID96427346B109,1,,ACK_ONLY_NO_REFERENCE,395.39,False,attachment has no device-info reference; not validated as equivalent,1
+android-05,android,QAANDROID829C9BEC8686,30,,MATCH,1668.05,False,structure and stable values match reference,0
+ios-10,ios,72CBB899-3A7C5BE2880D3406,32,android_default_desk,APPLICATION_FAILURE,360.05,False,status was not success,0
+android-08,android,QAANDROIDEC0624E9BF82,1,,ACK_ONLY_NO_REFERENCE,371.41,False,attachment has no device-info reference; not validated as equivalent,1
+ios-09,ios,7FB5A818-44FD58C2BB8E1F50,34,android,MATCH,367.65,False,structure and stable values match reference,0
+android-03,android,QAANDROIDB2F2650BBDA4,60,,MATCH,375.87,False,structure and stable values match reference,0
+ios-07,ios,C6A6D9A8-95A4563197483552,101,,MATCH,413.69,False,structure and stable values match reference,0
+ios-06,ios,13CAAF6E-3ACF5077978DF34D,1,,ACK_ONLY_NO_REFERENCE,449.35,False,attachment has no device-info reference; not validated as equivalent,1
+android-10,android,QAANDROID94095830D5A4,30,,MATCH,409.94,False,structure and stable values match reference,0
+android-06,android,QAANDROID66AD4FB4226F,119,1.7.6,VALUE_CHANGED,4400.55,True,stable data differs from reference; review configuration changes,0
+ios-02,ios,D07A8FFE-716356A5804E64BC,56,,VALUE_CHANGED,404.3,False,stable data differs from reference; review configuration changes,0
+android-05,android,QAANDROID829C9BEC8686,34,android,MATCH,434.94,False,structure and stable values match reference,0
+ios-10,ios,72CBB899-3A7C5BE2880D3406,45,,SCHEMA_MISMATCH,376.91,False,"reply: expected array, received NoneType",0
+ios-08,ios,969729B4-F0F65386A61B8E93,34,android,MATCH,903.35,False,structure and stable values match reference,0
+ios-09,ios,7FB5A818-44FD58C2BB8E1F50,54,,SCHEMA_MISMATCH,344.67,False,"reply: expected NoneType, received array",0
+android-03,android,QAANDROIDB2F2650BBDA4,67,,MATCH,378.35,False,structure and stable values match reference,0
+android-10,android,QAANDROID94095830D5A4,34,android,MATCH,411.36,False,structure and stable values match reference,0
+ios-07,ios,C6A6D9A8-95A4563197483552,1,,ACK_ONLY_NO_REFERENCE,445.06,False,attachment has no device-info reference; not validated as equivalent,1
+android-05,android,QAANDROID829C9BEC8686,54,,SCHEMA_MISMATCH,417.16,False,"reply: expected NoneType, received array",0
+ios-09,ios,7FB5A818-44FD58C2BB8E1F50,64,,VALUE_CHANGED,350.73,False,stable data differs from reference; review configuration changes,0
+ios-08,ios,969729B4-F0F65386A61B8E93,54,,SCHEMA_MISMATCH,408.32,False,"reply: expected NoneType, received array",0
+android-03,android,QAANDROIDB2F2650BBDA4,135,,SCHEMA_MISMATCH,374.2,False,"reply: expected array, received NoneType",0
+android-10,android,QAANDROID94095830D5A4,54,,SCHEMA_MISMATCH,432.11,False,"reply: expected NoneType, received array",0
+android-09,android,QAANDROID47329A4009B8,53,,SCHEMA_MISMATCH,1421.29,False,"reply.android_manual_tests: expected array, received NoneType",0
+ios-10,ios,72CBB899-3A7C5BE2880D3406,29,,MATCH,753.51,False,structure and stable values match reference,0
+ios-09,ios,7FB5A818-44FD58C2BB8E1F50,32,android_default_desk,APPLICATION_FAILURE,349.47,False,status was not success,0
+ios-08,ios,969729B4-F0F65386A61B8E93,64,,VALUE_CHANGED,400.6,False,stable data differs from reference; review configuration changes,0
+android-03,android,QAANDROIDB2F2650BBDA4,58,,MATCH,373.98,False,structure and stable values match reference,0
+ios-02,ios,D07A8FFE-716356A5804E64BC,53,,SCHEMA_MISMATCH,1161.81,False,"reply.android_manual_tests: expected array, received NoneType",0
+android-10,android,QAANDROID94095830D5A4,64,,VALUE_CHANGED,415.68,False,stable data differs from reference; review configuration changes,0
+ios-10,ios,72CBB899-3A7C5BE2880D3406,32,ios_default_desk,APPLICATION_FAILURE,358.92,False,status was not success,0
+ios-09,ios,7FB5A818-44FD58C2BB8E1F50,45,,SCHEMA_MISMATCH,345.72,False,"reply: expected array, received NoneType",0
+android-03,android,QAANDROIDB2F2650BBDA4,33,,VALUE_CHANGED,376.5,False,stable data differs from reference; review configuration changes,0
+ios-08,ios,969729B4-F0F65386A61B8E93,32,android_default_desk,APPLICATION_FAILURE,409.08,False,status was not success,0
+ios-03,ios,E3DCAAD6-69835553A4344E8F,54,,SCHEMA_MISMATCH,2320.77,True,"reply: expected NoneType, received array",0
+ios-10,ios,72CBB899-3A7C5BE2880D3406,32,andriod test v1,APPLICATION_FAILURE,364.79,False,status was not success,0
+android-10,android,QAANDROID94095830D5A4,32,android_default_desk,APPLICATION_FAILURE,401.79,False,status was not success,0
+android-09,android,QAANDROID47329A4009B8,70,,MATCH,877.87,False,structure and stable values match reference,0
+android-03,android,QAANDROIDB2F2650BBDA4,49,,SCHEMA_MISMATCH,374.72,False,"reply.overall_grades: expected array, received NoneType",0
+ios-08,ios,969729B4-F0F65386A61B8E93,45,,SCHEMA_MISMATCH,405.86,False,"reply: expected array, received NoneType",0
+ios-03,ios,E3DCAAD6-69835553A4344E8F,64,,VALUE_CHANGED,443.44,False,stable data differs from reference; review configuration changes,0
+ios-09,ios,7FB5A818-44FD58C2BB8E1F50,29,,MATCH,668.65,False,structure and stable values match reference,0
+ios-10,ios,72CBB899-3A7C5BE2880D3406,101,,MATCH,358.89,False,structure and stable values match reference,0
+android-10,android,QAANDROID94095830D5A4,45,,SCHEMA_MISMATCH,403.17,False,"reply: expected array, received NoneType",0
+android-09,android,QAANDROID47329A4009B8,30,,MATCH,396.07,False,structure and stable values match reference,0
+android-03,android,QAANDROIDB2F2650BBDA4,119,1.7.6,VALUE_CHANGED,376.91,False,stable data differs from reference; review configuration changes,0
+ios-09,ios,7FB5A818-44FD58C2BB8E1F50,32,ios_default_desk,APPLICATION_FAILURE,350.19,False,status was not success,0
+ios-10,ios,72CBB899-3A7C5BE2880D3406,1,,ACK_ONLY_NO_REFERENCE,385.02,False,attachment has no device-info reference; not validated as equivalent,1
+ios-03,ios,E3DCAAD6-69835553A4344E8F,32,android_default_desk,APPLICATION_FAILURE,412.0,False,status was not success,0
+android-09,android,QAANDROID47329A4009B8,34,android,MATCH,406.99,False,structure and stable values match reference,0
+android-03,android,QAANDROIDB2F2650BBDA4,34,ios,MATCH,387.96,False,structure and stable values match reference,0
+android-06,android,QAANDROID66AD4FB4226F,34,ios,MATCH,2635.7,True,structure and stable values match reference,0
+ios-09,ios,7FB5A818-44FD58C2BB8E1F50,32,andriod test v1,APPLICATION_FAILURE,350.37,False,status was not success,0
+android-10,android,QAANDROID94095830D5A4,29,,MATCH,708.03,False,structure and stable values match reference,0
+android-09,android,QAANDROID47329A4009B8,54,,SCHEMA_MISMATCH,385.46,False,"reply: expected NoneType, received array",0
+android-03,android,QAANDROIDB2F2650BBDA4,39,,MATCH,373.63,False,structure and stable values match reference,0
+ios-09,ios,7FB5A818-44FD58C2BB8E1F50,101,,MATCH,348.6,False,structure and stable values match reference,0
+ios-02,ios,D07A8FFE-716356A5804E64BC,70,,MATCH,1866.87,False,structure and stable values match reference,0
+ios-08,ios,969729B4-F0F65386A61B8E93,29,,MATCH,1202.75,False,structure and stable values match reference,0
+android-10,android,QAANDROID94095830D5A4,32,ios_default_desk,APPLICATION_FAILURE,404.08,False,status was not success,0
+android-03,android,QAANDROIDB2F2650BBDA4,56,,VALUE_CHANGED,377.08,False,stable data differs from reference; review configuration changes,0
+ios-09,ios,7FB5A818-44FD58C2BB8E1F50,1,,ACK_ONLY_NO_REFERENCE,384.8,False,attachment has no device-info reference; not validated as equivalent,1
+android-06,android,QAANDROID66AD4FB4226F,39,,MATCH,869.59,False,structure and stable values match reference,0
+ios-08,ios,969729B4-F0F65386A61B8E93,32,ios_default_desk,APPLICATION_FAILURE,412.18,False,status was not success,0
+android-10,android,QAANDROID94095830D5A4,32,andriod test v1,APPLICATION_FAILURE,403.76,False,status was not success,0
+android-03,android,QAANDROIDB2F2650BBDA4,53,,SCHEMA_MISMATCH,417.42,False,"reply.android_manual_tests: expected array, received NoneType",0
+android-09,android,QAANDROID47329A4009B8,64,,VALUE_CHANGED,868.08,False,stable data differs from reference; review configuration changes,0
+android-06,android,QAANDROID66AD4FB4226F,56,,VALUE_CHANGED,398.3,False,stable data differs from reference; review configuration changes,0
+ios-08,ios,969729B4-F0F65386A61B8E93,32,andriod test v1,APPLICATION_FAILURE,407.26,False,status was not success,0
+android-10,android,QAANDROID94095830D5A4,101,,MATCH,402.14,False,structure and stable values match reference,0
+android-03,android,QAANDROIDB2F2650BBDA4,70,,MATCH,374.0,False,structure and stable values match reference,0
+android-09,android,QAANDROID47329A4009B8,32,android_default_desk,APPLICATION_FAILURE,392.0,False,status was not success,0
+android-10,android,QAANDROID94095830D5A4,1,,ACK_ONLY_NO_REFERENCE,425.35,False,attachment has no device-info reference; not validated as equivalent,1
+ios-02,ios,D07A8FFE-716356A5804E64BC,30,,MATCH,1356.95,False,structure and stable values match reference,0
+android-03,android,QAANDROIDB2F2650BBDA4,30,,MATCH,405.7,False,structure and stable values match reference,0
+android-09,android,QAANDROID47329A4009B8,45,,SCHEMA_MISMATCH,387.28,False,"reply: expected array, received NoneType",0
+android-03,android,QAANDROIDB2F2650BBDA4,34,android,MATCH,428.72,False,structure and stable values match reference,0
+ios-08,ios,969729B4-F0F65386A61B8E93,101,,MATCH,1458.57,False,structure and stable values match reference,0
+android-03,android,QAANDROIDB2F2650BBDA4,54,,SCHEMA_MISMATCH,391.55,False,"reply: expected NoneType, received array",0
+android-03,android,QAANDROIDB2F2650BBDA4,64,,VALUE_CHANGED,375.9,False,stable data differs from reference; review configuration changes,0
+ios-02,ios,D07A8FFE-716356A5804E64BC,34,android,MATCH,1373.35,False,structure and stable values match reference,0
+ios-08,ios,969729B4-F0F65386A61B8E93,1,,ACK_ONLY_NO_REFERENCE,459.17,False,attachment has no device-info reference; not validated as equivalent,1
+android-09,android,QAANDROID47329A4009B8,29,,MATCH,1282.49,False,structure and stable values match reference,0
+android-03,android,QAANDROIDB2F2650BBDA4,32,android_default_desk,APPLICATION_FAILURE,377.37,False,status was not success,0
+ios-02,ios,D07A8FFE-716356A5804E64BC,54,,SCHEMA_MISMATCH,411.45,False,"reply: expected NoneType, received array",0
+android-06,android,QAANDROID66AD4FB4226F,53,,SCHEMA_MISMATCH,2598.09,True,"reply.android_manual_tests: expected array, received NoneType",0
+android-03,android,QAANDROIDB2F2650BBDA4,45,,SCHEMA_MISMATCH,377.85,False,"reply: expected array, received NoneType",0
+android-09,android,QAANDROID47329A4009B8,32,ios_default_desk,APPLICATION_FAILURE,904.21,False,status was not success,0
+ios-02,ios,D07A8FFE-716356A5804E64BC,64,,VALUE_CHANGED,872.13,False,stable data differs from reference; review configuration changes,0
+android-09,android,QAANDROID47329A4009B8,32,andriod test v1,APPLICATION_FAILURE,442.47,False,status was not success,0
+android-03,android,QAANDROIDB2F2650BBDA4,29,,MATCH,935.91,False,structure and stable values match reference,0
+ios-02,ios,D07A8FFE-716356A5804E64BC,32,android_default_desk,APPLICATION_FAILURE,404.4,False,status was not success,0
+android-09,android,QAANDROID47329A4009B8,101,,MATCH,410.62,False,structure and stable values match reference,0
+android-03,android,QAANDROIDB2F2650BBDA4,32,ios_default_desk,APPLICATION_FAILURE,376.48,False,status was not success,0
+android-09,android,QAANDROID47329A4009B8,1,,ACK_ONLY_NO_REFERENCE,416.34,False,attachment has no device-info reference; not validated as equivalent,1
+android-03,android,QAANDROIDB2F2650BBDA4,32,andriod test v1,APPLICATION_FAILURE,379.56,False,status was not success,0
+android-03,android,QAANDROIDB2F2650BBDA4,101,,MATCH,374.82,False,structure and stable values match reference,0
+android-06,android,QAANDROID66AD4FB4226F,70,,MATCH,2328.22,True,structure and stable values match reference,0
+android-03,android,QAANDROIDB2F2650BBDA4,1,,ACK_ONLY_NO_REFERENCE,402.55,False,attachment has no device-info reference; not validated as equivalent,1
+ios-02,ios,D07A8FFE-716356A5804E64BC,45,,SCHEMA_MISMATCH,2303.76,True,"reply: expected array, received NoneType",0
+ios-03,ios,E3DCAAD6-69835553A4344E8F,45,,SCHEMA_MISMATCH,8116.88,True,"reply: expected array, received NoneType",0
+android-05,android,QAANDROID829C9BEC8686,64,,VALUE_CHANGED,10119.16,True,stable data differs from reference; review configuration changes,0
+android-06,android,QAANDROID66AD4FB4226F,30,,MATCH,2379.99,True,structure and stable values match reference,0
+android-06,android,QAANDROID66AD4FB4226F,34,android,MATCH,882.29,False,structure and stable values match reference,0
+android-06,android,QAANDROID66AD4FB4226F,54,,SCHEMA_MISMATCH,448.54,False,"reply: expected NoneType, received array",0
+android-06,android,QAANDROID66AD4FB4226F,64,,VALUE_CHANGED,393.05,False,stable data differs from reference; review configuration changes,0
+ios-03,ios,E3DCAAD6-69835553A4344E8F,29,,MATCH,3165.75,True,structure and stable values match reference,0
+android-01,android,QAANDROID6D1DB295D9B3,33,,ERROR,15019.29,True,WebSocketTimeoutException,0
+android-06,android,QAANDROID66AD4FB4226F,32,android_default_desk,APPLICATION_FAILURE,891.62,False,status was not success,0
+ios-02,ios,D07A8FFE-716356A5804E64BC,29,,MATCH,4089.81,True,structure and stable values match reference,0
+ios-03,ios,E3DCAAD6-69835553A4344E8F,32,ios_default_desk,APPLICATION_FAILURE,509.3,False,status was not success,0
+android-06,android,QAANDROID66AD4FB4226F,45,,SCHEMA_MISMATCH,405.51,False,"reply: expected array, received NoneType",0
+ios-02,ios,D07A8FFE-716356A5804E64BC,32,ios_default_desk,APPLICATION_FAILURE,414.38,False,status was not success,0
+android-01,android,QAANDROID6D1DB295D9B3,49,,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-01,android,QAANDROID6D1DB295D9B3,119,1.7.6,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-01,android,QAANDROID6D1DB295D9B3,34,ios,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-01,android,QAANDROID6D1DB295D9B3,39,,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-01,android,QAANDROID6D1DB295D9B3,56,,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-01,android,QAANDROID6D1DB295D9B3,53,,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-01,android,QAANDROID6D1DB295D9B3,70,,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-01,android,QAANDROID6D1DB295D9B3,30,,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-01,android,QAANDROID6D1DB295D9B3,34,android,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-01,android,QAANDROID6D1DB295D9B3,54,,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-01,android,QAANDROID6D1DB295D9B3,64,,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-01,android,QAANDROID6D1DB295D9B3,32,android_default_desk,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-01,android,QAANDROID6D1DB295D9B3,45,,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-01,android,QAANDROID6D1DB295D9B3,29,,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-01,android,QAANDROID6D1DB295D9B3,32,ios_default_desk,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-01,android,QAANDROID6D1DB295D9B3,32,andriod test v1,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-01,android,QAANDROID6D1DB295D9B3,101,,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+android-01,android,QAANDROID6D1DB295D9B3,1,,NOT_RUN,0.0,False,session unavailable after earlier failure,0
+ios-02,ios,D07A8FFE-716356A5804E64BC,32,andriod test v1,APPLICATION_FAILURE,483.31,False,status was not success,0
+ios-02,ios,D07A8FFE-716356A5804E64BC,101,,MATCH,407.23,False,structure and stable values match reference,0
+ios-03,ios,E3DCAAD6-69835553A4344E8F,32,andriod test v1,APPLICATION_FAILURE,1369.21,False,status was not success,0
+ios-03,ios,E3DCAAD6-69835553A4344E8F,101,,MATCH,881.18,False,structure and stable values match reference,1
+android-06,android,QAANDROID66AD4FB4226F,29,,MATCH,2446.61,True,structure and stable values match reference,0
+ios-03,ios,E3DCAAD6-69835553A4344E8F,1,,ACK_ONLY_NO_REFERENCE,1906.19,False,attachment has no device-info reference; not validated as equivalent,0
+android-06,android,QAANDROID66AD4FB4226F,32,ios_default_desk,APPLICATION_FAILURE,3733.3,True,status was not success,0
+android-06,android,QAANDROID66AD4FB4226F,32,andriod test v1,APPLICATION_FAILURE,423.59,False,status was not success,1
+android-06,android,QAANDROID66AD4FB4226F,101,,MATCH,2135.7,True,structure and stable values match reference,0
+android-05,android,QAANDROID829C9BEC8686,32,android_default_desk,APPLICATION_FAILURE,12491.1,True,status was not success,1
+android-06,android,QAANDROID66AD4FB4226F,1,,ACK_ONLY_NO_REFERENCE,424.47,False,attachment has no device-info reference; not validated as equivalent,0
+ios-02,ios,D07A8FFE-716356A5804E64BC,1,,ACK_ONLY_NO_REFERENCE,10171.34,True,attachment has no device-info reference; not validated as equivalent,1
+android-05,android,QAANDROID829C9BEC8686,45,,SCHEMA_MISMATCH,10138.08,True,"reply: expected array, received NoneType",0
+android-05,android,QAANDROID829C9BEC8686,29,,MATCH,844.09,False,structure and stable values match reference,0
+android-05,android,QAANDROID829C9BEC8686,32,ios_default_desk,APPLICATION_FAILURE,486.65,False,status was not success,0
+android-05,android,QAANDROID829C9BEC8686,32,andriod test v1,APPLICATION_FAILURE,511.68,False,status was not success,0
+android-05,android,QAANDROID829C9BEC8686,101,,MATCH,2868.01,True,structure and stable values match reference,0
+android-05,android,QAANDROID829C9BEC8686,1,,ACK_ONLY_NO_REFERENCE,511.17,False,attachment has no device-info reference; not validated as equivalent,1

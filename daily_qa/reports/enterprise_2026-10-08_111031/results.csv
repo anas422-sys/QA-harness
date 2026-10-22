@@ -1,0 +1,5 @@
+﻿module,group,test,status,duration_ms,device,messages_sent,messages_received,details,blocker,evidence
+Frontend,Physical devices,Discover selected USB devices,BLOCKED,0.01,,0,0,,No Android/iOS devices were returned by configured USB tools,
+Frontend,Application,Attach to reCheck360 desktop window,PASS,3453.66,,0,0,Desktop automation window attached,,
+Frontend,dashboard,Navigate and validate page,FAIL,81.09,,0,0,"Clicked: current view; expected: Device, Results, Manual, Issues",,C:\Users\usama\Downloads\locust\daily_qa\reports\enterprise_2026-10-08_111031\evidence\frontend_dashboard.png
+Frontend,device_connection,Navigate and validate page,FAIL,33.6,,0,0,"Clicked: current view; expected: Device, IMEI, SN",,C:\Users\usama\Downloads\locust\daily_qa\reports\enterprise_2026-10-08_111031\evidence\frontend_device_connection.png

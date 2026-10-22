@@ -1,0 +1,9 @@
+{
+  "frontend_pages": ["dashboard", "device_connection", "diagnostic_results"],
+  "backend_features": [],
+  "timeout_seconds": 5,
+  "users": 1,
+  "device_limit": 20,
+  "payload_file": "",
+  "require_devices": true
+}

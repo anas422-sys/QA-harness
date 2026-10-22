@@ -1,0 +1,14 @@
+{
+  "command": "results",
+  "component_outcomes": [
+    {
+      "component": "diagnostic_results",
+      "exit_code": 0,
+      "status": "completed",
+      "error": null
+    }
+  ],
+  "execution_status": "completed",
+  "scope": "Component completion does not mean hardware diagnostics passed.",
+  "shared_account": null
+}

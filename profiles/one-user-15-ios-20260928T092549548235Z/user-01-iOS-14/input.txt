@@ -1,0 +1,8 @@
+{
+  "serial_number": "QAB6952AEAFAE464A",
+  "design_capacity": 2030,
+  "current_capacity": 3720,
+  "battery_health": 80,
+  "cycle_count": 260,
+  "is_analytics": true
+}
