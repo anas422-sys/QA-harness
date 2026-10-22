@@ -70,6 +70,8 @@ def _android(adb: str | None) -> tuple[list[dict[str, Any]], list[str]]:
             "id": parts[0],
             "udid": parts[0],
             "serial_number": parts[0],
+            "imei_1": "—",
+            "imei_2": "—",
             "name": attributes.get("model", attributes.get("device", "Android Device")).replace("_", " "),
             "model": attributes.get("model", ""),
             "state": "connected",
@@ -90,7 +92,8 @@ def _ios(idevice_id: str | None, ideviceinfo: str | None) -> tuple[list[dict[str
     for udid in [line.strip() for line in output.splitlines() if line.strip()]:
         values: dict[str, str] = {}
         if ideviceinfo:
-            for key in ("DeviceName", "ProductType", "ProductVersion", "SerialNumber"):
+            for key in ("DeviceName", "ProductType", "ProductVersion", "SerialNumber",
+                        "InternationalMobileEquipmentIdentity", "InternationalMobileEquipmentIdentity2"):
                 _, value, _ = _run([ideviceinfo, "-u", udid, "-k", key], timeout=8)
                 values[key] = value
         devices.append({
@@ -98,6 +101,8 @@ def _ios(idevice_id: str | None, ideviceinfo: str | None) -> tuple[list[dict[str
             "id": udid,
             "udid": udid,
             "serial_number": values.get("SerialNumber", ""),
+            "imei_1": values.get("InternationalMobileEquipmentIdentity", "—"),
+            "imei_2": values.get("InternationalMobileEquipmentIdentity2", "—"),
             "name": values.get("DeviceName") or values.get("ProductType") or "Apple iOS Device",
             "model": values.get("ProductType", ""),
             "os_version": values.get("ProductVersion", ""),

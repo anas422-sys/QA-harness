@@ -44,7 +44,9 @@ def credentials() -> dict[str, str]:
 
 def row(module: str, group: str, test: str, status: str, started: float,
         details: str = "", evidence: str = "", blocker: str = "", device: str = "",
-        sent: int = 0, received: int = 0) -> dict[str, Any]:
+        sent: int = 0, received: int = 0, imei_1: str = "", imei_2: str = "",
+        udid: str = "") -> dict[str, Any]:
+    final_udid = udid or device or "—"
     return {
         "module": module,
         "group": group,
@@ -52,6 +54,9 @@ def row(module: str, group: str, test: str, status: str, started: float,
         "status": status,
         "duration_ms": round((time.perf_counter() - started) * 1000, 2),
         "device": device,
+        "udid": final_udid,
+        "imei_1": imei_1 or "—",
+        "imei_2": imei_2 or "—",
         "messages_sent": sent,
         "messages_received": received,
         "details": details,
@@ -1006,11 +1011,11 @@ def write_report(output: Path, selection: dict[str, Any], inventory: dict[str, A
     (output / "messages_readable.log").write_text("\n".join(readable), encoding="utf-8")
     cards = "".join(f"<div class=card><small>{html.escape(k.replace('_',' ').title())}</small><b>{html.escape(str(v))}</b></div>"
                     for k, v in summary.items() if k != "real_devices")
-    body = "".join("<tr>" + "".join(f"<td>{html.escape(str(r[k]))}</td>" for k in
-                   ("module", "group", "test", "status", "duration_ms", "device", "messages_sent", "messages_received", "details", "blocker")) + "</tr>" for r in rows)
+    body = "".join("<tr>" + "".join(f"<td>{html.escape(str(r.get(k, '—')))}</td>" for k in
+                   ("module", "group", "test", "status", "duration_ms", "udid", "imei_1", "imei_2", "messages_sent", "messages_received", "details", "blocker")) + "</tr>" for r in rows)
     page = f"""<!doctype html><meta charset=utf-8><title>reCheck360 Enterprise QA</title><style>
 body{{font:14px Segoe UI;margin:0;background:#f3f6fa;color:#182230}}header{{background:#17365d;color:white;padding:24px}}main{{padding:24px}}.cards{{display:flex;gap:10px;flex-wrap:wrap}}.card{{background:white;padding:14px;border-radius:9px;min-width:130px;border:1px solid #d8e0ea}}.card small,.card b{{display:block}}.card b{{font-size:22px;margin-top:5px}}table{{width:100%;border-collapse:collapse;background:white;margin-top:20px}}th{{background:#17365d;color:white}}th,td{{padding:8px;border:1px solid #d8e0ea;vertical-align:top}}tr:nth-child(even){{background:#f8fafc}}</style>
-<header><h1>reCheck360 Enterprise QA Report</h1><div>Staging · {started.isoformat(timespec='seconds')} · {inventory['counts']['total']} real devices</div></header><main><div class=cards>{cards}</div><table><thead><tr>{''.join('<th>'+x+'</th>' for x in ('Module','Group','Test','Status','ms','Device','Sent','Received','Details','Blocker'))}</tr></thead><tbody>{body}</tbody></table></main>"""
+<header><h1>reCheck360 Enterprise QA Report</h1><div>Staging · {started.isoformat(timespec='seconds')} · {inventory['counts']['total']} real devices</div></header><main><div class=cards>{cards}</div><table><thead><tr>{''.join('<th>'+x+'</th>' for x in ('Module','Group','Test','Status','ms','UDID / Serial','IMEI 1','IMEI 2','Sent','Received','Details','Blocker'))}</tr></thead><tbody>{body}</tbody></table></main>"""
     (output / "dashboard.html").write_text(page, encoding="utf-8")
     (ROOT / "latest_enterprise_dashboard.html").write_text(page, encoding="utf-8")
     (ROOT / "latest_dashboard.html").write_text(page, encoding="utf-8")
