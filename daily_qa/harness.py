@@ -43,11 +43,14 @@ def test_catalog():
 
 def latest_data():
     try:
-        folder = Path((ROOT / "latest_report.txt").read_text(encoding="utf-8").strip())
+        raw = (ROOT / "latest_report.txt").read_text(encoding="utf-8").strip()
+        folder = Path(raw) if raw else None
     except OSError:
-        folder = Path()
-    data = read_json(folder / "results.json", {}) if folder.is_dir() else {}
-    return {"folder": str(folder) if folder.is_dir() else "", "report": data}
+        folder = None
+    if folder and folder.is_dir():
+        data = read_json(folder / "results.json", {})
+        return {"folder": str(folder), "report": data}
+    return {"folder": "", "report": {}}
 
 
 def execute(selection: dict):
@@ -93,7 +96,7 @@ HTML = r'''<!doctype html><html><head><meta charset="utf-8"><meta name="viewport
 </div>
 <section id="front" class="panel"><h2>Select desktop pages</h2><p>Selected workflows run against the installed reCheck360 Windows application. Each page captures navigation time, visible markers, screenshot evidence and blockers.</p><div id="frontChoices" class="grid"></div><div class="bar" style="margin-top:16px"><button onclick="allChecks('frontChoices',true)">Select all pages</button><button onclick="allChecks('frontChoices',false)">Clear</button><button onclick="calibrate()">Discover visible app controls</button><label><input type="checkbox" id="requireDevices"> Require connected devices</label><button class="primary" onclick="run('frontend')">Run selected frontend tests</button></div><div id="calibration"></div></section>
 <section id="back" class="panel hidden"><h2>Select backend features and payloads</h2><div id="backChoices" class="grid"></div><div class="bar" style="margin-top:16px"><button onclick="allChecks('backChoices',true)">Select all features</button><button onclick="allChecks('backChoices',false)">Clear</button><label>Timeout <input id="timeout" type="number" min="1" max="300" value="40"> sec</label><label>Sessions <input id="users" type="number" min="1" max="100" value="1"></label><label>Device limit <input id="deviceLimit" type="number" min="1" max="20" value="20"></label><label>Captured payload JSON <input id="payload" class="wide" placeholder="C:\path\payloads.json"></label><button class="primary" onclick="run('backend')">Run selected backend tests</button></div><div class="notice">Real-device contracts use captured payloads. The runner will not claim a physical diagnostic PASS from invented device data.</div></section>
-<section id="result" class="panel hidden"><div class="bar"><button class="start-btn" onclick="startAll()" style="padding:8px 16px;font-size:13px"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><span>Start All Tests</span></button><button onclick="refresh()">Refresh</button><a href="/report/results.csv" target="_blank">Download CSV</a><a href="/report/results.json" target="_blank">Download JSON</a><a href="/report/dashboard.html" target="_blank">Open HTML report</a><span id="state"></span><span id="error" class="error"></span></div><h3>USB device inventory</h3><div id="devices"></div><div id="summary" class="cards"></div><div id="results"></div></section>
+<section id="result" class="panel hidden"><div class="bar"><button class="start-btn" onclick="startAll()" style="padding:8px 16px;font-size:13px"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><span>Start All Tests</span></button><button onclick="refresh()">Refresh</button><button onclick="clearTables()" style="background:#b42318;color:white;border-radius:7px;padding:8px 16px;border:0;font-weight:700;cursor:pointer">Clear Tables</button><a href="/report/results.csv" target="_blank">Download CSV</a><a href="/report/results.json" target="_blank">Download JSON</a><a href="/report/dashboard.html" target="_blank">Open HTML report</a><span id="state"></span><span id="error" class="error"></span></div><h3>USB device inventory</h3><div id="devices"></div><div id="summary" class="cards"></div><div id="results"></div></section>
 </main><script>
 let catalog={};const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 async function api(path,opt){const r=await fetch(path,opt);const j=await r.json();if(!r.ok)throw Error(j.error||r.statusText);return j}
@@ -103,6 +106,7 @@ function allChecks(id,v){document.querySelectorAll('#'+id+' input[type=checkbox]
 async function run(module){const body={frontend_pages:module==='frontend'?selected('frontChoices'):[],backend_features:module==='backend'?selected('backChoices'):[],timeout_seconds:Number(document.querySelector('#timeout').value),users:Number(document.querySelector('#users').value),device_limit:Number(document.querySelector('#deviceLimit').value),payload_file:document.querySelector('#payload').value,require_devices:document.querySelector('#requireDevices').checked};if(!(body.frontend_pages.length||body.backend_features.length)){alert('Select at least one page or feature');return}try{await api('/api/run',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});showModule('result');refresh()}catch(e){alert(e.message)}}
 function updateStartButtons(running){document.querySelectorAll('#startHeaderBtn, #startTabsBtn').forEach(b=>{b.disabled=running;b.innerHTML=running?'<span>⏳ Running Tests…</span>':'<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><span>Start All Tests</span>'})}
 async function startAll(){let front=selected('frontChoices');let back=selected('backChoices');if(!front.length){allChecks('frontChoices',true);front=selected('frontChoices')}if(!back.length){allChecks('backChoices',true);back=selected('backChoices')}const body={frontend_pages:front,backend_features:back,timeout_seconds:Number(document.querySelector('#timeout')?.value||40),users:Number(document.querySelector('#users')?.value||1),device_limit:Number(document.querySelector('#deviceLimit')?.value||20),payload_file:document.querySelector('#payload')?.value||'',require_devices:Boolean(document.querySelector('#requireDevices')?.checked)};try{updateStartButtons(true);await api('/api/run',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});showModule('result');refresh()}catch(e){alert(e.message);refresh()}}
+async function clearTables(){try{await api('/api/clear',{method:'POST'});document.querySelector('#summary').innerHTML='';document.querySelector('#results').innerHTML='<p>No enterprise run has completed yet.</p>';document.querySelector('#state').textContent='Tables cleared';document.querySelector('#error').textContent='';refresh()}catch(e){alert(e.message)}}
 async function calibrate(){const box=document.querySelector('#calibration');box.innerHTML='<div class=notice>Inspecting the visible reCheck360 window…</div>';try{const d=await api('/api/calibrate',{method:'POST'});box.innerHTML=`<div class=notice><b>${esc(d.status)}</b> · controls: ${esc(d.controls)} · ${esc(d.output||d.blocker)}</div>`}catch(e){box.innerHTML=`<div class=notice>${esc(e.message)}</div>`}}
 function deviceTable(d){const rows=d.devices.map(x=>`<tr><td>${esc(x.name)}</td><td>${esc(x.platform)}</td><td class=device>${esc(x.udid)}</td><td>${esc(x.model)}</td><td>${esc(x.state)}</td></tr>`).join('');return `<div class=cards><div class=card><small>Total</small><strong>${d.counts.total}</strong></div><div class=card><small>Android</small><strong>${d.counts.android}</strong></div><div class=card><small>iOS</small><strong>${d.counts.ios}</strong></div><div class=card><small>Capacity</small><strong>${d.counts.capacity}</strong></div></div>${d.blockers.map(x=>`<div class=notice>${esc(x)}</div>`).join('')}<table><tr><th>Device</th><th>Platform</th><th>UDID / Serial</th><th>Model</th><th>State</th></tr>${rows||'<tr><td colspan=5>No physical devices detected by configured tools</td></tr>'}</table>`}
 function resultTable(rows){if(!rows?.length)return '<p>No enterprise run has completed yet.</p>';return `<table><tr><th>Module</th><th>Group</th><th>Test</th><th>Status</th><th>ms</th><th>Device</th><th>Sent</th><th>Received</th><th>Details / blocker</th></tr>${rows.map(r=>`<tr><td>${esc(r.module)}</td><td>${esc(r.group)}</td><td>${esc(r.test)}</td><td class="${esc(r.status)}">${esc(r.status)}</td><td>${esc(r.duration_ms)}</td><td class=device>${esc(r.device)}</td><td>${esc(r.messages_sent)}</td><td>${esc(r.messages_received)}</td><td>${esc(r.details)}${r.blocker?'<br><b>Blocker:</b> '+esc(r.blocker):''}${r.evidence?'<br><small>'+esc(r.evidence)+'</small>':''}</td></tr>`).join('')}</table>`}
@@ -172,6 +176,16 @@ class Handler(BaseHTTPRequestHandler):
                 lines = [line for line in done.stdout.splitlines() if line.strip()]
                 data = json.loads(lines[-1]) if lines else {"status": "ERROR", "blocker": done.stderr[-2000:]}
                 self.send_json(data, 200 if data.get("status") == "PASS" else 409)
+            except Exception as exc:
+                self.send_json({"error": f"{type(exc).__name__}: {exc}"}, 500)
+            return
+        if request_path == "/api/clear":
+            try:
+                (ROOT / "latest_report.txt").unlink(missing_ok=True)
+                with STATE_LOCK:
+                    STATE.update(running=False, module="", started_at=None, finished_at=None,
+                                 exit_code=None, error="", log="")
+                self.send_json({"cleared": True}, 200)
             except Exception as exc:
                 self.send_json({"error": f"{type(exc).__name__}: {exc}"}, 500)
             return
